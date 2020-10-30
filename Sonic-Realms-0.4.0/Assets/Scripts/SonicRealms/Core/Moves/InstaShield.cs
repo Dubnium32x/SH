@@ -97,7 +97,7 @@ namespace SonicRealms.Core.Moves
 
         public override bool Available
         {
-            get { return !HasShield && base.Available; }
+            get { return base.Available; }
         }
 
         [Tooltip("The velocity of the dash, in units per second.")]

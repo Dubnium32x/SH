@@ -176,14 +176,7 @@ namespace SonicRealms.Core.Moves
         {
             CurrentChargePower += ChargePower;
 
-            if (ChargeAudioSource == null) return;
-
-            ChargeAudioSource.pitch += (ChargePitchMax - ChargePitchMin) / ChargePitchSteps;
-
-            if (ChargeAudioSource.pitch > ChargePitchMax)
-                ChargeAudioSource.pitch = ChargePitchMax;
-
-            ChargeAudioSource.Play();
+            
         }
 
         public void Finish()

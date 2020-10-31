@@ -1860,10 +1860,10 @@ MonoBehaviour:
   EndSound: {fileID: 8300000, guid: bab5237725114cc448e6e39ad6a5c6b2, type: 3}
   ChargeButton: Jump
   ReleaseAxis: Vertical
-  BasePower: 0.1
-  ChargePower: 0.005
-  ChargePowerDecay: 0
-  MaxChargePower: 4
+  BasePower: -1
+  ChargePower: 0.05
+  ChargePowerDecay: 0.5
+  MaxChargePower: 20
   CurrentChargePower: 0
   ChargeSound: {fileID: 8300000, guid: c9d33219f757b72459544d9bce806845, type: 3}
   ChargePitchSteps: 8

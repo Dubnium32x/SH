@@ -936,8 +936,8 @@ MonoBehaviour:
   RotateDuringRoll: 0
   RotateDuringStand: 0
   AirRecoveryRate: 50
-  MinimumAngle: 25
-  Precision: 8
+  MinimumAngle: 0
+  Precision: 64
 --- !u!114 &11479486
 MonoBehaviour:
   m_ObjectHideFlags: 0

@@ -74,26 +74,7 @@ namespace SonicRealms.Core.Moves
             Target.enabled = false;
         }
 
-        public override void OnManagerAdd()
-        {
-            base.OnManagerAdd();
-            
-            // Listening for when the controller gets a shield, so we can disable ourselves
-            PowerupManager.OnAdd.AddListener(OnManager);
-            PowerupManager.OnRemove.AddListener(OnManager);
-        }
 
-        public override void OnManagerRemove()
-        {
-            base.OnManagerRemove();
-            PowerupManager.OnAdd.RemoveListener(OnManager);
-            PowerupManager.OnRemove.RemoveListener(OnManager);
-        }
-
-        protected void OnManager(Powerup powerup)
-        {
-            HasShield = Controller.HasPowerup<Shield>();
-        }
 
         public override bool Available
         {
@@ -116,7 +97,7 @@ namespace SonicRealms.Core.Moves
             base.OnActiveEnter();
             InvincibilityTimer = InvincibilityTime;
             Target.enabled = true;
-            Target.size += SizeChange;
+            
             Health.Invincible = true;
 
             dashTimer = 0.0f;
@@ -170,7 +151,6 @@ namespace SonicRealms.Core.Moves
 
             InvincibilityTimer = 0.0f;
             Target.enabled = false;
-            Target.size -= SizeChange;
 
             if(!Controller.HasPowerup<Invincibility>())
                 Health.Invincible = false;

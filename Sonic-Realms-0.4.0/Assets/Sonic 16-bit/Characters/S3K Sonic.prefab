@@ -935,9 +935,9 @@ MonoBehaviour:
   RotateToGravity: 0
   RotateDuringRoll: 0
   RotateDuringStand: 0
-  AirRecoveryRate: 50
-  MinimumAngle: 25
-  Precision: 8
+  AirRecoveryRate: 150
+  MinimumAngle: 10
+  Precision: 128
 --- !u!114 &11479486
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1008,7 +1008,7 @@ MonoBehaviour:
   - {fileID: 11491536}
   - {fileID: 11461730}
   - {fileID: 11439158}
-  - {fileID: 11457154}
+  - {fileID: 0}
   - {fileID: 11431244}
   OnPerform:
     m_PersistentCalls:

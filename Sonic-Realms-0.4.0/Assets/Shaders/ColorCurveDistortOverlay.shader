@@ -8,7 +8,6 @@ Shader "Unlit/Color Curve + Distort Overlay"
 		_Wavelength ("Wavelength", Range(0, 1)) = 0.3
 		_Amplitude ("Amplitude", Range(0, 1)) = 0.002
 		_ScrollRate ("Scroll Rate", Range(0, 1)) = 0.08
-			_MainTex("Base (RGB)", 2D) = "white" {}
 	}
 	SubShader
 	{
@@ -50,7 +49,7 @@ Shader "Unlit/Color Curve + Distort Overlay"
 			{
 				v2f o;
 				o.vertex = UnityObjectToClipPos(v.vertex);
-				o.uv = ComputeGrabScreenPos(o.vertex)/11;
+				o.uv = ComputeGrabScreenPos(o.vertex);
 				return o;
 			}
 			

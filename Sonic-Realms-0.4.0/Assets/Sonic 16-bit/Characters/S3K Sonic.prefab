@@ -2191,7 +2191,7 @@ MonoBehaviour:
   Controller: {fileID: 0}
   Manager: {fileID: 0}
   PowerupManager: {fileID: 0}
-  Animator: {fileID: 0}
+  Animator: {fileID: 9551182}
   CurrentState: 0
   AllowShouldPerform: 0
   AllowShouldEnd: 0

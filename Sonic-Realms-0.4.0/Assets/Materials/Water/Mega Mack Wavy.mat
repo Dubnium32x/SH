@@ -23,13 +23,8 @@ Material:
         m_Texture: {fileID: 2800000, guid: 82b32264a6a8c8343b180f2b08451e99, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
-    - _MainTex:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
     m_Floats:
     - _Amplitude: 0.003
     - _ScrollRate: 0.08
     - _Wavelength: 0.3
     m_Colors: []
-  m_BuildTextureStacks: []

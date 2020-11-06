@@ -46,6 +46,7 @@ namespace SonicRealms.Core.Actors
         public AudioClip DrownSound;
         #endregion
 
+        
         private float _previousAir;
 
         public override void Reset()
@@ -61,13 +62,28 @@ namespace SonicRealms.Core.Actors
             if (CanBreathe)
             {
                 if (DrowningBGM != null)
+                {
                     SoundManager.Instance.StopSecondaryBGM(DrowningBGM);
+                }
+
+                SoundManager.Instance.BGMSource.volume = 1f;
+                SoundManager.Instance.JingleSource.volume = 1f;
+                SoundManager.Instance.PowerupSource.volume = 1f;
+            }
+            if (!CanBreathe)
+            {   
+                    SoundManager.Instance.BGMSource.volume = 0.1f;
+                
+                SoundManager.Instance.JingleSource.volume = 0.1f;
+                SoundManager.Instance.PowerupSource.volume = 0.1f;                
             }
 
             if (_previousAir > DrowningPoint && RemainingAir < DrowningPoint)
-            {
+            {                
                 if (DrowningBGM)
                 {
+                    
+
                     if (SoundManager.Instance.PowerupSource.clip != DrowningBGM ||
                         !SoundManager.Instance.PowerupSource.isPlaying)
                     {

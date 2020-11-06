@@ -62,6 +62,16 @@ namespace SonicRealms.Core.Actors
             {
                 if (DrowningBGM != null)
                     SoundManager.Instance.StopSecondaryBGM(DrowningBGM);
+
+                SoundManager.Instance.BGMSource.volume = 1f;
+                SoundManager.Instance.PowerupSource.volume = 1f;
+                SoundManager.Instance.JingleSource.volume = 1f;
+            }
+            if(!CanBreathe)
+            {
+                SoundManager.Instance.BGMSource.volume = 0.1f;
+                SoundManager.Instance.PowerupSource.volume = 0.1f;
+                SoundManager.Instance.JingleSource.volume = 0.1f;
             }
 
             if (_previousAir > DrowningPoint && RemainingAir < DrowningPoint)

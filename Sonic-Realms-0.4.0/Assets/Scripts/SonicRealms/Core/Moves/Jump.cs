@@ -62,8 +62,7 @@ namespace SonicRealms.Core.Moves
 
                 return Controller.Grounded &&
                        (currentAction == null || currentAction is LookUp || currentAction is Push ||
-                        currentAction is Skid) &&
-                       HasClearance();
+                        currentAction is Skid);
             }
         }
 

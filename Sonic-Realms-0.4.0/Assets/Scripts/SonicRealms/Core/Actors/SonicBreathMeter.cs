@@ -66,10 +66,12 @@ namespace SonicRealms.Core.Actors
                 SoundManager.Instance.BGMSource.volume = 1f;
                 SoundManager.Instance.PowerupSource.volume = 1f;
                 SoundManager.Instance.JingleSource.volume = 1f;
+                SoundManager.Instance.BGMSource.reverbZoneMix = 0f;
             }
             if(!CanBreathe)
             {
                 SoundManager.Instance.BGMSource.volume = 0.1f;
+                SoundManager.Instance.BGMSource.reverbZoneMix = 100f;
                 SoundManager.Instance.PowerupSource.volume = 0.1f;
                 SoundManager.Instance.JingleSource.volume = 0.1f;
             }

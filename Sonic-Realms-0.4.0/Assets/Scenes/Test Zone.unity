@@ -8183,6 +8183,26 @@ PrefabInstance:
       propertyPath: OnEnd.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
+    - target: {fileID: 6330260166707495911, guid: dbca39c759708bb4dbdc512f0b2a13b2,
+        type: 3}
+      propertyPath: BasePower
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6330260166707495911, guid: dbca39c759708bb4dbdc512f0b2a13b2,
+        type: 3}
+      propertyPath: ChargePowerDecay
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6330260166707495911, guid: dbca39c759708bb4dbdc512f0b2a13b2,
+        type: 3}
+      propertyPath: ChargePower
+      value: 2.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 6330260166707495911, guid: dbca39c759708bb4dbdc512f0b2a13b2,
+        type: 3}
+      propertyPath: MaxChargePower
+      value: 5
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dbca39c759708bb4dbdc512f0b2a13b2, type: 3}
 --- !u!4 &329921652 stripped

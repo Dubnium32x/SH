@@ -98,10 +98,10 @@ namespace SonicRealms.Core.Moves
             ChargeButton = "Jump";
             ReleaseAxis = "Vertical";
 
-            ChargePower = 0.6f;
-            MaxChargePower = 2.4f;
-            BasePower = 4.8f;
-            ChargePowerDecay = 1.875f;
+            ChargePower = 2.5f;
+            MaxChargePower = 5.0f;
+            BasePower = 0.0f;
+            ChargePowerDecay = 0.0f;
 
             ChargeSound = null;
         }
@@ -151,7 +151,7 @@ namespace SonicRealms.Core.Moves
 
         public override void OnActiveUpdate()
         {
-            CurrentChargePower -= CurrentChargePower*ChargePowerDecay*Time.deltaTime;
+            CurrentChargePower -= CurrentChargePower*Time.deltaTime;
 
             if (Input.GetButton(ChargeButton))
                 Charge();
@@ -181,11 +181,13 @@ namespace SonicRealms.Core.Moves
 
         public void Finish()
         {
-            if (Controller.FacingForward)
-                Controller.GroundVelocity += BasePower + CurrentChargePower;
-            else
-                Controller.GroundVelocity -= BasePower + CurrentChargePower;
-
+            if (CurrentChargePower > 5)
+            {
+                if (Controller.FacingForward)
+                    Controller.GroundVelocity = MaxChargePower;
+                else
+                    Controller.GroundVelocity = -MaxChargePower;
+            }
             
             End();
         }

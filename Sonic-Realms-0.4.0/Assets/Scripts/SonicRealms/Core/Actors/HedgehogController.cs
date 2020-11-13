@@ -13,6 +13,8 @@ namespace SonicRealms.Core.Actors
     [RequireComponent(typeof(Rigidbody2D))]
     public class HedgehogController : MonoBehaviour
     {
+
+        public GameObject DebugController;
         #region Inspector Fields
         #region Components
         /// <summary>
@@ -720,7 +722,7 @@ namespace SonicRealms.Core.Actors
             AbsGroundSpeedFloatHash = string.IsNullOrEmpty(AbsGroundSpeedFloat) ? 0 : Animator.StringToHash(AbsGroundSpeedFloat);
             SurfaceAngleFloatHash = string.IsNullOrEmpty(SurfaceAngleFloat) ? 0 : Animator.StringToHash(SurfaceAngleFloat);
         }
-
+        bool DebugOn = false;
         public void Update()
         {
             if (Animator != null)
@@ -730,6 +732,24 @@ namespace SonicRealms.Core.Actors
             {
                 HandleInterrupt();
                 return;
+            }
+            if (Input.GetKeyDown(KeyCode.Keypad0))
+            {
+                DebugOn = true;
+            }
+            if (Input.GetKeyDown(KeyCode.KeypadPeriod))
+            {
+                DebugOn = false;
+            }
+
+            if (DebugOn)
+            {
+                UpdateDebugMovementControls();
+            }
+            if (!DebugOn)
+            {
+                IgnoreCollision = false;
+                ApplyAirGravity = true;
             }
         }
 
@@ -751,6 +771,7 @@ namespace SonicRealms.Core.Actors
             HandleMovement();
 
             UpdateGroundVelocity();
+            
         }
         #endregion
 
@@ -762,7 +783,36 @@ namespace SonicRealms.Core.Actors
         {
             HandleInterrupt(Time.deltaTime);
         }
-
+        #region DebugMode
+        
+        public void UpdateDebugMovementControls()
+        {            
+            
+            
+            
+            if (DebugOn = true)
+            {
+                IgnoreCollision = true;
+                ApplyAirGravity = false;
+                if (Input.GetKey(KeyCode.UpArrow))
+                {
+                    Velocity += Vector2.up * 20 * Time.deltaTime;
+                }
+                if (Input.GetKey(KeyCode.DownArrow))
+                {
+                    Velocity -= Vector2.up * 20 * Time.deltaTime;
+                }
+                if (Input.GetKey(KeyCode.RightArrow))
+                {
+                    Velocity += Vector2.right * 20 * Time.deltaTime;
+                }
+                if (Input.GetKey(KeyCode.LeftArrow))
+                {
+                    Velocity -= Vector2.right * 20 * Time.deltaTime;
+                }
+            }            
+        }
+        #endregion
         /// <summary>
         /// Uses Time.deltaTime as the timestep. Handles the interruption timer, if any.
         /// </summary>

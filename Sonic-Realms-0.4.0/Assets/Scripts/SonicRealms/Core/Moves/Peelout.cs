@@ -99,8 +99,8 @@ namespace SonicRealms.Core.Moves
             ReleaseAxis = "Vertical";
 
             ChargePower = 2.5f;
-            MaxChargePower = 5.0f;
-            BasePower = 0.0f;
+            MaxChargePower = 5f;
+            BasePower = 5f;
             ChargePowerDecay = 0.0f;
 
             ChargeSound = null;
@@ -181,12 +181,12 @@ namespace SonicRealms.Core.Moves
 
         public void Finish()
         {
-            if (CurrentChargePower > 5)
+            if (CurrentChargePower > 2.5f)
             {
                 if (Controller.FacingForward)
-                    Controller.GroundVelocity = MaxChargePower;
+                    Controller.GroundVelocity = MaxChargePower/2.5f;
                 else
-                    Controller.GroundVelocity = -MaxChargePower;
+                    Controller.GroundVelocity = -MaxChargePower/2.5f;
             }
             
             End();

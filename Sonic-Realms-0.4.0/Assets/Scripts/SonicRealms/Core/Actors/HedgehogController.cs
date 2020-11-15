@@ -4,6 +4,7 @@ using SonicRealms.Core.Triggers;
 using SonicRealms.Core.Utils;
 using UnityEngine;
 using UnityEngine.Events;
+using SonicRealms.Level;
 
 namespace SonicRealms.Core.Actors
 {
@@ -13,8 +14,8 @@ namespace SonicRealms.Core.Actors
     [RequireComponent(typeof(Rigidbody2D))]
     public class HedgehogController : MonoBehaviour
     {
+        
 
-        public GameObject DebugController;
         #region Inspector Fields
         #region Components
         /// <summary>
@@ -22,6 +23,12 @@ namespace SonicRealms.Core.Actors
         /// </summary>
         [Tooltip("Game object that contains the renderer.")]
         public GameObject RendererObject;
+
+        /// <summary>
+        /// This is used to find out what object is using the debug script(Usually called DebugMode)
+        /// </summary>
+        [Tooltip("This is used to find out what object is using the debug script(Usually called DebugMode)")]
+        public GameObject DebugController;
 
         /// <summary>
         /// The controller's animator, if any.
@@ -723,6 +730,7 @@ namespace SonicRealms.Core.Actors
             SurfaceAngleFloatHash = string.IsNullOrEmpty(SurfaceAngleFloat) ? 0 : Animator.StringToHash(SurfaceAngleFloat);
         }
         bool DebugOn = false;
+        public static bool DebugOnS;
         public void Update()
         {
             if (Animator != null)
@@ -741,7 +749,7 @@ namespace SonicRealms.Core.Actors
             {
                 DebugOn = false;
             }
-
+            DebugOnS = DebugOn;
             if (DebugOn)
             {
                 UpdateDebugMovementControls();
@@ -750,6 +758,7 @@ namespace SonicRealms.Core.Actors
             {
                 IgnoreCollision = false;
                 ApplyAirGravity = true;
+                
             }
         }
 
@@ -773,26 +782,32 @@ namespace SonicRealms.Core.Actors
             UpdateGroundVelocity();
             
         }
-        #endregion
-
-        #region Lifecycle Subroutines
-        /// <summary>
-        /// Handles the interruption timer, if any.
-        /// </summary>
-        public void HandleInterrupt()
-        {
-            HandleInterrupt(Time.deltaTime);
-        }
         #region DebugMode
         
+        bool DebugFlyOn;
+        public GUIStyle Rainbow;
+         /// IOFT stands for Interactable Objects For Testing
+        
+        public int ObjectId;
+        public float ObjectScale;
+        public float ObjectRotation;
+        GameObject LeObject;
+        public static int ObjectIdS;
+            public static float ObjectScaleS;
+        public static float ObjectRotationS;
         public void UpdateDebugMovementControls()
-        {            
-            
-            
-            
+        {
+
+            ObjectIdS = ObjectId;
+            ObjectScaleS = ObjectScale;
+            ObjectRotationS = ObjectRotation;
             if (DebugOn = true)
             {
+
+                
                 IgnoreCollision = true;
+                
+                
                 ApplyAirGravity = false;
                 if (Input.GetKey(KeyCode.UpArrow))
                 {
@@ -810,9 +825,72 @@ namespace SonicRealms.Core.Actors
                 {
                     Velocity -= Vector2.right * 20 * Time.deltaTime;
                 }
-            }            
+            }
+
+            #region The real shit
+            if (Input.GetKeyDown(KeyCode.Keypad6))
+            {
+                ObjectId = ObjectId + 1;
+            }
+            if (Input.GetKeyDown(KeyCode.Keypad4))
+            {
+                ObjectId = Mathf.Abs(ObjectId - 1);
+            }
+            if (Input.GetKey(KeyCode.Keypad1))
+            {
+                ObjectScale -= 0.1f;
+            }
+            if (Input.GetKey(KeyCode.Keypad3))
+            {
+                ObjectScale += 0.1f;
+            }
+            if (Input.GetKey(KeyCode.Keypad2))
+            {
+                ObjectScale = 1;
+            }
+
+            if (Input.GetKey(KeyCode.Keypad7))
+            {
+                ObjectRotation -= 1f;
+            }
+            if (Input.GetKey(KeyCode.Keypad9))
+            {
+                ObjectRotation += 1f;
+            }
+            if (Input.GetKey(KeyCode.Keypad8))
+            {
+                ObjectRotation = 0;
+            }
+
+            
+            if (Input.GetKeyDown(KeyCode.Keypad5))
+            {
+                Quaternion StandIn = DebugState.IOFTS[ObjectId].transform.rotation;
+                LeObject = Instantiate(DebugState.IOFTS[ObjectId], DebugState.PlayerObjectS.transform.position, Quaternion.Euler(StandIn.x, StandIn.y, ObjectRotation));
+                LeObject.transform.localScale = new Vector3(ObjectScale, ObjectScale, ObjectScale);
+                ///<region>
+                ///so basically, while we were working on finding a new framework, I was testing the sdds for sonic harmony(but I was using one of my games to do it) turns out that I don't exactly need this line of code so now it will die :D
+                /*if (RandomColorOn)
+                {
+                    LeObject.GetComponent<SpriteRenderer>().color = new Color(Random.Range(0.01f, 1), Random.Range(0.01f, 1), Random.Range(0.01f, 1), 1);
+                }*/
+                ///</region>
+            }
+            #endregion
+
+            
         }
         #endregion
+        #endregion
+        #region Lifecycle Subroutines
+        /// <summary>
+        /// Handles the interruption timer, if any.
+        /// </summary>
+        public void HandleInterrupt()
+        {
+            HandleInterrupt(Time.deltaTime);
+        }
+
         /// <summary>
         /// Uses Time.deltaTime as the timestep. Handles the interruption timer, if any.
         /// </summary>

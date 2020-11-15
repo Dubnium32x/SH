@@ -5,22 +5,40 @@ using SonicRealms.Level;
 using UnityEngine.Events;
 using SonicRealms.Core.Moves;
 using UnityEngine;
+using UnityEngine.UI;
 
 
 namespace SonicRealms.Core.Actors
 {
     public class DebugState : MonoBehaviour
     {
+        public static DebugState Instance;
+        public static GameObject PlayerObjectS;
 
-
-
+        public Texture2D textureToDisplay;
+            public static Texture2D textureToDisplayS;
         bool DebugOn = false;
+        
         bool DebugFlyOn;
         public GUIStyle Rainbow;
+        public AudioClip RegularMusic;
+        public AudioClip RegularMusicS;
+        
+
+        public Text ScoreModifier;
+        public Text RingsModifier;
+        public Text LivesModifier;
+        public Text TimeModifier;
+        public static Text ScoreModifierS;
+        public static Text RingsModifierS;
+        public static Text LivesModifierS;
+        public static Text TimeModifierS;
+
+
         public GameObject[] IOFT; /// IOFT stands for Interactable Objects For Testing
+        public static GameObject[] IOFTS; ///the static version for the new debug mode
         public int AmountOfObjectsInIOFT;
         public int ObjectId;
-        public static bool DebugCheck; //Used for other scripts to figure out whether or not debug is on
 
 
         //Add the debug mode object here
@@ -45,14 +63,16 @@ namespace SonicRealms.Core.Actors
         // Update is called once per frame
         void Update()
         {
+            RegularMusicS = RegularMusic;
+            
             if (Input.GetButton("DebugMode") /* && CheatCodeActivated == true */)
             {
                 DebugOn = true;
 
             }
-            DebugCheck = DebugOn;
-
-
+            textureToDisplayS = textureToDisplay;
+            IOFTS = IOFT;
+            PlayerObjectS = PlayerObject;
 
             //Turns off debug mode entirely
             if (!Input.GetButton("DebugMode") && DebugOn == true)
@@ -61,7 +81,10 @@ namespace SonicRealms.Core.Actors
                 DebugOn = false;
 
             }
-
+            LivesModifierS = LivesModifier;
+            ScoreModifierS = ScoreModifier;
+            TimeModifierS = TimeModifier;
+            RingsModifierS = RingsModifier;
             //activates on-ground debug mode
             if (DebugOn == true)
             {
@@ -79,7 +102,8 @@ namespace SonicRealms.Core.Actors
 
             PlayerObject.transform.position = SonicBOI.transform.position;
             Debug.Log(DebugOn.ToString());
-            Rainbow.normal.textColor = Color.Lerp(Color.red, Color.yellow, Mathf.PingPong(Time.time, 1));
+            
+           
         }
 
         public void HandleDebugControlFly()
@@ -142,16 +166,24 @@ namespace SonicRealms.Core.Actors
         }
 
 
+        
+    }
+
+    
+}
+namespace SonicRealms.UI
+{
+    public class DebugUI : MonoBehaviour
+    {
         void DuringGUI()
         {
-            if (DebugFlyOn == true)
+            if (HedgehogController.DebugOnS == true)
             {
-                GUI.Label(new Rect(500, 50, 1000, 1000), "Simple Dimple Debug System v4.0", Rainbow);
-                GUI.Label(new Rect(500, 100, 1000, 1000), "Object Value: " + ObjectId.ToString());
-                GUI.Label(new Rect(500, 120, 1000, 1000), "Object Name: " + IOFT[ObjectId].ToString());
-                GUI.Label(new Rect(500, 140, 1000, 1000), "Object Scale: " + ObjectScale.ToString());
-                GUI.Label(new Rect(500, 160, 1000, 1000), "Object Rotation: " + ObjectRotation.ToString());
-                GUI.Label(new Rect(500, 180, 1000, 1000), "Random Color: " + RandomColorOn.ToString());
+                GUI.Label(new Rect(500, 50, 1000, 1000), "Simple Dimple Debug System v4.0");
+                GUI.Label(new Rect(500, 100, 1000, 1000), "Object Value: " + HedgehogController.ObjectIdS.ToString());
+                GUI.Label(new Rect(500, 120, 1000, 1000), "Object Name: " + DebugState.IOFTS[HedgehogController.ObjectIdS].ToString());
+                GUI.Label(new Rect(500, 140, 1000, 1000), "Object Scale: " + HedgehogController.ObjectScaleS.ToString());
+                GUI.Label(new Rect(500, 160, 1000, 1000), "Object Rotation: " + HedgehogController.ObjectRotationS.ToString());
 
                 GUI.Label(new Rect(500, 220, 100, 1000), "Controls:");
                 GUI.Label(new Rect(500, 260, 1000, 1000), "KeypadPeriod: Leave Debug Mode");
@@ -166,13 +198,7 @@ namespace SonicRealms.Core.Actors
                 GUI.Label(new Rect(500, 500, 1000, 1000), "Keypad5: Place Object");
                 GUI.Label(new Rect(500, 520, 1000, 1000), "TimeScale: " + Time.timeScale.ToString());
             }
-            if (DebugOn && !DebugFlyOn)
-            {
-                GUI.Label(new Rect(500, 50, 1000, 1000), "Simpe Dimple Debug System v4.0", Rainbow);
-                GUI.Label(new Rect(500, 100, 1000, 1000), "TimeScale: " + Time.timeScale.ToString());
-
-            }
+            
         }
     }
 }
-    

@@ -12,7 +12,6 @@ namespace SonicRealms.Core.Actors
         /// </summary>
         [Tooltip("This box collider will be modified based on the shape of the sensors.")]
         public BoxCollider2D BoxCollider;
-        public static BoxCollider2D BoxColliderS;
 
         // These sensors are used for hit detection with ceilings.
         public Transform TopLeft;
@@ -148,7 +147,7 @@ namespace SonicRealms.Core.Actors
 
         public void Update()
         {
-            BoxColliderS = BoxCollider;
+            
         }
         public void UpdateCollider()
         {
@@ -164,6 +163,14 @@ namespace SonicRealms.Core.Actors
             BoxCollider.transform.position = center;
             BoxCollider.transform.eulerAngles = Center.transform.eulerAngles;
             BoxCollider.size = size;
+            if (HedgehogController.DebugOnS)
+            {
+                BoxCollider.enabled = false;
+            }
+            if (!HedgehogController.DebugOnS)
+            {
+                BoxCollider.enabled = true;
+            }
         }
     }
 }

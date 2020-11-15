@@ -38,6 +38,7 @@ namespace SonicRealms.Core.Actors
         public GameObject[] IOFT; /// IOFT stands for Interactable Objects For Testing
         public static GameObject[] IOFTS; ///the static version for the new debug mode
         public int AmountOfObjectsInIOFT;
+        public static int AmountOfObjectsInIOFTS;
         public int ObjectId;
 
 
@@ -64,7 +65,7 @@ namespace SonicRealms.Core.Actors
         void Update()
         {
             RegularMusicS = RegularMusic;
-            
+            AmountOfObjectsInIOFTS = AmountOfObjectsInIOFT;
             if (Input.GetButton("DebugMode") /* && CheatCodeActivated == true */)
             {
                 DebugOn = true;

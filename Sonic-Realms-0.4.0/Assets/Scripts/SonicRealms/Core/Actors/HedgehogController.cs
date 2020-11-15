@@ -766,7 +766,6 @@ namespace SonicRealms.Core.Actors
                     IgnoreCollision = true;
                 }
                 ApplyAirGravity = true;
-                HedgehogSensors.BoxColliderS.enabled = true;
 
             }
         }
@@ -810,37 +809,57 @@ namespace SonicRealms.Core.Actors
             ObjectIdS = ObjectId;
             ObjectScaleS = ObjectScale;
             ObjectRotationS = ObjectRotation;
+            if(ObjectId >= DebugState.AmountOfObjectsInIOFTS)
+            {
+                ObjectId -= 1;
+            }
             if (DebugOn = true)
             {
-
-                HedgehogSensors.BoxColliderS.enabled = false;
+                
                 IgnoreCollision = true;
                 ApplyAirDrag = true;
-                ApplyGroundFriction = true;
+                
                 ApplyAirGravity = false;
                 if (Input.GetKey(KeyCode.UpArrow))
                 {
-                    RelativeVelocity += Vector2.up * 20 * Time.deltaTime;
+                    Vy += 20 * Time.deltaTime;
              
+                }
+                else if (Vy >= 0)
+                {
+                    Vy -= 20 * Time.deltaTime;
                 }
                 if (Input.GetKey(KeyCode.DownArrow))
                 {
-                    RelativeVelocity -= Vector2.up * 20 * Time.deltaTime;
+                    Vy -= 20 * Time.deltaTime;
                   
                 }
+                else if(Vy <= 0)
+                {
+                    Vy += 20 * Time.deltaTime;
+                }
+                
                 if (Input.GetKey(KeyCode.RightArrow))
                 {
-                    RelativeVelocity += Vector2.right * 20 * Time.deltaTime;
+                    Vx += 20 * Time.deltaTime;
                 
+                }
+                else if (Vx >= 0)
+                {
+                    Vx -= 20 * Time.deltaTime;
                 }
                 if (Input.GetKey(KeyCode.LeftArrow))
                 {
-                    RelativeVelocity -= Vector2.right * 20 * Time.deltaTime;
+                    Vx -= 20 * Time.deltaTime;
                   
                    
                 }
+                else if (Vx <= 0)
+                {
+                    Vx += 20 * Time.deltaTime;
+                }
 
-               
+
             }
 
             #region The real shit

@@ -93,7 +93,7 @@ namespace SonicRealms.Core.Actors
             SpillCollectDisableTime = 1.066667f;
             MaxSpilledRings = 32;
             RingsPerCircle = 16;
-            CircleSpeeds = new[] {4.0f, 2.0f};
+            CircleSpeeds = new[] { 4.0f, 2.0f };
         }
 
         public void Awake()
@@ -121,8 +121,19 @@ namespace SonicRealms.Core.Actors
             {
                 CanCollectTimer = 0.0f;
             }
+            int PastRings = 0;
+            if (HedgehogController.DebugOnS)
+            {if (PastRings != HedgehogController.ObjectIdS)
+                {
+                    PastRings = Rings;
+                }
+                ObjectIdToRings();
+            }
         }
-
+        public void ObjectIdToRings()
+        {
+            Rings = HedgehogController.ObjectIdS;
+        }
         /// <summary>
         /// Disables ring collection for the value specified by SpillCollectDisableTime.
         /// </summary>

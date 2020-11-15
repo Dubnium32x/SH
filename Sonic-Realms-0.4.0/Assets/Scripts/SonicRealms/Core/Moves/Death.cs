@@ -8,6 +8,8 @@ namespace SonicRealms.Core.Moves
     /// </summary>
     public class Death : Move
     {
+
+        public static bool IsDead = false;
         /// <summary>
         /// How quickly the controller bounces off the map.
         /// </summary>
@@ -28,6 +30,7 @@ namespace SonicRealms.Core.Moves
 
         public override void Reset()
         {
+            
             base.Reset();
             Velocity = 4.20f; // blaze it
             RestartDelay = 2.333333f;
@@ -66,6 +69,7 @@ namespace SonicRealms.Core.Moves
 
         public override void OnActiveUpdate()
         {
+            IsDead = true;
             if (!Restarting) return;
 
             RestartTimer -= Time.deltaTime;

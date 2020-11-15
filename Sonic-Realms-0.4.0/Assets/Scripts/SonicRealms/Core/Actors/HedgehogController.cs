@@ -5,6 +5,7 @@ using SonicRealms.Core.Utils;
 using UnityEngine;
 using UnityEngine.Events;
 using SonicRealms.Level;
+using SonicRealms.Core.Moves;
 
 namespace SonicRealms.Core.Actors
 {
@@ -756,7 +757,14 @@ namespace SonicRealms.Core.Actors
             }
             if (!DebugOn)
             {
-                IgnoreCollision = false;
+                if (Death.IsDead == false)
+                {
+                    IgnoreCollision = false;
+                }
+                else
+                {
+                    IgnoreCollision = true;
+                }
                 ApplyAirGravity = true;
                 
             }
@@ -806,25 +814,32 @@ namespace SonicRealms.Core.Actors
 
                 
                 IgnoreCollision = true;
-                
-                
+                ApplyAirDrag = true;
+                ApplyGroundFriction = true;
                 ApplyAirGravity = false;
                 if (Input.GetKey(KeyCode.UpArrow))
                 {
-                    Velocity += Vector2.up * 20 * Time.deltaTime;
+                    RelativeVelocity += Vector2.up * 20 * Time.deltaTime;
+             
                 }
                 if (Input.GetKey(KeyCode.DownArrow))
                 {
-                    Velocity -= Vector2.up * 20 * Time.deltaTime;
+                    RelativeVelocity -= Vector2.up * 20 * Time.deltaTime;
+                  
                 }
                 if (Input.GetKey(KeyCode.RightArrow))
                 {
-                    Velocity += Vector2.right * 20 * Time.deltaTime;
+                    RelativeVelocity += Vector2.right * 20 * Time.deltaTime;
+                
                 }
                 if (Input.GetKey(KeyCode.LeftArrow))
                 {
-                    Velocity -= Vector2.right * 20 * Time.deltaTime;
+                    RelativeVelocity -= Vector2.right * 20 * Time.deltaTime;
+                  
+                   
                 }
+
+               
             }
 
             #region The real shit

@@ -766,7 +766,8 @@ namespace SonicRealms.Core.Actors
                     IgnoreCollision = true;
                 }
                 ApplyAirGravity = true;
-                
+                HedgehogSensors.BoxColliderS.enabled = true;
+
             }
         }
 
@@ -812,7 +813,7 @@ namespace SonicRealms.Core.Actors
             if (DebugOn = true)
             {
 
-                
+                HedgehogSensors.BoxColliderS.enabled = false;
                 IgnoreCollision = true;
                 ApplyAirDrag = true;
                 ApplyGroundFriction = true;

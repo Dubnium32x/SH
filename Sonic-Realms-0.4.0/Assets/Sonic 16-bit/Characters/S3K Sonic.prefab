@@ -832,7 +832,7 @@ MonoBehaviour:
   AirDrag: 0.1488343
   AirDragRequiredSpeed: {x: 0.075, y: 2.4}
   AirGravity: 7.857
-  SlopeGravity: 10
+  SlopeGravity: 1
   GravityDirection: 270
   MaxSpeed: 9001
   LedgeClimbHeight: 0.16
@@ -1008,7 +1008,7 @@ MonoBehaviour:
   RotateDuringRoll: 0
   RotateDuringStand: 0
   AirRecoveryRate: 150
-  MinimumAngle: 10
+  MinimumAngle: 25
   Precision: 128
 --- !u!114 &11479486
 MonoBehaviour:

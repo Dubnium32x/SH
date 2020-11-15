@@ -12,6 +12,7 @@ namespace SonicRealms.Core.Actors
         /// </summary>
         [Tooltip("This box collider will be modified based on the shape of the sensors.")]
         public BoxCollider2D BoxCollider;
+        public static BoxCollider2D BoxColliderS;
 
         // These sensors are used for hit detection with ceilings.
         public Transform TopLeft;
@@ -145,6 +146,10 @@ namespace SonicRealms.Core.Actors
             UpdateCollider();
         }
 
+        public void Update()
+        {
+            BoxColliderS = BoxCollider;
+        }
         public void UpdateCollider()
         {
             var center = new Vector3(

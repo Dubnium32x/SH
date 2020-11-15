@@ -185,7 +185,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: -1
-  m_Sprite: {fileID: 21300000, guid: 72175c4d0ab5d194fb211747d9ef22ef, type: 3}
+  m_Sprite: {fileID: 21300000, guid: aaec841fa6eb2d04588c6282f35a65b9, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -820,7 +820,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 273d5567b7e8f0f4892de869d9b03b70, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  RendererObject: {fileID: 105384}
+  RendererObject: {fileID: 151248}
   DebugController: {fileID: 0}
   Animator: {fileID: 9582648}
   CollisionMask:
@@ -832,7 +832,7 @@ MonoBehaviour:
   AirDrag: 0.1488343
   AirDragRequiredSpeed: {x: 0.075, y: 2.4}
   AirGravity: 7.857
-  SlopeGravity: 1
+  SlopeGravity: 10
   GravityDirection: 270
   MaxSpeed: 9001
   LedgeClimbHeight: 0.16
@@ -7948,7 +7948,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 043d9f65674e05b4cb8c38bd17185642, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  textureToDisplay: {fileID: 2800000, guid: aaec841fa6eb2d04588c6282f35a65b9, type: 3}
+  textureToDisplay: {fileID: 2800000, guid: d5eaf4b0f7963fb47aa2d40f5c4c6f07, type: 3}
   Rainbow:
     m_Name: 
     m_Normal:
@@ -8017,6 +8017,7 @@ MonoBehaviour:
     m_StretchWidth: 1
     m_StretchHeight: 0
   RegularMusic: {fileID: 8300000, guid: 625f6e98d19685b4fb42370006c23fe0, type: 3}
+  RegularMusicS: {fileID: 0}
   ScoreModifier: {fileID: 0}
   RingsModifier: {fileID: 0}
   LivesModifier: {fileID: 0}

@@ -93,7 +93,7 @@ namespace SonicRealms.Core.Moves
         {
             base.SetAnimatorParameters();
             if(DistanceFloatHash != 0)
-                Animator.SetFloat(DistanceFloatHash, EdgeDistance);
+                Animator.SetFloat(DistanceFloatHash, EdgeDistance-0.2f);
         }
 
         public override bool Available

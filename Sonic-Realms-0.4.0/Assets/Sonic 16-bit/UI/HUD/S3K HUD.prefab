@@ -701,6 +701,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Text: {fileID: 11421456}
+  NameText: {fileID: 11404948}
   Animator: {fileID: 9588164}
   AmountInt: Rings
 --- !u!114 &11472946

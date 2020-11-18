@@ -84,7 +84,13 @@ namespace SonicRealms.Core.Actors
         {
             OnValueChange = OnValueChange ?? new UnityEvent();
         }
-
+        public void Update()
+        {
+            if(HedgehogController.DebugOnS)
+            {
+                Score = (int)HedgehogController.ObjectRotationS;
+            }
+        }
         /// <summary>
         /// Adds to the current score combo using the given source.
         /// </summary>

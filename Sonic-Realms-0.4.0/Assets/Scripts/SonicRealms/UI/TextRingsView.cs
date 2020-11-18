@@ -14,6 +14,9 @@ namespace SonicRealms.UI
         /// </summary>
         [Tooltip("The text on which to show the ring amount.")]
         public Text Text;
+        public Text NameText;
+        public static Text NameTextS;
+
 
         /// <summary>
         /// The target animator.
@@ -35,18 +38,21 @@ namespace SonicRealms.UI
 
             Animator = GetComponent<Animator>();
             AmountInt = "";
+            NameTextS = NameText;
         }
 
         public void Start()
         {
             Animator = Animator ? Animator : GetComponent<Animator>();
             AmountIntHash = Animator == null ? 0 : Animator.StringToHash(AmountInt);
+            
         }
 
         public override void Show(int rings)
         {
             Text.text = rings.ToString();
             if(Animator != null && AmountIntHash != 0) Animator.SetInteger(AmountIntHash, rings);
+            NameTextS = NameText;
         }
     }
 }

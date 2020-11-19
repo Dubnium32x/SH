@@ -1,6 +1,5 @@
 ﻿using System;
 using UnityEngine;
-using SonicRealms.Core.Actors;
 
 namespace SonicRealms.Level
 {
@@ -10,12 +9,7 @@ namespace SonicRealms.Level
 
         public void Update()
         {
-            if (!HedgehogController.DebugOnS)
-            {
-                Time = Time.Add(TimeSpan.FromSeconds(UnityEngine.Time.deltaTime));
-            }
-            
+            Time = Time.Add(TimeSpan.FromSeconds(UnityEngine.Time.deltaTime));
         }
-        
     }
 }

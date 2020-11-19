@@ -1,0 +1,2926 @@
+fileFormatVersion: 2
+guid: 6a6ea1d89942e5e40869b7fbaaed79ab
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 1461256629730253023
+    second: MonAnimComp_0
+  - first:
+      213: -5862631737857923400
+    second: MonAnimComp_1
+  - first:
+      213: -1192969067899417212
+    second: MonAnimComp_2
+  - first:
+      213: -2340250243047071487
+    second: MonAnimComp_3
+  - first:
+      213: 6582664318902418176
+    second: MonAnimComp_4
+  - first:
+      213: -5993860345061324895
+    second: MonAnimComp_5
+  - first:
+      213: -3542560437505417443
+    second: MonAnimComp_6
+  - first:
+      213: -665355553157840740
+    second: MonAnimComp_7
+  - first:
+      213: -4874728254271979797
+    second: MonAnimComp_8
+  - first:
+      213: 4707233654856398544
+    second: MonAnimComp_9
+  - first:
+      213: -1528171760676497321
+    second: MonAnimComp_10
+  - first:
+      213: -4625932039849144185
+    second: MonAnimComp_11
+  - first:
+      213: -4491637169274333756
+    second: MonAnimComp_12
+  - first:
+      213: -6110117154627660320
+    second: MonAnimComp_13
+  - first:
+      213: -5131778198990440976
+    second: MonAnimComp_14
+  - first:
+      213: 609663875285937885
+    second: MonAnimComp_15
+  - first:
+      213: 7675409221908896191
+    second: MonAnimComp_16
+  - first:
+      213: 4591831508811642196
+    second: MonAnimComp_17
+  - first:
+      213: -5359971074311202442
+    second: MonAnimComp_18
+  - first:
+      213: -2984113215050812834
+    second: MonAnimComp_19
+  - first:
+      213: -719106671115115817
+    second: MonAnimComp_20
+  - first:
+      213: 8947009009213849803
+    second: MonAnimComp_21
+  - first:
+      213: -6132860543786019441
+    second: MonAnimComp_22
+  - first:
+      213: 273613836507591741
+    second: MonAnimComp_23
+  - first:
+      213: 6528814817437134873
+    second: MonAnimComp_24
+  - first:
+      213: 5551621883206330656
+    second: MonAnimComp_25
+  - first:
+      213: 4099187430139086119
+    second: MonAnimComp_26
+  - first:
+      213: -7318450841139177837
+    second: MonAnimComp_27
+  - first:
+      213: -2178286138520135723
+    second: MonAnimComp_28
+  - first:
+      213: -4891535283485045319
+    second: MonAnimComp_29
+  - first:
+      213: 1185875833414053952
+    second: MonAnimComp_30
+  - first:
+      213: -7948265839880366589
+    second: MonAnimComp_31
+  - first:
+      213: 6384025634038197538
+    second: MonAnimComp_32
+  - first:
+      213: 6770567792114268190
+    second: MonAnimComp_33
+  - first:
+      213: 6548035761148066663
+    second: MonAnimComp_34
+  - first:
+      213: 7483331702724207975
+    second: MonAnimComp_35
+  - first:
+      213: 7055402746927474278
+    second: MonAnimComp_36
+  - first:
+      213: 258048590668734573
+    second: MonAnimComp_37
+  - first:
+      213: 1647994919274326641
+    second: MonAnimComp_38
+  - first:
+      213: 7664973849781103181
+    second: MonAnimComp_39
+  - first:
+      213: -3559630407378917249
+    second: MonAnimComp_40
+  - first:
+      213: -7017027219063953786
+    second: MonAnimComp_41
+  - first:
+      213: 2785492952733378662
+    second: MonAnimComp_42
+  - first:
+      213: 7030219757100243639
+    second: MonAnimComp_43
+  - first:
+      213: -8285148311459821426
+    second: MonAnimComp_44
+  - first:
+      213: -3751556224658316528
+    second: MonAnimComp_45
+  - first:
+      213: 8030517118548465701
+    second: MonAnimComp_46
+  - first:
+      213: 9097656260063072488
+    second: MonAnimComp_47
+  - first:
+      213: 3364227950921578555
+    second: MonAnimComp_48
+  - first:
+      213: -6789974560973466491
+    second: MonAnimComp_49
+  - first:
+      213: 620233535306943619
+    second: MonAnimComp_50
+  - first:
+      213: -1284056633345483936
+    second: MonAnimComp_51
+  - first:
+      213: 386457643765061351
+    second: MonAnimComp_52
+  - first:
+      213: 7159783899064199176
+    second: MonAnimComp_53
+  - first:
+      213: -2115269067882956946
+    second: MonAnimComp_54
+  - first:
+      213: 8906435698105431023
+    second: MonAnimComp_55
+  - first:
+      213: 718964288214730186
+    second: MonAnimComp_56
+  - first:
+      213: -5085511683618930836
+    second: MonAnimComp_57
+  - first:
+      213: -2060518448142342600
+    second: MonAnimComp_58
+  - first:
+      213: 3701290322212628752
+    second: MonAnimComp_59
+  - first:
+      213: 5324349057938166114
+    second: MonAnimComp_60
+  - first:
+      213: -4972501239278470808
+    second: MonAnimComp_61
+  - first:
+      213: 1424864967873690300
+    second: MonAnimComp_62
+  - first:
+      213: 2546120105115824045
+    second: MonAnimComp_63
+  - first:
+      213: -1937856921295885138
+    second: MonAnimComp_64
+  - first:
+      213: 130501130646611313
+    second: MonAnimComp_65
+  - first:
+      213: 441225588380487473
+    second: MonAnimComp_66
+  - first:
+      213: -2276069879711340601
+    second: MonAnimComp_67
+  - first:
+      213: 4892251843292216282
+    second: MonAnimComp_68
+  - first:
+      213: -7072704509596278627
+    second: MonAnimComp_69
+  - first:
+      213: -2183854975134741530
+    second: MonAnimComp_70
+  - first:
+      213: 7076161432339624245
+    second: MonAnimComp_71
+  - first:
+      213: 5572843740583865738
+    second: MonAnimComp_72
+  - first:
+      213: 2090521371871088699
+    second: MonAnimComp_73
+  - first:
+      213: 6162249589299867199
+    second: MonAnimComp_74
+  - first:
+      213: 374122800412873999
+    second: MonAnimComp_75
+  - first:
+      213: 7088258403055377795
+    second: MonAnimComp_76
+  - first:
+      213: -8025476496243699875
+    second: MonAnimComp_77
+  - first:
+      213: 5303062261702524504
+    second: MonAnimComp_78
+  - first:
+      213: -5293922130349468191
+    second: MonAnimComp_79
+  - first:
+      213: -2306667468411021322
+    second: MonAnimComp_80
+  - first:
+      213: 1884154843424509647
+    second: MonAnimComp_81
+  - first:
+      213: 2691081462340618665
+    second: MonAnimComp_82
+  - first:
+      213: -5829323933534447649
+    second: MonAnimComp_83
+  - first:
+      213: -5444887458045953806
+    second: MonAnimComp_84
+  - first:
+      213: 7987796813436345007
+    second: MonAnimComp_85
+  - first:
+      213: 704489222711349228
+    second: MonAnimComp_86
+  - first:
+      213: -5344824159369958327
+    second: MonAnimComp_87
+  - first:
+      213: 6464630144249887192
+    second: MonAnimComp_88
+  - first:
+      213: -5909305455543233115
+    second: MonAnimComp_89
+  - first:
+      213: -4781088695316965733
+    second: MonAnimComp_90
+  - first:
+      213: 2785211166073057564
+    second: MonAnimComp_91
+  - first:
+      213: -3909135530822236204
+    second: MonAnimComp_92
+  - first:
+      213: 95554754606054071
+    second: MonAnimComp_93
+  - first:
+      213: 2162992965361326046
+    second: MonAnimComp_94
+  - first:
+      213: -5081816613630880876
+    second: MonAnimComp_95
+  - first:
+      213: 4562401854991396757
+    second: MonAnimComp_96
+  - first:
+      213: 6307198235280243328
+    second: MonAnimComp_97
+  - first:
+      213: 7170269850363850917
+    second: MonAnimComp_98
+  - first:
+      213: -5077418002196448946
+    second: MonAnimComp_99
+  - first:
+      213: 6494046606567796105
+    second: MonAnimComp_100
+  - first:
+      213: 7854833716655762630
+    second: MonAnimComp_101
+  - first:
+      213: 2180966946745026566
+    second: MonAnimComp_102
+  - first:
+      213: 4953304731731655178
+    second: MonAnimComp_103
+  - first:
+      213: -7595982788219325066
+    second: MonAnimComp_104
+  - first:
+      213: -6039863874247020110
+    second: MonAnimComp_105
+  - first:
+      213: 6360093998329941099
+    second: MonAnimComp_106
+  - first:
+      213: 8786524356791198154
+    second: MonAnimComp_107
+  - first:
+      213: -1267931734062264174
+    second: MonAnimComp_108
+  - first:
+      213: -6134865412419852034
+    second: MonAnimComp_109
+  - first:
+      213: 9040560098857292614
+    second: MonAnimComp_110
+  - first:
+      213: -4073848719842992415
+    second: MonAnimComp_111
+  - first:
+      213: -4156729208214339811
+    second: MonAnimComp_112
+  - first:
+      213: -4719823203722437210
+    second: MonAnimComp_113
+  - first:
+      213: -7056633885443775158
+    second: MonAnimComp_114
+  - first:
+      213: 5698821029172245085
+    second: MonAnimComp_115
+  - first:
+      213: 1162762207809769708
+    second: MonAnimComp_116
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 200
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: MonAnimComp_0
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 291
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd891c4a92d674410800000000000000
+      internalID: 1461256629730253023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MonAnimComp_1
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 291
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b62c08fe7fb3aea0800000000000000
+      internalID: -5862631737857923400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MonAnimComp_2
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 291
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48d83df04f8b17fe0800000000000000
+      internalID: -1192969067899417212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MonAnimComp_3
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 291
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10168a99dc2c58fd0800000000000000
+      internalID: -2340250243047071487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MonAnimComp_4
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 291
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00b31d352525a5b50800000000000000
+      internalID: 6582664318902418176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MonAnimComp_5
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 291
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a7c153e5c781dca0800000000000000
+      internalID: -5993860345061324895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MonAnimComp_6
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 291
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1f13272d0c46dec0800000000000000
+      internalID: -3542560437505417443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MonAnimComp_7
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 291
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9081bc46ae24c6f0800000000000000
+      internalID: -665355553157840740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MonAnimComp_8
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 291
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: beefe8bea7c795cb0800000000000000
+      internalID: -4874728254271979797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MonAnimComp_9
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 291
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d6ba70b114735140800000000000000
+      internalID: 4707233654856398544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MonAnimComp_10
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 291
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 758181951e7dacae0800000000000000
+      internalID: -1528171760676497321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MonAnimComp_11
+      rect:
+        serializedVersion: 2
+        x: 398
+        y: 291
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78091b9a1536dcfb0800000000000000
+      internalID: -4625932039849144185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MonAnimComp_12
+      rect:
+        serializedVersion: 2
+        x: 434
+        y: 291
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c55671dacf7aa1c0800000000000000
+      internalID: -4491637169274333756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MonAnimComp_13
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 255
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e5d56612d0843ba0800000000000000
+      internalID: -6110117154627660320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MonAnimComp_14
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 255
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f5b417dae248c8b0800000000000000
+      internalID: -5131778198990440976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MonAnimComp_15
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 255
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dde6ece7016f57800800000000000000
+      internalID: 609663875285937885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MonAnimComp_16
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 255
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb913a17508848a60800000000000000
+      internalID: 7675409221908896191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MonAnimComp_17
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 255
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 455f92fbd6679bf30800000000000000
+      internalID: 4591831508811642196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MonAnimComp_18
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 255
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 679df4dc4be8d95b0800000000000000
+      internalID: -5359971074311202442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MonAnimComp_19
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 255
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e52f85767dc4696d0800000000000000
+      internalID: -2984113215050812834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MonAnimComp_20
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 255
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d2e198ea483506f0800000000000000
+      internalID: -719106671115115817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MonAnimComp_21
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 255
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc049646a492a2c70800000000000000
+      internalID: 8947009009213849803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MonAnimComp_22
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 255
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8510a624d3b3eaa0800000000000000
+      internalID: -6132860543786019441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MonAnimComp_23
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 255
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d34baaaa5521cc300800000000000000
+      internalID: 273613836507591741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MonAnimComp_24
+      rect:
+        serializedVersion: 2
+        x: 398
+        y: 255
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 910b5ad3c720b9a50800000000000000
+      internalID: 6528814817437134873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MonAnimComp_25
+      rect:
+        serializedVersion: 2
+        x: 434
+        y: 255
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0296cc360b25b0d40800000000000000
+      internalID: 5551621883206330656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MonAnimComp_26
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 219
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 725cf21df3d33e830800000000000000
+      internalID: 4099187430139086119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MonAnimComp_27
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 219
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3969dbb1cb3af6a90800000000000000
+      internalID: -7318450841139177837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MonAnimComp_28
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 219
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d7995e4c4c25c1e0800000000000000
+      internalID: -2178286138520135723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MonAnimComp_29
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 219
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9bd859d7396cd1cb0800000000000000
+      internalID: -4891535283485045319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MonAnimComp_30
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 219
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0407d5699c3157010800000000000000
+      internalID: 1185875833414053952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MonAnimComp_31
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 219
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3061f81945612b190800000000000000
+      internalID: -7948265839880366589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MonAnimComp_32
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 219
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22da5d97d7d989850800000000000000
+      internalID: 6384025634038197538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MonAnimComp_33
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 219
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e18fba0f883e5fd50800000000000000
+      internalID: 6770567792114268190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MonAnimComp_34
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 219
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76bf8cfe4db4fda50800000000000000
+      internalID: 6548035761148066663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MonAnimComp_35
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 219
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 765ab4509822ad760800000000000000
+      internalID: 7483331702724207975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MonAnimComp_36
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 219
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6666dedca63d9e160800000000000000
+      internalID: 7055402746927474278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MonAnimComp_37
+      rect:
+        serializedVersion: 2
+        x: 398
+        y: 219
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d60a99573d5c49300800000000000000
+      internalID: 258048590668734573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MonAnimComp_38
+      rect:
+        serializedVersion: 2
+        x: 434
+        y: 219
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17aaefac5aaded610800000000000000
+      internalID: 1647994919274326641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MonAnimComp_39
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 183
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4a6cd80b157f5a60800000000000000
+      internalID: 7664973849781103181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MonAnimComp_40
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 183
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7820841107a99ec0800000000000000
+      internalID: -3559630407378917249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MonAnimComp_41
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 183
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 686227c0ce28e9e90800000000000000
+      internalID: -7017027219063953786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MonAnimComp_42
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 183
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 668e604151f08a620800000000000000
+      internalID: 2785492952733378662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MonAnimComp_43
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 183
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ba94e21f9b509160800000000000000
+      internalID: 7030219757100243639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MonAnimComp_44
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 183
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e888200e18d350d80800000000000000
+      internalID: -8285148311459821426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MonAnimComp_45
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 183
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 013e5528d7bcfebc0800000000000000
+      internalID: -3751556224658316528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MonAnimComp_46
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 183
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52856c595c0227f60800000000000000
+      internalID: 8030517118548465701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MonAnimComp_47
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 183
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e01ba5ca2e514e70800000000000000
+      internalID: 9097656260063072488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MonAnimComp_48
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 183
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b38fe163f7320be20800000000000000
+      internalID: 3364227950921578555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MonAnimComp_49
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 183
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 584dc339c1a25c1a0800000000000000
+      internalID: -6789974560973466491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MonAnimComp_50
+      rect:
+        serializedVersion: 2
+        x: 398
+        y: 183
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38c41cd3d138b9800800000000000000
+      internalID: 620233535306943619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MonAnimComp_51
+      rect:
+        serializedVersion: 2
+        x: 434
+        y: 183
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06b55f19b4d1e2ee0800000000000000
+      internalID: -1284056633345483936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MonAnimComp_52
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 147
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e6d951fd29fc5500800000000000000
+      internalID: 386457643765061351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MonAnimComp_53
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 147
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8086844a589ac5360800000000000000
+      internalID: 7159783899064199176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MonAnimComp_54
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 147
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e67f67c6dfd05a2e0800000000000000
+      internalID: -2115269067882956946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MonAnimComp_55
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 147
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe3be6044140a9b70800000000000000
+      internalID: 8906435698105431023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MonAnimComp_56
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 147
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac50b3df5364af900800000000000000
+      internalID: 718964288214730186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MonAnimComp_57
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 147
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6f7bc46112ac69b0800000000000000
+      internalID: -5085511683618930836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MonAnimComp_58
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 147
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 836265573619763e0800000000000000
+      internalID: -2060518448142342600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MonAnimComp_59
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 147
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 019231210ff9d5330800000000000000
+      internalID: 3701290322212628752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MonAnimComp_60
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 147
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26117923243e3e940800000000000000
+      internalID: 5324349057938166114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MonAnimComp_61
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 147
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 869fd93e7702efab0800000000000000
+      internalID: -4972501239278470808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MonAnimComp_62
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 147
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cba7207932326c310800000000000000
+      internalID: 1424864967873690300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MonAnimComp_63
+      rect:
+        serializedVersion: 2
+        x: 398
+        y: 147
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dafa8e4eeb2a55320800000000000000
+      internalID: 2546120105115824045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MonAnimComp_64
+      rect:
+        serializedVersion: 2
+        x: 434
+        y: 147
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eac60a4b5695b15e0800000000000000
+      internalID: -1937856921295885138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MonAnimComp_65
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 111
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1756afe3612afc100800000000000000
+      internalID: 130501130646611313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MonAnimComp_66
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 111
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13f4b3db55c8f1600800000000000000
+      internalID: 441225588380487473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MonAnimComp_67
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 111
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c7e6d7e086c960e0800000000000000
+      internalID: -2276069879711340601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MonAnimComp_68
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 111
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: adbbe279125c4e340800000000000000
+      internalID: 4892251843292216282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MonAnimComp_69
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 111
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d90e538a8b4b8dd90800000000000000
+      internalID: -7072704509596278627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MonAnimComp_70
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 111
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ebcf1e787361b1e0800000000000000
+      internalID: -2183854975134741530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MonAnimComp_71
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 111
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5313ce3e453933260800000000000000
+      internalID: 7076161432339624245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MonAnimComp_72
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 111
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8da24a1bd7b65d40800000000000000
+      internalID: 5572843740583865738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MonAnimComp_73
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 111
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b301db59c16030d10800000000000000
+      internalID: 2090521371871088699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MonAnimComp_74
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 111
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3ee38b3a55b48550800000000000000
+      internalID: 6162249589299867199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MonAnimComp_75
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 111
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f05dbfc64b6213500800000000000000
+      internalID: 374122800412873999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MonAnimComp_76
+      rect:
+        serializedVersion: 2
+        x: 398
+        y: 111
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38d1b4e567d8e5260800000000000000
+      internalID: 7088258403055377795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MonAnimComp_77
+      rect:
+        serializedVersion: 2
+        x: 434
+        y: 111
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5fc520c5a7cf9090800000000000000
+      internalID: -8025476496243699875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MonAnimComp_78
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 75
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85efe8ab703489940800000000000000
+      internalID: 5303062261702524504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MonAnimComp_79
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 75
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e5d0ffeed53886b0800000000000000
+      internalID: -5293922130349468191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MonAnimComp_80
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 75
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f75962a8221dffd0800000000000000
+      internalID: -2306667468411021322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MonAnimComp_81
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 75
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fce4620f8dcd52a10800000000000000
+      internalID: 1884154843424509647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MonAnimComp_82
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 75
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a983700554a85520800000000000000
+      internalID: 2691081462340618665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MonAnimComp_83
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 75
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd71ffc74c41a1fa0800000000000000
+      internalID: -5829323933534447649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MonAnimComp_84
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 75
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f8f03584bfdf64b0800000000000000
+      internalID: -5444887458045953806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MonAnimComp_85
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 75
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: faaded271ea5ade60800000000000000
+      internalID: 7987796813436345007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MonAnimComp_86
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 75
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cef0dcb2739d6c900800000000000000
+      internalID: 704489222711349228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MonAnimComp_87
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 75
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94ce3d1cebe53d5b0800000000000000
+      internalID: -5344824159369958327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MonAnimComp_88
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 75
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d9fb487ddaf6b950800000000000000
+      internalID: 6464630144249887192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MonAnimComp_89
+      rect:
+        serializedVersion: 2
+        x: 398
+        y: 75
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a5511d3ffdedfda0800000000000000
+      internalID: -5909305455543233115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MonAnimComp_90
+      rect:
+        serializedVersion: 2
+        x: 434
+        y: 75
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b961ff3b92926adb0800000000000000
+      internalID: -4781088695316965733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MonAnimComp_91
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 39
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c117c328cce07a620800000000000000
+      internalID: 2785211166073057564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MonAnimComp_92
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 39
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d78b7a32f5ffb9c0800000000000000
+      internalID: -3909135530822236204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MonAnimComp_93
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 39
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7bab4e40b8a735100800000000000000
+      internalID: 95554754606054071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MonAnimComp_94
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 39
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed7d70854ae740e10800000000000000
+      internalID: 2162992965361326046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MonAnimComp_95
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 39
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4935adae6b2c979b0800000000000000
+      internalID: -5081816613630880876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MonAnimComp_96
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 39
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59f68518058e05f30800000000000000
+      internalID: 4562401854991396757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MonAnimComp_97
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 39
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08a79d5c06ba78750800000000000000
+      internalID: 6307198235280243328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MonAnimComp_98
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 39
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a071ae607ae18360800000000000000
+      internalID: 7170269850363850917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MonAnimComp_99
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 39
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4938e27a336989b0800000000000000
+      internalID: -5077418002196448946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MonAnimComp_100
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 39
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98ded435bfc7f1a50800000000000000
+      internalID: 6494046606567796105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MonAnimComp_101
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 39
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6cc270b06a9f10d60800000000000000
+      internalID: 7854833716655762630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MonAnimComp_102
+      rect:
+        serializedVersion: 2
+        x: 398
+        y: 39
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6080b9ff1e9544e10800000000000000
+      internalID: 2180966946745026566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MonAnimComp_103
+      rect:
+        serializedVersion: 2
+        x: 434
+        y: 39
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0a7027e86cadb440800000000000000
+      internalID: 4953304731731655178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MonAnimComp_104
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 3
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 675b43c36e5a59690800000000000000
+      internalID: -7595982788219325066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MonAnimComp_105
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 3
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b1bac39ec71e2ca0800000000000000
+      internalID: -6039863874247020110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MonAnimComp_106
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 3
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6ccc845bc7934850800000000000000
+      internalID: 6360093998329941099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MonAnimComp_107
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 3
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac16bd8795100f970800000000000000
+      internalID: 8786524356791198154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MonAnimComp_108
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 3
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29016cf3ec6676ee0800000000000000
+      internalID: -1267931734062264174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MonAnimComp_109
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 3
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef862eb49649cdaa0800000000000000
+      internalID: -6134865412419852034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MonAnimComp_110
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 3
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64395fec285867d70800000000000000
+      internalID: 9040560098857292614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MonAnimComp_111
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 3
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ee14196c28c677c0800000000000000
+      internalID: -4073848719842992415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MonAnimComp_112
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 3
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1fb4e4fec45056c0800000000000000
+      internalID: -4156729208214339811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MonAnimComp_113
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 3
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ad5a7b8dc1df7eb0800000000000000
+      internalID: -4719823203722437210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MonAnimComp_114
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 3
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a45a32c6edcc11e90800000000000000
+      internalID: -7056633885443775158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MonAnimComp_115
+      rect:
+        serializedVersion: 2
+        x: 398
+        y: 3
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d52765a4887461f40800000000000000
+      internalID: 5698821029172245085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MonAnimComp_116
+      rect:
+        serializedVersion: 2
+        x: 434
+        y: 3
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce010c24116f22010800000000000000
+      internalID: 1162762207809769708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

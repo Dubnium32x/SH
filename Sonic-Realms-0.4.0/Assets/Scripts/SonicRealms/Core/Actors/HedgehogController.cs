@@ -796,10 +796,7 @@ namespace SonicRealms.Core.Actors
         bool DebugFlyOn;
         public GUIStyle Rainbow;
          /// IOFT stands for Interactable Objects For Testing
-        public void Start()
-        {
-            ObjectId = 1;
-        }
+        
         public int ObjectId;
         public float ObjectScale;
         public float ObjectRotation;
@@ -906,7 +903,7 @@ namespace SonicRealms.Core.Actors
             }
 
             
-            if (Input.GetKeyDown(KeyCode.Keypad5) || Input.GetKey(KeyCode.KeypadPlus))
+            if (Input.GetKeyDown(KeyCode.Keypad5))
             {
                 Quaternion StandIn = DebugState.IOFTS[ObjectId].transform.rotation;
                 LeObject = Instantiate(DebugState.IOFTS[ObjectId], DebugState.PlayerObjectS.transform.position, Quaternion.Euler(StandIn.x, StandIn.y, ObjectRotation));

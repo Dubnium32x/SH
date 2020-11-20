@@ -64,8 +64,6 @@ namespace SonicRealms.Core.Actors
         // Update is called once per frame
         void Update()
         {
-
-
             RegularMusicS = RegularMusic;
             AmountOfObjectsInIOFTS = AmountOfObjectsInIOFT;
             if (Input.GetButton("DebugMode") /* && CheatCodeActivated == true */)
@@ -89,7 +87,6 @@ namespace SonicRealms.Core.Actors
             TimeModifierS = TimeModifier;
             RingsModifierS = RingsModifier;
             //activates on-ground debug mode
-            
             if (DebugOn == true)
             {
                 HandleDebugControlFly();
@@ -179,7 +176,7 @@ namespace SonicRealms.UI
 {
     public class DebugUI : MonoBehaviour
     {
-        void OnGUI()
+        void DuringGUI()
         {
             if (HedgehogController.DebugOnS == true)
             {

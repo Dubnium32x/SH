@@ -555,7 +555,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 24ad1f71eca1ee44b836deb01454d694, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  MaxConcurrentAudioClips: 32
+  MaxConcurrentAudioClips: 16
   BaseClipAudioSource: {fileID: 8234772}
   BGMSource: {fileID: 8216780}
   BGMLooper: {fileID: 0}

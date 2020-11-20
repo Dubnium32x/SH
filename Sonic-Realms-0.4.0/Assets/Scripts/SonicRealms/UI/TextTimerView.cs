@@ -63,7 +63,7 @@ namespace SonicRealms.UI
             _alwaysUpdate = Format.Contains("f");
             _lastValue = 0f;
         }
-        
+
         public void Start()
         {
             Animator = Animator ? Animator : GetComponent<Animator>();

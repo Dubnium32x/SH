@@ -791,11 +791,13 @@ namespace SonicRealms.Core.Actors
             UpdateGroundVelocity();
             
         }
+
+        #endregion
         #region DebugMode
-        
+
         bool DebugFlyOn;
         public GUIStyle Rainbow;
-         /// IOFT stands for Interactable Objects For Testing
+        /// IOFT stands for Interactable Objects For Testing
         public void Start()
         {
             ObjectId = 1;
@@ -805,33 +807,33 @@ namespace SonicRealms.Core.Actors
         public float ObjectRotation;
         GameObject LeObject;
         public static int ObjectIdS;
-            public static float ObjectScaleS;
+        public static float ObjectScaleS;
         public static float ObjectRotationS;
         public void UpdateDebugMovementControls()
         {
-            
-                
-            
-           
-            
+
+
+
+
+
             ObjectIdS = ObjectId;
             ObjectScaleS = ObjectScale;
             ObjectRotationS = ObjectRotation;
-            if(ObjectId >= DebugState.AmountOfObjectsInIOFTS)
+            if (ObjectId >= DebugState.AmountOfObjectsInIOFTS)
             {
                 ObjectId -= 1;
             }
             if (DebugOn == true)
             {
-                
+
                 IgnoreCollision = true;
                 ApplyAirDrag = true;
-                
+
                 ApplyAirGravity = false;
                 if (Input.GetKey(KeyCode.UpArrow))
                 {
                     Vy += 20 * Time.deltaTime;
-             
+
                 }
                 else if (Vy >= 0)
                 {
@@ -840,17 +842,17 @@ namespace SonicRealms.Core.Actors
                 if (Input.GetKey(KeyCode.DownArrow))
                 {
                     Vy -= 20 * Time.deltaTime;
-                  
+
                 }
-                else if(Vy <= 0)
+                else if (Vy <= 0)
                 {
                     Vy += 20 * Time.deltaTime;
                 }
-                
+
                 if (Input.GetKey(KeyCode.RightArrow))
                 {
                     Vx += 20 * Time.deltaTime;
-                
+
                 }
                 else if (Vx >= 0)
                 {
@@ -859,8 +861,8 @@ namespace SonicRealms.Core.Actors
                 if (Input.GetKey(KeyCode.LeftArrow))
                 {
                     Vx -= 20 * Time.deltaTime;
-                  
-                   
+
+
                 }
                 else if (Vx <= 0)
                 {
@@ -905,19 +907,18 @@ namespace SonicRealms.Core.Actors
                 ObjectRotation = 0;
             }
 
-            
+
             if (Input.GetKeyDown(KeyCode.Keypad5) || Input.GetKey(KeyCode.KeypadPlus))
             {
                 Quaternion StandIn = DebugState.IOFTS[ObjectId].transform.rotation;
                 LeObject = Instantiate(DebugState.IOFTS[ObjectId], DebugState.PlayerObjectS.transform.position, Quaternion.Euler(StandIn.x, StandIn.y, ObjectRotation));
                 LeObject.transform.localScale = new Vector3(ObjectScale, ObjectScale, ObjectScale);
-               
+
             }
             #endregion
 
-            
+
         }
-        #endregion
         #endregion
         #region Lifecycle Subroutines
         /// <summary>
@@ -1900,7 +1901,7 @@ namespace SonicRealms.Core.Actors
                         ? RelativeVelocity.x
                         : -RelativeVelocity.y;
                 }
-                else
+                else 
                 {
                     shouldAttach = false;
                 }

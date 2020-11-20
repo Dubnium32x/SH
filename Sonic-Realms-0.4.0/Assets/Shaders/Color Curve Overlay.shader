@@ -41,7 +41,7 @@ Shader "Unlit/Color Curve Overlay"
 			{
 				v2f o;
 				o.vertex = UnityObjectToClipPos(v.vertex);
-				o.uv = ComputeGrabScreenPos(o.vertex);
+				o.uv = ComputeGrabScreenPos(o.vertex)/11;
 				return o;
 			}
 			

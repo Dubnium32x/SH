@@ -23,7 +23,7 @@ namespace SonicRealms.Core.Actors
         public GUIStyle Rainbow;
         public AudioClip RegularMusic;
         public AudioClip RegularMusicS;
-        
+        public GameObject LeFoony;
 
         public Text ScoreModifier;
         public Text RingsModifier;
@@ -92,6 +92,7 @@ namespace SonicRealms.Core.Actors
             
             if (DebugOn == true)
             {
+                LeFoony.SetActive(true);
                 HandleDebugControlFly();
             }
 
@@ -99,10 +100,10 @@ namespace SonicRealms.Core.Actors
 
             if (DebugOn == false)
             {
-
+                LeFoony.SetActive(false);
                 PlayerObject.SetActive(false);
             }
-
+            LeFoony.transform.position = transform.position;
 
             PlayerObject.transform.position = SonicBOI.transform.position;
             Debug.Log(DebugOn.ToString());

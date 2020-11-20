@@ -365,7 +365,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 129130}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0.20000005, z: 0}
+  m_LocalPosition: {x: 0, y: 0.21, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 404068}
@@ -764,7 +764,7 @@ Transform:
   - {fileID: 411496}
   - {fileID: 490294}
   - {fileID: 1816821410}
-  - {fileID: 8703915272054806662}
+  - {fileID: 1366366580734098019}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -838,7 +838,7 @@ MonoBehaviour:
   LedgeClimbHeight: 0.16
   LedgeDropHeight: 0.16
   AntiTunnelingSpeed: 3.15
-  SlopeGravityBeginAngle: 10
+  SlopeGravityBeginAngle: 0
   DetachSpeed: 1.5
   MaxClimbAngle: 70
   DisableNotifyPlatforms: 0
@@ -1953,7 +1953,7 @@ MonoBehaviour:
   AvailableBool: 
   Muted: 0
   PerformSound: {fileID: 0}
-  EndSound: {fileID: 8300000, guid: 0708e56ca10a083419892d319583c83b, type: 3}
+  EndSound: {fileID: 8300000, guid: 865233711471eee478f7352569dd6f6d, type: 3}
   ChargeButton: Jump
   ReleaseAxis: Vertical
   BasePower: 5
@@ -2031,7 +2031,7 @@ MonoBehaviour:
   AvailableBool: 
   Muted: 0
   PerformSound: {fileID: 0}
-  EndSound: {fileID: 8300000, guid: b658267a2cd87d642a79495c44ef912a, type: 3}
+  EndSound: {fileID: 8300000, guid: f7a7b3e96c6c5364d93b896c51fc6924, type: 3}
   ChargeButton: Jump
   ReleaseAxis: Vertical
   BasePower: 4.8
@@ -2039,7 +2039,7 @@ MonoBehaviour:
   ChargePowerDecay: 1.875
   MaxChargePower: 2.4
   CurrentChargePower: 0
-  ChargeSound: {fileID: 8300000, guid: 2a7c0206f62ba1042b6d72b9d97d269e, type: 3}
+  ChargeSound: {fileID: 8300000, guid: cac551e11477c0a4880a39e5f4b30329, type: 3}
   ChargePitchSteps: 8
   ChargePitchMin: 1
   ChargePitchMax: 1.4
@@ -7936,9 +7936,11 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 8703915272054806662}
+  - component: {fileID: 1366366580734098019}
   - component: {fileID: 6080416519403993425}
   - component: {fileID: 199495244083920187}
+  - component: {fileID: 7191259113166499696}
+  - component: {fileID: 2322730713833817281}
   m_Layer: 0
   m_Name: DebugMode
   m_TagString: Untagged
@@ -7946,8 +7948,8 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &8703915272054806662
-Transform:
+--- !u!224 &1366366580734098019
+RectTransform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -7960,6 +7962,11 @@ Transform:
   m_Father: {fileID: 424606}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 5.34, y: 5.33}
+  m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &6080416519403993425
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8042,6 +8049,7 @@ MonoBehaviour:
     m_StretchHeight: 0
   RegularMusic: {fileID: 8300000, guid: 625f6e98d19685b4fb42370006c23fe0, type: 3}
   RegularMusicS: {fileID: 0}
+  LeFoony: {fileID: 0}
   ScoreModifier: {fileID: 0}
   RingsModifier: {fileID: 0}
   LivesModifier: {fileID: 0}
@@ -8077,7 +8085,10 @@ MonoBehaviour:
   - {fileID: 160672, guid: 62467b234356730449bfac708941980a, type: 3}
   - {fileID: 166524, guid: 9691536508124f943858fae67f6e0626, type: 3}
   - {fileID: 134488, guid: f5ac11cc6e804e649b2673a0cff549ed, type: 3}
-  AmountOfObjectsInIOFT: 29
+  - {fileID: 190146, guid: 563309fed065b614988466755978716b, type: 3}
+  - {fileID: 194672, guid: ad128619e0a519444bd0d65858581ee4, type: 3}
+  - {fileID: 194672, guid: ad128619e0a519444bd0d65858581ee4, type: 3}
+  AmountOfObjectsInIOFT: 32
   ObjectId: 0
   PlayerObject: {fileID: 2762339701498152149}
   SonicBOI: {fileID: 151248}
@@ -8179,3 +8190,41 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!222 &7191259113166499696
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2762339701498152149}
+  m_CullTransparentMesh: 0
+--- !u!114 &2322730713833817281
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2762339701498152149}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 2100000, guid: 76cbbe06ad80c56469dd3d64d183511b, type: 2}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: aaec841fa6eb2d04588c6282f35a65b9, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1

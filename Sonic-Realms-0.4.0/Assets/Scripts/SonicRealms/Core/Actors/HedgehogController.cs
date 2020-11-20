@@ -821,7 +821,7 @@ namespace SonicRealms.Core.Actors
             {
                 ObjectId -= 1;
             }
-            if (DebugOn = true)
+            if (DebugOn == true)
             {
                 
                 IgnoreCollision = true;

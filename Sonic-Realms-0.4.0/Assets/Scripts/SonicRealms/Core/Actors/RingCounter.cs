@@ -3,6 +3,7 @@ using SonicRealms.Core.Utils;
 using SonicRealms.Level.Objects;
 using UnityEngine;
 using UnityEngine.Events;
+using SonicRealms.UI;
 
 namespace SonicRealms.Core.Actors
 {
@@ -37,6 +38,8 @@ namespace SonicRealms.Core.Actors
         [Tooltip("Name of an Animator int set to the current ring amount.")]
         public string AmountInt;
         protected int AmountIntHash;
+
+
 
         /// <summary>
         /// Whether the component is allowed to collect rings.
@@ -128,6 +131,11 @@ namespace SonicRealms.Core.Actors
                     PastRings = Rings;
                 }
                 ObjectIdToRings();
+                TextRingsView.NameTextS.text = DebugState.IOFTS[HedgehogController.ObjectIdS].ToString() ;
+            }
+            else
+            {
+                TextRingsView.NameTextS.text = "RINGS";
             }
         }
         public void ObjectIdToRings()

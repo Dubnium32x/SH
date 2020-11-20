@@ -236,7 +236,7 @@ MonoBehaviour:
   Value: 1
   CollectedTrigger: Get
   Collected: 0
-  CollectedSound: {fileID: 8300000, guid: be6e80618227838408fc30693ee0acd3, type: 3}
+  CollectedSound: {fileID: 8300000, guid: 519b363f266ffc7479a5c683e02c958b, type: 3}
 --- !u!50 &5018966
 Rigidbody2D:
   serializedVersion: 4

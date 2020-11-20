@@ -131,10 +131,12 @@ namespace SonicRealms.Level.Objects
             Rigidbody2D.velocity -= Vector2.up*Gravity*Time.fixedDeltaTime;
 
 
+
             Sprite.eulerAngles -= new Vector3(0f,0f,Rigidbody2D.velocity.x*Gravity);
 
 
             Sprite.eulerAngles -= new Vector3(0f,0f,Rigidbody2D.velocity.x*Gravity);
+
 
             Sprite.eulerAngles -= new Vector3(0f,0f,Rigidbody2D.velocity.x*Gravity);
             if (Rigidbody2D.velocity.magnitude > 0.01f)

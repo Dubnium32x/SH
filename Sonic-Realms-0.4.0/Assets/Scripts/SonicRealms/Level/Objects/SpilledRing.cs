@@ -21,6 +21,8 @@ namespace SonicRealms.Level.Objects
         [NonSerialized]
         public float CurrentLife;
 
+        public AudioClip BounceClip;
+
         /// <summary>
         /// Animator float set to the ring's current life over its total life.
         /// </summary>
@@ -131,12 +133,8 @@ namespace SonicRealms.Level.Objects
         {
             // Apply gravity
             Rigidbody2D.velocity -= Vector2.up*Gravity*Time.fixedDeltaTime;
-<<<<<<< HEAD
 
-            Sprite.eulerAngles -= new Vector3(0f,0f,Rigidbody2D.velocity.x*2);
-=======
             Sprite.eulerAngles -= new Vector3(0f,0f,Rigidbody2D.velocity.x*Gravity);
->>>>>>> parent of 2ec441e... Revert "it was a night before- IT'S ALMOST 2:00AM GOTTA BLAST"
             if (Rigidbody2D.velocity.magnitude > 0.01f)
             {
                 // Make sure we don't hit ourselves
@@ -151,6 +149,8 @@ namespace SonicRealms.Level.Objects
 
                 if (result && result.fraction > 0f)
                 {
+
+                    SoundManager.Instance.PlayClipAtPoint(BounceClip, transform.position);
                     // Store positive angle in degrees
                     var angle = DMath.PositiveAngle_d(DMath.Angle(result.normal) * Mathf.Rad2Deg);
                     if (AccurateBounce)

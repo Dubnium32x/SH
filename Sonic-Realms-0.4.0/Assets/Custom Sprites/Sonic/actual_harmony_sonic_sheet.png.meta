@@ -1,0 +1,2785 @@
+fileFormatVersion: 2
+guid: 74bad9e4cff3f3c4986ae0637ab923f2
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -777356743533571427
+    second: actual_harmony_sonic_sheet_0
+  - first:
+      213: -6134669776570807684
+    second: actual_harmony_sonic_sheet_1
+  - first:
+      213: -1901612363580697742
+    second: actual_harmony_sonic_sheet_2
+  - first:
+      213: 5001478210732873260
+    second: actual_harmony_sonic_sheet_3
+  - first:
+      213: 2429939419671014719
+    second: actual_harmony_sonic_sheet_4
+  - first:
+      213: 5548540682047924878
+    second: actual_harmony_sonic_sheet_5
+  - first:
+      213: 550117360172376658
+    second: actual_harmony_sonic_sheet_6
+  - first:
+      213: -3500296278381438570
+    second: actual_harmony_sonic_sheet_7
+  - first:
+      213: -1607321261321380257
+    second: actual_harmony_sonic_sheet_8
+  - first:
+      213: -6745556353977968840
+    second: actual_harmony_sonic_sheet_9
+  - first:
+      213: 7434429361704171081
+    second: actual_harmony_sonic_sheet_10
+  - first:
+      213: -3433570140419984023
+    second: actual_harmony_sonic_sheet_11
+  - first:
+      213: -5906506611128526180
+    second: actual_harmony_sonic_sheet_12
+  - first:
+      213: -6180536188412704707
+    second: actual_harmony_sonic_sheet_13
+  - first:
+      213: -2246479750559984877
+    second: actual_harmony_sonic_sheet_14
+  - first:
+      213: -4563816966083141981
+    second: actual_harmony_sonic_sheet_15
+  - first:
+      213: 3902752009071194163
+    second: actual_harmony_sonic_sheet_16
+  - first:
+      213: 1879984177746837144
+    second: actual_harmony_sonic_sheet_17
+  - first:
+      213: 352243939861456588
+    second: actual_harmony_sonic_sheet_18
+  - first:
+      213: -3924129757514538473
+    second: actual_harmony_sonic_sheet_19
+  - first:
+      213: 2398136622655905871
+    second: actual_harmony_sonic_sheet_20
+  - first:
+      213: 7727340558072680334
+    second: actual_harmony_sonic_sheet_21
+  - first:
+      213: 3488447283575801527
+    second: actual_harmony_sonic_sheet_22
+  - first:
+      213: 357680879129384622
+    second: actual_harmony_sonic_sheet_23
+  - first:
+      213: 8227892694184455657
+    second: actual_harmony_sonic_sheet_24
+  - first:
+      213: -646753977318129985
+    second: actual_harmony_sonic_sheet_25
+  - first:
+      213: -8062533748367994208
+    second: actual_harmony_sonic_sheet_26
+  - first:
+      213: 6598597414676985819
+    second: actual_harmony_sonic_sheet_27
+  - first:
+      213: -2353673605377615729
+    second: actual_harmony_sonic_sheet_28
+  - first:
+      213: -2854300230350004372
+    second: actual_harmony_sonic_sheet_29
+  - first:
+      213: -2856062303475230678
+    second: actual_harmony_sonic_sheet_30
+  - first:
+      213: -1768677160300266480
+    second: actual_harmony_sonic_sheet_31
+  - first:
+      213: -2233203602129045555
+    second: actual_harmony_sonic_sheet_32
+  - first:
+      213: 3570060319589447327
+    second: actual_harmony_sonic_sheet_33
+  - first:
+      213: -9179249389644130231
+    second: actual_harmony_sonic_sheet_34
+  - first:
+      213: 2203676784290340521
+    second: actual_harmony_sonic_sheet_35
+  - first:
+      213: -6678078241437811824
+    second: actual_harmony_sonic_sheet_36
+  - first:
+      213: -852102650923652464
+    second: actual_harmony_sonic_sheet_37
+  - first:
+      213: -5971787601852836990
+    second: actual_harmony_sonic_sheet_38
+  - first:
+      213: -8033539561819022400
+    second: actual_harmony_sonic_sheet_39
+  - first:
+      213: -6749089824548779127
+    second: actual_harmony_sonic_sheet_40
+  - first:
+      213: -3890119047463167867
+    second: actual_harmony_sonic_sheet_41
+  - first:
+      213: 20148870716032487
+    second: actual_harmony_sonic_sheet_42
+  - first:
+      213: 8036657472798638667
+    second: actual_harmony_sonic_sheet_43
+  - first:
+      213: -3184827545506023300
+    second: actual_harmony_sonic_sheet_44
+  - first:
+      213: -5966595694740884679
+    second: actual_harmony_sonic_sheet_45
+  - first:
+      213: 3458161559556340324
+    second: actual_harmony_sonic_sheet_46
+  - first:
+      213: -9011348727117685770
+    second: actual_harmony_sonic_sheet_47
+  - first:
+      213: -2498107812677684501
+    second: actual_harmony_sonic_sheet_48
+  - first:
+      213: 767015667505890424
+    second: actual_harmony_sonic_sheet_49
+  - first:
+      213: -4176968324905013612
+    second: actual_harmony_sonic_sheet_50
+  - first:
+      213: 6028745697146071233
+    second: actual_harmony_sonic_sheet_51
+  - first:
+      213: -1244920445380806055
+    second: actual_harmony_sonic_sheet_52
+  - first:
+      213: -2765326150880198125
+    second: actual_harmony_sonic_sheet_53
+  - first:
+      213: -244101335897059846
+    second: actual_harmony_sonic_sheet_54
+  - first:
+      213: -4490430850976109825
+    second: actual_harmony_sonic_sheet_55
+  - first:
+      213: 5544291193167482877
+    second: actual_harmony_sonic_sheet_56
+  - first:
+      213: 6299995838807766444
+    second: actual_harmony_sonic_sheet_57
+  - first:
+      213: -2356160355797316604
+    second: actual_harmony_sonic_sheet_58
+  - first:
+      213: -4238689944726260712
+    second: actual_harmony_sonic_sheet_59
+  - first:
+      213: 1401248074226133258
+    second: actual_harmony_sonic_sheet_60
+  - first:
+      213: 4779041917726179333
+    second: actual_harmony_sonic_sheet_61
+  - first:
+      213: 8342650179229898623
+    second: actual_harmony_sonic_sheet_62
+  - first:
+      213: -4960597171279558512
+    second: actual_harmony_sonic_sheet_63
+  - first:
+      213: 5287562950075215565
+    second: actual_harmony_sonic_sheet_64
+  - first:
+      213: -735484316978279173
+    second: actual_harmony_sonic_sheet_65
+  - first:
+      213: -267621887014406787
+    second: actual_harmony_sonic_sheet_66
+  - first:
+      213: 4038147260039204303
+    second: actual_harmony_sonic_sheet_67
+  - first:
+      213: -4114219634642448279
+    second: actual_harmony_sonic_sheet_68
+  - first:
+      213: -9110788578351508296
+    second: actual_harmony_sonic_sheet_69
+  - first:
+      213: 7541899162897685065
+    second: actual_harmony_sonic_sheet_70
+  - first:
+      213: 1229170681780771681
+    second: actual_harmony_sonic_sheet_71
+  - first:
+      213: -678528323951338226
+    second: actual_harmony_sonic_sheet_72
+  - first:
+      213: -5627808798477413472
+    second: actual_harmony_sonic_sheet_73
+  - first:
+      213: 5537398738461416409
+    second: actual_harmony_sonic_sheet_74
+  - first:
+      213: -6272742569243858277
+    second: actual_harmony_sonic_sheet_75
+  - first:
+      213: 7810590941474550556
+    second: actual_harmony_sonic_sheet_76
+  - first:
+      213: 4947987144378892654
+    second: actual_harmony_sonic_sheet_77
+  - first:
+      213: -745632064628841718
+    second: actual_harmony_sonic_sheet_78
+  - first:
+      213: 3856789643972094355
+    second: actual_harmony_sonic_sheet_79
+  - first:
+      213: 3293974419882065452
+    second: actual_harmony_sonic_sheet_80
+  - first:
+      213: -1754068533098572666
+    second: actual_harmony_sonic_sheet_81
+  - first:
+      213: 6530899026645206610
+    second: actual_harmony_sonic_sheet_82
+  - first:
+      213: -3901637741082133833
+    second: actual_harmony_sonic_sheet_83
+  - first:
+      213: -8184320839035454631
+    second: actual_harmony_sonic_sheet_84
+  - first:
+      213: -8018426491530148089
+    second: actual_harmony_sonic_sheet_85
+  - first:
+      213: -4400516013327016517
+    second: actual_harmony_sonic_sheet_86
+  - first:
+      213: -7715462071512736806
+    second: actual_harmony_sonic_sheet_87
+  - first:
+      213: 1202467435486654138
+    second: actual_harmony_sonic_sheet_88
+  - first:
+      213: 5866781448147515240
+    second: actual_harmony_sonic_sheet_89
+  - first:
+      213: 594105417435481384
+    second: actual_harmony_sonic_sheet_90
+  - first:
+      213: -8044056107810027488
+    second: actual_harmony_sonic_sheet_91
+  - first:
+      213: -6710396568314117213
+    second: actual_harmony_sonic_sheet_92
+  - first:
+      213: -5358983525309863508
+    second: actual_harmony_sonic_sheet_93
+  - first:
+      213: -4549090818088725010
+    second: actual_harmony_sonic_sheet_94
+  - first:
+      213: -6386997918575537957
+    second: actual_harmony_sonic_sheet_95
+  - first:
+      213: 6436047041318869675
+    second: actual_harmony_sonic_sheet_96
+  - first:
+      213: -7380416568805395439
+    second: actual_harmony_sonic_sheet_97
+  - first:
+      213: -2240616359155286261
+    second: actual_harmony_sonic_sheet_98
+  - first:
+      213: -4473050905276130953
+    second: actual_harmony_sonic_sheet_99
+  - first:
+      213: 1533441331580667158
+    second: actual_harmony_sonic_sheet_100
+  - first:
+      213: 3796852203451657354
+    second: actual_harmony_sonic_sheet_101
+  - first:
+      213: 5637186946535900460
+    second: actual_harmony_sonic_sheet_102
+  - first:
+      213: 7083827649088281314
+    second: actual_harmony_sonic_sheet_103
+  - first:
+      213: 4662297503867636627
+    second: actual_harmony_sonic_sheet_104
+  - first:
+      213: -2748460044853046630
+    second: actual_harmony_sonic_sheet_105
+  - first:
+      213: 7385394979847182654
+    second: actual_harmony_sonic_sheet_106
+  - first:
+      213: -6320332442741225633
+    second: actual_harmony_sonic_sheet_107
+  - first:
+      213: -4277467264272919940
+    second: actual_harmony_sonic_sheet_108
+  - first:
+      213: 269729108643669022
+    second: actual_harmony_sonic_sheet_109
+  - first:
+      213: 3419912216482048182
+    second: actual_harmony_sonic_sheet_110
+  - first:
+      213: 4127360781955267212
+    second: actual_harmony_sonic_sheet_111
+  - first:
+      213: 4653567046418347357
+    second: actual_harmony_sonic_sheet_112
+  - first:
+      213: 1895474662041903779
+    second: actual_harmony_sonic_sheet_113
+  - first:
+      213: -7293317479772011855
+    second: actual_harmony_sonic_sheet_114
+  - first:
+      213: 2337092312016358259
+    second: actual_harmony_sonic_sheet_115
+  - first:
+      213: -484717672101445958
+    second: actual_harmony_sonic_sheet_116
+  - first:
+      213: 5231696250650804201
+    second: actual_harmony_sonic_sheet_117
+  - first:
+      213: 5752071145144815387
+    second: actual_harmony_sonic_sheet_118
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: actual_harmony_sonic_sheet_0
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 606
+        width: 31
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d925ded09264635f0800000000000000
+      internalID: -777356743533571427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: actual_harmony_sonic_sheet_1
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 606
+        width: 33
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7a0c2157564ddaa0800000000000000
+      internalID: -6134669776570807684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: actual_harmony_sonic_sheet_2
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 606
+        width: 30
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 273184861ad1c95e0800000000000000
+      internalID: -1901612363580697742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: actual_harmony_sonic_sheet_3
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 606
+        width: 37
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c26d6960fe1d86540800000000000000
+      internalID: 5001478210732873260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: actual_harmony_sonic_sheet_4
+      rect:
+        serializedVersion: 2
+        x: 188
+        y: 606
+        width: 37
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3da53f1701e8b120800000000000000
+      internalID: 2429939419671014719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: actual_harmony_sonic_sheet_5
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 606
+        width: 32
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8a25475a50600d40800000000000000
+      internalID: 5548540682047924878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: actual_harmony_sonic_sheet_6
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 606
+        width: 37
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 252a9dd03d862a700800000000000000
+      internalID: 550117360172376658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: actual_harmony_sonic_sheet_7
+      rect:
+        serializedVersion: 2
+        x: 310
+        y: 606
+        width: 43
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 699d37684137c6fc0800000000000000
+      internalID: -3500296278381438570
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: actual_harmony_sonic_sheet_8
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 606
+        width: 35
+        height: 47
+      alignment: 9
+      pivot: {x: 0.38469586, y: 0.4996195}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5e910b24d5a1b9e0800000000000000
+      internalID: -1607321261321380257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: actual_harmony_sonic_sheet_9
+      rect:
+        serializedVersion: 2
+        x: 401
+        y: 606
+        width: 38
+        height: 47
+      alignment: 9
+      pivot: {x: 0.35419986, y: 0.50002855}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83793cc4c38f262a0800000000000000
+      internalID: -6745556353977968840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: actual_harmony_sonic_sheet_10
+      rect:
+        serializedVersion: 2
+        x: 443
+        y: 606
+        width: 40
+        height: 47
+      alignment: 9
+      pivot: {x: 0.33774033, y: 0.4999987}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9467c1c7d166c2760800000000000000
+      internalID: 7434429361704171081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: actual_harmony_sonic_sheet_11
+      rect:
+        serializedVersion: 2
+        x: 486
+        y: 606
+        width: 35
+        height: 47
+      alignment: 9
+      pivot: {x: 0.38563406, y: 0.50193626}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 965f0ec26228950d0800000000000000
+      internalID: -3433570140419984023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: actual_harmony_sonic_sheet_12
+      rect:
+        serializedVersion: 2
+        x: 531
+        y: 606
+        width: 35
+        height: 47
+      alignment: 9
+      pivot: {x: 0.3853725, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9a103cf78fd70ea0800000000000000
+      internalID: -5906506611128526180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: actual_harmony_sonic_sheet_13
+      rect:
+        serializedVersion: 2
+        x: 572
+        y: 606
+        width: 35
+        height: 47
+      alignment: 9
+      pivot: {x: 0.38622522, y: 0.49989092}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d38c63025135a3aa0800000000000000
+      internalID: -6180536188412704707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: actual_harmony_sonic_sheet_14
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 606
+        width: 38
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31393c8b196e2d0e0800000000000000
+      internalID: -2246479750559984877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: actual_harmony_sonic_sheet_15
+      rect:
+        serializedVersion: 2
+        x: 688
+        y: 606
+        width: 44
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ae96b446a01aa0c0800000000000000
+      internalID: -4563816966083141981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: actual_harmony_sonic_sheet_16
+      rect:
+        serializedVersion: 2
+        x: 744
+        y: 606
+        width: 35
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 330712b464c592630800000000000000
+      internalID: 3902752009071194163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: actual_harmony_sonic_sheet_17
+      rect:
+        serializedVersion: 2
+        x: 792
+        y: 607
+        width: 40
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89e74f926ab071a10800000000000000
+      internalID: 1879984177746837144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: actual_harmony_sonic_sheet_18
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 542
+        width: 27
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc6e9bd3ffb63e400800000000000000
+      internalID: 352243939861456588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: actual_harmony_sonic_sheet_19
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 542
+        width: 29
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7126ec6c6c0ba89c0800000000000000
+      internalID: -3924129757514538473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: actual_harmony_sonic_sheet_20
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 542
+        width: 34
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f40a24c6d84e74120800000000000000
+      internalID: 2398136622655905871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: actual_harmony_sonic_sheet_21
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 542
+        width: 35
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8f046edb470d3b60800000000000000
+      internalID: 7727340558072680334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: actual_harmony_sonic_sheet_22
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 558
+        width: 176
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b646336254796030800000000000000
+      internalID: 3488447283575801527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: actual_harmony_sonic_sheet_23
+      rect:
+        serializedVersion: 2
+        x: 592
+        y: 557
+        width: 42
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea6d47f4ddcb6f400800000000000000
+      internalID: 357680879129384622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: actual_harmony_sonic_sheet_24
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 552
+        width: 39
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ed65e6efc85f2270800000000000000
+      internalID: 8227892694184455657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: actual_harmony_sonic_sheet_25
+      rect:
+        serializedVersion: 2
+        x: 688
+        y: 551
+        width: 40
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fbeb1ec2fa44607f0800000000000000
+      internalID: -646753977318129985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: actual_harmony_sonic_sheet_26
+      rect:
+        serializedVersion: 2
+        x: 736
+        y: 551
+        width: 40
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a25de2e5402c1090800000000000000
+      internalID: -8062533748367994208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: actual_harmony_sonic_sheet_27
+      rect:
+        serializedVersion: 2
+        x: 784
+        y: 549
+        width: 38
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd7f1a5436de29b50800000000000000
+      internalID: 6598597414676985819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: actual_harmony_sonic_sheet_28
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 481
+        width: 38
+        height: 47
+      alignment: 9
+      pivot: {x: 0.53865343, y: 0.50000066}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8811428352165fd0800000000000000
+      internalID: -2353673605377615729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: actual_harmony_sonic_sheet_29
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 480
+        width: 37
+        height: 47
+      alignment: 9
+      pivot: {x: 0.5510901, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6f1caf201d7368d0800000000000000
+      internalID: -2854300230350004372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: actual_harmony_sonic_sheet_30
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 480
+        width: 28
+        height: 47
+      alignment: 9
+      pivot: {x: 0.58754677, y: 0.4985092}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2899f0977a3d58d0800000000000000
+      internalID: -2856062303475230678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: actual_harmony_sonic_sheet_31
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 480
+        width: 28
+        height: 47
+      alignment: 9
+      pivot: {x: 0.5533943, y: 0.4986618}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01cb4f95e756477e0800000000000000
+      internalID: -1768677160300266480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: actual_harmony_sonic_sheet_32
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 481
+        width: 42
+        height: 47
+      alignment: 9
+      pivot: {x: 0.48821512, y: 0.49999934}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc7b9f7e7211201e0800000000000000
+      internalID: -2233203602129045555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: actual_harmony_sonic_sheet_33
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 480
+        width: 38
+        height: 47
+      alignment: 9
+      pivot: {x: 0.5123275, y: 0.501994}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f96b8d712f66b8130800000000000000
+      internalID: 3570060319589447327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: actual_harmony_sonic_sheet_34
+      rect:
+        serializedVersion: 2
+        x: 317
+        y: 480
+        width: 28
+        height: 47
+      alignment: 9
+      pivot: {x: 0.58796364, y: 0.49999934}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9485a895051cc9080800000000000000
+      internalID: -9179249389644130231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: actual_harmony_sonic_sheet_35
+      rect:
+        serializedVersion: 2
+        x: 366
+        y: 480
+        width: 31
+        height: 47
+      alignment: 9
+      pivot: {x: 0.59687954, y: 0.4991916}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ae96671c58059e10800000000000000
+      internalID: 2203676784290340521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: actual_harmony_sonic_sheet_36
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 429
+        width: 33
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09b75dca833b253a0800000000000000
+      internalID: -6678078241437811824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: actual_harmony_sonic_sheet_37
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 429
+        width: 33
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09ae6835729bc24f0800000000000000
+      internalID: -852102650923652464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: actual_harmony_sonic_sheet_38
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 429
+        width: 33
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 283da75e0d2ff1da0800000000000000
+      internalID: -5971787601852836990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: actual_harmony_sonic_sheet_39
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 429
+        width: 33
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0cbdab00552238090800000000000000
+      internalID: -8033539561819022400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: actual_harmony_sonic_sheet_41
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 430
+        width: 46
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5881af94655830ac0800000000000000
+      internalID: -3890119047463167867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: actual_harmony_sonic_sheet_43
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 430
+        width: 48
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b42c6a73461f78f60800000000000000
+      internalID: 8036657472798638667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: actual_harmony_sonic_sheet_45
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 430
+        width: 65
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9333898f3d4623da0800000000000000
+      internalID: -5966595694740884679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: actual_harmony_sonic_sheet_47
+      rect:
+        serializedVersion: 2
+        x: 397
+        y: 430
+        width: 55
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6fb5bfca31241f280800000000000000
+      internalID: -9011348727117685770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: actual_harmony_sonic_sheet_50
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 430
+        width: 34
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49e6af3607d6806c0800000000000000
+      internalID: -4176968324905013612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: actual_harmony_sonic_sheet_51
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 430
+        width: 45
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c86e8715486aa350800000000000000
+      internalID: 6028745697146071233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: actual_harmony_sonic_sheet_52
+      rect:
+        serializedVersion: 2
+        x: 567
+        y: 430
+        width: 42
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95ab477637729bee0800000000000000
+      internalID: -1244920445380806055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: actual_harmony_sonic_sheet_53
+      rect:
+        serializedVersion: 2
+        x: 619
+        y: 430
+        width: 43
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31200b064869f99d0800000000000000
+      internalID: -2765326150880198125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: actual_harmony_sonic_sheet_54
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 430
+        width: 44
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: afd48a8d027cc9cf0800000000000000
+      internalID: -244101335897059846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: actual_harmony_sonic_sheet_57
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 382
+        width: 34
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca5739a26d41e6750800000000000000
+      internalID: 6299995838807766444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: actual_harmony_sonic_sheet_58
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 382
+        width: 37
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40cc7dec3ac3d4fd0800000000000000
+      internalID: -2356160355797316604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: actual_harmony_sonic_sheet_60
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 382
+        width: 35
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a09e27a03bb327310800000000000000
+      internalID: 1401248074226133258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: actual_harmony_sonic_sheet_61
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 382
+        width: 35
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50045c0cd41925240800000000000000
+      internalID: 4779041917726179333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: actual_harmony_sonic_sheet_62
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 318
+        width: 34
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f77d852032c07c370800000000000000
+      internalID: 8342650179229898623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: actual_harmony_sonic_sheet_63
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 318
+        width: 40
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0980314b72b682bb0800000000000000
+      internalID: -4960597171279558512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: actual_harmony_sonic_sheet_64
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 318
+        width: 39
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dceefb60d72316940800000000000000
+      internalID: 5287562950075215565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: actual_harmony_sonic_sheet_65
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 318
+        width: 33
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bfc83a419e80bc5f0800000000000000
+      internalID: -735484316978279173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: actual_harmony_sonic_sheet_66
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 319
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d75f26acf47394cf0800000000000000
+      internalID: -267621887014406787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: actual_harmony_sonic_sheet_67
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 319
+        width: 29
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fcd8a59b9816a0830800000000000000
+      internalID: 4038147260039204303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: actual_harmony_sonic_sheet_68
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 319
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96013355a0b57e6c0800000000000000
+      internalID: -4114219634642448279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: actual_harmony_sonic_sheet_69
+      rect:
+        serializedVersion: 2
+        x: 327
+        y: 319
+        width: 29
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b41cab1f0aff8180800000000000000
+      internalID: -9110788578351508296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: actual_harmony_sonic_sheet_70
+      rect:
+        serializedVersion: 2
+        x: 366
+        y: 319
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94a155874553aa860800000000000000
+      internalID: 7541899162897685065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: actual_harmony_sonic_sheet_71
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 318
+        width: 29
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16b1edff834ee0110800000000000000
+      internalID: 1229170681780771681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: actual_harmony_sonic_sheet_72
+      rect:
+        serializedVersion: 2
+        x: 471
+        y: 318
+        width: 32
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0dd6d895126596f0800000000000000
+      internalID: -678528323951338226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: actual_harmony_sonic_sheet_73
+      rect:
+        serializedVersion: 2
+        x: 513
+        y: 318
+        width: 33
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a39fe617b106e1b0800000000000000
+      internalID: -5627808798477413472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: actual_harmony_sonic_sheet_74
+      rect:
+        serializedVersion: 2
+        x: 556
+        y: 318
+        width: 30
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9db50b170dac8dc40800000000000000
+      internalID: 5537398738461416409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: actual_harmony_sonic_sheet_75
+      rect:
+        serializedVersion: 2
+        x: 596
+        y: 318
+        width: 29
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9aafb02eddb2f8a0800000000000000
+      internalID: -6272742569243858277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: actual_harmony_sonic_sheet_76
+      rect:
+        serializedVersion: 2
+        x: 635
+        y: 318
+        width: 29
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c137978341bc46c60800000000000000
+      internalID: 7810590941474550556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: actual_harmony_sonic_sheet_77
+      rect:
+        serializedVersion: 2
+        x: 674
+        y: 318
+        width: 29
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6147ed9718caa440800000000000000
+      internalID: 4947987144378892654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: actual_harmony_sonic_sheet_78
+      rect:
+        serializedVersion: 2
+        x: 713
+        y: 318
+        width: 29
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0328a6769bf6a5f0800000000000000
+      internalID: -745632064628841718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: actual_harmony_sonic_sheet_79
+      rect:
+        serializedVersion: 2
+        x: 752
+        y: 318
+        width: 29
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 399ac5e3fb1168530800000000000000
+      internalID: 3856789643972094355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: actual_harmony_sonic_sheet_80
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 254
+        width: 26
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2e3b4c584c86bd20800000000000000
+      internalID: 3293974419882065452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: actual_harmony_sonic_sheet_81
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 254
+        width: 25
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68418fc66fb48a7e0800000000000000
+      internalID: -1754068533098572666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: actual_harmony_sonic_sheet_82
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 254
+        width: 20
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 256c123001a62aa50800000000000000
+      internalID: 6530899026645206610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: actual_harmony_sonic_sheet_83
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 254
+        width: 29
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7baba8075299ad9c0800000000000000
+      internalID: -3901637741082133833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: actual_harmony_sonic_sheet_84
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 254
+        width: 36
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95bf67d2f837b6e80800000000000000
+      internalID: -8184320839035454631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: actual_harmony_sonic_sheet_85
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 254
+        width: 36
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70783c2e693d8b090800000000000000
+      internalID: -8018426491530148089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: actual_harmony_sonic_sheet_86
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 254
+        width: 37
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bbd9935300a3ee2c0800000000000000
+      internalID: -4400516013327016517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: actual_harmony_sonic_sheet_87
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 254
+        width: 41
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: adbdb7dcf1c2de490800000000000000
+      internalID: -7715462071512736806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: actual_harmony_sonic_sheet_88
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 254
+        width: 79
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: abe282af2c500b010800000000000000
+      internalID: 1202467435486654138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: actual_harmony_sonic_sheet_89
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 190
+        width: 39
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8673fafb4aefa6150800000000000000
+      internalID: 5866781448147515240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: actual_harmony_sonic_sheet_90
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 190
+        width: 38
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 825806dbabfae3800800000000000000
+      internalID: 594105417435481384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: actual_harmony_sonic_sheet_91
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 190
+        width: 41
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0280ca4d695cd5090800000000000000
+      internalID: -8044056107810027488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: actual_harmony_sonic_sheet_92
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 190
+        width: 39
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a303a3dfd1efd2a0800000000000000
+      internalID: -6710396568314117213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: actual_harmony_sonic_sheet_93
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 190
+        width: 43
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca92cb870e011a5b0800000000000000
+      internalID: -5358983525309863508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: actual_harmony_sonic_sheet_94
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 190
+        width: 43
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee594d8c0026ed0c0800000000000000
+      internalID: -4549090818088725010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: actual_harmony_sonic_sheet_95
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 190
+        width: 30
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd0552a9b33dc57a0800000000000000
+      internalID: -6386997918575537957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: actual_harmony_sonic_sheet_96
+      rect:
+        serializedVersion: 2
+        x: 369
+        y: 190
+        width: 41
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: baad3873fae615950800000000000000
+      internalID: 6436047041318869675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: actual_harmony_sonic_sheet_97
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 190
+        width: 35
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11472f9db3e739990800000000000000
+      internalID: -7380416568805395439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: actual_harmony_sonic_sheet_98
+      rect:
+        serializedVersion: 2
+        x: 465
+        y: 190
+        width: 30
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0fbe9aea4bb7e0e0800000000000000
+      internalID: -2240616359155286261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: actual_harmony_sonic_sheet_99
+      rect:
+        serializedVersion: 2
+        x: 505
+        y: 190
+        width: 42
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 779d6c0a6e78ce1c0800000000000000
+      internalID: -4473050905276130953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: actual_harmony_sonic_sheet_100
+      rect:
+        serializedVersion: 2
+        x: 557
+        y: 190
+        width: 41
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61584cc34c0e74510800000000000000
+      internalID: 1533441331580667158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: actual_harmony_sonic_sheet_101
+      rect:
+        serializedVersion: 2
+        x: 608
+        y: 187
+        width: 41
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8c256366f021b430800000000000000
+      internalID: 3796852203451657354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: actual_harmony_sonic_sheet_102
+      rect:
+        serializedVersion: 2
+        x: 659
+        y: 190
+        width: 41
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c25cdb829af4b3e40800000000000000
+      internalID: 5637186946535900460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: actual_harmony_sonic_sheet_103
+      rect:
+        serializedVersion: 2
+        x: 710
+        y: 189
+        width: 39
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ea5ff117bfce4260800000000000000
+      internalID: 7083827649088281314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: actual_harmony_sonic_sheet_104
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 126
+        width: 37
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39b883bb0eec3b040800000000000000
+      internalID: 4662297503867636627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: actual_harmony_sonic_sheet_105
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 126
+        width: 37
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a921e23b6228bd9d0800000000000000
+      internalID: -2748460044853046630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: actual_harmony_sonic_sheet_106
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 126
+        width: 38
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e399ebbca913e7660800000000000000
+      internalID: 7385394979847182654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: actual_harmony_sonic_sheet_107
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 126
+        width: 37
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f574800412ba948a0800000000000000
+      internalID: -6320332442741225633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: actual_harmony_sonic_sheet_108
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 126
+        width: 37
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7296a6af2263a4c0800000000000000
+      internalID: -4277467264272919940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: actual_harmony_sonic_sheet_109
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 126
+        width: 38
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e14e94af1354eb300800000000000000
+      internalID: 269729108643669022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: actual_harmony_sonic_sheet_110
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 126
+        width: 27
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b86e6a9a08f57f20800000000000000
+      internalID: 3419912216482048182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: actual_harmony_sonic_sheet_111
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 62
+        width: 23
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8a725473c4574930800000000000000
+      internalID: 4127360781955267212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: actual_harmony_sonic_sheet_112
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 62
+        width: 27
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d55ba34b29ac49040800000000000000
+      internalID: 4653567046418347357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: actual_harmony_sonic_sheet_113
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 62
+        width: 31
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a2e2c799241e4a10800000000000000
+      internalID: 1895474662041903779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: actual_harmony_sonic_sheet_114
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 62
+        width: 29
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b2ca00d46ee8ca90800000000000000
+      internalID: -7293317479772011855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: actual_harmony_sonic_sheet_115
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 62
+        width: 26
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37b080943150f6020800000000000000
+      internalID: 2337092312016358259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: actual_harmony_sonic_sheet_116
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 62
+        width: 25
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: abef90a68dfe549f0800000000000000
+      internalID: -484717672101445958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: actual_harmony_sonic_sheet_117
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 62
+        width: 23
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9efb8c07508ba9840800000000000000
+      internalID: 5231696250650804201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: actual_harmony_sonic_sheet_118
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 62
+        width: 22
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1f81211b3673df40800000000000000
+      internalID: 5752071145144815387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

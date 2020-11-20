@@ -75,7 +75,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 104412}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.099999905, y: -0.205, z: 0}
+  m_LocalPosition: {x: -0.099999905, y: -0.22, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 473634}
@@ -1043,11 +1043,11 @@ MonoBehaviour:
   RingsLost: 9001
   HurtInvinciblilityTime: 2
   HurtInvincibleBool: Hurt Invincible
-  RingLossSound: {fileID: 8300000, guid: 934ecbbc16e965e4c88178204cd3cdf8, type: 3}
-  ReboundSound: {fileID: 8300000, guid: c66b7db95dfbb0a4b999f4fc128d603f, type: 3}
-  DeathSound: {fileID: 8300000, guid: c66b7db95dfbb0a4b999f4fc128d603f, type: 3}
+  RingLossSound: {fileID: 8300000, guid: f7cb67bbc35a2e24381a1e57047811c7, type: 3}
+  ReboundSound: {fileID: 8300000, guid: f7fd5938b971ebc41ae8b81409a8fecb, type: 3}
+  DeathSound: {fileID: 8300000, guid: f7fd5938b971ebc41ae8b81409a8fecb, type: 3}
   SpikeTag: Spikes
-  SpikeSound: {fileID: 8300000, guid: 0a59cd0f5e3bbeb40b7228379fbbe22e, type: 3}
+  SpikeSound: {fileID: 8300000, guid: 06d1151957f107d41b51814990104c6d, type: 3}
   OnDeathComplete:
     m_PersistentCalls:
       m_Calls: []
@@ -1180,7 +1180,7 @@ MonoBehaviour:
   WarningSound: {fileID: 8300000, guid: 7fd3ffd5ffaf8d942a79242619dfadfb, type: 3}
   DrowningPoint: 12
   DrowningBGM: {fileID: 8300000, guid: 4839ed11f7f849d43b28444133c11d26, type: 3}
-  DrownSound: {fileID: 8300000, guid: 22acd0f3212fa7a48b1ef3920793142d, type: 3}
+  DrownSound: {fileID: 8300000, guid: b1a3c9af84e14ff49a695738a57cca66, type: 3}
 --- !u!114 &11417206
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1277,7 +1277,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 156920}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: -0.205, z: 0}
+  m_LocalPosition: {x: 0, y: -0.221, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 404068}
@@ -1834,7 +1834,7 @@ MonoBehaviour:
   ActiveBool: Jumping
   AvailableBool: 
   Muted: 0
-  PerformSound: {fileID: 8300000, guid: d9c2e238883004e4b9f25586a51abc28, type: 3}
+  PerformSound: {fileID: 8300000, guid: 80c8d292e641d4843b2fb823997831ca, type: 3}
   EndSound: {fileID: 0}
   ActivateButton: Jump
   ClearanceHeight: 0.25
@@ -1952,8 +1952,8 @@ MonoBehaviour:
   ActiveBool: Peelout
   AvailableBool: 
   Muted: 0
-  PerformSound: {fileID: 8300000, guid: 177388a5f227d16408306ee2ac22e05d, type: 3}
-  EndSound: {fileID: 8300000, guid: bab5237725114cc448e6e39ad6a5c6b2, type: 3}
+  PerformSound: {fileID: 0}
+  EndSound: {fileID: 8300000, guid: 0708e56ca10a083419892d319583c83b, type: 3}
   ChargeButton: Jump
   ReleaseAxis: Vertical
   BasePower: 5
@@ -1961,7 +1961,7 @@ MonoBehaviour:
   ChargePowerDecay: 2.5
   MaxChargePower: 20
   CurrentChargePower: 0
-  ChargeSound: {fileID: 8300000, guid: 3b48485b81dd67549977be3316f1974b, type: 3}
+  ChargeSound: {fileID: 8300000, guid: 34c8fd532f4bdfe4c9688041b8a4c641, type: 3}
   ChargePitchSteps: 8
   ChargePitchMin: 1
   ChargePitchMax: 1.4
@@ -2031,7 +2031,7 @@ MonoBehaviour:
   AvailableBool: 
   Muted: 0
   PerformSound: {fileID: 0}
-  EndSound: {fileID: 8300000, guid: bab5237725114cc448e6e39ad6a5c6b2, type: 3}
+  EndSound: {fileID: 8300000, guid: b658267a2cd87d642a79495c44ef912a, type: 3}
   ChargeButton: Jump
   ReleaseAxis: Vertical
   BasePower: 4.8
@@ -2039,7 +2039,7 @@ MonoBehaviour:
   ChargePowerDecay: 1.875
   MaxChargePower: 2.4
   CurrentChargePower: 0
-  ChargeSound: {fileID: 8300000, guid: c9d33219f757b72459544d9bce806845, type: 3}
+  ChargeSound: {fileID: 8300000, guid: 2a7c0206f62ba1042b6d72b9d97d269e, type: 3}
   ChargePitchSteps: 8
   ChargePitchMin: 1
   ChargePitchMax: 1.4
@@ -2313,7 +2313,7 @@ MonoBehaviour:
   ActiveBool: 
   AvailableBool: 
   Muted: 0
-  PerformSound: {fileID: 8300000, guid: c9d33219f757b72459544d9bce806845, type: 3}
+  PerformSound: {fileID: 8300000, guid: 2a7c0206f62ba1042b6d72b9d97d269e, type: 3}
   EndSound: {fileID: 0}
   Used: 0
   Health: {fileID: 11479486}
@@ -2396,7 +2396,7 @@ MonoBehaviour:
   PerformSound: {fileID: 0}
   EndSound: {fileID: 0}
   MinimumSpeed: 2.4
-  SkidSound: {fileID: 8300000, guid: bdceffe79c913be46bdd89c6b77607cf, type: 3}
+  SkidSound: {fileID: 8300000, guid: c735f300cd5e05d44bbf6b9a7143d6b8, type: 3}
   SkidSoundRepeatTime: 0.0667
 --- !u!1 &174322
 GameObject:
@@ -2487,7 +2487,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 344d748a26fd4b5408006434e1ddf07a, type: 3}
+  m_audioClip: {fileID: 8300000, guid: 268e19da4a19c4b4eacfcbe97279e4bc, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
@@ -2747,7 +2747,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 185464}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.099999905, y: -0.205, z: 0}
+  m_LocalPosition: {x: 0.099999905, y: -0.22, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 404068}
@@ -7972,7 +7972,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 043d9f65674e05b4cb8c38bd17185642, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  textureToDisplay: {fileID: 2800000, guid: d5eaf4b0f7963fb47aa2d40f5c4c6f07, type: 3}
+  textureToDisplay: {fileID: 2800000, guid: ebccdba636c887d4cbd835ab0b20aa6e, type: 3}
   Rainbow:
     m_Name: 
     m_Normal:

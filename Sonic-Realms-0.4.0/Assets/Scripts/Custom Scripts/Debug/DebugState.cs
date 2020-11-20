@@ -179,7 +179,7 @@ namespace SonicRealms.UI
 {
     public class DebugUI : MonoBehaviour
     {
-        void OnGUI()
+        void DuringGUI()
         {
             if (HedgehogController.DebugOnS == true)
             {

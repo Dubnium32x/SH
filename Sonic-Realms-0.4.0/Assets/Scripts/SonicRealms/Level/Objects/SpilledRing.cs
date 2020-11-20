@@ -39,6 +39,7 @@ namespace SonicRealms.Level.Objects
         /// </summary>
         public Rigidbody2D Rigidbody2D;
 
+        public Transform Sprite;
         /// <summary>
         /// The ring's rigidbody2D's current velocity, in units per second.
         /// </summary>
@@ -60,6 +61,8 @@ namespace SonicRealms.Level.Objects
         [Tooltip("After a bounce, the ring has this fraction of its horizontal and vertical velocity.")]
         public Vector2 BounceLoss;
 
+        [Tooltip("SPEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEN")]
+        public AudioClip BounceSound;
         /// <summary>
         /// If checked, the ring will bounce based on the angle of the surface it hits. Otherwise,
         /// it will only bounce horizontally and vertically like the classics.
@@ -129,7 +132,7 @@ namespace SonicRealms.Level.Objects
         {
             // Apply gravity
             Rigidbody2D.velocity -= Vector2.up*Gravity*Time.fixedDeltaTime;
-
+            Sprite.eulerAngles -= new Vector3(0f,0f,Rigidbody2D.velocity.x*Gravity);
             if (Rigidbody2D.velocity.magnitude > 0.01f)
             {
                 // Make sure we don't hit ourselves
@@ -144,6 +147,7 @@ namespace SonicRealms.Level.Objects
 
                 if (result && result.fraction > 0f)
                 {
+                    SoundManager.Instance.PlayClipAtPoint(BounceSound, transform.position);
                     // Store positive angle in degrees
                     var angle = DMath.PositiveAngle_d(DMath.Angle(result.normal) * Mathf.Rad2Deg);
                     if (AccurateBounce)

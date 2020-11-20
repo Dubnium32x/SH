@@ -757,6 +757,7 @@ namespace SonicRealms.Core.Actors
             }
             if (!DebugOn)
             {
+                
                 if (Death.IsDead == false)
                 {
                     IgnoreCollision = false;
@@ -795,7 +796,10 @@ namespace SonicRealms.Core.Actors
         bool DebugFlyOn;
         public GUIStyle Rainbow;
          /// IOFT stands for Interactable Objects For Testing
-        
+        public void Start()
+        {
+            ObjectId = 1;
+        }
         public int ObjectId;
         public float ObjectScale;
         public float ObjectRotation;
@@ -805,7 +809,11 @@ namespace SonicRealms.Core.Actors
         public static float ObjectRotationS;
         public void UpdateDebugMovementControls()
         {
-
+            
+                
+            
+           
+            
             ObjectIdS = ObjectId;
             ObjectScaleS = ObjectScale;
             ObjectRotationS = ObjectRotation;
@@ -873,11 +881,11 @@ namespace SonicRealms.Core.Actors
             }
             if (Input.GetKey(KeyCode.Keypad1))
             {
-                ObjectScale -= 0.1f;
+                ObjectScale -= 0.02f;
             }
             if (Input.GetKey(KeyCode.Keypad3))
             {
-                ObjectScale += 0.1f;
+                ObjectScale += 0.02f;
             }
             if (Input.GetKey(KeyCode.Keypad2))
             {
@@ -898,18 +906,12 @@ namespace SonicRealms.Core.Actors
             }
 
             
-            if (Input.GetKeyDown(KeyCode.Keypad5))
+            if (Input.GetKeyDown(KeyCode.Keypad5) || Input.GetKey(KeyCode.KeypadPlus))
             {
                 Quaternion StandIn = DebugState.IOFTS[ObjectId].transform.rotation;
                 LeObject = Instantiate(DebugState.IOFTS[ObjectId], DebugState.PlayerObjectS.transform.position, Quaternion.Euler(StandIn.x, StandIn.y, ObjectRotation));
                 LeObject.transform.localScale = new Vector3(ObjectScale, ObjectScale, ObjectScale);
-                ///<region>
-                ///so basically, while we were working on finding a new framework, I was testing the sdds for sonic harmony(but I was using one of my games to do it) turns out that I don't exactly need this line of code so now it will die :D
-                /*if (RandomColorOn)
-                {
-                    LeObject.GetComponent<SpriteRenderer>().color = new Color(Random.Range(0.01f, 1), Random.Range(0.01f, 1), Random.Range(0.01f, 1), 1);
-                }*/
-                ///</region>
+               
             }
             #endregion
 

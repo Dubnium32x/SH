@@ -22,7 +22,7 @@ namespace SonicRealms.Core.Actors
                 OnValueChange.Invoke();
             }
         }
-
+        
         public UnityEvent OnValueChange;
 
         public void Awake()

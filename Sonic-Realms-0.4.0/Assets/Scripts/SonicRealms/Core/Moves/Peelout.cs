@@ -148,11 +148,13 @@ namespace SonicRealms.Core.Moves
             ChargeAudioSource.pitch = ChargePitchMin;
             ChargeAudioSource.Play();
         }
+  
 
         public override void OnActiveUpdate()
         {
-            CurrentChargePower -= CurrentChargePower*Time.deltaTime;
-
+            
+                CurrentChargePower -= CurrentChargePower * Time.deltaTime;
+               
             if (Input.GetButton(ChargeButton))
                 Charge();
             
@@ -174,14 +176,15 @@ namespace SonicRealms.Core.Moves
 
         public void Charge()
         {
-            CurrentChargePower += ChargePower;
-
+           
+                CurrentChargePower += ChargePower;
+            
             
         }
 
         public void Finish()
         {
-            if (CurrentChargePower > 2.5f)
+            if (CurrentChargePower >= 2.5)
             {
                 if (Controller.FacingForward)
                     Controller.GroundVelocity = MaxChargePower/2.5f;

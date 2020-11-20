@@ -129,6 +129,7 @@ namespace SonicRealms.Level.Objects
         {
             // Apply gravity
             Rigidbody2D.velocity -= Vector2.up*Gravity*Time.fixedDeltaTime;
+<<<<<<< HEAD
 
 
 
@@ -138,6 +139,8 @@ namespace SonicRealms.Level.Objects
             Sprite.eulerAngles -= new Vector3(0f,0f,Rigidbody2D.velocity.x*Gravity);
 
 
+=======
+>>>>>>> parent of 2ec441e... Revert "it was a night before- IT'S ALMOST 2:00AM GOTTA BLAST"
             Sprite.eulerAngles -= new Vector3(0f,0f,Rigidbody2D.velocity.x*Gravity);
             if (Rigidbody2D.velocity.magnitude > 0.01f)
             {

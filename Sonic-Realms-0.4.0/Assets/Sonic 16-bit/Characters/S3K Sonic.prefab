@@ -1952,7 +1952,7 @@ MonoBehaviour:
   ActiveBool: Peelout
   AvailableBool: 
   Muted: 0
-  PerformSound: {fileID: 8300000, guid: 177388a5f227d16408306ee2ac22e05d, type: 3}
+  PerformSound: {fileID: 8300000, guid: 344d748a26fd4b5408006434e1ddf07a, type: 3}
   EndSound: {fileID: 8300000, guid: bab5237725114cc448e6e39ad6a5c6b2, type: 3}
   ChargeButton: Jump
   ReleaseAxis: Vertical
@@ -1961,7 +1961,7 @@ MonoBehaviour:
   ChargePowerDecay: 2.5
   MaxChargePower: 20
   CurrentChargePower: 0
-  ChargeSound: {fileID: 8300000, guid: 3b48485b81dd67549977be3316f1974b, type: 3}
+  ChargeSound: {fileID: 8300000, guid: c9d33219f757b72459544d9bce806845, type: 3}
   ChargePitchSteps: 8
   ChargePitchMin: 1
   ChargePitchMax: 1.4

@@ -51,21 +51,45 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
-  - name: Player
+  - name: Parallax_A
     uniqueID: 4047293301
     locked: 0
-  - name: Terrain
+  - name: Parallax_B
     uniqueID: 182623717
     locked: 0
-  - name: Foreground
+  - name: Level_Low_A
     uniqueID: 2218882549
     locked: 0
-  - name: Paletted UI
+  - name: Level_Low_B
     uniqueID: 3595124367
     locked: 0
-  - name: Pallette Switchers
+  - name: Level_Mid_A
     uniqueID: 1817570899
     locked: 0
-  - name: UI
+  - name: Level_Mid_B
     uniqueID: 2279212375
+    locked: 0
+  - name: Level_High_A
+    uniqueID: 3296989711
+    locked: 0
+  - name: Level_High_B
+    uniqueID: 1510991847
+    locked: 0
+  - name: GUI_HUD_A
+    uniqueID: 436051825
+    locked: 0
+  - name: GUI_HUD_B
+    uniqueID: 4188440385
+    locked: 0
+  - name: GUI_TitleCard_A
+    uniqueID: 3913478651
+    locked: 0
+  - name: GUI_TitleCard_B
+    uniqueID: 2877488669
+    locked: 0
+  - name: GUI_Fade_A
+    uniqueID: 1263411409
+    locked: 0
+  - name: GUI_Fade_B
+    uniqueID: 663976569
     locked: 0

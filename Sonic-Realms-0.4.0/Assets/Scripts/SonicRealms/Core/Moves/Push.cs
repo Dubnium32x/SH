@@ -1,4 +1,5 @@
-﻿using UnityEngine;
+﻿using SonicRealms.Core.Triggers;
+using UnityEngine;
 
 namespace SonicRealms.Core.Moves
 {
@@ -25,7 +26,28 @@ namespace SonicRealms.Core.Moves
 
         public override bool Available
         {
-            get { return Controller.Grounded && (Controller.LeftWall != null || Controller.RightWall != null); }
+            get
+            {
+                if (Controller.Grounded)
+                {
+                    if (Controller.LeftWall != null)
+                    {
+                        if(Controller.LeftWall.gameObject.GetComponent<ReactivePlatform>() == null)
+                        {
+                            return true;
+                        }
+                    }
+
+                    if (Controller.RightWall != null)
+                    {
+                        if(Controller.RightWall.gameObject.GetComponent<ReactivePlatform>() == null)
+                        {
+                            return true;
+                        }
+                    }
+                }
+                return false;
+            }
         }
 
         public override bool ShouldPerform

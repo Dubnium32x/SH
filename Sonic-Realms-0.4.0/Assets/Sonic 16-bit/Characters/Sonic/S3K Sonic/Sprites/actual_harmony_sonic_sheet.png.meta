@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 74bad9e4cff3f3c4986ae0637ab923f2
+guid: bf57ed70e4ae18648b26c7df5c0bd08a
 TextureImporter:
   internalIDToNameTable:
   - first:
@@ -1659,9 +1659,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 208
-        y: 314
+        y: 319
         width: 30
-        height: 35
+        height: 30
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1679,10 +1679,10 @@ TextureImporter:
       name: actual_harmony_sonic_sheet_67
       rect:
         serializedVersion: 2
-        x: 247
-        y: 314
-        width: 30
-        height: 35
+        x: 248
+        y: 319
+        width: 29
+        height: 30
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1701,9 +1701,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 287
-        y: 314
+        y: 319
         width: 30
-        height: 35
+        height: 30
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1722,9 +1722,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 327
-        y: 314
-        width: 30
-        height: 35
+        y: 319
+        width: 29
+        height: 30
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1742,10 +1742,10 @@ TextureImporter:
       name: actual_harmony_sonic_sheet_70
       rect:
         serializedVersion: 2
-        x: 367
-        y: 314
+        x: 366
+        y: 319
         width: 30
-        height: 35
+        height: 30
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}

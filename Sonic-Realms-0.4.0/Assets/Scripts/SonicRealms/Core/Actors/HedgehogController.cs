@@ -1858,7 +1858,6 @@ namespace SonicRealms.Core.Actors
         public ImpactResult CheckImpact(TerrainCastHit hit)
         {
             if (hit == null || hit.Hit.fraction == 0f) return default(ImpactResult);
-
             var surfaceDegrees = DMath.PositiveAngle_d(hit.SurfaceAngle * Mathf.Rad2Deg);
 
             // The player can't possibly land on something if he's traveling 90 degrees within the normal
@@ -1871,6 +1870,7 @@ namespace SonicRealms.Core.Actors
             var result = 0f;
             var shouldAttach = true;
             var fixedAngled = RelativeAngle(surfaceDegrees);
+            //if char is onground or at low y vel
             if (RelativeVelocity.y <= 0.0f)
             {
                 if (fixedAngled < 22.5f || fixedAngled > 337.5f)
@@ -1906,6 +1906,7 @@ namespace SonicRealms.Core.Actors
                     shouldAttach = false;
                 }
             }
+            //if char is moving possibly in air
             else
             {
                 if (fixedAngled > 90.0f && fixedAngled < 135.0f)

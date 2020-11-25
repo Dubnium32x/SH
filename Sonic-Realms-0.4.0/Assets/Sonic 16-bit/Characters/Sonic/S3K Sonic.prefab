@@ -841,7 +841,7 @@ MonoBehaviour:
   AntiTunnelingSpeed: 3.15
   SlopeGravityBeginAngle: 0
   DetachSpeed: 1.5
-  MaxClimbAngle: 70
+  MaxClimbAngle: 45
   DisableNotifyPlatforms: 0
   DisableEvents: 0
   DisableCeilingCheck: 0
@@ -1010,7 +1010,7 @@ MonoBehaviour:
   RotateDuringStand: 0
   AirRecoveryRate: 150
   MinimumAngle: 25
-  Precision: 128
+  Precision: 256
 --- !u!114 &11479486
 MonoBehaviour:
   m_ObjectHideFlags: 0

@@ -1541,6 +1541,7 @@ namespace SonicRealms.Core.Actors
             if ((!left || leftDiff > MaxClimbAngle) && (!right || rightDiff > MaxClimbAngle))
                 goto detach;
 
+            
             // If only one sensor found a surface we don't need any further checks
             if (!left && right)
                 goto orientRight;

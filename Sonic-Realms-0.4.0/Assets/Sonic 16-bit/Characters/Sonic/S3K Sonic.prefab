@@ -539,7 +539,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 141006}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.16999817, y: 0.16000004, z: 0}
+  m_LocalPosition: {x: -0.16999817, y: 0.13, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 466952}
@@ -1180,7 +1180,7 @@ MonoBehaviour:
   - 15
   WarningSound: {fileID: 8300000, guid: 7fd3ffd5ffaf8d942a79242619dfadfb, type: 3}
   DrowningPoint: 12
-  DrowningBGM: {fileID: 8300000, guid: 4839ed11f7f849d43b28444133c11d26, type: 3}
+  DrowningBGM: {fileID: 8300000, guid: bbabcbfe198541d4989b653750a1221e, type: 3}
   DrownSound: {fileID: 8300000, guid: b1a3c9af84e14ff49a695738a57cca66, type: 3}
 --- !u!114 &11417206
 MonoBehaviour:

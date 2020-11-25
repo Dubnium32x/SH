@@ -210,7 +210,7 @@ MonoBehaviour:
   Camera: {fileID: 11450216}
   Player: {fileID: 0}
   RotateToGravity: 1
-  RotateSmoothness: 0.2
+  RotateSmoothness: 1
   GroundFollowSpeed: {x: 9.6, y: 3.6}
   GroundFollowBoundsMin: {fileID: 459690}
   GroundFollowBoundsMax: {fileID: 472814}

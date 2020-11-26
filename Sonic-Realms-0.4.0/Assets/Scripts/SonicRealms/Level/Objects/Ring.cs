@@ -76,7 +76,7 @@ namespace SonicRealms.Level.Objects
                 var source = SoundManager.Instance.PlayClipAtPoint(CollectedSound, transform.position);
                 source.panStereo = (PanRight = !PanRight) ? 1f : -1f;
             }
-
+            
             TriggerObject(controller);
         }
     }

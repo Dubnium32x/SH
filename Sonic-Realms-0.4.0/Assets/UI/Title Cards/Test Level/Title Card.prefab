@@ -150,7 +150,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ExitAfterEnter: 0
-  IsPlaying: 1
+  IsPlaying: 0
   State: 0
   Animator: {fileID: 9548758}
   PlayingBool: 

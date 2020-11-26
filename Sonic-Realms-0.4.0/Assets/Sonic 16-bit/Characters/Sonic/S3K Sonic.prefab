@@ -8088,7 +8088,8 @@ MonoBehaviour:
   - {fileID: 190146, guid: 563309fed065b614988466755978716b, type: 3}
   - {fileID: 194672, guid: ad128619e0a519444bd0d65858581ee4, type: 3}
   - {fileID: 194672, guid: ad128619e0a519444bd0d65858581ee4, type: 3}
-  AmountOfObjectsInIOFT: 32
+  - {fileID: 151248, guid: cb03faf7528e09b429822665ed1e409f, type: 3}
+  AmountOfObjectsInIOFT: 33
   ObjectId: 0
   PlayerObject: {fileID: 2762339701498152149}
   SonicBOI: {fileID: 151248}

@@ -1180,7 +1180,7 @@ MonoBehaviour:
   - 15
   WarningSound: {fileID: 8300000, guid: 7fd3ffd5ffaf8d942a79242619dfadfb, type: 3}
   DrowningPoint: 12
-  DrowningBGM: {fileID: 8300000, guid: bbabcbfe198541d4989b653750a1221e, type: 3}
+  DrowningBGM: {fileID: 8300000, guid: 9b3fd3d55801bdc42ace7dfb5c1acbf7, type: 3}
   DrownSound: {fileID: 8300000, guid: b1a3c9af84e14ff49a695738a57cca66, type: 3}
 --- !u!114 &11417206
 MonoBehaviour:

@@ -1084,10 +1084,6 @@ namespace SonicRealms.Core.Actors
                     GroundVelocity -= Mathf.Min(Mathf.Abs(GroundVelocity), GroundFriction * timestep) * Mathf.Sign(GroundVelocity);
 
                 // Speed limit
-                if (GroundVelocity > MaxSpeed)
-                    GroundVelocity = MaxSpeed;
-                else if (GroundVelocity < -MaxSpeed)
-                    GroundVelocity = -MaxSpeed;
 
                 // Detachment from walls if speed is too low
                 if (DetachWhenSlow &&

@@ -764,7 +764,6 @@ Transform:
   - {fileID: 404068}
   - {fileID: 411496}
   - {fileID: 490294}
-  - {fileID: 1816821410}
   - {fileID: 1366366580734098019}
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -829,18 +828,18 @@ MonoBehaviour:
     m_Bits: 3221225488
   Reactives: []
   Sensors: {fileID: 11487382}
-  GroundFriction: 1.6785
-  AirDrag: 0.1488343
+  GroundFriction: 1.65
+  AirDrag: 0.099
   AirDragRequiredSpeed: {x: 0.075, y: 2.4}
-  AirGravity: 7.857
-  SlopeGravity: 1
+  AirGravity: 7.46
+  SlopeGravity: 3
   GravityDirection: 270
   MaxSpeed: 9001
   LedgeClimbHeight: 0.16
   LedgeDropHeight: 0.16
   AntiTunnelingSpeed: 3.15
   SlopeGravityBeginAngle: 0
-  DetachSpeed: 1.5
+  DetachSpeed: 0.1632
   MaxClimbAngle: 45
   DisableNotifyPlatforms: 0
   DisableEvents: 0
@@ -1008,8 +1007,8 @@ MonoBehaviour:
   RotateToGravity: 0
   RotateDuringRoll: 0
   RotateDuringStand: 0
-  AirRecoveryRate: 150
-  MinimumAngle: 25
+  AirRecoveryRate: 200
+  MinimumAngle: 15
   Precision: 256
 --- !u!114 &11479486
 MonoBehaviour:
@@ -7899,36 +7898,6 @@ Transform:
   m_Father: {fileID: 424606}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &1816821409
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1816821410}
-  m_Layer: 0
-  m_Name: GameObject
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1816821410
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1816821409}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.25, y: 1, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 424606}
-  m_RootOrder: 5
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2762339701498152149
 GameObject:
   m_ObjectHideFlags: 0
@@ -7961,7 +7930,7 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 424606}
-  m_RootOrder: 6
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}

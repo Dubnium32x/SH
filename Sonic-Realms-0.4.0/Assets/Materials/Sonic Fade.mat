@@ -68,7 +68,7 @@ Material:
     - _OcclusionStrength: 1
     - _Parallax: 0.02
     - _Progress: 0
-    - _Red: -0.31962776
+    - _Red: 0
     - _SrcBlend: 1
     - _UVSec: 0
     - _ZWrite: 1

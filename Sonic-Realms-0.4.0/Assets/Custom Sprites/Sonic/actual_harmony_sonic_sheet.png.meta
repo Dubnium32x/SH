@@ -359,6 +359,129 @@ TextureImporter:
   - first:
       213: 5752071145144815387
     second: actual_harmony_sonic_sheet_118
+  - first:
+      213: 388368999243334621
+    second: actual_harmony_sonic_sheet_119
+  - first:
+      213: -5903613037950402770
+    second: actual_harmony_sonic_sheet_120
+  - first:
+      213: 8286412571319460329
+    second: actual_harmony_sonic_sheet_121
+  - first:
+      213: -3826587857808520123
+    second: actual_harmony_sonic_sheet_122
+  - first:
+      213: 6790659308346458136
+    second: actual_harmony_sonic_sheet_123
+  - first:
+      213: 6917494406851300076
+    second: actual_harmony_sonic_sheet_124
+  - first:
+      213: 1486417840815590028
+    second: actual_harmony_sonic_sheet_125
+  - first:
+      213: -5439042941783964280
+    second: actual_harmony_sonic_sheet_126
+  - first:
+      213: -6423669726715256848
+    second: actual_harmony_sonic_sheet_127
+  - first:
+      213: 785711797788350254
+    second: actual_harmony_sonic_sheet_128
+  - first:
+      213: 626021405583280722
+    second: actual_harmony_sonic_sheet_129
+  - first:
+      213: 9131158125924910518
+    second: actual_harmony_sonic_sheet_130
+  - first:
+      213: 516403960736179705
+    second: actual_harmony_sonic_sheet_131
+  - first:
+      213: -5866026845956542079
+    second: actual_harmony_sonic_sheet_132
+  - first:
+      213: 3602052731780910792
+    second: actual_harmony_sonic_sheet_133
+  - first:
+      213: 4062577367254006661
+    second: actual_harmony_sonic_sheet_134
+  - first:
+      213: -5133878139392381604
+    second: actual_harmony_sonic_sheet_135
+  - first:
+      213: -7770195600844450609
+    second: actual_harmony_sonic_sheet_136
+  - first:
+      213: -8271300654911540204
+    second: actual_harmony_sonic_sheet_137
+  - first:
+      213: -779117346070703765
+    second: actual_harmony_sonic_sheet_138
+  - first:
+      213: -1259684965925392837
+    second: actual_harmony_sonic_sheet_139
+  - first:
+      213: 3048308376403627307
+    second: actual_harmony_sonic_sheet_140
+  - first:
+      213: -2828105437835787562
+    second: actual_harmony_sonic_sheet_141
+  - first:
+      213: 1314091972473050546
+    second: actual_harmony_sonic_sheet_142
+  - first:
+      213: -2705336844899291617
+    second: actual_harmony_sonic_sheet_143
+  - first:
+      213: 1756465894683911982
+    second: actual_harmony_sonic_sheet_144
+  - first:
+      213: -6114843150971839977
+    second: actual_harmony_sonic_sheet_145
+  - first:
+      213: 7459307803015931053
+    second: actual_harmony_sonic_sheet_146
+  - first:
+      213: -2532555543118583009
+    second: actual_harmony_sonic_sheet_147
+  - first:
+      213: 4770616678416150917
+    second: actual_harmony_sonic_sheet_148
+  - first:
+      213: 6310498571206459949
+    second: actual_harmony_sonic_sheet_149
+  - first:
+      213: -205178713400395968
+    second: actual_harmony_sonic_sheet_150
+  - first:
+      213: 513912860075173686
+    second: actual_harmony_sonic_sheet_151
+  - first:
+      213: -8795215556367037591
+    second: actual_harmony_sonic_sheet_152
+  - first:
+      213: 2527295364020768649
+    second: actual_harmony_sonic_sheet_153
+  - first:
+      213: 7974291736116274611
+    second: actual_harmony_sonic_sheet_154
+  - first:
+      213: -6419810202914991565
+    second: actual_harmony_sonic_sheet_155
+  - first:
+      213: 7551012269986999031
+    second: actual_harmony_sonic_sheet_156
+  - first:
+      213: 522370399732282281
+    second: actual_harmony_sonic_sheet_157
+  - first:
+      213: -2768246761338928575
+    second: actual_harmony_sonic_sheet_158
+  - first:
+      213: -7514497708419622960
+    second: actual_harmony_sonic_sheet_159
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -462,7 +585,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 8
-        y: 606
+        y: 754
         width: 31
         height: 47
       alignment: 0
@@ -483,7 +606,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 62
-        y: 606
+        y: 754
         width: 33
         height: 47
       alignment: 0
@@ -504,7 +627,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 107
-        y: 606
+        y: 754
         width: 30
         height: 47
       alignment: 0
@@ -525,7 +648,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 144
-        y: 606
+        y: 754
         width: 37
         height: 47
       alignment: 0
@@ -546,7 +669,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 188
-        y: 606
+        y: 754
         width: 37
         height: 47
       alignment: 0
@@ -567,7 +690,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 235
-        y: 606
+        y: 754
         width: 32
         height: 47
       alignment: 0
@@ -588,7 +711,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 273
-        y: 606
+        y: 754
         width: 37
         height: 47
       alignment: 0
@@ -609,7 +732,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 310
-        y: 606
+        y: 754
         width: 43
         height: 47
       alignment: 0
@@ -630,7 +753,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 360
-        y: 606
+        y: 754
         width: 35
         height: 47
       alignment: 9
@@ -651,7 +774,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 401
-        y: 606
+        y: 754
         width: 38
         height: 47
       alignment: 9
@@ -672,7 +795,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 443
-        y: 606
+        y: 754
         width: 40
         height: 47
       alignment: 9
@@ -693,7 +816,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 486
-        y: 606
+        y: 754
         width: 35
         height: 47
       alignment: 9
@@ -714,7 +837,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 531
-        y: 606
+        y: 754
         width: 35
         height: 47
       alignment: 9
@@ -735,7 +858,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 572
-        y: 606
+        y: 754
         width: 35
         height: 47
       alignment: 9
@@ -756,7 +879,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 640
-        y: 606
+        y: 754
         width: 38
         height: 47
       alignment: 0
@@ -777,7 +900,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 688
-        y: 606
+        y: 754
         width: 44
         height: 47
       alignment: 0
@@ -798,7 +921,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 744
-        y: 606
+        y: 754
         width: 35
         height: 47
       alignment: 0
@@ -819,7 +942,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 792
-        y: 607
+        y: 754
         width: 40
         height: 47
       alignment: 0
@@ -839,9 +962,9 @@ TextureImporter:
       name: actual_harmony_sonic_sheet_18
       rect:
         serializedVersion: 2
-        x: 16
-        y: 542
-        width: 27
+        x: 165
+        y: 690
+        width: 32
         height: 47
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -860,9 +983,9 @@ TextureImporter:
       name: actual_harmony_sonic_sheet_19
       rect:
         serializedVersion: 2
-        x: 64
-        y: 542
-        width: 29
+        x: 210
+        y: 690
+        width: 30
         height: 47
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -881,9 +1004,9 @@ TextureImporter:
       name: actual_harmony_sonic_sheet_20
       rect:
         serializedVersion: 2
-        x: 103
-        y: 542
-        width: 34
+        x: 249
+        y: 690
+        width: 37
         height: 47
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -902,8 +1025,8 @@ TextureImporter:
       name: actual_harmony_sonic_sheet_21
       rect:
         serializedVersion: 2
-        x: 147
-        y: 542
+        x: 293
+        y: 690
         width: 35
         height: 47
       alignment: 0
@@ -923,8 +1046,8 @@ TextureImporter:
       name: actual_harmony_sonic_sheet_22
       rect:
         serializedVersion: 2
-        x: 256
-        y: 558
+        x: 376
+        y: 706
         width: 176
         height: 16
       alignment: 0
@@ -945,7 +1068,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 592
-        y: 557
+        y: 705
         width: 42
         height: 33
       alignment: 0
@@ -966,7 +1089,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 640
-        y: 552
+        y: 700
         width: 39
         height: 47
       alignment: 0
@@ -987,7 +1110,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 688
-        y: 551
+        y: 699
         width: 40
         height: 47
       alignment: 0
@@ -1008,7 +1131,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 736
-        y: 551
+        y: 699
         width: 40
         height: 47
       alignment: 0
@@ -1029,7 +1152,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 784
-        y: 549
+        y: 697
         width: 38
         height: 47
       alignment: 0
@@ -1050,7 +1173,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 14
-        y: 481
+        y: 628
         width: 38
         height: 47
       alignment: 9
@@ -1071,7 +1194,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 64
-        y: 480
+        y: 628
         width: 37
         height: 47
       alignment: 9
@@ -1092,7 +1215,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 117
-        y: 480
+        y: 628
         width: 28
         height: 47
       alignment: 9
@@ -1113,7 +1236,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 167
-        y: 480
+        y: 628
         width: 28
         height: 47
       alignment: 9
@@ -1134,7 +1257,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 212
-        y: 481
+        y: 629
         width: 42
         height: 47
       alignment: 9
@@ -1155,7 +1278,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 263
-        y: 480
+        y: 628
         width: 38
         height: 47
       alignment: 9
@@ -1176,7 +1299,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 317
-        y: 480
+        y: 628
         width: 28
         height: 47
       alignment: 9
@@ -1197,7 +1320,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 366
-        y: 480
+        y: 628
         width: 31
         height: 47
       alignment: 9
@@ -1218,7 +1341,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 19
-        y: 429
+        y: 577
         width: 33
         height: 47
       alignment: 0
@@ -1239,7 +1362,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 59
-        y: 429
+        y: 577
         width: 33
         height: 47
       alignment: 0
@@ -1260,7 +1383,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 99
-        y: 429
+        y: 577
         width: 33
         height: 47
       alignment: 0
@@ -1281,7 +1404,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 139
-        y: 429
+        y: 577
         width: 33
         height: 47
       alignment: 0
@@ -1302,7 +1425,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 208
-        y: 430
+        y: 578
         width: 46
         height: 47
       alignment: 0
@@ -1323,7 +1446,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 264
-        y: 430
+        y: 578
         width: 48
         height: 47
       alignment: 0
@@ -1344,7 +1467,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 322
-        y: 430
+        y: 578
         width: 65
         height: 47
       alignment: 0
@@ -1365,7 +1488,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 397
-        y: 430
+        y: 578
         width: 55
         height: 47
       alignment: 0
@@ -1386,7 +1509,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 464
-        y: 430
+        y: 578
         width: 34
         height: 36
       alignment: 0
@@ -1407,7 +1530,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 512
-        y: 430
+        y: 578
         width: 45
         height: 47
       alignment: 0
@@ -1428,7 +1551,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 567
-        y: 430
+        y: 578
         width: 42
         height: 47
       alignment: 0
@@ -1449,7 +1572,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 619
-        y: 430
+        y: 578
         width: 43
         height: 47
       alignment: 0
@@ -1470,7 +1593,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 672
-        y: 430
+        y: 578
         width: 44
         height: 47
       alignment: 0
@@ -1491,7 +1614,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 207
-        y: 382
+        y: 530
         width: 34
         height: 47
       alignment: 0
@@ -1512,7 +1635,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 255
-        y: 382
+        y: 530
         width: 37
         height: 47
       alignment: 0
@@ -1533,7 +1656,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 304
-        y: 382
+        y: 530
         width: 35
         height: 47
       alignment: 0
@@ -1554,7 +1677,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 352
-        y: 382
+        y: 530
         width: 35
         height: 47
       alignment: 0
@@ -1575,8 +1698,8 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 16
-        y: 318
-        width: 34
+        y: 466
+        width: 37
         height: 47
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -1595,9 +1718,9 @@ TextureImporter:
       name: actual_harmony_sonic_sheet_63
       rect:
         serializedVersion: 2
-        x: 60
-        y: 318
-        width: 40
+        x: 66
+        y: 466
+        width: 43
         height: 47
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -1616,9 +1739,9 @@ TextureImporter:
       name: actual_harmony_sonic_sheet_64
       rect:
         serializedVersion: 2
-        x: 110
-        y: 318
-        width: 39
+        x: 115
+        y: 466
+        width: 42
         height: 47
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -1637,9 +1760,9 @@ TextureImporter:
       name: actual_harmony_sonic_sheet_65
       rect:
         serializedVersion: 2
-        x: 159
-        y: 318
-        width: 33
+        x: 174
+        y: 468
+        width: 42
         height: 47
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -1658,8 +1781,8 @@ TextureImporter:
       name: actual_harmony_sonic_sheet_66
       rect:
         serializedVersion: 2
-        x: 208
-        y: 314
+        x: 408
+        y: 532
         width: 30
         height: 35
       alignment: 0
@@ -1679,8 +1802,8 @@ TextureImporter:
       name: actual_harmony_sonic_sheet_67
       rect:
         serializedVersion: 2
-        x: 247
-        y: 314
+        x: 448
+        y: 532
         width: 30
         height: 35
       alignment: 0
@@ -1700,8 +1823,8 @@ TextureImporter:
       name: actual_harmony_sonic_sheet_68
       rect:
         serializedVersion: 2
-        x: 287
-        y: 314
+        x: 488
+        y: 532
         width: 30
         height: 35
       alignment: 0
@@ -1721,8 +1844,8 @@ TextureImporter:
       name: actual_harmony_sonic_sheet_69
       rect:
         serializedVersion: 2
-        x: 327
-        y: 314
+        x: 528
+        y: 532
         width: 30
         height: 35
       alignment: 0
@@ -1742,8 +1865,8 @@ TextureImporter:
       name: actual_harmony_sonic_sheet_70
       rect:
         serializedVersion: 2
-        x: 367
-        y: 314
+        x: 568
+        y: 532
         width: 30
         height: 35
       alignment: 0
@@ -1763,8 +1886,8 @@ TextureImporter:
       name: actual_harmony_sonic_sheet_71
       rect:
         serializedVersion: 2
-        x: 432
-        y: 318
+        x: 342
+        y: 466
         width: 29
         height: 47
       alignment: 0
@@ -1784,8 +1907,8 @@ TextureImporter:
       name: actual_harmony_sonic_sheet_72
       rect:
         serializedVersion: 2
-        x: 471
-        y: 318
+        x: 381
+        y: 466
         width: 32
         height: 47
       alignment: 0
@@ -1805,8 +1928,8 @@ TextureImporter:
       name: actual_harmony_sonic_sheet_73
       rect:
         serializedVersion: 2
-        x: 513
-        y: 318
+        x: 423
+        y: 465
         width: 33
         height: 47
       alignment: 0
@@ -1826,8 +1949,8 @@ TextureImporter:
       name: actual_harmony_sonic_sheet_74
       rect:
         serializedVersion: 2
-        x: 556
-        y: 318
+        x: 466
+        y: 466
         width: 30
         height: 47
       alignment: 0
@@ -1847,8 +1970,8 @@ TextureImporter:
       name: actual_harmony_sonic_sheet_75
       rect:
         serializedVersion: 2
-        x: 596
-        y: 318
+        x: 506
+        y: 466
         width: 29
         height: 47
       alignment: 0
@@ -1868,8 +1991,8 @@ TextureImporter:
       name: actual_harmony_sonic_sheet_76
       rect:
         serializedVersion: 2
-        x: 635
-        y: 318
+        x: 545
+        y: 466
         width: 29
         height: 47
       alignment: 0
@@ -1889,8 +2012,8 @@ TextureImporter:
       name: actual_harmony_sonic_sheet_77
       rect:
         serializedVersion: 2
-        x: 674
-        y: 318
+        x: 584
+        y: 466
         width: 29
         height: 47
       alignment: 0
@@ -1910,8 +2033,8 @@ TextureImporter:
       name: actual_harmony_sonic_sheet_78
       rect:
         serializedVersion: 2
-        x: 713
-        y: 318
+        x: 623
+        y: 466
         width: 29
         height: 47
       alignment: 0
@@ -1931,8 +2054,8 @@ TextureImporter:
       name: actual_harmony_sonic_sheet_79
       rect:
         serializedVersion: 2
-        x: 752
-        y: 318
+        x: 662
+        y: 466
         width: 29
         height: 47
       alignment: 0
@@ -1953,7 +2076,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 16
-        y: 254
+        y: 402
         width: 26
         height: 47
       alignment: 0
@@ -1973,9 +2096,9 @@ TextureImporter:
       name: actual_harmony_sonic_sheet_81
       rect:
         serializedVersion: 2
-        x: 64
-        y: 254
-        width: 25
+        x: 58
+        y: 402
+        width: 30
         height: 47
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -1994,9 +2117,9 @@ TextureImporter:
       name: actual_harmony_sonic_sheet_82
       rect:
         serializedVersion: 2
-        x: 97
-        y: 254
-        width: 20
+        x: 98
+        y: 402
+        width: 26
         height: 47
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -2015,9 +2138,9 @@ TextureImporter:
       name: actual_harmony_sonic_sheet_83
       rect:
         serializedVersion: 2
-        x: 123
-        y: 254
-        width: 29
+        x: 140
+        y: 402
+        width: 21
         height: 47
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -2036,9 +2159,9 @@ TextureImporter:
       name: actual_harmony_sonic_sheet_84
       rect:
         serializedVersion: 2
-        x: 190
-        y: 254
-        width: 36
+        x: 179
+        y: 402
+        width: 24
         height: 47
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -2057,9 +2180,9 @@ TextureImporter:
       name: actual_harmony_sonic_sheet_85
       rect:
         serializedVersion: 2
-        x: 234
-        y: 254
-        width: 36
+        x: 218
+        y: 402
+        width: 30
         height: 47
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -2078,9 +2201,9 @@ TextureImporter:
       name: actual_harmony_sonic_sheet_86
       rect:
         serializedVersion: 2
-        x: 304
-        y: 254
-        width: 37
+        x: 387
+        y: 400
+        width: 38
         height: 47
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -2099,9 +2222,9 @@ TextureImporter:
       name: actual_harmony_sonic_sheet_87
       rect:
         serializedVersion: 2
-        x: 351
-        y: 254
-        width: 41
+        x: 427
+        y: 403
+        width: 39
         height: 47
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -2120,8 +2243,8 @@ TextureImporter:
       name: actual_harmony_sonic_sheet_88
       rect:
         serializedVersion: 2
-        x: 400
-        y: 254
+        x: 480
+        y: 402
         width: 79
         height: 39
       alignment: 0
@@ -2141,9 +2264,9 @@ TextureImporter:
       name: actual_harmony_sonic_sheet_89
       rect:
         serializedVersion: 2
-        x: 16
-        y: 190
-        width: 39
+        x: 17
+        y: 339
+        width: 40
         height: 47
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -2162,9 +2285,9 @@ TextureImporter:
       name: actual_harmony_sonic_sheet_90
       rect:
         serializedVersion: 2
-        x: 65
-        y: 190
-        width: 38
+        x: 69
+        y: 339
+        width: 39
         height: 47
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -2183,8 +2306,8 @@ TextureImporter:
       name: actual_harmony_sonic_sheet_91
       rect:
         serializedVersion: 2
-        x: 113
-        y: 190
+        x: 116
+        y: 339
         width: 41
         height: 47
       alignment: 0
@@ -2204,8 +2327,8 @@ TextureImporter:
       name: actual_harmony_sonic_sheet_92
       rect:
         serializedVersion: 2
-        x: 164
-        y: 190
+        x: 166
+        y: 339
         width: 39
         height: 47
       alignment: 0
@@ -2226,7 +2349,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 223
-        y: 190
+        y: 338
         width: 43
         height: 47
       alignment: 0
@@ -2247,7 +2370,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 276
-        y: 190
+        y: 338
         width: 43
         height: 47
       alignment: 0
@@ -2268,7 +2391,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 329
-        y: 190
+        y: 338
         width: 30
         height: 47
       alignment: 0
@@ -2288,9 +2411,9 @@ TextureImporter:
       name: actual_harmony_sonic_sheet_96
       rect:
         serializedVersion: 2
-        x: 369
-        y: 190
-        width: 41
+        x: 370
+        y: 338
+        width: 40
         height: 47
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -2309,9 +2432,9 @@ TextureImporter:
       name: actual_harmony_sonic_sheet_97
       rect:
         serializedVersion: 2
-        x: 420
-        y: 190
-        width: 35
+        x: 421
+        y: 338
+        width: 34
         height: 47
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -2331,7 +2454,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 465
-        y: 190
+        y: 338
         width: 30
         height: 47
       alignment: 0
@@ -2352,7 +2475,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 505
-        y: 190
+        y: 338
         width: 42
         height: 47
       alignment: 0
@@ -2373,7 +2496,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 557
-        y: 190
+        y: 338
         width: 41
         height: 47
       alignment: 0
@@ -2394,7 +2517,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 608
-        y: 187
+        y: 335
         width: 41
         height: 47
       alignment: 0
@@ -2414,8 +2537,8 @@ TextureImporter:
       name: actual_harmony_sonic_sheet_102
       rect:
         serializedVersion: 2
-        x: 659
-        y: 190
+        x: 660
+        y: 338
         width: 41
         height: 47
       alignment: 0
@@ -2436,7 +2559,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 710
-        y: 189
+        y: 337
         width: 39
         height: 47
       alignment: 0
@@ -2457,7 +2580,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 16
-        y: 126
+        y: 274
         width: 37
         height: 47
       alignment: 0
@@ -2478,7 +2601,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 63
-        y: 126
+        y: 274
         width: 37
         height: 47
       alignment: 0
@@ -2499,7 +2622,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 110
-        y: 126
+        y: 274
         width: 38
         height: 47
       alignment: 0
@@ -2520,7 +2643,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 158
-        y: 126
+        y: 274
         width: 37
         height: 47
       alignment: 0
@@ -2541,7 +2664,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 205
-        y: 126
+        y: 274
         width: 37
         height: 47
       alignment: 0
@@ -2562,7 +2685,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 252
-        y: 126
+        y: 274
         width: 38
         height: 47
       alignment: 0
@@ -2583,7 +2706,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 325
-        y: 126
+        y: 274
         width: 27
         height: 47
       alignment: 0
@@ -2604,7 +2727,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 16
-        y: 62
+        y: 210
         width: 23
         height: 47
       alignment: 0
@@ -2625,7 +2748,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 47
-        y: 62
+        y: 210
         width: 27
         height: 47
       alignment: 0
@@ -2646,7 +2769,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 80
-        y: 62
+        y: 210
         width: 31
         height: 47
       alignment: 0
@@ -2667,7 +2790,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 115
-        y: 62
+        y: 210
         width: 29
         height: 47
       alignment: 0
@@ -2688,7 +2811,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 154
-        y: 62
+        y: 210
         width: 26
         height: 47
       alignment: 0
@@ -2709,7 +2832,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 191
-        y: 62
+        y: 210
         width: 25
         height: 47
       alignment: 0
@@ -2730,7 +2853,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 227
-        y: 62
+        y: 210
         width: 23
         height: 47
       alignment: 0
@@ -2751,7 +2874,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 264
-        y: 62
+        y: 210
         width: 22
         height: 47
       alignment: 0
@@ -2763,6 +2886,1056 @@ TextureImporter:
       bones: []
       spriteID: b1f81211b3673df40800000000000000
       internalID: 5752071145144815387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: actual_harmony_sonic_sheet_40
+      rect:
+        serializedVersion: 2
+        x: 534
+        y: 655
+        width: 46
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98b0192109a6652a0800000000000000
+      internalID: -6749089824548779127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: actual_harmony_sonic_sheet_42
+      rect:
+        serializedVersion: 2
+        x: 596
+        y: 646
+        width: 31
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e587a98a45974000800000000000000
+      internalID: 20148870716032487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: actual_harmony_sonic_sheet_44
+      rect:
+        serializedVersion: 2
+        x: 646
+        y: 646
+        width: 31
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c78fb37a8383dc3d0800000000000000
+      internalID: -3184827545506023300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: actual_harmony_sonic_sheet_46
+      rect:
+        serializedVersion: 2
+        x: 692
+        y: 646
+        width: 28
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46a3445cd9bddff20800000000000000
+      internalID: 3458161559556340324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: actual_harmony_sonic_sheet_48
+      rect:
+        serializedVersion: 2
+        x: 739
+        y: 646
+        width: 35
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be2f7be0e20f45dd0800000000000000
+      internalID: -2498107812677684501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: actual_harmony_sonic_sheet_49
+      rect:
+        serializedVersion: 2
+        x: 785
+        y: 646
+        width: 38
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87409de8facf4aa00800000000000000
+      internalID: 767015667505890424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: actual_harmony_sonic_sheet_55
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 690
+        width: 32
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ffa2d1faee8cea1c0800000000000000
+      internalID: -4490430850976109825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: actual_harmony_sonic_sheet_56
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 690
+        width: 31
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dff031c177741fc40800000000000000
+      internalID: 5544291193167482877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: actual_harmony_sonic_sheet_59
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 690
+        width: 32
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 814329be3f52d25c0800000000000000
+      internalID: -4238689944726260712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: actual_harmony_sonic_sheet_119
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 210
+        width: 44
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd34ca11c83c36500800000000000000
+      internalID: 388368999243334621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: actual_harmony_sonic_sheet_120
+      rect:
+        serializedVersion: 2
+        x: 363
+        y: 210
+        width: 46
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2ff99d7837221ea0800000000000000
+      internalID: -5903613037950402770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: actual_harmony_sonic_sheet_121
+      rect:
+        serializedVersion: 2
+        x: 423
+        y: 210
+        width: 47
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e1e3df84504ff270800000000000000
+      internalID: 8286412571319460329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: actual_harmony_sonic_sheet_122
+      rect:
+        serializedVersion: 2
+        x: 495
+        y: 210
+        width: 38
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54c00811e9a35eac0800000000000000
+      internalID: -3826587857808520123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: actual_harmony_sonic_sheet_123
+      rect:
+        serializedVersion: 2
+        x: 233
+        y: 466
+        width: 40
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 810c0b899a44d3e50800000000000000
+      internalID: 6790659308346458136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: actual_harmony_sonic_sheet_124
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 466
+        width: 35
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cea8f183380efff50800000000000000
+      internalID: 6917494406851300076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: actual_harmony_sonic_sheet_125
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 402
+        width: 36
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8acd9d9621d0a410800000000000000
+      internalID: 1486417840815590028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: actual_harmony_sonic_sheet_126
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 402
+        width: 36
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8850fd00343a484b0800000000000000
+      internalID: -5439042941783964280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: actual_harmony_sonic_sheet_127
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 134
+        width: 30
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ffd4b8ea6a8ad6a0800000000000000
+      internalID: -6423669726715256848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: actual_harmony_sonic_sheet_128
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 134
+        width: 31
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e27120b97b867ea00800000000000000
+      internalID: 785711797788350254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: actual_harmony_sonic_sheet_129
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 134
+        width: 32
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25a059dc62310b800800000000000000
+      internalID: 626021405583280722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: actual_harmony_sonic_sheet_130
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 145
+        width: 26
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b50da3cfe368be70800000000000000
+      internalID: 9131158125924910518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: actual_harmony_sonic_sheet_131
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 153
+        width: 32
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f5e8409aa2aa2700800000000000000
+      internalID: 516403960736179705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: actual_harmony_sonic_sheet_132
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 155
+        width: 35
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 181fad3c9afa79ea0800000000000000
+      internalID: -5866026845956542079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: actual_harmony_sonic_sheet_133
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 158
+        width: 34
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8cec60400ef0df130800000000000000
+      internalID: 3602052731780910792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: actual_harmony_sonic_sheet_134
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 152
+        width: 30
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58b77bf479c216830800000000000000
+      internalID: 4062577367254006661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: actual_harmony_sonic_sheet_135
+      rect:
+        serializedVersion: 2
+        x: 359
+        y: 138
+        width: 35
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5daf5d580dc0c8b0800000000000000
+      internalID: -5133878139392381604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: actual_harmony_sonic_sheet_136
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 134
+        width: 34
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc41d50f448ba2490800000000000000
+      internalID: -7770195600844450609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: actual_harmony_sonic_sheet_137
+      rect:
+        serializedVersion: 2
+        x: 441
+        y: 134
+        width: 30
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 414ba89a0ef663d80800000000000000
+      internalID: -8271300654911540204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: actual_harmony_sonic_sheet_138
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 74
+        width: 29
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b615c15d6e40035f0800000000000000
+      internalID: -779117346070703765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: actual_harmony_sonic_sheet_139
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 74
+        width: 37
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3eed159233b48ee0800000000000000
+      internalID: -1259684965925392837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: actual_harmony_sonic_sheet_140
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 74
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2dc2655154cd4a20800000000000000
+      internalID: 3048308376403627307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: actual_harmony_sonic_sheet_141
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 74
+        width: 39
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d28276961d80c8d0800000000000000
+      internalID: -2828105437835787562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: actual_harmony_sonic_sheet_142
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 74
+        width: 40
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b5d275cfa79c3210800000000000000
+      internalID: 1314091972473050546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: actual_harmony_sonic_sheet_143
+      rect:
+        serializedVersion: 2
+        x: 246
+        y: 74
+        width: 39
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1e600a1976b47ad0800000000000000
+      internalID: -2705336844899291617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: actual_harmony_sonic_sheet_144
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 75
+        width: 40
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2729b0dc68306810800000000000000
+      internalID: 1756465894683911982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: actual_harmony_sonic_sheet_145
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 74
+        width: 39
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71ad7115d86b32ba0800000000000000
+      internalID: -6114843150971839977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: actual_harmony_sonic_sheet_146
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 74
+        width: 39
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da4601dfce8c48760800000000000000
+      internalID: 7459307803015931053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: actual_harmony_sonic_sheet_147
+      rect:
+        serializedVersion: 2
+        x: 431
+        y: 74
+        width: 43
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1b687ec62e8adcd0800000000000000
+      internalID: -2532555543118583009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: actual_harmony_sonic_sheet_148
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 24
+        width: 26
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5817c8cd792a43240800000000000000
+      internalID: 4770616678416150917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: actual_harmony_sonic_sheet_149
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 24
+        width: 26
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d220f5c1405639750800000000000000
+      internalID: 6310498571206459949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: actual_harmony_sonic_sheet_150
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 24
+        width: 35
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0473c481c0f072df0800000000000000
+      internalID: -205178713400395968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: actual_harmony_sonic_sheet_151
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 24
+        width: 38
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 637294ef509c12700800000000000000
+      internalID: 513912860075173686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: actual_harmony_sonic_sheet_152
+      rect:
+        serializedVersion: 2
+        x: 375
+        y: 274
+        width: 35
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96bc0cfec0e11f580800000000000000
+      internalID: -8795215556367037591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: actual_harmony_sonic_sheet_153
+      rect:
+        serializedVersion: 2
+        x: 419
+        y: 274
+        width: 35
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98f03fe4eb1c21320800000000000000
+      internalID: 2527295364020768649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: actual_harmony_sonic_sheet_154
+      rect:
+        serializedVersion: 2
+        x: 465
+        y: 274
+        width: 36
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b52b8a95106aae60800000000000000
+      internalID: 7974291736116274611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: actual_harmony_sonic_sheet_155
+      rect:
+        serializedVersion: 2
+        x: 506
+        y: 274
+        width: 40
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 332d2d152a048e6a0800000000000000
+      internalID: -6419810202914991565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: actual_harmony_sonic_sheet_156
+      rect:
+        serializedVersion: 2
+        x: 551
+        y: 274
+        width: 35
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7fae03f07a59ac860800000000000000
+      internalID: 7551012269986999031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: actual_harmony_sonic_sheet_157
+      rect:
+        serializedVersion: 2
+        x: 616
+        y: 274
+        width: 33
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a3b8356c15df3700800000000000000
+      internalID: 522370399732282281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: actual_harmony_sonic_sheet_158
+      rect:
+        serializedVersion: 2
+        x: 659
+        y: 274
+        width: 29
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14284c3cc363599d0800000000000000
+      internalID: -2768246761338928575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: actual_harmony_sonic_sheet_159
+      rect:
+        serializedVersion: 2
+        x: 710
+        y: 273
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d75920d52427b790800000000000000
+      internalID: -7514497708419622960
       vertices: []
       indices: 
       edges: []

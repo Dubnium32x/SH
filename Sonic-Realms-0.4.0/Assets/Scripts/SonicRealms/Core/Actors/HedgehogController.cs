@@ -1076,7 +1076,7 @@ namespace SonicRealms.Core.Actors
                 if (ApplySlopeGravity &&
                     !DMath.AngleInRange_d(RelativeSurfaceAngle, -SlopeGravityBeginAngle, SlopeGravityBeginAngle))
                 {
-                    GroundVelocity -= SlopeGravity * Mathf.Sin(RelativeSurfaceAngle * Mathf.Deg2Rad) * timestep;
+                    GroundVelocity -= (SlopeGravity + GroundVelocity) * Mathf.Sin(RelativeSurfaceAngle * Mathf.Deg2Rad) * timestep;
                 }
 
                 // Ground friction
@@ -1084,6 +1084,10 @@ namespace SonicRealms.Core.Actors
                     GroundVelocity -= Mathf.Min(Mathf.Abs(GroundVelocity), GroundFriction * timestep) * Mathf.Sign(GroundVelocity);
 
                 // Speed limit
+                if (GroundVelocity > MaxSpeed)
+                    GroundVelocity = MaxSpeed;
+                else if (GroundVelocity < -MaxSpeed)
+                    GroundVelocity = -MaxSpeed;
 
                 // Detachment from walls if speed is too low
                 if (DetachWhenSlow &&

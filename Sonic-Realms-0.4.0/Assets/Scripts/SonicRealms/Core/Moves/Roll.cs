@@ -9,6 +9,7 @@ namespace SonicRealms.Core.Moves
     /// </summary>
     public class Roll : Move
     {
+        public static bool IsRolling;
         #region Controls
         /// <summary>
         /// Input string used for activation.
@@ -143,6 +144,7 @@ namespace SonicRealms.Core.Moves
             base.Start();
             Controller.OnAttach.AddListener(OnAttach);
             Score = Controller.GetComponent<ScoreCounter>();
+            
         }
 
         public override void OnManagerAdd()
@@ -185,6 +187,7 @@ namespace SonicRealms.Core.Moves
 
         public override void OnActiveEnter(State previousState)
         {
+            IsRolling = true;
             // Store original physics values to restore after leaving the roll
             _rightDirection = Controller.GroundVelocity > 0.0f;
 
@@ -226,6 +229,7 @@ namespace SonicRealms.Core.Moves
 
         public override void OnActiveExit()
         {
+            IsRolling = false;
             Controller.SlopeGravity = _originalSlopeGravity;
             Controller.GroundFriction = _originalFriction;
             GroundControl.AccelerationLocked = false;

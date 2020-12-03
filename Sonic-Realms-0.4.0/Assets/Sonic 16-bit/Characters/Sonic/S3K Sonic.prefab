@@ -833,6 +833,7 @@ MonoBehaviour:
   AirDragRequiredSpeed: {x: 0.075, y: 2.4}
   AirGravity: 7.46
   SlopeGravity: 3
+  SlopeForceWhileInMotion: 0
   GravityDirection: 270
   MaxSpeed: 9001
   LedgeClimbHeight: 0.16
@@ -1006,7 +1007,7 @@ MonoBehaviour:
   RendererTransform: {fileID: 411496}
   RotateToGravity: 0
   RotateDuringRoll: 0
-  RotateDuringStand: 0
+  RotateDuringStand: 1
   AirRecoveryRate: 200
   MinimumAngle: 15
   Precision: 256

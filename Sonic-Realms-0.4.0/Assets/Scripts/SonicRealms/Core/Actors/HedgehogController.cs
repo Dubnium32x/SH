@@ -108,6 +108,12 @@ namespace SonicRealms.Core.Actors
         [Tooltip("Acceleration on downward slopes, the maximum being this value, in units per second squared")]
         public float SlopeGravity;
 
+        ///<summary>
+        /// The amount of force given to the player while on a slope in motion.
+        ///</summary>
+        [Tooltip("The amount of force given to the player while on a slope in motion.")]
+        public float SlopeForceWhileInMotion;
+
         /// <summary>
         /// Direction of gravity. 0/360 is right, 90 is up, 180 is left, 270 is down.
         /// </summary>
@@ -1076,7 +1082,21 @@ namespace SonicRealms.Core.Actors
                 if (ApplySlopeGravity &&
                     !DMath.AngleInRange_d(RelativeSurfaceAngle, -SlopeGravityBeginAngle, SlopeGravityBeginAngle))
                 {
-                    GroundVelocity -= (SlopeGravity + GroundVelocity) * Mathf.Sin(RelativeSurfaceAngle * Mathf.Deg2Rad) * timestep;
+                    if(!Roll.IsRolling)
+                    {
+                        if (Mathf.Sign(GroundVelocity) == 1)
+                        {
+                            GroundVelocity -= (SlopeGravity + GroundVelocity /* *SlopeForceWhileInMotion*/) * Mathf.Sin(RelativeSurfaceAngle * Mathf.Deg2Rad) * timestep;
+                        }
+                        if (Mathf.Sign(GroundVelocity) == -1)
+                        {
+                            GroundVelocity -= (SlopeGravity - GroundVelocity /* *SlopeForceWhileInMotion*/) * Mathf.Sin(RelativeSurfaceAngle * Mathf.Deg2Rad) * timestep;
+                        }
+                    }
+                    else
+                    {
+                        GroundVelocity -= SlopeGravity * Mathf.Sin(RelativeSurfaceAngle * Mathf.Deg2Rad) * timestep;
+                    }
                 }
 
                 // Ground friction

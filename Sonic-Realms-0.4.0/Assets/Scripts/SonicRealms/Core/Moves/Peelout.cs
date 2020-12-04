@@ -40,7 +40,12 @@ namespace SonicRealms.Core.Moves
         [Tooltip("An audio clip to play when the spindash is charged.")]
         public AudioClip ChargeSound;
 
-        
+        /// <summary>
+        /// Peelout Charge float(tells how fast sonic is going to the animator)
+        /// </summary>
+        [AnimationFoldout]
+        [Tooltip("Peelout Charge float(tells how fast sonic is going to the animator)")]
+        public string PeeloutCharge;
 
         protected GroundControl GroundControl;
         
@@ -73,7 +78,6 @@ namespace SonicRealms.Core.Moves
         public override void Start()
         {
             base.Start();
-
             
             GroundControl = Manager.Get<GroundControl>();
 
@@ -98,7 +102,6 @@ namespace SonicRealms.Core.Moves
         public override void OnActiveEnter(State previousState)
         {
             CurrentCharge = 0.0f;
-
             if (GroundControl != null)
                 GroundControl.DisableControl = true;
 
@@ -109,7 +112,7 @@ namespace SonicRealms.Core.Moves
 
         public override void OnActiveUpdate()
         {
-            
+            Controller.Animator.SetFloat(PeeloutCharge, CurrentCharge);
                 CurrentCharge -= CurrentCharge * Time.deltaTime;
                
             if (Input.GetButton(ChargeButton))

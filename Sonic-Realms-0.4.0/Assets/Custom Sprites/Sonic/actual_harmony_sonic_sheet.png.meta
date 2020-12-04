@@ -2147,12 +2147,12 @@ TextureImporter:
       name: actual_harmony_sonic_sheet_52
       rect:
         serializedVersion: 2
-        x: 265
+        x: 264
         y: 578
-        width: 47
+        width: 48
         height: 35
       alignment: 9
-      pivot: {x: 0.5, y: 0.5714286}
+      pivot: {x: 0.5208334, y: 0.5714286}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2173,7 +2173,7 @@ TextureImporter:
         width: 65
         height: 35
       alignment: 9
-      pivot: {x: 0.5, y: 0.5714286}
+      pivot: {x: 0.4, y: 0.5714286}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2194,7 +2194,7 @@ TextureImporter:
         width: 55
         height: 35
       alignment: 9
-      pivot: {x: 0.5, y: 0.5714286}
+      pivot: {x: 0.3090909, y: 0.5714286}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []

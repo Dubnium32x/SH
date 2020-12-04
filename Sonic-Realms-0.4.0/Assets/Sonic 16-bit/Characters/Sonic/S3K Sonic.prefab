@@ -640,7 +640,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 143048}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: -0.20000005, z: 0}
+  m_LocalPosition: {x: 0, y: -0.17, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 415044}
@@ -1957,15 +1957,9 @@ MonoBehaviour:
   EndSound: {fileID: 8300000, guid: 865233711471eee478f7352569dd6f6d, type: 3}
   ChargeButton: Jump
   ReleaseAxis: Vertical
-  BasePower: 5
-  ChargePower: 2.5
-  ChargePowerDecay: 2.5
-  MaxChargePower: 20
-  CurrentChargePower: 0
+  FastsPerUnit: 16
+  FastsCap: 64
   ChargeSound: {fileID: 8300000, guid: 34c8fd532f4bdfe4c9688041b8a4c641, type: 3}
-  ChargePitchSteps: 8
-  ChargePitchMin: 1
-  ChargePitchMax: 1.4
 --- !u!114 &11493570
 MonoBehaviour:
   m_ObjectHideFlags: 0

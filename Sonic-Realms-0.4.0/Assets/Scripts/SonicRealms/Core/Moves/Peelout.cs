@@ -18,41 +18,20 @@ namespace SonicRealms.Core.Moves
         [Tooltip("Input that must be released to execute the spindash.")]
         public string ReleaseAxis;
 
-        /// <summary>
-        /// The lowest speed possible after releasing, in units per second.
+
+        ///<summary>
+        /// How fast you want the peelout to charge.
         /// </summary>
-        [PhysicsFoldout]
-        [Tooltip("The lowest speed possible after releasing, in units per second.")]
-        public float BasePower;
+        [ControlFoldout]
+        [Tooltip("How fast you want the peelout to charge.")]
+        public float FastsPerUnit;
 
         /// <summary>
-        /// The bonus speed given for charging up once, in units per second.
+        /// Fast cap for peelout(a charge cap)
         /// </summary>
-        [PhysicsFoldout]
-        [Tooltip("The bonus speed given for charging up once, in units per second.")]
-        public float ChargePower;
-
-        /// <summary>
-        /// Decay rate of the bonus speed from charging up. Current charge decreases by 
-        /// itself times ChargePowerDecay each second.
-        /// </summary>
-        [PhysicsFoldout]
-        [Tooltip("Decay rate of the bonus speed from charging up. Current charge decreases by " +
-                 "itself times ChargePowerDecay each second.")]
-        public float ChargePowerDecay;
-
-        /// <summary>
-        /// Maximum total bonus speed from charging up, in units per second.
-        /// </summary>
-        [PhysicsFoldout]
-        [Tooltip("Maximum total bonus speed from charging up, in units per second.")]
-        public float MaxChargePower;
-
-        /// <summary>
-        /// Current charge power, or zero if not currently active.
-        /// </summary>
-        [DebugFoldout]
-        public float CurrentChargePower;
+        [ControlFoldout]
+        [Tooltip("Fast cap for peelout(a charge cap)")]
+        public float FastsCap;
 
         /// <summary>
         /// An audio clip to play when the spindash is charged.
@@ -61,30 +40,13 @@ namespace SonicRealms.Core.Moves
         [Tooltip("An audio clip to play when the spindash is charged.")]
         public AudioClip ChargeSound;
 
-        /// <summary>
-        /// How many charges it takes to go from minimum pitch to maximum pitch.
-        /// </summary>
-        [SoundFoldout]
-        [Tooltip("How many charges it takes to go from minimum pitch to maximum pitch.")]
-        public int ChargePitchSteps;
-
-        /// <summary>
-        /// The minimum pitch of the charge sound.
-        /// </summary>
-        [SoundFoldout]
-        [Tooltip("The minimum pitch of the charge sound.")]
-        public float ChargePitchMin;
-
-        /// <summary>
-        /// The maximum pitch of the charge sound.
-        /// </summary>
-        [SoundFoldout]
-        [Tooltip("The maximum pitch of the charge sound.")]
-        public float ChargePitchMax;
+        
 
         protected GroundControl GroundControl;
         
         protected AudioSource ChargeAudioSource;
+
+        float CurrentCharge;
 
         public override MoveLayer Layer
         {
@@ -98,10 +60,6 @@ namespace SonicRealms.Core.Moves
             ChargeButton = "Jump";
             ReleaseAxis = "Vertical";
 
-            ChargePower = 2.5f;
-            MaxChargePower = 5f;
-            BasePower = 5f;
-            ChargePowerDecay = 0.0f;
 
             ChargeSound = null;
         }
@@ -109,7 +67,7 @@ namespace SonicRealms.Core.Moves
         public override void Awake()
         {
             base.Awake();
-            CurrentChargePower = 0.0f;
+            CurrentCharge = 0f;
         }
 
         public override void Start()
@@ -139,13 +97,12 @@ namespace SonicRealms.Core.Moves
 
         public override void OnActiveEnter(State previousState)
         {
-            CurrentChargePower = 0.0f;
+            CurrentCharge = 0.0f;
 
             if (GroundControl != null)
                 GroundControl.DisableControl = true;
 
             if (ChargeAudioSource == null) return;
-            ChargeAudioSource.pitch = ChargePitchMin;
             ChargeAudioSource.Play();
         }
   
@@ -153,13 +110,13 @@ namespace SonicRealms.Core.Moves
         public override void OnActiveUpdate()
         {
             
-                CurrentChargePower -= CurrentChargePower * Time.deltaTime;
+                CurrentCharge -= CurrentCharge * Time.deltaTime;
                
             if (Input.GetButton(ChargeButton))
                 Charge();
             
 
-            if (CurrentChargePower > MaxChargePower) CurrentChargePower = MaxChargePower;
+            if (CurrentCharge > FastsCap) CurrentCharge = FastsCap;
 
             if (Input.GetButtonUp(ChargeButton))
                 Finish();
@@ -177,20 +134,19 @@ namespace SonicRealms.Core.Moves
         public void Charge()
         {
            
-                CurrentChargePower += ChargePower;
+                CurrentCharge += FastsPerUnit * Time.deltaTime;
             
             
         }
 
         public void Finish()
         {
-            if (CurrentChargePower >= 2.5)
-            {
+            
                 if (Controller.FacingForward)
-                    Controller.GroundVelocity = MaxChargePower/2.5f;
+                    Controller.GroundVelocity = CurrentCharge;
                 else
-                    Controller.GroundVelocity = -MaxChargePower/2.5f;
-            }
+                    Controller.GroundVelocity = -CurrentCharge;
+            
             
             End();
         }

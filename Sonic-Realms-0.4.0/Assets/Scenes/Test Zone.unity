@@ -7980,6 +7980,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: -777356743533571427, guid: 74bad9e4cff3f3c4986ae0637ab923f2,
         type: 3}
+    - target: {fileID: 21216568, guid: dbca39c759708bb4dbdc512f0b2a13b2, type: 3}
+      propertyPath: m_FlipX
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 1366366580734098019, guid: dbca39c759708bb4dbdc512f0b2a13b2,
         type: 3}
       propertyPath: m_SizeDelta.x

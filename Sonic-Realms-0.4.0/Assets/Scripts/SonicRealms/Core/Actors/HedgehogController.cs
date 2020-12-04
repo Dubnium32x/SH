@@ -912,6 +912,18 @@ namespace SonicRealms.Core.Actors
             {
                 ObjectRotation = 0;
             }
+            if(Input.GetKey(KeyCode.F1))
+            {
+                Time.timeScale -= 0.01f;
+            }
+            if(Input.GetKey(KeyCode.F2))
+            {
+                Time.timeScale += 0.01f;
+            }
+            if(Input.GetKey(KeyCode.F3))
+            {
+                Time.timeScale = 1;
+            }
 
 
             if (Input.GetKeyDown(KeyCode.Keypad5) || Input.GetKey(KeyCode.KeypadPlus))

@@ -75,7 +75,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 104412}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.099999905, y: -0.22, z: 0}
+  m_LocalPosition: {x: -0.099999905, y: -0.18, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 473634}
@@ -839,7 +839,7 @@ MonoBehaviour:
   LedgeClimbHeight: 0.16
   LedgeDropHeight: 0.16
   AntiTunnelingSpeed: 3.15
-  SlopeGravityBeginAngle: 0
+  SlopeGravityBeginAngle: 180
   DetachSpeed: 0.1632
   MaxClimbAngle: 45
   DisableNotifyPlatforms: 0
@@ -1007,7 +1007,7 @@ MonoBehaviour:
   RendererTransform: {fileID: 411496}
   RotateToGravity: 0
   RotateDuringRoll: 0
-  RotateDuringStand: 1
+  RotateDuringStand: 0
   AirRecoveryRate: 200
   MinimumAngle: 15
   Precision: 256
@@ -1278,7 +1278,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 156920}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: -0.221, z: 0}
+  m_LocalPosition: {x: 0, y: -0.18, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 404068}
@@ -1786,8 +1786,8 @@ MonoBehaviour:
   RequireNegative: 1
   MinActivateSpeed: 0.61875
   Hitbox: {fileID: 11475340}
-  WidthChange: -0.04
-  HeightChange: -0.1
+  WidthChange: -0.05
+  HeightChange: -0.05
   UphillGravity: 2.8125
   DownhillGravity: 11.25
   Deceleration: 4.5
@@ -2748,7 +2748,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 185464}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.099999905, y: -0.22, z: 0}
+  m_LocalPosition: {x: 0.099999905, y: -0.18, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 404068}

@@ -1099,10 +1099,15 @@ namespace SonicRealms.Core.Actors
                     }
                 }
 
+               if(SurfaceAngle < 45 && GroundVelocity < 1)
+                {
+                    GroundVelocity -= SlopeGravity * Mathf.Sin(RelativeSurfaceAngle * Mathf.Deg2Rad) * timestep;
+                }
+
                 // Ground friction
                 if (ApplyGroundFriction)
                     GroundVelocity -= Mathf.Min(Mathf.Abs(GroundVelocity), GroundFriction * timestep) * Mathf.Sign(GroundVelocity);
-
+                
                 // Speed limit
                 if (GroundVelocity > MaxSpeed)
                     GroundVelocity = MaxSpeed;

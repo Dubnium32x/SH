@@ -833,7 +833,6 @@ MonoBehaviour:
   AirDragRequiredSpeed: {x: 0.075, y: 2.4}
   AirGravity: 7.46
   SlopeGravity: 3
-  SlopeForceWhileInMotion: 0
   GravityDirection: 270
   MaxSpeed: 9001
   LedgeClimbHeight: 0.16
@@ -1957,10 +1956,11 @@ MonoBehaviour:
   EndSound: {fileID: 8300000, guid: 865233711471eee478f7352569dd6f6d, type: 3}
   ChargeButton: Jump
   ReleaseAxis: Vertical
-  FastsPerUnit: 8
-  FastsCap: 64
+  FastsPerUnit: 16
+  FastsCap: 32
   ChargeSound: {fileID: 8300000, guid: 34c8fd532f4bdfe4c9688041b8a4c641, type: 3}
   PeeloutCharge: PeeloutCharge
+  PeeloutFasts: PeeloutAnimationSpeed
 --- !u!114 &11493570
 MonoBehaviour:
   m_ObjectHideFlags: 0

@@ -47,11 +47,21 @@ namespace SonicRealms.Core.Moves
         [Tooltip("Peelout Charge float(tells how fast sonic is going to the animator)")]
         public string PeeloutCharge;
 
+        /// <summary>
+        /// Changes how fast the animator animates the peelout
+        /// </summary>
+        [AnimationFoldout]
+        [Tooltip("Changes how fast the animator animates the peelout")]
+        public string PeeloutFasts;
+
         protected GroundControl GroundControl;
         
         protected AudioSource ChargeAudioSource;
 
         float CurrentCharge;
+
+
+        float CurrentCharge2;
 
         public override MoveLayer Layer
         {
@@ -73,6 +83,7 @@ namespace SonicRealms.Core.Moves
         {
             base.Awake();
             CurrentCharge = 0f;
+            CurrentCharge2 = 0f;
         }
 
         public override void Start()
@@ -102,6 +113,7 @@ namespace SonicRealms.Core.Moves
         public override void OnActiveEnter(State previousState)
         {
             CurrentCharge = 0.0f;
+            CurrentCharge2 = 0.0f;
             if (GroundControl != null)
                 GroundControl.DisableControl = true;
 
@@ -112,14 +124,18 @@ namespace SonicRealms.Core.Moves
 
         public override void OnActiveUpdate()
         {
+            float ChargeForAnimator = CurrentCharge2 * 1.2f;
             Controller.Animator.SetFloat(PeeloutCharge, CurrentCharge);
+            Controller.Animator.SetFloat(PeeloutFasts, ChargeForAnimator);
                 CurrentCharge -= CurrentCharge * Time.deltaTime;
-               
+                CurrentCharge2 += (CurrentCharge2 / 2) * Time.deltaTime;
+
             if (Input.GetButton(ChargeButton))
                 Charge();
             
 
             if (CurrentCharge > FastsCap) CurrentCharge = FastsCap;
+            if (CurrentCharge2 > FastsCap) CurrentCharge2 = FastsCap;
 
             if (Input.GetButtonUp(ChargeButton))
                 Finish();
@@ -138,18 +154,20 @@ namespace SonicRealms.Core.Moves
         {
            
                 CurrentCharge += FastsPerUnit * Time.deltaTime;
+                CurrentCharge2 += FastsPerUnit * Time.deltaTime;
             
             
         }
 
         public void Finish()
         {
-            
+            if (CurrentCharge > 5)
+            {
                 if (Controller.FacingForward)
                     Controller.GroundVelocity = CurrentCharge;
                 else
                     Controller.GroundVelocity = -CurrentCharge;
-            
+            }
             
             End();
         }

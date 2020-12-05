@@ -88,7 +88,7 @@ AnimatorStateTransition:
   m_Conditions:
   - m_ConditionMode: 4
     m_ConditionEvent: PeeloutCharge
-    m_EventTreshold: 3
+    m_EventTreshold: 2
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: -2473858167001785878}
   m_Solo: 0
@@ -544,7 +544,7 @@ AnimatorStateTransition:
   m_Conditions:
   - m_ConditionMode: 3
     m_ConditionEvent: PeeloutCharge
-    m_EventTreshold: 9
+    m_EventTreshold: 5
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: 8804430330934554723}
   m_Solo: 0
@@ -637,13 +637,13 @@ AnimatorState:
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
   m_CycleOffsetParameterActive: 0
-  m_TimeParameterActive: 0
+  m_TimeParameterActive: 1
   m_Motion: {fileID: 7400000, guid: a288301139875244d9a6b1eca506cfce, type: 2}
   m_Tag: 
   m_SpeedParameter: 
   m_MirrorParameter: 
   m_CycleOffsetParameter: 
-  m_TimeParameter: Absolute Ground Speed
+  m_TimeParameter: PeeloutAnimationSpeed
 --- !u!1101 &-1837494066490986125
 AnimatorStateTransition:
   m_ObjectHideFlags: 1
@@ -5734,7 +5734,7 @@ AnimatorStateTransition:
   m_Conditions:
   - m_ConditionMode: 4
     m_ConditionEvent: PeeloutCharge
-    m_EventTreshold: 9
+    m_EventTreshold: 5
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: 2174498442956926221}
   m_Solo: 0
@@ -5847,13 +5847,13 @@ AnimatorState:
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
   m_CycleOffsetParameterActive: 0
-  m_TimeParameterActive: 0
+  m_TimeParameterActive: 1
   m_Motion: {fileID: 7400000, guid: 4dc860ec895717f40839354854ef9d2d, type: 2}
   m_Tag: 
   m_SpeedParameter: 
   m_MirrorParameter: 
   m_CycleOffsetParameter: 
-  m_TimeParameter: PeeloutCharge
+  m_TimeParameter: PeeloutAnimationSpeed
 --- !u!1101 &2559174061768836980
 AnimatorStateTransition:
   m_ObjectHideFlags: 1
@@ -6090,7 +6090,7 @@ AnimatorStateTransition:
   m_Conditions:
   - m_ConditionMode: 3
     m_ConditionEvent: PeeloutCharge
-    m_EventTreshold: 3
+    m_EventTreshold: 2
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: 2174498442956926221}
   m_Solo: 0
@@ -6331,13 +6331,13 @@ AnimatorState:
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
   m_CycleOffsetParameterActive: 0
-  m_TimeParameterActive: 0
+  m_TimeParameterActive: 1
   m_Motion: {fileID: 7400000, guid: 47d72e2706c16864c87be75cd85d14f6, type: 2}
   m_Tag: 
   m_SpeedParameter: 
   m_MirrorParameter: 
   m_CycleOffsetParameter: 
-  m_TimeParameter: PeeloutCharge
+  m_TimeParameter: PeeloutAnimationSpeed
 --- !u!1101 &9034544498464002948
 AnimatorStateTransition:
   m_ObjectHideFlags: 1

@@ -63,6 +63,8 @@ namespace SonicRealms.Core.Moves
 
         float CurrentCharge2;
 
+        float CurrentChargeOut;
+
         public override MoveLayer Layer
         {
             get { return MoveLayer.Action; }
@@ -84,6 +86,7 @@ namespace SonicRealms.Core.Moves
             base.Awake();
             CurrentCharge = 0f;
             CurrentCharge2 = 0f;
+            CurrentChargeOut = 0f;
         }
 
         public override void Start()
@@ -114,6 +117,8 @@ namespace SonicRealms.Core.Moves
         {
             CurrentCharge = 0.0f;
             CurrentCharge2 = 0.0f;
+
+            CurrentChargeOut = 0f;
             if (GroundControl != null)
                 GroundControl.DisableControl = true;
 
@@ -135,7 +140,9 @@ namespace SonicRealms.Core.Moves
             
 
             if (CurrentCharge > FastsCap) CurrentCharge = FastsCap;
-            if (CurrentCharge2 > FastsCap) CurrentCharge2 = FastsCap;
+            if (CurrentCharge2 > FastsCap) CurrentCharge2 = FastsCap * 2;
+
+            if (CurrentChargeOut > FastsCap) CurrentChargeOut = FastsCap;
 
             if (Input.GetButtonUp(ChargeButton))
                 Finish();
@@ -155,19 +162,20 @@ namespace SonicRealms.Core.Moves
            
                 CurrentCharge += FastsPerUnit * Time.deltaTime;
                 CurrentCharge2 += FastsPerUnit * Time.deltaTime;
-            
+            if(CurrentCharge > 5 && CurrentChargeOut < FastsCap)
+            {
+                CurrentChargeOut += FastsPerUnit * Time.deltaTime;
+            }
             
         }
 
         public void Finish()
         {
-            if (CurrentCharge > 5)
-            {
                 if (Controller.FacingForward)
-                    Controller.GroundVelocity = CurrentCharge;
+                    Controller.GroundVelocity = CurrentChargeOut;
                 else
-                    Controller.GroundVelocity = -CurrentCharge;
-            }
+                    Controller.GroundVelocity = -CurrentChargeOut;
+            
             
             End();
         }

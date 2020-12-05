@@ -89,10 +89,10 @@ InputManager:
     m_Name: Jump
     descriptiveName: Keyboard Jump Button C/L
     descriptiveNegativeName: 
-    negativeButton: 
+    negativeButton: space
     positiveButton: space
-    altNegativeButton: 
-    altPositiveButton: 
+    altNegativeButton: space
+    altPositiveButton: space
     gravity: 1000
     dead: 0.001
     sensitivity: 1000

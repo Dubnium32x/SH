@@ -12,9 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e6939f41cf741304db6119a32dcfbe45, type: 3}
   m_Name: Kicks
   m_EditorClassIdentifier: 
-  PlayerObject: {fileID: 151248, guid: dbca39c759708bb4dbdc512f0b2a13b2, type: 3}
+  PlayerObject: {fileID: 151248, guid: a51c0da6f49c48a49b276b00048a01ee, type: 3}
   SignpostVictoryObject: {fileID: 0}
-  CharacterSelectName: SONIC
-  LifeCounterName: SONIC
-  LifeCounterIcon: {fileID: 0}
+  CharacterSelectName: KICKS
+  LifeCounterName: KICKS
+  LifeCounterIcon: {fileID: 8093660633543092349, guid: 1f98bc2d753eae84595ea3848ba1c088,
+    type: 3}
   SaveSelectIcon: {fileID: 0}

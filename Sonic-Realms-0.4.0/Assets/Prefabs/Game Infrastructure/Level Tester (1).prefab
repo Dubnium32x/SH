@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1 &175728
+--- !u!1 &6746162213918868963
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -8,22 +8,22 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 454428}
-  - component: {fileID: 11406394}
+  - component: {fileID: 6746162213918622863}
+  - component: {fileID: 6746162213911832489}
   m_Layer: 0
-  m_Name: Level Tester
+  m_Name: Level Tester (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &454428
+--- !u!4 &6746162213918622863
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 175728}
+  m_GameObject: {fileID: 6746162213918868963}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
@@ -31,20 +31,20 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &11406394
+--- !u!114 &6746162213911832489
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 175728}
+  m_GameObject: {fileID: 6746162213918868963}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 87f2a33067ec7c7479ebb05fe29c1d24, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Level: {fileID: 11400000, guid: 4861631379e5fc54db57c19bd8daf3c1, type: 2}
-  Character: {fileID: 11400000, guid: 819344311bcc8a049bac258c77bd1211, type: 2}
+  Level: {fileID: 11400000, guid: e328584d1a384554cb1f82af94f60960, type: 2}
+  Character: {fileID: 11400000, guid: 420f0dab6f650c249891408b33fab64b, type: 2}
   BaseGameManager: {fileID: 11407338, guid: 2408b886ba162e84eb4eafdc49295c5e, type: 3}
   BaseSoundManager: {fileID: 11413506, guid: 80b94990b2cf5a0499eeadc4a0031409, type: 3}
   GameManager: {fileID: 0}

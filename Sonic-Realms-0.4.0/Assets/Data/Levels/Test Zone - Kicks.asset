@@ -10,8 +10,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 1a51faac230af2b4b9d694e4fe05e4f7, type: 3}
-  m_Name: Test Zone
+  m_Name: Test Zone - Kicks
   m_EditorClassIdentifier: 
   LevelSelectIcon: {fileID: 0}
-  Scene: Scenes/Test Zone - Kicks
+  Scene: Scenes/Test Zone
   LevelManager: Level Manager

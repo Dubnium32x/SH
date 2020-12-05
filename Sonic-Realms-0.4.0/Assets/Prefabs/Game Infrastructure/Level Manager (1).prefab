@@ -1,0 +1,82 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &2391318973085323463
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2391318973084963539}
+  - component: {fileID: 2391318973091786853}
+  - component: {fileID: 2391318973091689647}
+  m_Layer: 0
+  m_Name: Level Manager (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2391318973084963539
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2391318973085323463}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2391318973091786853
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2391318973085323463}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bec7c984f227de148bea935dbb7ceed5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  OnLevelComplete:
+    m_PersistentCalls:
+      m_Calls: []
+  BGM: {fileID: 9205946217542857779, guid: 6bc66a92866a3d54ca3eefd53d82384f, type: 3}
+  HudManager: {fileID: 0}
+  Camera: {fileID: 0}
+  TitleCard: {fileID: 0}
+  GameOverScreen: {fileID: 0}
+  TimeOverScreen: {fileID: 0}
+  ActClearScreen: {fileID: 0}
+  LevelBoundsMin: {fileID: 0}
+  LevelBoundsMax: {fileID: 0}
+  Spawn: {fileID: 0}
+  Timer: {fileID: 2391318973091689647}
+  TimeOverSeconds: 599
+  NextLevel:
+    DefaultLevel: {fileID: 0}
+    SpecialCharacters: []
+  Player: {fileID: 0}
+  Health: {fileID: 0}
+  Checkpoint: {fileID: 0}
+  ScoreCounter: {fileID: 0}
+  RingCounter: {fileID: 0}
+  LifeCounter: {fileID: 0}
+--- !u!114 &2391318973091689647
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2391318973085323463}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a674b2d62b659404cb1303b6f6986e0c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

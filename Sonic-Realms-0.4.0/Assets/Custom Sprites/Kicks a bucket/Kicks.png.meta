@@ -251,6 +251,936 @@ TextureImporter:
   - first:
       213: -7222104716299998655
     second: Kicks_82
+  - first:
+      213: -504013127876831202
+    second: Kicks_0
+  - first:
+      213: -6097708037099204021
+    second: Kicks_1
+  - first:
+      213: 3485081430961307812
+    second: Kicks_2
+  - first:
+      213: -7408288675512586356
+    second: Kicks_3
+  - first:
+      213: -542565712527118715
+    second: Kicks_4
+  - first:
+      213: -1902423741561049947
+    second: Kicks_5
+  - first:
+      213: -4673075370898594933
+    second: Kicks_6
+  - first:
+      213: -8980573572131511646
+    second: Kicks_7
+  - first:
+      213: -2579236983073174877
+    second: Kicks_8
+  - first:
+      213: -5916568861822616562
+    second: Kicks_9
+  - first:
+      213: -520800717124563894
+    second: Kicks_10
+  - first:
+      213: 8790532012211001065
+    second: Kicks_11
+  - first:
+      213: -4784861541095834882
+    second: Kicks_12
+  - first:
+      213: 5408432113029574862
+    second: Kicks_13
+  - first:
+      213: 2629794835743665839
+    second: Kicks_14
+  - first:
+      213: -610900080498227105
+    second: Kicks_15
+  - first:
+      213: -1556458177203099242
+    second: Kicks_16
+  - first:
+      213: -4892983857514133242
+    second: Kicks_17
+  - first:
+      213: -2287111858169596
+    second: Kicks_18
+  - first:
+      213: 144655328101565778
+    second: Kicks_19
+  - first:
+      213: -5228964153399829174
+    second: Kicks_20
+  - first:
+      213: 946065194549898112
+    second: Kicks_21
+  - first:
+      213: -6511560433862974825
+    second: Kicks_22
+  - first:
+      213: 6545163273742329131
+    second: Kicks_23
+  - first:
+      213: -6770841478949193946
+    second: Kicks_24
+  - first:
+      213: 8186309757799355547
+    second: Kicks_25
+  - first:
+      213: -6278500288338221517
+    second: Kicks_26
+  - first:
+      213: -3097241230034154155
+    second: Kicks_27
+  - first:
+      213: 8276909560425124877
+    second: Kicks_28
+  - first:
+      213: 8152118007107139666
+    second: Kicks_29
+  - first:
+      213: -969080068468281187
+    second: Kicks_30
+  - first:
+      213: 7738918271626330062
+    second: Kicks_31
+  - first:
+      213: -2763375989193573570
+    second: Kicks_32
+  - first:
+      213: -7260020042216197992
+    second: Kicks_33
+  - first:
+      213: 6181801899702888023
+    second: Kicks_34
+  - first:
+      213: 6238416382724281545
+    second: Kicks_35
+  - first:
+      213: -2832686011388576650
+    second: Kicks_36
+  - first:
+      213: 4167588632836054950
+    second: Kicks_37
+  - first:
+      213: -3235391564123460368
+    second: Kicks_38
+  - first:
+      213: 5717423603938638769
+    second: Kicks_39
+  - first:
+      213: 6723588303343726192
+    second: Kicks_40
+  - first:
+      213: -8324509476908609278
+    second: Kicks_41
+  - first:
+      213: -647644568886312014
+    second: Kicks_42
+  - first:
+      213: 3875842525508317279
+    second: Kicks_43
+  - first:
+      213: 7310271928850432186
+    second: Kicks_44
+  - first:
+      213: -8132512266686155630
+    second: Kicks_45
+  - first:
+      213: 8279534079696266896
+    second: Kicks_46
+  - first:
+      213: -3594615382498614341
+    second: Kicks_47
+  - first:
+      213: 7704992124030709117
+    second: Kicks_48
+  - first:
+      213: -1317921227302154842
+    second: Kicks_49
+  - first:
+      213: -7188635950998547460
+    second: Kicks_50
+  - first:
+      213: 684506694296316510
+    second: Kicks_51
+  - first:
+      213: -6389980692821619268
+    second: Kicks_52
+  - first:
+      213: -8633061918595929889
+    second: Kicks_53
+  - first:
+      213: -4839731570119920223
+    second: Kicks_54
+  - first:
+      213: 6113192881312817070
+    second: Kicks_55
+  - first:
+      213: 8739897206991741149
+    second: Kicks_56
+  - first:
+      213: -5091711201898366537
+    second: Kicks_57
+  - first:
+      213: -6471293184117278108
+    second: Kicks_58
+  - first:
+      213: 1566916056773614188
+    second: Kicks_59
+  - first:
+      213: -8145228652757645518
+    second: Kicks_60
+  - first:
+      213: -7510964839756886790
+    second: Kicks_61
+  - first:
+      213: 2943090115128405651
+    second: Kicks_62
+  - first:
+      213: 5075170715899119958
+    second: Kicks_63
+  - first:
+      213: -6296030007763704099
+    second: Kicks_64
+  - first:
+      213: -1479098860288078517
+    second: Kicks_65
+  - first:
+      213: -6884338830331572824
+    second: Kicks_66
+  - first:
+      213: 6530195967337761979
+    second: Kicks_67
+  - first:
+      213: 4194820420445269119
+    second: Kicks_68
+  - first:
+      213: -1388097131865740565
+    second: Kicks_69
+  - first:
+      213: -8376239446279840959
+    second: Kicks_70
+  - first:
+      213: 7403982548615335693
+    second: Kicks_71
+  - first:
+      213: 1004466472212628821
+    second: Kicks_72
+  - first:
+      213: -5055073009720994624
+    second: Kicks_73
+  - first:
+      213: -5767099375477999924
+    second: Kicks_74
+  - first:
+      213: 6680171896187708873
+    second: Kicks_75
+  - first:
+      213: 5640215342109387087
+    second: Kicks_76
+  - first:
+      213: 45046882806838978
+    second: Kicks_77
+  - first:
+      213: 7439506675922541185
+    second: Kicks_78
+  - first:
+      213: -2857416599594347052
+    second: Kicks_79
+  - first:
+      213: -3724890333321764739
+    second: Kicks_80
+  - first:
+      213: -6477839715319370977
+    second: Kicks_81
+  - first:
+      213: 9202728570393434678
+    second: Kicks_82
+  - first:
+      213: 8833738033706087494
+    second: Kicks_83
+  - first:
+      213: -7037082352401605368
+    second: Kicks_84
+  - first:
+      213: 7836048305531123315
+    second: Kicks_85
+  - first:
+      213: -1815675852273719514
+    second: Kicks_86
+  - first:
+      213: -5288326583848930384
+    second: Kicks_87
+  - first:
+      213: 8280625817139733227
+    second: Kicks_88
+  - first:
+      213: 2718601702120453542
+    second: Kicks_89
+  - first:
+      213: -4238890233992593855
+    second: Kicks_90
+  - first:
+      213: -7793151044410114953
+    second: Kicks_91
+  - first:
+      213: 3841445431243994567
+    second: Kicks_92
+  - first:
+      213: -6683476713063035765
+    second: Kicks_93
+  - first:
+      213: -8482754750397444823
+    second: Kicks_94
+  - first:
+      213: 1177108785780499668
+    second: Kicks_95
+  - first:
+      213: -3639640183313903091
+    second: Kicks_96
+  - first:
+      213: -1872532162180937363
+    second: Kicks_97
+  - first:
+      213: 5125520100125575968
+    second: Kicks_98
+  - first:
+      213: 8313126884661852154
+    second: Kicks_99
+  - first:
+      213: -5447130279591104086
+    second: Kicks_100
+  - first:
+      213: -952234649055839306
+    second: Kicks_101
+  - first:
+      213: -3062995395134105325
+    second: Kicks_102
+  - first:
+      213: 1089360750646443596
+    second: Kicks_103
+  - first:
+      213: -8306006425082243269
+    second: Kicks_104
+  - first:
+      213: 68195230804515220
+    second: Kicks_105
+  - first:
+      213: 3081054536070616327
+    second: Kicks_106
+  - first:
+      213: -7341310472873639930
+    second: Kicks_107
+  - first:
+      213: -5253662472599791916
+    second: Kicks_108
+  - first:
+      213: -8201148300051609995
+    second: Kicks_109
+  - first:
+      213: 1490762708019533697
+    second: Kicks_110
+  - first:
+      213: -2610214215743204991
+    second: Kicks_111
+  - first:
+      213: 2339747230753850726
+    second: Kicks_112
+  - first:
+      213: 4772999043746128860
+    second: Kicks_113
+  - first:
+      213: 2878704044511535562
+    second: Kicks_114
+  - first:
+      213: 8177580605189734245
+    second: Kicks_115
+  - first:
+      213: 4255647582470850634
+    second: Kicks_116
+  - first:
+      213: -8696741373867654010
+    second: Kicks_117
+  - first:
+      213: -8243434121892372363
+    second: Kicks_118
+  - first:
+      213: -5755085950449826919
+    second: Kicks_119
+  - first:
+      213: 6528874286051390798
+    second: Kicks_120
+  - first:
+      213: 6498841362235821816
+    second: Kicks_121
+  - first:
+      213: 4431021131218926641
+    second: Kicks_122
+  - first:
+      213: -6958171787666698414
+    second: Kicks_123
+  - first:
+      213: -4403279228370366322
+    second: Kicks_124
+  - first:
+      213: 4909954635298965419
+    second: Kicks_125
+  - first:
+      213: -7623283679383989497
+    second: Kicks_126
+  - first:
+      213: -169710265763485460
+    second: Kicks_127
+  - first:
+      213: 8878732452922619814
+    second: Kicks_128
+  - first:
+      213: 6714694879286596013
+    second: Kicks_129
+  - first:
+      213: -7235321228834876378
+    second: Kicks_130
+  - first:
+      213: 6718866753975401738
+    second: Kicks_131
+  - first:
+      213: 5012922790485282928
+    second: Kicks_132
+  - first:
+      213: 2821583442476205980
+    second: Kicks_133
+  - first:
+      213: 474184020835488491
+    second: Kicks_134
+  - first:
+      213: 8197205030275026035
+    second: Kicks_135
+  - first:
+      213: -8176939591367099706
+    second: Kicks_136
+  - first:
+      213: -3333180149212039626
+    second: Kicks_137
+  - first:
+      213: -8893893050288513520
+    second: Kicks_138
+  - first:
+      213: -10214976959875402
+    second: Kicks_139
+  - first:
+      213: 7987880919707260063
+    second: Kicks_140
+  - first:
+      213: -7033629688682010333
+    second: Kicks_141
+  - first:
+      213: 8243443504738622956
+    second: Kicks_142
+  - first:
+      213: 4652644305604243566
+    second: Kicks_143
+  - first:
+      213: 2446529413717011954
+    second: Kicks_144
+  - first:
+      213: -9216534823033723359
+    second: Kicks_145
+  - first:
+      213: -284135408403718366
+    second: Kicks_146
+  - first:
+      213: 8169232525667662828
+    second: Kicks_147
+  - first:
+      213: 1589058449857354174
+    second: Kicks_148
+  - first:
+      213: -2238032265906454034
+    second: Kicks_149
+  - first:
+      213: -4749324385308992916
+    second: Kicks_150
+  - first:
+      213: -9141198258728601752
+    second: Kicks_151
+  - first:
+      213: 6569071050988268780
+    second: Kicks_152
+  - first:
+      213: 6477646074981699936
+    second: Kicks_153
+  - first:
+      213: -8328992851547811156
+    second: Kicks_154
+  - first:
+      213: 3084402148724460343
+    second: Kicks_155
+  - first:
+      213: -2659638183184731551
+    second: Kicks_156
+  - first:
+      213: -6288927638265131490
+    second: Kicks_157
+  - first:
+      213: 8419709360453830054
+    second: Kicks_158
+  - first:
+      213: -157755768585592981
+    second: Kicks_159
+  - first:
+      213: 2074356494779807836
+    second: Kicks_160
+  - first:
+      213: 7071792621056706586
+    second: Kicks_161
+  - first:
+      213: -8452804331135230010
+    second: Kicks_162
+  - first:
+      213: -4854100601898762800
+    second: Kicks_163
+  - first:
+      213: 4484758199244262689
+    second: Kicks_164
+  - first:
+      213: -1835965746055608848
+    second: Kicks_165
+  - first:
+      213: 6636207642315643520
+    second: Kicks_166
+  - first:
+      213: -7368299963747539289
+    second: Kicks_167
+  - first:
+      213: -6065904033935700611
+    second: Kicks_168
+  - first:
+      213: -1660624618455585337
+    second: Kicks_169
+  - first:
+      213: 7806805183919708291
+    second: Kicks_170
+  - first:
+      213: -6409335950745315925
+    second: Kicks_171
+  - first:
+      213: 3817474380331305351
+    second: Kicks_172
+  - first:
+      213: -5168355364113963293
+    second: Kicks_173
+  - first:
+      213: -7786371919061590882
+    second: Kicks_174
+  - first:
+      213: 7596304607918445061
+    second: Kicks_175
+  - first:
+      213: -540411429139257688
+    second: Kicks_176
+  - first:
+      213: 940608238559628222
+    second: Kicks_177
+  - first:
+      213: -4904095955521986607
+    second: Kicks_178
+  - first:
+      213: -1632074272531875729
+    second: Kicks_179
+  - first:
+      213: 7703056981169247381
+    second: Kicks_180
+  - first:
+      213: 7085828118226542693
+    second: Kicks_181
+  - first:
+      213: 8335325140783753256
+    second: Kicks_182
+  - first:
+      213: -6554402204134834664
+    second: Kicks_183
+  - first:
+      213: -1905025638040685842
+    second: Kicks_184
+  - first:
+      213: -2533286437879345003
+    second: Kicks_185
+  - first:
+      213: 2501667201162849778
+    second: Kicks_186
+  - first:
+      213: -8094769818527462758
+    second: Kicks_187
+  - first:
+      213: -7402931463219963980
+    second: Kicks_188
+  - first:
+      213: -1010981656914814999
+    second: Kicks_189
+  - first:
+      213: -4633469387573791445
+    second: Kicks_190
+  - first:
+      213: 8379838145611700022
+    second: Kicks_191
+  - first:
+      213: 3140187078602291685
+    second: Kicks_192
+  - first:
+      213: 2286107765623790813
+    second: Kicks_193
+  - first:
+      213: 8290536030043493629
+    second: Kicks_194
+  - first:
+      213: 7613041927839075864
+    second: Kicks_195
+  - first:
+      213: -85273774595458800
+    second: Kicks_196
+  - first:
+      213: 1960202414377099201
+    second: Kicks_197
+  - first:
+      213: 3611154102194253774
+    second: Kicks_198
+  - first:
+      213: -8100319080799053446
+    second: Kicks_199
+  - first:
+      213: -94692577745823184
+    second: Kicks_200
+  - first:
+      213: 4485678448049948341
+    second: Kicks_201
+  - first:
+      213: 3195809911923317042
+    second: Kicks_202
+  - first:
+      213: -387640540129807627
+    second: Kicks_203
+  - first:
+      213: -6041442740451794574
+    second: Kicks_204
+  - first:
+      213: -8561292955796199878
+    second: Kicks_205
+  - first:
+      213: 8590261851542331518
+    second: Kicks_206
+  - first:
+      213: -5689023113392070122
+    second: Kicks_207
+  - first:
+      213: -3724039277200909087
+    second: Kicks_208
+  - first:
+      213: 548483727438625636
+    second: Kicks_209
+  - first:
+      213: -5018942573445953545
+    second: Kicks_210
+  - first:
+      213: 5696791892389477026
+    second: Kicks_211
+  - first:
+      213: -4274188265825786638
+    second: Kicks_212
+  - first:
+      213: -6376748903594883016
+    second: Kicks_213
+  - first:
+      213: -8887406057237773183
+    second: Kicks_214
+  - first:
+      213: 8869035147308275996
+    second: Kicks_215
+  - first:
+      213: -3795162360466947678
+    second: Kicks_216
+  - first:
+      213: -7487953216591601263
+    second: Kicks_217
+  - first:
+      213: -4739862721675658171
+    second: Kicks_218
+  - first:
+      213: -5567379693297095764
+    second: Kicks_219
+  - first:
+      213: 2611749565894489898
+    second: Kicks_220
+  - first:
+      213: -549706199139567048
+    second: Kicks_221
+  - first:
+      213: 9087236578216293310
+    second: Kicks_222
+  - first:
+      213: 6141959811420193696
+    second: Kicks_223
+  - first:
+      213: -431115128051617584
+    second: Kicks_224
+  - first:
+      213: -3568042973069956336
+    second: Kicks_225
+  - first:
+      213: 2926849533786190538
+    second: Kicks_226
+  - first:
+      213: -3726509017612175668
+    second: Kicks_227
+  - first:
+      213: -1445642639424916460
+    second: Kicks_228
+  - first:
+      213: 3877366933515391562
+    second: Kicks_229
+  - first:
+      213: 8548203946562723936
+    second: Kicks_230
+  - first:
+      213: 4796930454333512943
+    second: Kicks_231
+  - first:
+      213: 5136751402216352959
+    second: Kicks_232
+  - first:
+      213: -4473040348951840549
+    second: Kicks_233
+  - first:
+      213: -4841385390458983583
+    second: Kicks_234
+  - first:
+      213: 5052494445344676689
+    second: Kicks_235
+  - first:
+      213: 7967152513351826933
+    second: Kicks_236
+  - first:
+      213: -8923281957859223103
+    second: Kicks_237
+  - first:
+      213: 4019807826939907872
+    second: Kicks_238
+  - first:
+      213: -309251740945898636
+    second: Kicks_239
+  - first:
+      213: 3835017448801956230
+    second: Kicks_240
+  - first:
+      213: -2424595350687731150
+    second: Kicks_241
+  - first:
+      213: -6631364707753574530
+    second: Kicks_242
+  - first:
+      213: -2165584624474606013
+    second: Kicks_243
+  - first:
+      213: 5799172518700771678
+    second: Kicks_244
+  - first:
+      213: 7582463577954645974
+    second: Kicks_245
+  - first:
+      213: -7390113117928566787
+    second: Kicks_246
+  - first:
+      213: -4427566728393360236
+    second: Kicks_247
+  - first:
+      213: -8814775805913708635
+    second: Kicks_248
+  - first:
+      213: -2066217483407081934
+    second: Kicks_249
+  - first:
+      213: 3433553382533220434
+    second: Kicks_250
+  - first:
+      213: -3795829873655245408
+    second: Kicks_251
+  - first:
+      213: -4592432904234095676
+    second: Kicks_252
+  - first:
+      213: 6653335795782552768
+    second: Kicks_253
+  - first:
+      213: -8920258158735714389
+    second: Kicks_254
+  - first:
+      213: -5310684976574607671
+    second: Kicks_255
+  - first:
+      213: -851938666180062592
+    second: Kicks_256
+  - first:
+      213: -2108953878294668129
+    second: Kicks_257
+  - first:
+      213: -2015698651302816638
+    second: Kicks_258
+  - first:
+      213: 4050913629947117261
+    second: Kicks_259
+  - first:
+      213: 4527363166634213954
+    second: Kicks_260
+  - first:
+      213: -4569540381710828960
+    second: Kicks_261
+  - first:
+      213: 8798341707948777885
+    second: Kicks_262
+  - first:
+      213: 4036473317308844084
+    second: Kicks_263
+  - first:
+      213: 6819156150647209534
+    second: Kicks_264
+  - first:
+      213: -2043797453840632362
+    second: Kicks_265
+  - first:
+      213: 2487108715222671837
+    second: Kicks_266
+  - first:
+      213: -4791639740657856262
+    second: Kicks_267
+  - first:
+      213: 6452844720977192414
+    second: Kicks_268
+  - first:
+      213: 744446621043067188
+    second: Kicks_269
+  - first:
+      213: -421803293084417623
+    second: Kicks_270
+  - first:
+      213: 4207520664511386473
+    second: Kicks_271
+  - first:
+      213: -6106999528491923563
+    second: Kicks_272
+  - first:
+      213: 1361648624350927797
+    second: Kicks_273
+  - first:
+      213: -2666845785765249170
+    second: Kicks_274
+  - first:
+      213: 7372412982245238989
+    second: Kicks_275
+  - first:
+      213: -6713851533977666104
+    second: Kicks_276
+  - first:
+      213: 1955690349291025578
+    second: Kicks_277
+  - first:
+      213: 4800685245476998659
+    second: Kicks_278
+  - first:
+      213: 6031872374586115145
+    second: Kicks_279
+  - first:
+      213: 3197103974258899042
+    second: Kicks_280
+  - first:
+      213: 7146491259158062547
+    second: Kicks_281
+  - first:
+      213: 3812897260862846674
+    second: Kicks_282
+  - first:
+      213: 8094819038808850666
+    second: Kicks_283
+  - first:
+      213: -3191309502019245109
+    second: Kicks_284
+  - first:
+      213: 1033537864167332266
+    second: Kicks_285
+  - first:
+      213: 2475238805493657558
+    second: Kicks_286
+  - first:
+      213: -5651062167011665485
+    second: Kicks_287
+  - first:
+      213: 8716614466949302787
+    second: Kicks_288
+  - first:
+      213: -2628542764437062683
+    second: Kicks_289
+  - first:
+      213: 3071029205302606245
+    second: Kicks_290
+  - first:
+      213: -2975998538052799808
+    second: Kicks_291
+  - first:
+      213: 3435643054688490151
+    second: Kicks_292
+  - first:
+      213: 6082028277728683534
+    second: Kicks_293
+  - first:
+      213: -606000414821408058
+    second: Kicks_294
+  - first:
+      213: -7195446748043235562
+    second: Kicks_295
+  - first:
+      213: 6686853168551424723
+    second: Kicks_296
+  - first:
+      213: -6199053144441934091
+    second: Kicks_297
+  - first:
+      213: 7535316792759493268
+    second: Kicks_298
+  - first:
+      213: 1692806130353601615
+    second: Kicks_299
+  - first:
+      213: 2181738803428026086
+    second: Kicks_300
+  - first:
+      213: 4092881511377539913
+    second: Kicks_301
+  - first:
+      213: -6032728864648386854
+    second: Kicks_302
+  - first:
+      213: 3106720707026282779
+    second: Kicks_303
+  - first:
+      213: -2407723971444576435
+    second: Kicks_304
+  - first:
+      213: -2118380079825062458
+    second: Kicks_305
+  - first:
+      213: -7381486504217683865
+    second: Kicks_306
+  - first:
+      213: 1276339256308258044
+    second: Kicks_307
+  - first:
+      213: 5660760074524429041
+    second: Kicks_308
+  - first:
+      213: -181920685776926827
+    second: Kicks_309
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -350,736 +1280,22 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Kicks_0
-      rect:
-        serializedVersion: 2
-        x: 6
-        y: 593
-        width: 33
-        height: 45
-      alignment: 9
-      pivot: {x: 0.5, y: 0.44444445}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 06f71b939e093e820800000000000000
-      internalID: 2946357912600149856
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Kicks_1
-      rect:
-        serializedVersion: 2
-        x: 353
-        y: 593
-        width: 28
-        height: 46
-      alignment: 9
-      pivot: {x: 0.5, y: 0.4347826}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: fc2a1358f03e00440800000000000000
-      internalID: 4900166050377736911
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Kicks_2
-      rect:
-        serializedVersion: 2
-        x: 395
-        y: 593
-        width: 24
-        height: 46
-      alignment: 9
-      pivot: {x: 0.5, y: 0.4347826}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: fa365458cdba92a80800000000000000
-      internalID: -8491066658813287505
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Kicks_3
-      rect:
-        serializedVersion: 2
-        x: 432
-        y: 593
-        width: 25
-        height: 46
-      alignment: 9
-      pivot: {x: 0.5, y: 0.4347826}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: dda4170054aa162b0800000000000000
-      internalID: -5593002048880555299
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Kicks_4
-      rect:
-        serializedVersion: 2
-        x: 470
-        y: 593
-        width: 25
-        height: 46
-      alignment: 9
-      pivot: {x: 0.5, y: 0.4347826}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 8b17e7bd9527c9610800000000000000
-      internalID: 1629302895461429688
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Kicks_5
-      rect:
-        serializedVersion: 2
-        x: 599
-        y: 593
-        width: 31
-        height: 39
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: eb88869f9905f2870800000000000000
-      internalID: 8660229230701349054
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Kicks_6
-      rect:
-        serializedVersion: 2
-        x: 726
-        y: 593
-        width: 35
-        height: 34
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 2b10687ab220f8690800000000000000
-      internalID: -7597851659833310798
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Kicks_7
-      rect:
-        serializedVersion: 2
-        x: 17
-        y: 545
-        width: 33
-        height: 38
-      alignment: 9
-      pivot: {x: 0.5, y: 0.5263158}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 595eda3c6218d39b0800000000000000
-      internalID: -5098777199621839467
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Kicks_8
-      rect:
-        serializedVersion: 2
-        x: 57
-        y: 545
-        width: 30
-        height: 36
-      alignment: 9
-      pivot: {x: 0.5, y: 0.5555556}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 796f6d79805c01d50800000000000000
-      internalID: 6706076485852526231
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Kicks_9
-      rect:
-        serializedVersion: 2
-        x: 96
-        y: 545
-        width: 24
-        height: 38
-      alignment: 9
-      pivot: {x: 0.5, y: 0.5263158}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 53ae256a42ced7f90800000000000000
-      internalID: -6954142607436748235
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Kicks_10
-      rect:
-        serializedVersion: 2
-        x: 132
-        y: 545
-        width: 33
-        height: 42
-      alignment: 9
-      pivot: {x: 0.5, y: 0.47619048}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 964393182d2576610800000000000000
-      internalID: 1614350055500231785
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Kicks_11
-      rect:
-        serializedVersion: 2
-        x: 181
-        y: 545
-        width: 34
-        height: 39
-      alignment: 9
-      pivot: {x: 0.5, y: 0.51282054}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 3a55c9715e609dd70800000000000000
-      internalID: 9068286905700603299
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Kicks_12
-      rect:
-        serializedVersion: 2
-        x: 234
-        y: 545
-        width: 25
-        height: 38
-      alignment: 9
-      pivot: {x: 0.5, y: 0.5263158}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 3f5b0d3847563a000800000000000000
-      internalID: 45991972305942003
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Kicks_13
-      rect:
-        serializedVersion: 2
-        x: 276
-        y: 544
-        width: 35
-        height: 39
-      alignment: 9
-      pivot: {x: 0.5, y: 0.51282054}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 1ab6551e556a03e80800000000000000
-      internalID: -8200872033658770527
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Kicks_14
-      rect:
-        serializedVersion: 2
-        x: 315
-        y: 546
-        width: 34
-        height: 36
-      alignment: 9
-      pivot: {x: 0.5, y: 0.5555556}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 43f98fbe61af9cfa0800000000000000
-      internalID: -5779813670398157004
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Kicks_15
-      rect:
-        serializedVersion: 2
-        x: 388
-        y: 546
-        width: 36
-        height: 42
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 59ac5a3c2678b0020800000000000000
-      internalID: 2309088092216478357
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Kicks_16
-      rect:
-        serializedVersion: 2
-        x: 57
-        y: 497
-        width: 34
-        height: 43
-      alignment: 9
-      pivot: {x: 0.5, y: 0.4651163}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 5a61732e3016c09b0800000000000000
-      internalID: -5112604807664298331
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Kicks_17
-      rect:
-        serializedVersion: 2
-        x: 100
-        y: 497
-        width: 33
-        height: 43
-      alignment: 9
-      pivot: {x: 0.5, y: 0.4651163}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 0c8ed0ec8bf01bec0800000000000000
-      internalID: -3553041344613193536
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Kicks_18
-      rect:
-        serializedVersion: 2
-        x: 278
-        y: 493
-        width: 32
-        height: 50
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: ef54942029c53dec0800000000000000
-      internalID: -3543386699637111298
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Kicks_19
-      rect:
-        serializedVersion: 2
-        x: 373
-        y: 497
-        width: 34
-        height: 46
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 80122e7cfffb69880800000000000000
-      internalID: -8604478932753702648
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Kicks_20
-      rect:
-        serializedVersion: 2
-        x: 14
-        y: 462
-        width: 30
-        height: 30
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 103f9a7ce28201920800000000000000
-      internalID: 2958909136565826305
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Kicks_21
-      rect:
-        serializedVersion: 2
-        x: 56
-        y: 462
-        width: 27
-        height: 29
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 334578fe067272370800000000000000
-      internalID: 8297644135742395443
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Kicks_22
-      rect:
-        serializedVersion: 2
-        x: 95
-        y: 461
-        width: 29
-        height: 27
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 8c50ef7fd9d9ec1b0800000000000000
-      internalID: -5634392781997865528
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Kicks_23
-      rect:
-        serializedVersion: 2
-        x: 133
-        y: 461
-        width: 27
-        height: 29
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 28d32496185038170800000000000000
-      internalID: 8179387401609821570
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Kicks_24
-      rect:
-        serializedVersion: 2
-        x: 174
-        y: 463
-        width: 29
-        height: 27
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 67e913b938e30a950800000000000000
-      internalID: 6458230600614649462
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Kicks_25
-      rect:
-        serializedVersion: 2
-        x: 512
-        y: 439
-        width: 32
-        height: 38
-      alignment: 9
-      pivot: {x: 0.5, y: 0.5263158}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 031cd316a07f25460800000000000000
-      internalID: 7229111975836238128
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Kicks_26
-      rect:
-        serializedVersion: 2
-        x: 554
-        y: 439
-        width: 32
-        height: 37
-      alignment: 9
-      pivot: {x: 0.5, y: 0.5405405}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 47665a090e1e759a0800000000000000
-      internalID: -6244274003710220684
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Kicks_27
-      rect:
-        serializedVersion: 2
-        x: 595
-        y: 439
-        width: 30
-        height: 37
-      alignment: 9
-      pivot: {x: 0.5, y: 0.5405405}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 0668eb08fee6237a0800000000000000
-      internalID: -6398930145603844512
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Kicks_28
-      rect:
-        serializedVersion: 2
-        x: 635
-        y: 439
-        width: 31
-        height: 37
-      alignment: 9
-      pivot: {x: 0.5, y: 0.5405405}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 7d6d2e88dcf040790800000000000000
-      internalID: -7564904098636310825
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Kicks_29
-      rect:
-        serializedVersion: 2
-        x: 77
-        y: 413
-        width: 33
-        height: 30
-      alignment: 9
-      pivot: {x: 0.5, y: 0.6666667}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: c0426b424c316aaa0800000000000000
-      internalID: -6150206507977399284
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Kicks_30
-      rect:
-        serializedVersion: 2
-        x: 111
-        y: 413
-        width: 30
-        height: 27
-      alignment: 9
-      pivot: {x: 0.5, y: 0.7407407}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 02d45493bebd40990800000000000000
-      internalID: -7420564482675094240
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Kicks_31
-      rect:
-        serializedVersion: 2
-        x: 141
-        y: 413
-        width: 29
-        height: 27
-      alignment: 9
-      pivot: {x: 0.5, y: 0.7407407}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: e3477f60f2b657cc0800000000000000
-      internalID: -3713944467972590530
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Kicks_32
-      rect:
-        serializedVersion: 2
-        x: 171
-        y: 413
-        width: 29
-        height: 27
-      alignment: 9
-      pivot: {x: 0.5, y: 0.7407407}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: df354b9235995bb30800000000000000
-      internalID: 4302513601483396093
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Kicks_33
-      rect:
-        serializedVersion: 2
-        x: 201
-        y: 413
-        width: 29
-        height: 27
-      alignment: 9
-      pivot: {x: 0.5, y: 0.7407407}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: c545cdffdcc414400800000000000000
-      internalID: 306610697282540636
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: Kicks_34
       rect:
         serializedVersion: 2
-        x: 231
-        y: 413
-        width: 29
-        height: 27
-      alignment: 9
-      pivot: {x: 0.5, y: 0.7407407}
+        x: 26
+        y: 592
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9e606711f0d3dc360800000000000000
-      internalID: 7191471314907301609
+      spriteID: 75620af331c2ac550800000000000000
+      internalID: 6181801899702888023
       vertices: []
       indices: 
       edges: []
@@ -1088,19 +1304,19 @@ TextureImporter:
       name: Kicks_35
       rect:
         serializedVersion: 2
-        x: 261
-        y: 413
-        width: 28
-        height: 27
+        x: 53
+        y: 566
+        width: 33
+        height: 45
       alignment: 9
-      pivot: {x: 0.5, y: 0.7407407}
+      pivot: {x: 0.5, y: 0.44444445}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9239c11a2f0315b00800000000000000
-      internalID: 815486826173993769
+      spriteID: 9c41245c5ae439650800000000000000
+      internalID: 6238416382724281545
       vertices: []
       indices: 
       edges: []
@@ -1109,19 +1325,19 @@ TextureImporter:
       name: Kicks_36
       rect:
         serializedVersion: 2
-        x: 273
-        y: 364
-        width: 28
-        height: 42
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 93
+        y: 566
+        width: 31
+        height: 39
+      alignment: 9
+      pivot: {x: 0.5, y: 0.51282054}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3869ce18569060f20800000000000000
-      internalID: 3388406101218989699
+      spriteID: 67c37f2b41740b8d0800000000000000
+      internalID: -2832686011388576650
       vertices: []
       indices: 
       edges: []
@@ -1130,19 +1346,19 @@ TextureImporter:
       name: Kicks_37
       rect:
         serializedVersion: 2
-        x: 306
-        y: 364
-        width: 24
-        height: 42
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 136
+        y: 566
+        width: 35
+        height: 34
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5882353}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 485a7487861183680800000000000000
-      internalID: -8775244733539179132
+      spriteID: 6af162ed7cf36d930800000000000000
+      internalID: 4167588632836054950
       vertices: []
       indices: 
       edges: []
@@ -1151,19 +1367,19 @@ TextureImporter:
       name: Kicks_38
       rect:
         serializedVersion: 2
-        x: 331
-        y: 364
-        width: 28
-        height: 42
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 183
+        y: 566
+        width: 33
+        height: 45
+      alignment: 9
+      pivot: {x: 0.5, y: 0.44444445}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e6d2b8f0082e76490800000000000000
-      internalID: -7752979193850548882
+      spriteID: 0fc2027a3849913d0800000000000000
+      internalID: -3235391564123460368
       vertices: []
       indices: 
       edges: []
@@ -1172,450 +1388,9 @@ TextureImporter:
       name: Kicks_39
       rect:
         serializedVersion: 2
-        x: 364
-        y: 364
-        width: 24
-        height: 42
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 6de83988390ba4a10800000000000000
-      internalID: 1894520740960767702
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Kicks_40
-      rect:
-        serializedVersion: 2
-        x: 21
-        y: 320
-        width: 40
-        height: 33
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: a09a236d27d107140800000000000000
-      internalID: 4715301188914030858
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Kicks_41
-      rect:
-        serializedVersion: 2
-        x: 151
-        y: 324
-        width: 38
-        height: 36
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: dcb949eb8afc35830800000000000000
-      internalID: 4058816012849814477
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Kicks_42
-      rect:
-        serializedVersion: 2
-        x: 231
-        y: 278
+        x: 227
+        y: 566
         width: 28
-        height: 24
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 3f4cd60936c4ec2b0800000000000000
-      internalID: -5562424499247397645
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Kicks_43
-      rect:
-        serializedVersion: 2
-        x: 260
-        y: 278
-        width: 39
-        height: 24
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 5ec896a940b8f59c0800000000000000
-      internalID: -3936274697411785499
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Kicks_44
-      rect:
-        serializedVersion: 2
-        x: 300
-        y: 278
-        width: 44
-        height: 25
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: a4b4470529543fd00800000000000000
-      internalID: 1005223636551093066
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Kicks_45
-      rect:
-        serializedVersion: 2
-        x: 345
-        y: 278
-        width: 44
-        height: 22
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 8b0e41f183e377b10800000000000000
-      internalID: 1979118972013174968
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Kicks_46
-      rect:
-        serializedVersion: 2
-        x: 34
-        y: 212
-        width: 30
-        height: 47
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: c9bfb3cb99a96a0e0800000000000000
-      internalID: -2258948178001003620
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Kicks_47
-      rect:
-        serializedVersion: 2
-        x: 74
-        y: 215
-        width: 33
-        height: 44
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: c3ed7c5e840518700800000000000000
-      internalID: 540801704284118588
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Kicks_48
-      rect:
-        serializedVersion: 2
-        x: 118
-        y: 213
-        width: 32
-        height: 50
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 025c66b3281f609f0800000000000000
-      internalID: -502448766760598240
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Kicks_49
-      rect:
-        serializedVersion: 2
-        x: 165
-        y: 213
-        width: 32
-        height: 51
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: be032a917da600f90800000000000000
-      internalID: -6989469149598437141
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Kicks_50
-      rect:
-        serializedVersion: 2
-        x: 209
-        y: 212
-        width: 31
-        height: 54
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: c33f8af267f225230800000000000000
-      internalID: 3626012834638918460
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Kicks_51
-      rect:
-        serializedVersion: 2
-        x: 254
-        y: 212
-        width: 30
-        height: 54
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 458eac98fa11e46e0800000000000000
-      internalID: -1851522951173969836
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Kicks_52
-      rect:
-        serializedVersion: 2
-        x: 301
-        y: 212
-        width: 27
-        height: 54
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 4892bb5a0f71292a0800000000000000
-      internalID: -6732292170625373820
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Kicks_53
-      rect:
-        serializedVersion: 2
-        x: 350
-        y: 212
-        width: 31
-        height: 54
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 51f0daaad3794f700800000000000000
-      internalID: 573249343695163157
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Kicks_54
-      rect:
-        serializedVersion: 2
-        x: 24
-        y: 119
-        width: 42
-        height: 45
-      alignment: 9
-      pivot: {x: 0.5, y: 0.44444445}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 011e90954461f7ae0800000000000000
-      internalID: -1549495263984754416
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Kicks_55
-      rect:
-        serializedVersion: 2
-        x: 67
-        y: 119
-        width: 39
-        height: 45
-      alignment: 9
-      pivot: {x: 0.5, y: 0.44444445}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: a9413395b6cba7ea0800000000000000
-      internalID: -5874175594707348326
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Kicks_56
-      rect:
-        serializedVersion: 2
-        x: 107
-        y: 119
-        width: 41
-        height: 45
-      alignment: 9
-      pivot: {x: 0.5, y: 0.44444445}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: be328a69e4ec2c360800000000000000
-      internalID: 7188534792167105515
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Kicks_57
-      rect:
-        serializedVersion: 2
-        x: 149
-        y: 119
-        width: 39
-        height: 45
-      alignment: 9
-      pivot: {x: 0.5, y: 0.44444445}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 962e6d4dddaf45470800000000000000
-      internalID: 8382600637108904553
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Kicks_58
-      rect:
-        serializedVersion: 2
-        x: 194
-        y: 119
-        width: 36
-        height: 49
-      alignment: 9
-      pivot: {x: 0.5, y: 0.40816328}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: b35c1f368be72e200800000000000000
-      internalID: 207867863228335419
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Kicks_59
-      rect:
-        serializedVersion: 2
-        x: 231
-        y: 119
-        width: 34
-        height: 48
-      alignment: 9
-      pivot: {x: 0.5, y: 0.41666666}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: c38d2f9c694203250800000000000000
-      internalID: 5922273740044032060
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Kicks_60
-      rect:
-        serializedVersion: 2
-        x: 267
-        y: 119
-        width: 33
         height: 47
       alignment: 9
       pivot: {x: 0.5, y: 0.42553192}
@@ -1624,155 +1399,218 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0ab20dc4d84a3c4c0800000000000000
-      internalID: -4268387095031043168
+      spriteID: 1bb323fb97e585f40800000000000000
+      internalID: 5717423603938638769
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Kicks_61
+      name: Kicks_40
       rect:
         serializedVersion: 2
-        x: 301
-        y: 119
-        width: 36
-        height: 49
+        x: 269
+        y: 566
+        width: 24
+        height: 46
       alignment: 9
-      pivot: {x: 0.5, y: 0.40816328}
+      pivot: {x: 0.5, y: 0.4347826}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 13bf2b8905d8d2dc0800000000000000
-      internalID: -3662115544683578575
+      spriteID: 07e26c450fbfe4d50800000000000000
+      internalID: 6723588303343726192
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Kicks_62
+      name: Kicks_41
       rect:
         serializedVersion: 2
-        x: 392
-        y: 125
-        width: 44
-        height: 42
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 306
+        y: 566
+        width: 25
+        height: 47
+      alignment: 9
+      pivot: {x: 0.5, y: 0.42553192}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c0ece8c2035ea5490800000000000000
-      internalID: -7756635413123510772
+      spriteID: 2015d736cb6697c80800000000000000
+      internalID: -8324509476908609278
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Kicks_63
+      name: Kicks_42
       rect:
         serializedVersion: 2
-        x: 448
-        y: 125
-        width: 44
-        height: 41
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 344
+        y: 566
+        width: 25
+        height: 47
+      alignment: 9
+      pivot: {x: 0.5, y: 0.42553192}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f12cad932482e78e0800000000000000
-      internalID: -1693872144941137377
+      spriteID: 2b302da22ba1307f0800000000000000
+      internalID: -647644568886312014
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Kicks_64
+      name: Kicks_43
       rect:
         serializedVersion: 2
-        x: 509
-        y: 125
-        width: 26
-        height: 40
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 383
+        y: 566
+        width: 43
+        height: 37
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5405405}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9edca278e9adc4670800000000000000
-      internalID: 8524428569112923625
+      spriteID: f50b64aed32c9c530800000000000000
+      internalID: 3875842525508317279
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Kicks_65
+      name: Kicks_44
       rect:
         serializedVersion: 2
-        x: 537
-        y: 125
-        width: 35
-        height: 34
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 432
+        y: 566
+        width: 43
+        height: 36
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5555556}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a48e43f0312bbec40800000000000000
-      internalID: 5542719561338775626
+      spriteID: ab0c3aa769d437560800000000000000
+      internalID: 7310271928850432186
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Kicks_66
+      name: Kicks_45
       rect:
         serializedVersion: 2
-        x: 573
-        y: 125
-        width: 28
-        height: 51
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 495
+        y: 564
+        width: 32
+        height: 50
+      alignment: 9
+      pivot: {x: 0.5, y: 0.4}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6b81a27c19f8028c0800000000000000
-      internalID: -4026060210594768714
+      spriteID: 2943aac6e23832f80800000000000000
+      internalID: -8132512266686155630
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Kicks_67
+      name: Kicks_46
       rect:
         serializedVersion: 2
-        x: 602
-        y: 124
-        width: 29
-        height: 52
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 532
+        y: 563
+        width: 34
+        height: 46
+      alignment: 9
+      pivot: {x: 0.5, y: 0.4347826}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 407a3b691a677e220800000000000000
-      internalID: 2515109353299879684
+      spriteID: 096690ee060d6e270800000000000000
+      internalID: 8279534079696266896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kicks_47
+      rect:
+        serializedVersion: 2
+        x: 585
+        y: 569
+        width: 40
+        height: 33
+      alignment: 9
+      pivot: {x: 0.5, y: 0.6060606}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb3e30eca5c5d1ec0800000000000000
+      internalID: -3594615382498614341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kicks_48
+      rect:
+        serializedVersion: 2
+        x: 627
+        y: 569
+        width: 38
+        height: 36
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5555556}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7d68069381adea60800000000000000
+      internalID: 7704992124030709117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kicks_49
+      rect:
+        serializedVersion: 2
+        x: 673
+        y: 569
+        width: 40
+        height: 50
+      alignment: 9
+      pivot: {x: 0.5, y: 0.4}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ad45bc50adc5bde0800000000000000
+      internalID: -1317921227302154842
       vertices: []
       indices: 
       edges: []
@@ -1781,10 +1619,10 @@ TextureImporter:
       name: Kicks_68
       rect:
         serializedVersion: 2
-        x: 632
-        y: 125
-        width: 28
-        height: 51
+        x: 34
+        y: 506
+        width: 33
+        height: 41
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1792,8 +1630,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: cd5186bb8ba6af080800000000000000
-      internalID: -9152885951026424356
+      spriteID: f7ce13182fef63a30800000000000000
+      internalID: 4194820420445269119
       vertices: []
       indices: 
       edges: []
@@ -1802,19 +1640,19 @@ TextureImporter:
       name: Kicks_69
       rect:
         serializedVersion: 2
-        x: 22
-        y: 67
-        width: 29
-        height: 44
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 88
+        y: 506
+        width: 30
+        height: 36
+      alignment: 9
+      pivot: {x: 0.55, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 14ee31c7dbf350050800000000000000
-      internalID: 5766084980980837953
+      spriteID: bea6765530d7cbce0800000000000000
+      internalID: -1388097131865740565
       vertices: []
       indices: 
       edges: []
@@ -1823,19 +1661,19 @@ TextureImporter:
       name: Kicks_70
       rect:
         serializedVersion: 2
-        x: 75
-        y: 67
-        width: 22
-        height: 43
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 143
+        y: 506
+        width: 24
+        height: 38
+      alignment: 9
+      pivot: {x: 0.6458333, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8278e8925165e9fd0800000000000000
-      internalID: -2333332908039829720
+      spriteID: 14b10e25a9e91cb80800000000000000
+      internalID: -8376239446279840959
       vertices: []
       indices: 
       edges: []
@@ -1844,40 +1682,19 @@ TextureImporter:
       name: Kicks_71
       rect:
         serializedVersion: 2
-        x: 126
-        y: 68
-        width: 17
-        height: 43
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 195
+        y: 506
+        width: 33
+        height: 42
+      alignment: 9
+      pivot: {x: 0.530303, y: 0.47619048}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4ac04703a8cb8ad20800000000000000
-      internalID: 3290086829498567844
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Kicks_72
-      rect:
-        serializedVersion: 2
-        x: 169
-        y: 67
-        width: 24
-        height: 44
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 462749ffff075b2b0800000000000000
-      internalID: -5569421119366860188
+      spriteID: d0f886566ea30c660800000000000000
+      internalID: 7403982548615335693
       vertices: []
       indices: 
       edges: []
@@ -1886,40 +1703,19 @@ TextureImporter:
       name: Kicks_73
       rect:
         serializedVersion: 2
-        x: 217
-        y: 67
-        width: 29
-        height: 44
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 248
+        y: 506
+        width: 34
+        height: 40
+      alignment: 9
+      pivot: {x: 0.5147059, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 81a08a26934661cc0800000000000000
-      internalID: -3740692242853524968
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Kicks_74
-      rect:
-        serializedVersion: 2
-        x: 271
-        y: 67
-        width: 24
-        height: 44
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 6c5c31f9c20ed28c0800000000000000
-      internalID: -4022312409919928890
+      spriteID: 0c45aed61e5c8d9b0800000000000000
+      internalID: -5055073009720994624
       vertices: []
       indices: 
       edges: []
@@ -1928,40 +1724,19 @@ TextureImporter:
       name: Kicks_75
       rect:
         serializedVersion: 2
-        x: 321
-        y: 68
-        width: 17
-        height: 43
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 303
+        y: 506
+        width: 25
+        height: 38
+      alignment: 9
+      pivot: {x: 0.62, y: 0.5263158}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f2eb466a962cb7a30800000000000000
-      internalID: 4214175635354205743
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Kicks_76
-      rect:
-        serializedVersion: 2
-        x: 367
-        y: 67
-        width: 22
-        height: 43
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: ecd85872997f50e30800000000000000
-      internalID: 4469250442400206286
+      spriteID: 9c5e0de42fcb4bc50800000000000000
+      internalID: 6680171896187708873
       vertices: []
       indices: 
       edges: []
@@ -1970,19 +1745,19 @@ TextureImporter:
       name: Kicks_77
       rect:
         serializedVersion: 2
-        x: 411
-        y: 67
-        width: 24
-        height: 41
+        x: 356
+        y: 506
+        width: 35
+        height: 40
       alignment: 9
-      pivot: {x: 0.5, y: 0.4878049}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2c7d394e077743f10800000000000000
-      internalID: 2248553440719656898
+      spriteID: 2c6b0f7b6e900a000800000000000000
+      internalID: 45046882806838978
       vertices: []
       indices: 
       edges: []
@@ -1991,8 +1766,134 @@ TextureImporter:
       name: Kicks_78
       rect:
         serializedVersion: 2
-        x: 442
-        y: 67
+        x: 410
+        y: 506
+        width: 34
+        height: 41
+      alignment: 9
+      pivot: {x: 0.5147059, y: 0.4878049}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18a9282d7ef6e3760800000000000000
+      internalID: 7439506675922541185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kicks_80
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 506
+        width: 28
+        height: 42
+      alignment: 9
+      pivot: {x: 0.5, y: 0.47619048}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d70e1172af78e4cc0800000000000000
+      internalID: -3724890333321764739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kicks_81
+      rect:
+        serializedVersion: 2
+        x: 502
+        y: 506
+        width: 24
+        height: 42
+      alignment: 9
+      pivot: {x: 0.5, y: 0.47619048}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1ba87899171a16a0800000000000000
+      internalID: -6477839715319370977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kicks_82
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 506
+        width: 28
+        height: 42
+      alignment: 9
+      pivot: {x: 0, y: 0.47619048}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63a93aa60e8a6bf70800000000000000
+      internalID: 9202728570393434678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kicks_83
+      rect:
+        serializedVersion: 2
+        x: 562
+        y: 506
+        width: 24
+        height: 42
+      alignment: 9
+      pivot: {x: 0.5, y: 0.47619048}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 644b8e140fdb79a70800000000000000
+      internalID: 8833738033706087494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kicks_84
+      rect:
+        serializedVersion: 2
+        x: 609
+        y: 504
+        width: 24
+        height: 42
+      alignment: 9
+      pivot: {x: 0.5, y: 0.47619048}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80d9ee172e2475e90800000000000000
+      internalID: -7037082352401605368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kicks_85
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 505
         width: 23
         height: 41
       alignment: 9
@@ -2002,83 +1903,1112 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 66b07fdc55fe7ee40800000000000000
-      internalID: 5685776206385318758
+      spriteID: 376fbfdaa6c3fbc60800000000000000
+      internalID: 7836048305531123315
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Kicks_79
+      name: Kicks_86
       rect:
         serializedVersion: 2
-        x: 20
-        y: 14
+        x: 686
+        y: 510
+        width: 36
+        height: 42
+      alignment: 9
+      pivot: {x: 0.5, y: 0.47619048}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62768f5ae6c6dc6e0800000000000000
+      internalID: -1815675852273719514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kicks_103
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 448
+        width: 32
+        height: 38
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5263158}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4eb88eb4df2e1f00800000000000000
+      internalID: 1089360750646443596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kicks_104
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 448
+        width: 32
+        height: 37
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5405405}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b375cdad9232bbc80800000000000000
+      internalID: -8306006425082243269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kicks_106
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 448
+        width: 30
+        height: 37
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5405405}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7055814c6ca12ca20800000000000000
+      internalID: 3081054536070616327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kicks_108
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 448
+        width: 31
+        height: 37
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5405405}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d693e6f0dd3717b0800000000000000
+      internalID: -5253662472599791916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kicks_109
+      rect:
+        serializedVersion: 2
+        x: 245
+        y: 448
+        width: 41
+        height: 35
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5714286}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5760029921baf2e80800000000000000
+      internalID: -8201148300051609995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kicks_110
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 448
+        width: 41
+        height: 36
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5555556}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18757e7d8c040b410800000000000000
+      internalID: 1490762708019533697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kicks_111
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 448
+        width: 41
+        height: 37
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5405405}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18193f21008a6cbd0800000000000000
+      internalID: -2610214215743204991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kicks_112
+      rect:
+        serializedVersion: 2
+        x: 374
+        y: 448
+        width: 41
+        height: 36
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5555556}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6658949b5b3787020800000000000000
+      internalID: 2339747230753850726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kicks_113
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 448
+        width: 34
+        height: 43
+      alignment: 9
+      pivot: {x: 0.5, y: 0.4651163}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd364c387591d3240800000000000000
+      internalID: 4772999043746128860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kicks_114
+      rect:
+        serializedVersion: 2
+        x: 484
+        y: 448
+        width: 33
+        height: 43
+      alignment: 9
+      pivot: {x: 0.5, y: 0.4651163}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac12792931633f720800000000000000
+      internalID: 2878704044511535562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kicks_135
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 431
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37c869c5b8252c170800000000000000
+      internalID: 8197205030275026035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kicks_139
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 380
+        width: 42
+        height: 45
+      alignment: 9
+      pivot: {x: 0.5, y: 0.44444445}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b6fae65885bbdff0800000000000000
+      internalID: -10214976959875402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kicks_140
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 380
+        width: 36
+        height: 49
+      alignment: 9
+      pivot: {x: 0.5, y: 0.40816328}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f949547ff57aade60800000000000000
+      internalID: 7987880919707260063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kicks_141
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 380
+        width: 33
+        height: 47
+      alignment: 9
+      pivot: {x: 0.5, y: 0.42553192}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 329a77c5017836e90800000000000000
+      internalID: -7033629688682010333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kicks_142
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 379
+        width: 49
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ced52f12138966270800000000000000
+      internalID: 8243443504738622956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kicks_143
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 379
+        width: 49
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e60f8cd5853819040800000000000000
+      internalID: 4652644305604243566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kicks_144
+      rect:
+        serializedVersion: 2
+        x: 501
+        y: 379
+        width: 26
+        height: 40
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2fda52d1a81d3f120800000000000000
+      internalID: 2446529413717011954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kicks_145
+      rect:
+        serializedVersion: 2
+        x: 529
+        y: 379
+        width: 35
+        height: 34
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5882353}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 126ae05e86a481080800000000000000
+      internalID: -9216534823033723359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kicks_164
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 316
+        width: 29
+        height: 44
+      alignment: 9
+      pivot: {x: 0.5, y: 0.45454547}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12d897922df0d3e30800000000000000
+      internalID: 4484758199244262689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kicks_165
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 316
+        width: 22
+        height: 43
+      alignment: 9
+      pivot: {x: 0.5, y: 0.4651163}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f5029e91e65586e0800000000000000
+      internalID: -1835965746055608848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kicks_166
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 317
+        width: 17
+        height: 43
+      alignment: 9
+      pivot: {x: 0.5, y: 0.4651163}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08ad4f7c0bb881c50800000000000000
+      internalID: 6636207642315643520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kicks_168
+      rect:
+        serializedVersion: 2
+        x: 173
+        y: 316
+        width: 24
+        height: 44
+      alignment: 9
+      pivot: {x: 0.5, y: 0.45454547}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7d47af6b6491dba0800000000000000
+      internalID: -6065904033935700611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kicks_169
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 316
+        width: 29
+        height: 44
+      alignment: 9
+      pivot: {x: 0.5, y: 0.45454547}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7cdafa735b644f8e0800000000000000
+      internalID: -1660624618455585337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kicks_170
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 316
+        width: 24
+        height: 44
+      alignment: 9
+      pivot: {x: 0.5, y: 0.45454547}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 388563ad3f7575c60800000000000000
+      internalID: 7806805183919708291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kicks_172
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 317
+        width: 17
+        height: 43
+      alignment: 9
+      pivot: {x: 0.5, y: 0.4651163}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7894dca19b46af430800000000000000
+      internalID: 3817474380331305351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kicks_174
+      rect:
+        serializedVersion: 2
+        x: 371
+        y: 316
+        width: 22
+        height: 43
+      alignment: 9
+      pivot: {x: 0.5, y: 0.4651163}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9cd14b5eff31f390800000000000000
+      internalID: -7786371919061590882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kicks_175
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 311
+        width: 39
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50254a04bce7b6960800000000000000
+      internalID: 7596304607918445061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kicks_176
+      rect:
+        serializedVersion: 2
+        x: 476
+        y: 311
+        width: 44
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a6e79d1ba21088f0800000000000000
+      internalID: -540411429139257688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kicks_177
+      rect:
+        serializedVersion: 2
+        x: 525
+        y: 311
+        width: 44
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ebb072c9536bd0d00800000000000000
+      internalID: 940608238559628222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kicks_201
+      rect:
+        serializedVersion: 2
+        x: 507
+        y: 294
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b684a848c4504e30800000000000000
+      internalID: 4485678448049948341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kicks_206
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 234
+        width: 32
+        height: 50
+      alignment: 9
+      pivot: {x: 0.5, y: 0.4}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7025cc04adb63770800000000000000
+      internalID: 8590261851542331518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kicks_207
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 234
+        width: 32
+        height: 51
+      alignment: 9
+      pivot: {x: 0.5, y: 0.39215687}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 612674fbe978c01b0800000000000000
+      internalID: -5689023113392070122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kicks_208
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 233
+        width: 31
+        height: 54
+      alignment: 9
+      pivot: {x: 0.5, y: 0.37037036}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ec56d8120e815cc0800000000000000
+      internalID: -3724039277200909087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kicks_209
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 233
+        width: 30
+        height: 54
+      alignment: 9
+      pivot: {x: 0.5, y: 0.37037036}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46bbf0b4b0b9c9700800000000000000
+      internalID: 548483727438625636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kicks_210
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 233
+        width: 27
+        height: 54
+      alignment: 9
+      pivot: {x: 0.5, y: 0.37037036}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f74ba92252295ab0800000000000000
+      internalID: -5018942573445953545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kicks_211
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 233
+        width: 31
+        height: 54
+      alignment: 9
+      pivot: {x: 0.5, y: 0.37037036}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2aa33311b021f0f40800000000000000
+      internalID: 5696791892389477026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kicks_212
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 241
+        width: 30
+        height: 47
+      alignment: 9
+      pivot: {x: 0.5, y: 0.42553192}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f4af48fa680fa4c0800000000000000
+      internalID: -4274188265825786638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kicks_213
+      rect:
+        serializedVersion: 2
+        x: 347
+        y: 244
+        width: 33
+        height: 44
+      alignment: 9
+      pivot: {x: 0.5, y: 0.45454547}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8388d5b58ac3187a0800000000000000
+      internalID: -6376748903594883016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kicks_214
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 242
         width: 32
         height: 46
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.4347826}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0fe6e5c9cd85c0d20800000000000000
-      internalID: 3246067135966768880
+      spriteID: 18400b7474799a480800000000000000
+      internalID: -8887406057237773183
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Kicks_80
+      name: Kicks_215
       rect:
         serializedVersion: 2
-        x: 58
-        y: 14
+        x: 438
+        y: 242
         width: 35
         height: 46
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.4347826}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 67eb340ca663b0fc0800000000000000
-      internalID: -3527666050994553226
+      spriteID: c1993cfe974251b70800000000000000
+      internalID: 8869035147308275996
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Kicks_81
+      name: Kicks_227
       rect:
         serializedVersion: 2
-        x: 107
-        y: 20
-        width: 43
-        height: 37
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 28
+        y: 184
+        width: 33
+        height: 30
+      alignment: 9
+      pivot: {x: 0.5, y: 0.6666667}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 968fe3c808ef57f20800000000000000
-      internalID: 3419919320119965801
+      spriteID: cc6bfe8dac7c84cc0800000000000000
+      internalID: -3726509017612175668
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Kicks_82
+      name: Kicks_228
       rect:
         serializedVersion: 2
-        x: 156
-        y: 20
-        width: 43
-        height: 36
+        x: 62
+        y: 184
+        width: 30
+        height: 27
+      alignment: 9
+      pivot: {x: 0.5, y: 0.7407407}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4147be4cdab00fbe0800000000000000
+      internalID: -1445642639424916460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kicks_229
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 184
+        width: 29
+        height: 27
+      alignment: 9
+      pivot: {x: 0.5, y: 0.7407407}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a42d700deac2fc530800000000000000
+      internalID: 3877366933515391562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kicks_230
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 184
+        width: 29
+        height: 27
+      alignment: 9
+      pivot: {x: 0.5, y: 0.7407407}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 060a676f23251a670800000000000000
+      internalID: 8548203946562723936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kicks_231
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 184
+        width: 29
+        height: 27
+      alignment: 9
+      pivot: {x: 0.5, y: 0.7407407}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fec5dce35de129240800000000000000
+      internalID: 4796930454333512943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kicks_232
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 184
+        width: 29
+        height: 27
+      alignment: 9
+      pivot: {x: 0.5, y: 0.7407407}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fbc68944f28694740800000000000000
+      internalID: 5136751402216352959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kicks_233
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 184
+        width: 28
+        height: 27
+      alignment: 9
+      pivot: {x: 0.5, y: 0.7407407}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd87cb670819ce1c0800000000000000
+      internalID: -4473040348951840549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kicks_234
+      rect:
+        serializedVersion: 2
+        x: 412
+        y: 192
+        width: 28
+        height: 24
+      alignment: 9
+      pivot: {x: 0.5, y: 0.8333333}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16b2dec53a1ffccb0800000000000000
+      internalID: -4841385390458983583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kicks_235
+      rect:
+        serializedVersion: 2
+        x: 441
+        y: 192
+        width: 39
+        height: 24
+      alignment: 9
+      pivot: {x: 0.5, y: 0.8333333}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15b5764cde01e1640800000000000000
+      internalID: 5052494445344676689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kicks_236
+      rect:
+        serializedVersion: 2
+        x: 481
+        y: 192
+        width: 44
+        height: 25
+      alignment: 9
+      pivot: {x: 0.5, y: 0.8}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5fd32b5cff2019e60800000000000000
+      internalID: 7967152513351826933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kicks_237
+      rect:
+        serializedVersion: 2
+        x: 526
+        y: 192
+        width: 44
+        height: 22
+      alignment: 9
+      pivot: {x: 0.5, y: 0.90909094}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c9162f36522a2480800000000000000
+      internalID: -8923281957859223103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kicks_244
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 127
+        width: 27
+        height: 29
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2086,8 +3016,1037 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 14ae34e560ee5cb90800000000000000
-      internalID: -7222104716299998655
+      spriteID: e59ed503eacca7050800000000000000
+      internalID: 5799172518700771678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kicks_245
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 127
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d7f25653725a3960800000000000000
+      internalID: 7582463577954645974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kicks_246
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 129
+        width: 29
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dffc9e3164b017990800000000000000
+      internalID: -7390113117928566787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kicks_247
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 127
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49c76cec48f1e82c0800000000000000
+      internalID: -4427566728393360236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kicks_248
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 127
+        width: 27
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a74ec17b10aba580800000000000000
+      internalID: -8814775805913708635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kicks_249
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 127
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23eb1d865225353e0800000000000000
+      internalID: -2066217483407081934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kicks_250
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 127
+        width: 29
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 258cb331c9e66af20800000000000000
+      internalID: 3433553382533220434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kicks_251
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 127
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a596f057d0825bc0800000000000000
+      internalID: -3795829873655245408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kicks_265
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 82
+        width: 27
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d53bf25b09f2a3e0800000000000000
+      internalID: -2043797453840632362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kicks_266
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 82
+        width: 30
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd120a0033cf38220800000000000000
+      internalID: 2487108715222671837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kicks_267
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 84
+        width: 29
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af091760b0da08db0800000000000000
+      internalID: -4791639740657856262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kicks_268
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 82
+        width: 28
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed5a998c51c1d8950800000000000000
+      internalID: 6452844720977192414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kicks_269
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 82
+        width: 27
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4390381f14ec45a00800000000000000
+      internalID: 744446621043067188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kicks_270
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 82
+        width: 30
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a10d96c324752af0800000000000000
+      internalID: -421803293084417623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kicks_271
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 82
+        width: 29
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 963115180cd146a30800000000000000
+      internalID: 4207520664511386473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kicks_272
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 82
+        width: 28
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 597c2ccf8449f3ba0800000000000000
+      internalID: -6106999528491923563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kicks_273
+      rect:
+        serializedVersion: 2
+        x: 418
+        y: 88
+        width: 62
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5bb1653a53c85e210800000000000000
+      internalID: 1361648624350927797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kicks_274
+      rect:
+        serializedVersion: 2
+        x: 591
+        y: 71
+        width: 22
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6ff6bc23e57dfad0800000000000000
+      internalID: -2666845785765249170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kicks_275
+      rect:
+        serializedVersion: 2
+        x: 617
+        y: 71
+        width: 6
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc8a430fb82105660800000000000000
+      internalID: 7372412982245238989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kicks_276
+      rect:
+        serializedVersion: 2
+        x: 628
+        y: 71
+        width: 27
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8cdbc82f99b93d2a0800000000000000
+      internalID: -6713851533977666104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kicks_277
+      rect:
+        serializedVersion: 2
+        x: 659
+        y: 71
+        width: 22
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa4b620d202042b10800000000000000
+      internalID: 1955690349291025578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kicks_278
+      rect:
+        serializedVersion: 2
+        x: 686
+        y: 71
+        width: 24
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30e8d1fabc57f9240800000000000000
+      internalID: 4800685245476998659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kicks_290
+      rect:
+        serializedVersion: 2
+        x: 613
+        y: 55
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a979ec8acc7e9a20800000000000000
+      internalID: 3071029205302606245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kicks_291
+      rect:
+        serializedVersion: 2
+        x: 631
+        y: 57
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c2f74fd81123b6d0800000000000000
+      internalID: -2975998538052799808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kicks_292
+      rect:
+        serializedVersion: 2
+        x: 638
+        y: 57
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a2deb9c72bddaf20800000000000000
+      internalID: 3435643054688490151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kicks_293
+      rect:
+        serializedVersion: 2
+        x: 645
+        y: 57
+        width: 4
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0626ef9e74b76450800000000000000
+      internalID: 6082028277728683534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kicks_294
+      rect:
+        serializedVersion: 2
+        x: 650
+        y: 57
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c2a4dc55dd0797f0800000000000000
+      internalID: -606000414821408058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kicks_295
+      rect:
+        serializedVersion: 2
+        x: 660
+        y: 57
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61fa4a64e43a42c90800000000000000
+      internalID: -7195446748043235562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kicks_296
+      rect:
+        serializedVersion: 2
+        x: 667
+        y: 57
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d2f3b047897ccc50800000000000000
+      internalID: 6686853168551424723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kicks_297
+      rect:
+        serializedVersion: 2
+        x: 674
+        y: 55
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5fe25c5520a88f9a0800000000000000
+      internalID: -6199053144441934091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kicks_298
+      rect:
+        serializedVersion: 2
+        x: 631
+        y: 46
+        width: 4
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 492277ef2b2d29860800000000000000
+      internalID: 7535316792759493268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kicks_299
+      rect:
+        serializedVersion: 2
+        x: 636
+        y: 46
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4c7459e43e0e7710800000000000000
+      internalID: 1692806130353601615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kicks_300
+      rect:
+        serializedVersion: 2
+        x: 643
+        y: 46
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e66303e1e7174e10800000000000000
+      internalID: 2181738803428026086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kicks_301
+      rect:
+        serializedVersion: 2
+        x: 650
+        y: 46
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9431c61bc06dcc830800000000000000
+      internalID: 4092881511377539913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kicks_302
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 10
+        width: 27
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad623647f01774ca0800000000000000
+      internalID: -6032728864648386854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kicks_303
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 9
+        width: 26
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b19e6aed50a4d1b20800000000000000
+      internalID: 3106720707026282779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kicks_304
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 10
+        width: 29
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4f6adcfdcb069ed0800000000000000
+      internalID: -2407723971444576435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kicks_305
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 10
+        width: 28
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c573c28a800a92e0800000000000000
+      internalID: -2118380079825062458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kicks_306
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 10
+        width: 27
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 768d3c91221bf8990800000000000000
+      internalID: -7381486504217683865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kicks_307
+      rect:
+        serializedVersion: 2
+        x: 188
+        y: 11
+        width: 26
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf4d3219ac776b110800000000000000
+      internalID: 1276339256308258044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kicks_308
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 11
+        width: 29
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1fa0eb8bb4f0f8e40800000000000000
+      internalID: 5660760074524429041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kicks_309
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 11
+        width: 29
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59788f2a910b97df0800000000000000
+      internalID: -181920685776926827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kicks_50
+      rect:
+        serializedVersion: 2
+        x: 565
+        y: 379
+        width: 28
+        height: 51
+      alignment: 9
+      pivot: {x: 0.5, y: 0.39215687}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf3112980b5dc3c90800000000000000
+      internalID: -7188635950998547460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kicks_51
+      rect:
+        serializedVersion: 2
+        x: 594
+        y: 378
+        width: 29
+        height: 52
+      alignment: 9
+      pivot: {x: 0.5, y: 0.3846154}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5aa8e7363bdf7900800000000000000
+      internalID: 684506694296316510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kicks_52
+      rect:
+        serializedVersion: 2
+        x: 624
+        y: 379
+        width: 28
+        height: 51
+      alignment: 9
+      pivot: {x: 0.5, y: 0.39215687}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cbd43ca5a6a3257a0800000000000000
+      internalID: -6389980692821619268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kicks_53
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 380
+        width: 39
+        height: 45
+      alignment: 9
+      pivot: {x: 0.5, y: 0.44444445}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd8232acce3313880800000000000000
+      internalID: -8633061918595929889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kicks_54
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 380
+        width: 41
+        height: 45
+      alignment: 9
+      pivot: {x: 0.5, y: 0.44444445}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a532ca67c1d5dcb0800000000000000
+      internalID: -4839731570119920223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kicks_55
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 380
+        width: 39
+        height: 45
+      alignment: 9
+      pivot: {x: 0.5, y: 0.44444445}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eafd816598c66d450800000000000000
+      internalID: 6113192881312817070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kicks_56
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 380
+        width: 34
+        height: 48
+      alignment: 9
+      pivot: {x: 0.5, y: 0.41666666}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd0eb2c243a5a4970800000000000000
+      internalID: 8739897206991741149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kicks_57
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 380
+        width: 36
+        height: 49
+      alignment: 9
+      pivot: {x: 0.5, y: 0.40816328}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b978ff83ab9659b0800000000000000
+      internalID: -5091711201898366537
       vertices: []
       indices: 
       edges: []

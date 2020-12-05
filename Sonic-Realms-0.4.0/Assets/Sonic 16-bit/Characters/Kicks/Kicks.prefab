@@ -1031,7 +1031,7 @@ MonoBehaviour:
   OnDeath:
     m_PersistentCalls:
       m_Calls: []
-  Animator: {fileID: 0}
+  Animator: {fileID: 9582648}
   HurtTrigger: 
   HurtDamageFloat: 
   DeathTrigger: 
@@ -1646,7 +1646,7 @@ MonoBehaviour:
   Controller: {fileID: 0}
   Manager: {fileID: 0}
   PowerupManager: {fileID: 0}
-  Animator: {fileID: 0}
+  Animator: {fileID: 9582648}
   CurrentState: 0
   AllowShouldPerform: 0
   AllowShouldEnd: 0
@@ -1705,7 +1705,7 @@ MonoBehaviour:
   Controller: {fileID: 0}
   Manager: {fileID: 0}
   PowerupManager: {fileID: 0}
-  Animator: {fileID: 0}
+  Animator: {fileID: 9582648}
   CurrentState: 0
   AllowShouldPerform: 0
   AllowShouldEnd: 0
@@ -1754,7 +1754,7 @@ MonoBehaviour:
   Controller: {fileID: 0}
   Manager: {fileID: 0}
   PowerupManager: {fileID: 0}
-  Animator: {fileID: 0}
+  Animator: {fileID: 9582648}
   CurrentState: 0
   AllowShouldPerform: 0
   AllowShouldEnd: 0
@@ -1809,7 +1809,7 @@ MonoBehaviour:
   Controller: {fileID: 0}
   Manager: {fileID: 0}
   PowerupManager: {fileID: 0}
-  Animator: {fileID: 0}
+  Animator: {fileID: 9582648}
   CurrentState: 0
   AllowShouldPerform: 0
   AllowShouldEnd: 0
@@ -1857,7 +1857,7 @@ MonoBehaviour:
   Controller: {fileID: 0}
   Manager: {fileID: 0}
   PowerupManager: {fileID: 0}
-  Animator: {fileID: 0}
+  Animator: {fileID: 9582648}
   CurrentState: 0
   AllowShouldPerform: 0
   AllowShouldEnd: 0
@@ -1903,7 +1903,7 @@ MonoBehaviour:
   Controller: {fileID: 0}
   Manager: {fileID: 0}
   PowerupManager: {fileID: 0}
-  Animator: {fileID: 0}
+  Animator: {fileID: 9582648}
   CurrentState: 0
   AllowShouldPerform: 0
   AllowShouldEnd: 0
@@ -2025,7 +2025,7 @@ MonoBehaviour:
   Controller: {fileID: 0}
   Manager: {fileID: 0}
   PowerupManager: {fileID: 0}
-  Animator: {fileID: 0}
+  Animator: {fileID: 9582648}
   CurrentState: 0
   AllowShouldPerform: 0
   AllowShouldEnd: 0
@@ -2073,7 +2073,7 @@ MonoBehaviour:
   Controller: {fileID: 0}
   Manager: {fileID: 0}
   PowerupManager: {fileID: 0}
-  Animator: {fileID: 0}
+  Animator: {fileID: 9582648}
   CurrentState: 0
   AllowShouldPerform: 0
   AllowShouldEnd: 0
@@ -2163,7 +2163,7 @@ MonoBehaviour:
   Controller: {fileID: 0}
   Manager: {fileID: 0}
   PowerupManager: {fileID: 0}
-  Animator: {fileID: 0}
+  Animator: {fileID: 9582648}
   CurrentState: 0
   AllowShouldPerform: 0
   AllowShouldEnd: 0
@@ -2210,7 +2210,7 @@ MonoBehaviour:
   Controller: {fileID: 0}
   Manager: {fileID: 0}
   PowerupManager: {fileID: 0}
-  Animator: {fileID: 0}
+  Animator: {fileID: 9582648}
   CurrentState: 0
   AllowShouldPerform: 0
   AllowShouldEnd: 0
@@ -12575,7 +12575,7 @@ ParticleSystemRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1339762698478959088}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
@@ -17700,7 +17700,7 @@ ParticleSystemRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8283446207637509162}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1

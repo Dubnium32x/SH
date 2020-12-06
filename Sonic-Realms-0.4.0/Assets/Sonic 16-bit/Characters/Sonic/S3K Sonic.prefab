@@ -2363,6 +2363,7 @@ MonoBehaviour:
   EndSound: {fileID: 0}
   Used: 0
   Health: {fileID: 11479486}
+  CloudBurstButton: 32
   SizeChange: {x: 0.24, y: 0.24}
   Target: {fileID: 6115630}
   InvincibilityTime: 10

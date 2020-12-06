@@ -16,6 +16,9 @@ namespace SonicRealms.Core.Moves
         [Tooltip("The controller's health system.")]
         public HedgehogHealth Health;
 
+        [ControlFoldout]
+        [Tooltip("A fucking button, I'm a fucking genious - Birb64.")]
+        public KeyCode CloudBurstButton;
         /// <summary>
         /// The amount by which the controller's hitbox changes, in units.
         /// </summary>
@@ -125,7 +128,7 @@ namespace SonicRealms.Core.Moves
             dashTimer += Time.deltaTime * dashSpeed;
             DashHeight = dashTimer;
 
-            if (Input.GetKeyUp(KeyCode.D) && active == true)
+            if (Input.GetKeyUp(CloudBurstButton) && active == true)
             {
                 if (Controller.FacingForward)
                 {

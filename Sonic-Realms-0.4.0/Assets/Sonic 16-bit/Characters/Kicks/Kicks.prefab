@@ -1082,7 +1082,7 @@ MonoBehaviour:
   - {fileID: 11491536}
   - {fileID: 11461730}
   - {fileID: 11439158}
-  - {fileID: 0}
+  - {fileID: 5768353857396748012}
   - {fileID: 11431244}
   OnPerform:
     m_PersistentCalls:
@@ -1597,6 +1597,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 481582}
+  - component: {fileID: 5768353857396748012}
   - component: {fileID: 11489168}
   - component: {fileID: 11498508}
   - component: {fileID: 11426138}
@@ -1608,7 +1609,6 @@ GameObject:
   - component: {fileID: 11491536}
   - component: {fileID: 11461730}
   - component: {fileID: 11439158}
-  - component: {fileID: 11457154}
   - component: {fileID: 11431244}
   m_Layer: 0
   m_Name: Moves
@@ -1631,6 +1631,52 @@ Transform:
   m_Father: {fileID: 424606}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5768353857396748012
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 174116}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c3abe38e7b30032458811aa1f1b80342, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Controller: {fileID: 0}
+  Manager: {fileID: 0}
+  PowerupManager: {fileID: 0}
+  Animator: {fileID: 9582648}
+  CurrentState: 0
+  AllowShouldPerform: 0
+  AllowShouldEnd: 0
+  OnActive:
+    m_PersistentCalls:
+      m_Calls: []
+  OnEnd:
+    m_PersistentCalls:
+      m_Calls: []
+  OnAvailable:
+    m_PersistentCalls:
+      m_Calls: []
+  OnUnavailable:
+    m_PersistentCalls:
+      m_Calls: []
+  OnAdd:
+    m_PersistentCalls:
+      m_Calls: []
+  OnRemove:
+    m_PersistentCalls:
+      m_Calls: []
+  ActiveTrigger: 
+  ActiveBool: Helicomptering
+  AvailableBool: 
+  Muted: 0
+  PerformSound: {fileID: 0}
+  EndSound: {fileID: 0}
+  ChargeButton: 32
+  ReleaseAxis: Vertical
+  Helicompter: {fileID: 0}
 --- !u!114 &11489168
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2195,62 +2241,6 @@ MonoBehaviour:
   RestartDelay: 2.333333
   RestartTimer: 0
   Restarting: 0
---- !u!114 &11457154
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 174116}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b10b9cb1540747945be44ff63f2157fe, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Controller: {fileID: 0}
-  Manager: {fileID: 0}
-  PowerupManager: {fileID: 0}
-  Animator: {fileID: 9582648}
-  CurrentState: 0
-  AllowShouldPerform: 0
-  AllowShouldEnd: 0
-  OnActive:
-    m_PersistentCalls:
-      m_Calls: []
-  OnEnd:
-    m_PersistentCalls:
-      m_Calls: []
-  OnAvailable:
-    m_PersistentCalls:
-      m_Calls: []
-  OnUnavailable:
-    m_PersistentCalls:
-      m_Calls: []
-  OnAdd:
-    m_PersistentCalls:
-      m_Calls: []
-  OnRemove:
-    m_PersistentCalls:
-      m_Calls: []
-  ActiveTrigger: Insta-Shield
-  ActiveBool: 
-  AvailableBool: 
-  Muted: 0
-  PerformSound: {fileID: 8300000, guid: 2a7c0206f62ba1042b6d72b9d97d269e, type: 3}
-  EndSound: {fileID: 0}
-  Used: 0
-  Health: {fileID: 11479486}
-  SizeChange: {x: 0.24, y: 0.24}
-  Target: {fileID: 6115630}
-  InvincibilityTime: 10
-  InvincibilityTimer: 0
-  HasShield: 0
-  DashVelocity: {x: 3, y: 0}
-  DashHeight: 3
-  dashSpeed: 6
-  dashTimer: 0
-  dashTimerStartTime: 0
-  active: 0
 --- !u!114 &11431244
 MonoBehaviour:
   m_ObjectHideFlags: 0

@@ -12698,7 +12698,7 @@ ParticleSystemRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1339762698478959088}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
@@ -12926,9 +12926,10 @@ MonoBehaviour:
   - {fileID: 134488, guid: f5ac11cc6e804e649b2673a0cff549ed, type: 3}
   - {fileID: 190146, guid: 563309fed065b614988466755978716b, type: 3}
   - {fileID: 194672, guid: ad128619e0a519444bd0d65858581ee4, type: 3}
-  - {fileID: 194672, guid: ad128619e0a519444bd0d65858581ee4, type: 3}
+  - {fileID: 151248, guid: a51c0da6f49c48a49b276b00048a01ee, type: 3}
+  - {fileID: 151248, guid: a51c0da6f49c48a49b276b00048a01ee, type: 3}
   - {fileID: 151248, guid: cb03faf7528e09b429822665ed1e409f, type: 3}
-  AmountOfObjectsInIOFT: 33
+  AmountOfObjectsInIOFT: 34
   ObjectId: 0
   PlayerObject: {fileID: 2762339701498152149}
   SonicBOI: {fileID: 151248}
@@ -17823,7 +17824,7 @@ ParticleSystemRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8283446207637509162}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1

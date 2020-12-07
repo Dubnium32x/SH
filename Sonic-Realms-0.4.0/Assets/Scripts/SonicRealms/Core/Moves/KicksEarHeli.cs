@@ -5,13 +5,19 @@ namespace SonicRealms.Core.Moves
     public class KicksEarHeli : Move
     {        
         /// <summary>
-        /// Input for charging.
+        /// Input for EarHeli'ing.
         /// </summary>
         [ControlFoldout]
-        [Tooltip("Input for charging.")]
-        public KeyCode ChargeButton;
+        [Tooltip("Input for EarHeli'ing.")]
+        public KeyCode HeliButton;
 
 
+        /// <summary>
+        /// Something about the floating of the EarHeli idk.
+        /// </summary>
+        [ControlFoldout]
+        [Tooltip("Something about the floating of the EarHeli idk.")]
+        public float floatingAmount;
 
         /// <summary>
         /// An audio clip to play when the spindash is charged.
@@ -30,7 +36,7 @@ namespace SonicRealms.Core.Moves
         public override void Reset()
         {
             base.Reset();
-
+            A = true;
 
 
             Helicompter = null;
@@ -52,43 +58,41 @@ namespace SonicRealms.Core.Moves
             ChargeAudioSource.clip = Helicompter;
             ChargeAudioSource.transform.SetParent(transform);
         }
-
-        public override bool Available
-        {
-            get { return base.Available; }
-        }
-        bool active;
+        bool A;
         public override void OnActiveEnter()
         {
             base.OnActiveEnter();
-
-            active = true;
+            A = true;
             if (ChargeAudioSource == null) return;
             ChargeAudioSource.Play();
         }
+        public override bool Available
+        {
+            get 
+            { 
+                return Input.GetKeyDown(HeliButton);
+            }
+        }
 
+        public override bool ShouldPerform
+        {
+            get { return !Controller.Grounded; }
+        }
         public override void OnActiveUpdate()
         {
-            Controller.Animator.SetBool("Helicomptering", true);
             base.OnActiveUpdate();
-            if (Input.GetKey(ChargeButton) && active == true)
+            if (Input.GetKey(HeliButton) && A == true && Controller.RelativeVelocity.y < 0 && !Controller.Grounded)
             {
-                Controller.RelativeVelocity = new Vector2(Controller.RelativeVelocity.x, 1);
-                
+                Controller.RelativeVelocity = new Vector2(Controller.RelativeVelocity.x, floatingAmount);
+                Controller.Animator.SetBool("Helicomptering", true);
             }
-            else
+            if(Input.GetKeyUp(HeliButton) || Controller.Grounded)
             {
-                active = false;
+                A = false;
+                Controller.Animator.SetBool("Helicomptering", false);
+
                 End();
             }
-
-        }
-        public override void OnActiveExit()
-        {
-            base.OnActiveExit();
-            Controller.Animator.SetBool("Helicomptering", false);
-
-
         }
     }
 }

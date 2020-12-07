@@ -1669,12 +1669,13 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   ActiveTrigger: 
-  ActiveBool: Helicomptering
+  ActiveBool: 
   AvailableBool: 
   Muted: 0
   PerformSound: {fileID: 0}
   EndSound: {fileID: 0}
-  ChargeButton: 32
+  HeliButton: 32
+  floatingAmount: -0.5
   Helicompter: {fileID: 0}
 --- !u!114 &11489168
 MonoBehaviour:

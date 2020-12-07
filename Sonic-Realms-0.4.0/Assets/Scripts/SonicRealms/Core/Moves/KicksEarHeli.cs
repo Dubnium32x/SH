@@ -63,8 +63,6 @@ namespace SonicRealms.Core.Moves
         {
             base.OnActiveEnter();
             A = true;
-            if (ChargeAudioSource == null) return;
-            ChargeAudioSource.Play();
         }
         public override bool Available
         {
@@ -85,6 +83,11 @@ namespace SonicRealms.Core.Moves
             {
                 Controller.RelativeVelocity = new Vector2(Controller.RelativeVelocity.x, floatingAmount);
                 Controller.Animator.SetBool("Helicomptering", true);
+
+                if (ChargeAudioSource.clip != Helicompter && !ChargeAudioSource.isPlaying) return;
+                {
+                    ChargeAudioSource.Play();
+                }
             }
             if(Input.GetKeyUp(HeliButton) || Controller.Grounded)
             {
@@ -92,6 +95,7 @@ namespace SonicRealms.Core.Moves
                 Controller.Animator.SetBool("Helicomptering", false);
 
                 End();
+                ChargeAudioSource.Stop();
             }
         }
     }

@@ -1676,7 +1676,7 @@ MonoBehaviour:
   EndSound: {fileID: 0}
   HeliButton: 32
   floatingAmount: -0.5
-  Helicompter: {fileID: 0}
+  Helicompter: {fileID: 8300000, guid: 3103bcf7a184a264d84a114d5fa42166, type: 3}
 --- !u!114 &11489168
 MonoBehaviour:
   m_ObjectHideFlags: 0

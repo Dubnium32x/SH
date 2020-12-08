@@ -1674,7 +1674,8 @@ MonoBehaviour:
   Muted: 0
   PerformSound: {fileID: 0}
   EndSound: {fileID: 0}
-  HeliButton: 32
+  HeliButton: 7a000000780000006300000020000000
+  amountOfKeysUsed: 5
   floatingAmount: -0.5
   Helicompter: {fileID: 8300000, guid: 3103bcf7a184a264d84a114d5fa42166, type: 3}
 --- !u!114 &11489168

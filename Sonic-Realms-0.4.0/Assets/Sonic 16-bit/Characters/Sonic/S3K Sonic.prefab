@@ -913,7 +913,7 @@ MonoBehaviour:
   RightCeiling: {fileID: 0}
   QueuedTranslation: {x: 0, y: 0, z: 0}
   DetachTrigger: 
-  AttachTrigger: le squishe
+  AttachTrigger: le squishee
   FacingForwardBool: Facing Forward
   AirSpeedXFloat: 
   AirSpeedYFloat: Air Speed Y

@@ -5,8 +5,8 @@ using UnityEngine;
 namespace SonicRealms.Core.Moves
 {
     /// <summary>
-    /// The insta-shield move from Sonic 3 & Knuckles. Widens the player hitbox and gives
-    /// invincibility for a short time.
+    /// This code still needs a bit of work and still has some leftover stuff from it's original counterpart, but I'll make it simple
+    /// this used to be InstaShield, but it is now CloudBurst.
     /// </summary>
     public class InstaShield : DoubleJump
     {
@@ -18,7 +18,7 @@ namespace SonicRealms.Core.Moves
 
         [ControlFoldout]
         [Tooltip("A fucking button, I'm a fucking genious - Birb64.")]
-        public KeyCode CloudBurstButton;
+        public string CloudBurstButton;
         /// <summary>
         /// The amount by which the controller's hitbox changes, in units.
         /// </summary>
@@ -128,7 +128,7 @@ namespace SonicRealms.Core.Moves
             dashTimer += Time.deltaTime * dashSpeed;
             DashHeight = dashTimer;
 
-            if (Input.GetKeyUp(CloudBurstButton) && active == true)
+            if (Input.GetButtonUp(CloudBurstButton) && active == true)
             {
                 if (Controller.FacingForward)
                 {

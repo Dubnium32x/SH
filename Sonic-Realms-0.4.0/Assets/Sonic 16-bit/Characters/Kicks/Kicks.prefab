@@ -913,7 +913,7 @@ MonoBehaviour:
   RightCeiling: {fileID: 0}
   QueuedTranslation: {x: 0, y: 0, z: 0}
   DetachTrigger: 
-  AttachTrigger: 
+  AttachTrigger: Should squish squash?
   FacingForwardBool: Facing Forward
   AirSpeedXFloat: 
   AirSpeedYFloat: Air Speed Y
@@ -1675,7 +1675,6 @@ MonoBehaviour:
   PerformSound: {fileID: 0}
   EndSound: {fileID: 0}
   HeliButton: Jump
-  amountOfKeysUsed: 5
   floatingAmount: -0.5
   Helicompter: {fileID: 8300000, guid: 3103bcf7a184a264d84a114d5fa42166, type: 3}
 --- !u!114 &11489168

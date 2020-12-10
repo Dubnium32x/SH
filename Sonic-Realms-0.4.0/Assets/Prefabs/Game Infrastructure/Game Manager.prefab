@@ -3,13 +3,14 @@
 --- !u!1 &136642
 GameObject:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  serializedVersion: 4
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
   m_Component:
-  - 4: {fileID: 472774}
-  - 114: {fileID: 11407338}
-  - 114: {fileID: 11431978}
+  - component: {fileID: 472774}
+  - component: {fileID: 11407338}
+  - component: {fileID: 11431978}
   m_Layer: 0
   m_Name: Game Manager
   m_TagString: GameController
@@ -19,9 +20,10 @@ GameObject:
   m_IsActive: 1
 --- !u!4 &472774
 Transform:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 136642}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
@@ -29,11 +31,13 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &11407338
 MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 136642}
   m_Enabled: 1
   m_EditorHideFlags: 0
@@ -43,31 +47,28 @@ MonoBehaviour:
   LevelTransition: {fileID: 11431978}
   MenuSceneName: Scenes/Menu
   Levels:
-  - {fileID: 11400000, guid: 4861631379e5fc54db57c19bd8daf3c1, type: 2}
+  - {fileID: 11400000, guid: e328584d1a384554cb1f82af94f60960, type: 2}
   Characters:
   - {fileID: 11400000, guid: 819344311bcc8a049bac258c77bd1211, type: 2}
-  CurrentSaveData:
-    Name: 
-    Character: 
-    Lives: 0
-    Level: 
-    Checkpoint: 
-    Score: 0
-    Rings: 0
+  - {fileID: 11400000, guid: 420f0dab6f650c249891408b33fab64b, type: 2}
+  SaveData:
+    Name: TheFuckingWorkWorks
+    Character: Sonic
+    Lives: 99
+    Level: 2
+    Checkpoint: 0
+    Score: 100
+    Rings: 69
     Time: 0
-  CurrentCharacter: {fileID: 0}
-  CurrentLevel: {fileID: 0}
-  LevelManager: {fileID: 0}
-  Lives: 0
-  Score: 0
-  Rings: 0
-  Time: 0
-  Checkpoint: 
+  CharacterData: {fileID: 11400000, guid: 420f0dab6f650c249891408b33fab64b, type: 2}
+  LevelData: {fileID: 11400000, guid: e328584d1a384554cb1f82af94f60960, type: 2}
+  Level: {fileID: 0}
 --- !u!114 &11431978
 MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 136642}
   m_Enabled: 1
   m_EditorHideFlags: 0
@@ -75,7 +76,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ExitAfterEnter: 0
-  Playing: 0
+  IsPlaying: 0
   State: 0
   Animator: {fileID: 0}
   PlayingBool: 
@@ -91,72 +92,44 @@ MonoBehaviour:
   OnEnterBegin:
     m_PersistentCalls:
       m_Calls: []
-    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0, Culture=neutral,
-      PublicKeyToken=null
   OnEnterComplete:
     m_PersistentCalls:
       m_Calls: []
-    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0, Culture=neutral,
-      PublicKeyToken=null
   OnExitBegin:
     m_PersistentCalls:
       m_Calls: []
-    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0, Culture=neutral,
-      PublicKeyToken=null
   OnExitComplete:
     m_PersistentCalls:
       m_Calls: []
-    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0, Culture=neutral,
-      PublicKeyToken=null
   OnPlay:
     m_PersistentCalls:
       m_Calls: []
-    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0, Culture=neutral,
-      PublicKeyToken=null
   OnPause:
     m_PersistentCalls:
       m_Calls: []
-    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0, Culture=neutral,
-      PublicKeyToken=null
   OnStop:
     m_PersistentCalls:
       m_Calls: []
-    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0, Culture=neutral,
-      PublicKeyToken=null
-  EnterWaitForAnimation: 
-  EnterWaitForSound: {fileID: 0}
-  EnterWaitForSeconds: 0
-  ExitWaitForAnimation: 
-  ExitWaitForSound: {fileID: 0}
-  ExitWaitForSeconds: 0
+  EnterToEnterComplete:
+    Time: 0
+    Animation: 
+    Transition: {fileID: 0}
+    Sound: {fileID: 0}
+  EnterCompleteToExit:
+    Time: 0
+    Animation: 
+    Transition: {fileID: 0}
+    Sound: {fileID: 0}
+  ExitToExitComplete:
+    Time: 0
+    Animation: 
+    Transition: {fileID: 0}
+    Sound: {fileID: 0}
   TargetIndex: 0
   TargetName: 
   OnNextScene:
     m_PersistentCalls:
       m_Calls: []
-    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0, Culture=neutral,
-      PublicKeyToken=null
   Material: {fileID: 2100000, guid: 025d66904b7ec654984fad06e38536f5, type: 2}
   FadeInTime: 0.5
   FadeOutTime: 0.5
---- !u!1001 &100100000
-Prefab:
-  m_ObjectHideFlags: 1
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 0}
-      propertyPath: Levels.Array.data[0]
-      value: 
-      objectReference: {fileID: 11400000, guid: 4861631379e5fc54db57c19bd8daf3c1,
-        type: 2}
-    - target: {fileID: 0}
-      propertyPath: Characters.Array.data[0]
-      value: 
-      objectReference: {fileID: 11400000, guid: 819344311bcc8a049bac258c77bd1211,
-        type: 2}
-    m_RemovedComponents: []
-  m_ParentPrefab: {fileID: 0}
-  m_RootGameObject: {fileID: 136642}
-  m_IsPrefabParent: 1

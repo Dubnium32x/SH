@@ -9,6 +9,9 @@ EditorBuildSettings:
     path: Assets/Scenes/Menu.unity
     guid: 4de547e9ef3d2664dac2e0a38f528eb3
   - enabled: 1
+    path: Assets/Scenes/Test Zone - Kicks.unity
+    guid: a08cc90bf8fbd2d4db50872031a5a091
+  - enabled: 1
     path: Assets/Scenes/Test Zone.unity
     guid: 4ca432c348a1d0e429e805bac421242e
   - enabled: 1

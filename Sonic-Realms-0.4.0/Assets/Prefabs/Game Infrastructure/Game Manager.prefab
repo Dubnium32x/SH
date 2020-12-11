@@ -49,16 +49,16 @@ MonoBehaviour:
   Levels:
   - {fileID: 11400000, guid: e328584d1a384554cb1f82af94f60960, type: 2}
   Characters:
-  - {fileID: 11400000, guid: 819344311bcc8a049bac258c77bd1211, type: 2}
   - {fileID: 11400000, guid: 420f0dab6f650c249891408b33fab64b, type: 2}
+  - {fileID: 11400000, guid: 819344311bcc8a049bac258c77bd1211, type: 2}
   SaveData:
-    Name: TheFuckingWorkWorks
-    Character: Sonic
-    Lives: 99
+    Name: 
+    Character: 
+    Lives: 3
     Level: 2
     Checkpoint: 0
-    Score: 100
-    Rings: 69
+    Score: 0
+    Rings: 0
     Time: 0
   CharacterData: {fileID: 11400000, guid: 420f0dab6f650c249891408b33fab64b, type: 2}
   LevelData: {fileID: 11400000, guid: e328584d1a384554cb1f82af94f60960, type: 2}

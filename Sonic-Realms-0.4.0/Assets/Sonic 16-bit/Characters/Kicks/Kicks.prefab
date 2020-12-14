@@ -830,10 +830,10 @@ MonoBehaviour:
     m_Bits: 3221225488
   Reactives: []
   Sensors: {fileID: 11487382}
-  GroundFriction: 1.65
-  AirDrag: 0.099
+  GroundFriction: 2
+  AirDrag: 0.1
   AirDragRequiredSpeed: {x: 0.075, y: 2.4}
-  AirGravity: 7.46
+  AirGravity: 7
   SlopeGravity: 3
   GravityDirection: 270
   MaxSpeed: 9001

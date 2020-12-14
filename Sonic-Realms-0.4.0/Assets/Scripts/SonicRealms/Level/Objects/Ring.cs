@@ -1,12 +1,13 @@
 ﻿using SonicRealms.Core.Actors;
 using SonicRealms.Core.Triggers;
 using UnityEngine;
-
+using SonicRealms.Core.Moves;
 namespace SonicRealms.Level.Objects
 {
     /// <summary>
     /// A ring that can be collected.
     /// </summary>
+
     public class Ring : ReactiveArea
     {
         /// <summary>
@@ -45,6 +46,7 @@ namespace SonicRealms.Level.Objects
             Value = 1;
             CollectedTrigger = "";
             CollectedSound = null;
+            
         }
 
         public override void Awake()
@@ -57,27 +59,27 @@ namespace SonicRealms.Level.Objects
         }
 
         public override void OnAreaStay(Hitbox hitbox)
-        {
-            var controller = hitbox.Controller;
-            if (Collected) return;
+        { if (!Death.IsDead) {
+                var controller = hitbox.Controller;
+                if (Collected) return;
 
-            var collector = controller.GetComponent<RingCounter>();
-            if (collector == null || !collector.CanCollect) return;
+                var collector = controller.GetComponent<RingCounter>();
+                if (collector == null || !collector.CanCollect) return;
 
-            collector.Rings += Value;
+                collector.Rings += Value;
 
-            if(Animator != null && CollectedTriggerHash != 0)
-                Animator.SetTrigger(CollectedTriggerHash);
+                if (Animator != null && CollectedTriggerHash != 0)
+                    Animator.SetTrigger(CollectedTriggerHash);
 
-            Collected = true;
+                Collected = true;
 
-            if (CollectedSound != null)
-            {
-                var source = SoundManager.Instance.PlayClipAtPoint(CollectedSound, transform.position);
-                source.panStereo = (PanRight = !PanRight) ? 1f : -1f;
-            }
-            
-            TriggerObject(controller);
-        }
+                if (CollectedSound != null)
+                {
+                    var source = SoundManager.Instance.PlayClipAtPoint(CollectedSound, transform.position);
+                    source.panStereo = (PanRight = !PanRight) ? 1f : -1f;
+                }
+
+                TriggerObject(controller);
+            } }
     }
 }

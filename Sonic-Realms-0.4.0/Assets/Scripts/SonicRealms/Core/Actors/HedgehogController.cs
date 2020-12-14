@@ -759,15 +759,8 @@ namespace SonicRealms.Core.Actors
             }
             if (!DebugOn)
             {
+                IgnoreCollision = Death.IsDead;
                 
-                if (Death.IsDead == false)
-                {
-                    IgnoreCollision = false;
-                }
-                else
-                {
-                    IgnoreCollision = true;
-                }
                 ApplyAirGravity = true;
 
             }
@@ -813,11 +806,6 @@ namespace SonicRealms.Core.Actors
         public static float ObjectRotationS;
         public void UpdateDebugMovementControls()
         {
-
-
-
-
-
             ObjectIdS = ObjectId;
             ObjectScaleS = ObjectScale;
             ObjectRotationS = ObjectRotation;

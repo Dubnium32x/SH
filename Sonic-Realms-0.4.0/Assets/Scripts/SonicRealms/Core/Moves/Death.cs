@@ -30,7 +30,6 @@ namespace SonicRealms.Core.Moves
 
         public override void Reset()
         {
-            
             base.Reset();
             Velocity = 4.20f; // blaze it
             RestartDelay = 2.333333f;
@@ -38,6 +37,7 @@ namespace SonicRealms.Core.Moves
 
         public override void Awake()
         {
+            IsDead = false;
             base.Awake();
             RestartTimer = 0.0f;
             Restarting = false;

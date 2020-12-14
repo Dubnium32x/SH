@@ -753,6 +753,8 @@ namespace SonicRealms.Core.Actors
                 DebugOn = false;
             }
             DebugOnS = DebugOn;
+            if (Death.IsDead) { RendererObject.GetComponent<SpriteRenderer>().sortingOrder = 10000; }
+            if (!Death.IsDead) { RendererObject.GetComponent<SpriteRenderer>().sortingOrder = -1; }
             if (DebugOn)
             {
                 UpdateDebugMovementControls();

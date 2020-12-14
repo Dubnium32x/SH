@@ -1933,7 +1933,7 @@ MonoBehaviour:
   EndSound: {fileID: 0}
   ActivateAxis: Vertical
   RequireNegative: 1
-  MaxActivateSpeed: 0
+  MaxActivateSpeed: 0.002
 --- !u!114 &11493570
 MonoBehaviour:
   m_ObjectHideFlags: 0

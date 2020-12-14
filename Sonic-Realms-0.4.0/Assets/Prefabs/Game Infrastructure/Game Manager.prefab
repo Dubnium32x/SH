@@ -48,10 +48,8 @@ MonoBehaviour:
   MenuSceneName: Scenes/Menu
   Levels:
   - {fileID: 11400000, guid: e328584d1a384554cb1f82af94f60960, type: 2}
-  - {fileID: 11400000, guid: 4861631379e5fc54db57c19bd8daf3c1, type: 2}
   Characters:
   - {fileID: 11400000, guid: 420f0dab6f650c249891408b33fab64b, type: 2}
-  - {fileID: 11400000, guid: 819344311bcc8a049bac258c77bd1211, type: 2}
   SaveData:
     Name: 
     Character: 

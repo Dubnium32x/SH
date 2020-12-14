@@ -10,7 +10,6 @@ namespace SonicRealms.Level
         [Header("Test Data")]
         public LevelData Level;
         public CharacterData Character;
-        public CharacterData CharacterSDDS;
 
         [Header("Infrastructure")]
         public GameManager BaseGameManager;

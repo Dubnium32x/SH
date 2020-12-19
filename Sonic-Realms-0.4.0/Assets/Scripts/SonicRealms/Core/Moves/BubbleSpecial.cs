@@ -64,7 +64,8 @@ namespace SonicRealms.Core.Moves
         /// <summary>
         /// Audio source to replace with the bounce sound when it occurs.
         /// </summary>
-        private AudioSource _diveAudioSource;
+       [SoundFoldout]
+        public AudioSource _diveAudioSource;
 
         /// <summary>
         /// An audio clip to play when the bounce occurs.
@@ -106,7 +107,7 @@ namespace SonicRealms.Core.Moves
             base.OnActiveEnter();
             Controller.RelativeVelocity = DiveVelocity;
 
-            if (DiveSound != null) _diveAudioSource = SoundManager.Instance.PlayClipAtPoint(DiveSound, transform.position);
+            if (DiveSound != null) _diveAudioSource.PlayOneShot(DiveSound);
 
             // Listen for collisions - need to bounce back up when we collide with the ground
             Controller.OnCollide.AddListener(OnCollide);
@@ -177,7 +178,7 @@ namespace SonicRealms.Core.Moves
             {
                 // Interrupt the diving sound
                 if(_diveAudioSource.clip == DiveSound) _diveAudioSource.Stop();
-                SoundManager.Instance.PlayClipAtPoint(BounceSound, transform.position);
+                _diveAudioSource.PlayOneShot(BounceSound);
             }
 
             Bouncing = true;

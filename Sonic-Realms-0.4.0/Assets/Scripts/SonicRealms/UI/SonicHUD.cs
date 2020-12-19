@@ -7,6 +7,6 @@ namespace SonicRealms.UI
         public RingsView Rings;
         public ScoreView Score;
         public TimerView Timer;
-        public BaseLifeCounter LifeCounter;
+        public TextLifeCounter LifeCounter;
     }
 }

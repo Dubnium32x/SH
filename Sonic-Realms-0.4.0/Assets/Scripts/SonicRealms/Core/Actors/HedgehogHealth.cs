@@ -76,6 +76,8 @@ namespace SonicRealms.Core.Actors
         protected int HurtInvincibleBoolHash;
         #endregion
         #region Sound
+        [Foldout("Sound")]
+        public AudioSource HHSource;
         /// <summary>
         /// Audio clip to play when losing rings as the result of getting hurt.
         /// </summary>
@@ -219,19 +221,19 @@ namespace SonicRealms.Core.Actors
                 RingCounter.Spill(RingsLost);
 
                 if (RingLossSound != null)
-                    SoundManager.Instance.PlayClipAtPoint(RingLossSound, transform.position);
+                    HHSource.PlayOneShot(RingLossSound);
             }
             else
             {
                 if (spikes)
                 {
                     if (SpikeSound != null)
-                        SoundManager.Instance.PlayClipAtPoint(SpikeSound, transform.position);
+                        HHSource.PlayOneShot(SpikeSound);
                 }
                 else
                 {
                     if (ReboundSound != null)
-                        SoundManager.Instance.PlayClipAtPoint(ReboundSound, transform.position);
+                        HHSource.PlayOneShot(ReboundSound);
                 }
             }
 
@@ -269,7 +271,7 @@ namespace SonicRealms.Core.Actors
             DeathMove.OnEnd.AddListener(OnDeathEnd);
 
             if (DeathSound != null)
-                SoundManager.Instance.PlayClipAtPoint(DeathSound, transform.position);
+                HHSource.PlayOneShot(DeathSound);
 
             base.Kill(source);
         }

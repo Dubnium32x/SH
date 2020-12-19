@@ -25,17 +25,11 @@ namespace SonicRealms.Level.Objects
 
         public override void OnActivate(HedgehogController controller)
         {
-            if (GameManager.Instance == null) return;
+            SDDM.Modify(SDR.SDVint("CurrentFileLoaded").ToString() + "CheckpointX: ", controller.transform.position.x.ToString());
 
-            if (!ActivatedImmediately)
-            {
-                var level = GameManager.Instance.Level as GoalLevelManager;
-                if (level != null)
-                {
-                    level.Checkpoint = gameObject;
-                    GameManager.Instance.SaveProgress();
-                }
-            }
+            SDDM.Modify(SDR.SDVint("CurrentFileLoaded").ToString() + "CheckpointY: ", controller.transform.position.y.ToString());
+
+            SDDM.Modify(SDR.SDVint("CurrentFileLoaded").ToString() + "CheckpointZ: ", controller.transform.position.z.ToString());
 
             ObjectTrigger.enabled = false;
         }

@@ -129,6 +129,8 @@ MonoBehaviour:
   InsideTrigger: 
   InsideBool: 
   Value: 1
+  RingAudioObject: {fileID: 3337015568054474828, guid: d25400cef8c230b4aaeecabd317f5fda,
+    type: 3}
   CollectedTrigger: Get
   Collected: 0
   CollectedSound: {fileID: 8300000, guid: 519b363f266ffc7479a5c683e02c958b, type: 3}

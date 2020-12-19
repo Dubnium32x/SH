@@ -14,6 +14,8 @@ namespace SonicRealms.Core.Triggers
     [AddComponentMenu("Hedgehog/Triggers/Area Trigger")]
     public class AreaTrigger : BaseTrigger
     {
+        [Foldout("Sound")]
+        public AudioSource AreaSource;
         /// <summary>
         /// If true, a player can trigger the area multiple times from multiple hitboxes.
         /// </summary>
@@ -196,7 +198,7 @@ namespace SonicRealms.Core.Triggers
                     Collisions.Remove(hitbox);
 
                     if (AreaExitSound != null)
-                        SoundManager.Instance.PlayClipAtPoint(AreaExitSound, transform.position);
+                        AreaSource.PlayOneShot(AreaExitSound);
                     Collisions.Remove(hitbox);
                     OnAreaExit.Invoke(hitbox);
                     hitbox.NotifyCollisionExit(this);
@@ -210,7 +212,7 @@ namespace SonicRealms.Core.Triggers
                 if (!CollidesWith(hitbox)) return;
 
                 if (AreaEnterSound != null)
-                    SoundManager.Instance.PlayClipAtPoint(AreaEnterSound, transform.position);
+                    AreaSource.PlayOneShot(AreaEnterSound);
                 Collisions.Add(hitbox);
                 OnAreaEnter.Invoke(hitbox);
                 hitbox.NotifyCollisionEnter(this);

@@ -10,7 +10,6 @@ namespace SonicRealms.UI
     public class SonicHUDManager : MonoBehaviour
     {
         public SonicHUD Hud;
-        public GoalLevelManager Level;
 
         public void Reset()
         {
@@ -19,15 +18,15 @@ namespace SonicRealms.UI
 
         public void Start()
         {
-            if (Level == null)
+            if (GameObject.FindGameObjectWithTag("Player") == null)
             {
                 enabled = false;
                 return;
             }
 
-            if (Level.RingCounter != null) Level.RingCounter.OnValueChange.AddListener(UpdateRings);
-            if (Level.ScoreCounter != null) Level.ScoreCounter.OnValueChange.AddListener(UpdateScore);
-            if (Level.LifeCounter != null) Level.LifeCounter.OnValueChange.AddListener(UpdateLives);
+            if (GameObject.FindGameObjectWithTag("Player").GetComponent<RingCounter>() != null) GameObject.FindGameObjectWithTag("Player").GetComponent<RingCounter>().OnValueChange.AddListener(UpdateRings);
+            if (GameObject.FindGameObjectWithTag("Player").GetComponent<ScoreCounter>() != null) GameObject.FindGameObjectWithTag("Player").GetComponent<ScoreCounter>().OnValueChange.AddListener(UpdateScore);
+            if (GameObject.FindGameObjectWithTag("Player").GetComponent<LifeCounter>() != null) GameObject.FindGameObjectWithTag("Player").GetComponent<LifeCounter>().OnValueChange.AddListener(UpdateLives);
 
             UpdateAll();
         }
@@ -50,25 +49,25 @@ namespace SonicRealms.UI
         public void UpdateRings()
         {
             if(Hud != null && Hud.Rings != null)
-                Hud.Rings.Show(Level.Rings);
+                Hud.Rings.Show(GameObject.FindGameObjectWithTag("Player").GetComponent<RingCounter>().Rings);
         }
 
         public void UpdateScore()
         {
             if(Hud != null && Hud.Score != null)
-                Hud.Score.Show(Level.Score);
+                Hud.Score.Show(GameObject.FindGameObjectWithTag("Player").GetComponent<ScoreCounter>().Score);
         }
 
         public void UpdateTimer()
         {
-            if(Hud != null && Hud.Timer != null)
-                Hud.Timer.Show(Level.Time);
+            //if(Hud != null && Hud.Timer != null)
+                //Hud.Timer.Show(Level.Time);
         }
 
         public void UpdateLives()
         {
             if(Hud != null && Hud.LifeCounter != null)
-                Hud.LifeCounter.Display(Level.Lives);
+                Hud.LifeCounter.Display(GameObject.FindGameObjectWithTag("Player").GetComponent<LifeCounter>().Lives);
         }
     }
 }

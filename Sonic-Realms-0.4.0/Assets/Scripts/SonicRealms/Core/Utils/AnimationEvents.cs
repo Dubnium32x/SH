@@ -87,40 +87,7 @@ namespace SonicRealms.Core.Utils
             sprite.sortingOrder = sortingOrder;
         }
 
-        /// <summary>
-        /// Plays the specified audio clip at the object's position through the Sound Manager.
-        /// </summary>
-        /// <param name="clip">The specified audio clip.</param>
-        public void PlayAudioClip(AudioClip clip)
-        {
-            SoundManager.Instance.PlayClipAtPoint(clip, transform.position);
-        }
 
-        /// <summary>
-        /// Plays the specified audio clip as background music through the Sound Manager.
-        /// </summary>
-        /// <param name="clip">The specified audio clip.</param>
-        public void PlayBGM(AudioClip clip)
-        {
-            SoundManager.Instance.PlayBGM(clip);
-        }
 
-        /// <summary>
-        /// Plays the specified audio clip as secondary background music invincibility music, for example) through the Sound Manager.
-        /// </summary>
-        /// <param name="clip">The specified audio clip.</param>
-        public void PlaySecondaryBGM(AudioClip clip)
-        {
-            SoundManager.Instance.PlaySecondaryBGM(clip);
-        }
-
-        /// <summary>
-        /// Plays the specified audio clip as a jingle (extra life music, for example
-        /// </summary>
-        /// <param name="clip"></param>
-        public void PlayJingle(AudioClip clip)
-        {
-            SoundManager.Instance.PlayJingle(clip);
-        }
     }
 }

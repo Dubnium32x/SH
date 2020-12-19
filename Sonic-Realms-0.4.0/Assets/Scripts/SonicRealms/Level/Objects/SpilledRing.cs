@@ -11,7 +11,8 @@ namespace SonicRealms.Level.Objects
     public class SpilledRing : MonoBehaviour
     {
         protected Animator Animator;
-
+        [Foldout("Sound")]
+        public AudioSource RingDingSource;
         /// <summary>
         /// How long until the ring disappears, in seconds.
         /// </summary>
@@ -150,7 +151,7 @@ namespace SonicRealms.Level.Objects
                 if (result && result.fraction > 0f)
                 {
 
-                    SoundManager.Instance.PlayClipAtPoint(BounceClip, transform.position);
+                    RingDingSource.PlayOneShot(BounceClip);
                     // Store positive angle in degrees
                     var angle = DMath.PositiveAngle_d(DMath.Angle(result.normal) * Mathf.Rad2Deg);
                     if (AccurateBounce)

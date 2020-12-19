@@ -1,14 +1,11 @@
 ﻿using UnityEngine.UI;
+using UnityEngine;
 
 namespace SonicRealms.UI
 {
-    public class TextLifeCounter : BaseLifeCounter
+    public abstract class TextLifeCounter : MonoBehaviour
     {
-        public Text Text;
-
-        public override void Display(int lives)
-        {
-            Text.text = lives.ToString();
-        }
+        
+        public abstract void Display(int Life);
     }
 }

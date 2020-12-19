@@ -399,6 +399,7 @@ MonoBehaviour:
   OnPlatformExit:
     m_PersistentCalls:
       m_Calls: []
+  PlatTrigSource: {fileID: 0}
   PlatformEnterSound: {fileID: 0}
   PlatformLoopSound: {fileID: 0}
   PlatformExitSound: {fileID: 0}
@@ -455,6 +456,7 @@ MonoBehaviour:
   Animator: {fileID: 0}
   ActivatedTrigger: 
   ActivatedBool: 
+  ObjSource: {fileID: 0}
   ActivateSound: {fileID: 0}
   LoopSound: {fileID: 0}
   DeactivateSound: {fileID: 0}
@@ -1681,6 +1683,7 @@ MonoBehaviour:
   Animator: {fileID: 0}
   ActivatedTrigger: 
   ActivatedBool: 
+  ObjSource: {fileID: 0}
   ActivateSound: {fileID: 0}
   LoopSound: {fileID: 0}
   DeactivateSound: {fileID: 0}
@@ -1739,6 +1742,7 @@ MonoBehaviour:
   OnPlatformExit:
     m_PersistentCalls:
       m_Calls: []
+  PlatTrigSource: {fileID: 0}
   PlatformEnterSound: {fileID: 0}
   PlatformLoopSound: {fileID: 0}
   PlatformExitSound: {fileID: 0}
@@ -2937,6 +2941,7 @@ MonoBehaviour:
   OnPlatformExit:
     m_PersistentCalls:
       m_Calls: []
+  PlatTrigSource: {fileID: 0}
   PlatformEnterSound: {fileID: 0}
   PlatformLoopSound: {fileID: 0}
   PlatformExitSound: {fileID: 0}
@@ -3884,6 +3889,7 @@ MonoBehaviour:
   OnPlatformExit:
     m_PersistentCalls:
       m_Calls: []
+  PlatTrigSource: {fileID: 0}
   PlatformEnterSound: {fileID: 0}
   PlatformLoopSound: {fileID: 0}
   PlatformExitSound: {fileID: 0}
@@ -4063,6 +4069,7 @@ MonoBehaviour:
   Animator: {fileID: 0}
   ActivatedTrigger: 
   ActivatedBool: 
+  ObjSource: {fileID: 0}
   ActivateSound: {fileID: 0}
   LoopSound: {fileID: 0}
   DeactivateSound: {fileID: 0}
@@ -4198,6 +4205,7 @@ MonoBehaviour:
   OnPlatformExit:
     m_PersistentCalls:
       m_Calls: []
+  PlatTrigSource: {fileID: 0}
   PlatformEnterSound: {fileID: 0}
   PlatformLoopSound: {fileID: 0}
   PlatformExitSound: {fileID: 0}
@@ -4669,6 +4677,7 @@ MonoBehaviour:
   Animator: {fileID: 0}
   ActivatedTrigger: 
   ActivatedBool: 
+  ObjSource: {fileID: 0}
   ActivateSound: {fileID: 0}
   LoopSound: {fileID: 0}
   DeactivateSound: {fileID: 0}
@@ -4727,6 +4736,7 @@ MonoBehaviour:
   OnPlatformExit:
     m_PersistentCalls:
       m_Calls: []
+  PlatTrigSource: {fileID: 0}
   PlatformEnterSound: {fileID: 0}
   PlatformLoopSound: {fileID: 0}
   PlatformExitSound: {fileID: 0}
@@ -4898,6 +4908,7 @@ MonoBehaviour:
   OnPlatformExit:
     m_PersistentCalls:
       m_Calls: []
+  PlatTrigSource: {fileID: 0}
   PlatformEnterSound: {fileID: 0}
   PlatformLoopSound: {fileID: 0}
   PlatformExitSound: {fileID: 0}
@@ -5681,6 +5692,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   TriggerFromChildren: 1
+  AreaSource: {fileID: 0}
   AllowMultiple: 1
   OnAreaEnter:
     m_PersistentCalls:
@@ -6065,6 +6077,7 @@ MonoBehaviour:
   Animator: {fileID: 0}
   ActivatedTrigger: 
   ActivatedBool: 
+  ObjSource: {fileID: 0}
   ActivateSound: {fileID: 0}
   LoopSound: {fileID: 0}
   DeactivateSound: {fileID: 0}
@@ -6123,6 +6136,7 @@ MonoBehaviour:
   OnPlatformExit:
     m_PersistentCalls:
       m_Calls: []
+  PlatTrigSource: {fileID: 0}
   PlatformEnterSound: {fileID: 0}
   PlatformLoopSound: {fileID: 0}
   PlatformExitSound: {fileID: 0}
@@ -7046,6 +7060,7 @@ MonoBehaviour:
   Animator: {fileID: 0}
   ActivatedTrigger: 
   ActivatedBool: 
+  ObjSource: {fileID: 0}
   ActivateSound: {fileID: 0}
   LoopSound: {fileID: 0}
   DeactivateSound: {fileID: 0}
@@ -7104,6 +7119,7 @@ MonoBehaviour:
   OnPlatformExit:
     m_PersistentCalls:
       m_Calls: []
+  PlatTrigSource: {fileID: 0}
   PlatformEnterSound: {fileID: 0}
   PlatformLoopSound: {fileID: 0}
   PlatformExitSound: {fileID: 0}
@@ -7471,6 +7487,7 @@ MonoBehaviour:
   OnPlatformExit:
     m_PersistentCalls:
       m_Calls: []
+  PlatTrigSource: {fileID: 0}
   PlatformEnterSound: {fileID: 0}
   PlatformLoopSound: {fileID: 0}
   PlatformExitSound: {fileID: 0}
@@ -8126,6 +8143,7 @@ MonoBehaviour:
   OnPlatformExit:
     m_PersistentCalls:
       m_Calls: []
+  PlatTrigSource: {fileID: 0}
   PlatformEnterSound: {fileID: 0}
   PlatformLoopSound: {fileID: 0}
   PlatformExitSound: {fileID: 0}
@@ -8972,6 +8990,7 @@ MonoBehaviour:
   OnPlatformExit:
     m_PersistentCalls:
       m_Calls: []
+  PlatTrigSource: {fileID: 0}
   PlatformEnterSound: {fileID: 0}
   PlatformLoopSound: {fileID: 0}
   PlatformExitSound: {fileID: 0}
@@ -9105,6 +9124,7 @@ MonoBehaviour:
   Animator: {fileID: 0}
   ActivatedTrigger: 
   ActivatedBool: 
+  ObjSource: {fileID: 0}
   ActivateSound: {fileID: 0}
   LoopSound: {fileID: 0}
   DeactivateSound: {fileID: 0}
@@ -9608,6 +9628,7 @@ MonoBehaviour:
   Animator: {fileID: 0}
   ActivatedTrigger: 
   ActivatedBool: 
+  ObjSource: {fileID: 0}
   ActivateSound: {fileID: 0}
   LoopSound: {fileID: 0}
   DeactivateSound: {fileID: 0}
@@ -9743,6 +9764,7 @@ MonoBehaviour:
   OnPlatformExit:
     m_PersistentCalls:
       m_Calls: []
+  PlatTrigSource: {fileID: 0}
   PlatformEnterSound: {fileID: 0}
   PlatformLoopSound: {fileID: 0}
   PlatformExitSound: {fileID: 0}
@@ -11977,6 +11999,7 @@ MonoBehaviour:
   Animator: {fileID: 0}
   ActivatedTrigger: 
   ActivatedBool: 
+  ObjSource: {fileID: 0}
   ActivateSound: {fileID: 0}
   LoopSound: {fileID: 0}
   DeactivateSound: {fileID: 0}
@@ -12113,6 +12136,7 @@ MonoBehaviour:
   OnPlatformExit:
     m_PersistentCalls:
       m_Calls: []
+  PlatTrigSource: {fileID: 0}
   PlatformEnterSound: {fileID: 0}
   PlatformLoopSound: {fileID: 0}
   PlatformExitSound: {fileID: 0}
@@ -12500,6 +12524,7 @@ MonoBehaviour:
   OnPlatformExit:
     m_PersistentCalls:
       m_Calls: []
+  PlatTrigSource: {fileID: 0}
   PlatformEnterSound: {fileID: 0}
   PlatformLoopSound: {fileID: 0}
   PlatformExitSound: {fileID: 0}
@@ -12633,6 +12658,7 @@ MonoBehaviour:
   Animator: {fileID: 0}
   ActivatedTrigger: 
   ActivatedBool: 
+  ObjSource: {fileID: 0}
   ActivateSound: {fileID: 0}
   LoopSound: {fileID: 0}
   DeactivateSound: {fileID: 0}
@@ -12824,6 +12850,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   TriggerFromChildren: 1
+  AreaSource: {fileID: 0}
   AllowMultiple: 0
   OnAreaEnter:
     m_PersistentCalls:
@@ -12894,6 +12921,7 @@ MonoBehaviour:
   Animator: {fileID: 0}
   ActivatedTrigger: 
   ActivatedBool: 
+  ObjSource: {fileID: 0}
   ActivateSound: {fileID: 0}
   LoopSound: {fileID: 0}
   DeactivateSound: {fileID: 0}
@@ -13614,6 +13642,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   TriggerFromChildren: 1
+  AreaSource: {fileID: 0}
   AllowMultiple: 0
   OnAreaEnter:
     m_PersistentCalls:
@@ -13684,6 +13713,7 @@ MonoBehaviour:
   Animator: {fileID: 0}
   ActivatedTrigger: 
   ActivatedBool: 
+  ObjSource: {fileID: 0}
   ActivateSound: {fileID: 0}
   LoopSound: {fileID: 0}
   DeactivateSound: {fileID: 0}
@@ -14654,6 +14684,7 @@ MonoBehaviour:
   Animator: {fileID: 0}
   ActivatedTrigger: 
   ActivatedBool: 
+  ObjSource: {fileID: 0}
   ActivateSound: {fileID: 0}
   LoopSound: {fileID: 0}
   DeactivateSound: {fileID: 0}
@@ -14789,6 +14820,7 @@ MonoBehaviour:
   OnPlatformExit:
     m_PersistentCalls:
       m_Calls: []
+  PlatTrigSource: {fileID: 0}
   PlatformEnterSound: {fileID: 0}
   PlatformLoopSound: {fileID: 0}
   PlatformExitSound: {fileID: 0}
@@ -16963,6 +16995,7 @@ MonoBehaviour:
   OnPlatformExit:
     m_PersistentCalls:
       m_Calls: []
+  PlatTrigSource: {fileID: 0}
   PlatformEnterSound: {fileID: 0}
   PlatformLoopSound: {fileID: 0}
   PlatformExitSound: {fileID: 0}
@@ -20146,6 +20179,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   TriggerFromChildren: 1
+  AreaSource: {fileID: 0}
   AllowMultiple: 0
   OnAreaEnter:
     m_PersistentCalls:
@@ -20216,6 +20250,7 @@ MonoBehaviour:
   Animator: {fileID: 0}
   ActivatedTrigger: 
   ActivatedBool: 
+  ObjSource: {fileID: 0}
   ActivateSound: {fileID: 0}
   LoopSound: {fileID: 0}
   DeactivateSound: {fileID: 0}
@@ -20501,6 +20536,7 @@ MonoBehaviour:
   OnPlatformExit:
     m_PersistentCalls:
       m_Calls: []
+  PlatTrigSource: {fileID: 0}
   PlatformEnterSound: {fileID: 0}
   PlatformLoopSound: {fileID: 0}
   PlatformExitSound: {fileID: 0}
@@ -20705,6 +20741,7 @@ MonoBehaviour:
   OnPlatformExit:
     m_PersistentCalls:
       m_Calls: []
+  PlatTrigSource: {fileID: 0}
   PlatformEnterSound: {fileID: 0}
   PlatformLoopSound: {fileID: 0}
   PlatformExitSound: {fileID: 0}
@@ -20922,6 +20959,7 @@ MonoBehaviour:
   Animator: {fileID: 0}
   ActivatedTrigger: 
   ActivatedBool: 
+  ObjSource: {fileID: 0}
   ActivateSound: {fileID: 0}
   LoopSound: {fileID: 0}
   DeactivateSound: {fileID: 0}
@@ -21057,6 +21095,7 @@ MonoBehaviour:
   OnPlatformExit:
     m_PersistentCalls:
       m_Calls: []
+  PlatTrigSource: {fileID: 0}
   PlatformEnterSound: {fileID: 0}
   PlatformLoopSound: {fileID: 0}
   PlatformExitSound: {fileID: 0}
@@ -21256,6 +21295,7 @@ MonoBehaviour:
   Animator: {fileID: 0}
   ActivatedTrigger: 
   ActivatedBool: 
+  ObjSource: {fileID: 0}
   ActivateSound: {fileID: 0}
   LoopSound: {fileID: 0}
   DeactivateSound: {fileID: 0}
@@ -21391,6 +21431,7 @@ MonoBehaviour:
   OnPlatformExit:
     m_PersistentCalls:
       m_Calls: []
+  PlatTrigSource: {fileID: 0}
   PlatformEnterSound: {fileID: 0}
   PlatformLoopSound: {fileID: 0}
   PlatformExitSound: {fileID: 0}
@@ -21941,6 +21982,7 @@ MonoBehaviour:
   OnPlatformExit:
     m_PersistentCalls:
       m_Calls: []
+  PlatTrigSource: {fileID: 0}
   PlatformEnterSound: {fileID: 0}
   PlatformLoopSound: {fileID: 0}
   PlatformExitSound: {fileID: 0}
@@ -22162,6 +22204,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   TriggerFromChildren: 1
+  AreaSource: {fileID: 0}
   AllowMultiple: 0
   OnAreaEnter:
     m_PersistentCalls:
@@ -22232,6 +22275,7 @@ MonoBehaviour:
   Animator: {fileID: 0}
   ActivatedTrigger: 
   ActivatedBool: 
+  ObjSource: {fileID: 0}
   ActivateSound: {fileID: 0}
   LoopSound: {fileID: 0}
   DeactivateSound: {fileID: 0}
@@ -23366,6 +23410,7 @@ MonoBehaviour:
   OnPlatformExit:
     m_PersistentCalls:
       m_Calls: []
+  PlatTrigSource: {fileID: 0}
   PlatformEnterSound: {fileID: 0}
   PlatformLoopSound: {fileID: 0}
   PlatformExitSound: {fileID: 0}
@@ -26324,6 +26369,7 @@ MonoBehaviour:
   OnPlatformExit:
     m_PersistentCalls:
       m_Calls: []
+  PlatTrigSource: {fileID: 0}
   PlatformEnterSound: {fileID: 0}
   PlatformLoopSound: {fileID: 0}
   PlatformExitSound: {fileID: 0}
@@ -27447,6 +27493,7 @@ MonoBehaviour:
   Animator: {fileID: 0}
   ActivatedTrigger: 
   ActivatedBool: 
+  ObjSource: {fileID: 0}
   ActivateSound: {fileID: 0}
   LoopSound: {fileID: 0}
   DeactivateSound: {fileID: 0}
@@ -27582,6 +27629,7 @@ MonoBehaviour:
   OnPlatformExit:
     m_PersistentCalls:
       m_Calls: []
+  PlatTrigSource: {fileID: 0}
   PlatformEnterSound: {fileID: 0}
   PlatformLoopSound: {fileID: 0}
   PlatformExitSound: {fileID: 0}
@@ -28145,6 +28193,7 @@ MonoBehaviour:
   OnPlatformExit:
     m_PersistentCalls:
       m_Calls: []
+  PlatTrigSource: {fileID: 0}
   PlatformEnterSound: {fileID: 0}
   PlatformLoopSound: {fileID: 0}
   PlatformExitSound: {fileID: 0}
@@ -29626,6 +29675,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   TriggerFromChildren: 1
+  AreaSource: {fileID: 0}
   AllowMultiple: 0
   OnAreaEnter:
     m_PersistentCalls:
@@ -29696,6 +29746,7 @@ MonoBehaviour:
   Animator: {fileID: 0}
   ActivatedTrigger: 
   ActivatedBool: 
+  ObjSource: {fileID: 0}
   ActivateSound: {fileID: 0}
   LoopSound: {fileID: 0}
   DeactivateSound: {fileID: 0}
@@ -30022,11 +30073,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 402174, guid: 4ce16cb00cbe5c444ab9214ba05766a7, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0.34455413
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 402174, guid: 4ce16cb00cbe5c444ab9214ba05766a7, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.169046
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 402174, guid: 4ce16cb00cbe5c444ab9214ba05766a7, type: 3}
       propertyPath: m_LocalPosition.z
@@ -30042,11 +30093,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 403452, guid: 4ce16cb00cbe5c444ab9214ba05766a7, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 1.1987741
+      value: 0.9103102
       objectReference: {fileID: 0}
     - target: {fileID: 403452, guid: 4ce16cb00cbe5c444ab9214ba05766a7, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.169046
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 403452, guid: 4ce16cb00cbe5c444ab9214ba05766a7, type: 3}
       propertyPath: m_LocalPosition.z
@@ -30054,11 +30105,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 407054, guid: 4ce16cb00cbe5c444ab9214ba05766a7, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 1.2144418
+      value: 0.9103102
       objectReference: {fileID: 0}
     - target: {fileID: 407054, guid: 4ce16cb00cbe5c444ab9214ba05766a7, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.169046
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 407054, guid: 4ce16cb00cbe5c444ab9214ba05766a7, type: 3}
       propertyPath: m_LocalPosition.z
@@ -30082,11 +30133,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 412700, guid: 4ce16cb00cbe5c444ab9214ba05766a7, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 1.1817771
+      value: 0.9103102
       objectReference: {fileID: 0}
     - target: {fileID: 412700, guid: 4ce16cb00cbe5c444ab9214ba05766a7, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.169046
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 412700, guid: 4ce16cb00cbe5c444ab9214ba05766a7, type: 3}
       propertyPath: m_LocalPosition.z
@@ -30098,11 +30149,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 415032, guid: 4ce16cb00cbe5c444ab9214ba05766a7, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 1.163274
+      value: 0.9103102
       objectReference: {fileID: 0}
     - target: {fileID: 415032, guid: 4ce16cb00cbe5c444ab9214ba05766a7, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.169046
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 415032, guid: 4ce16cb00cbe5c444ab9214ba05766a7, type: 3}
       propertyPath: m_LocalPosition.z
@@ -30126,11 +30177,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 416372, guid: 4ce16cb00cbe5c444ab9214ba05766a7, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0.45940548
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 416372, guid: 4ce16cb00cbe5c444ab9214ba05766a7, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.169046
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 416372, guid: 4ce16cb00cbe5c444ab9214ba05766a7, type: 3}
       propertyPath: m_LocalPosition.z
@@ -30186,11 +30237,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 422262, guid: 4ce16cb00cbe5c444ab9214ba05766a7, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0.68910825
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 422262, guid: 4ce16cb00cbe5c444ab9214ba05766a7, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.169046
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 422262, guid: 4ce16cb00cbe5c444ab9214ba05766a7, type: 3}
       propertyPath: m_LocalPosition.z
@@ -30242,11 +30293,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 428628, guid: 4ce16cb00cbe5c444ab9214ba05766a7, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 1.2548643
+      value: 0.9103102
       objectReference: {fileID: 0}
     - target: {fileID: 428628, guid: 4ce16cb00cbe5c444ab9214ba05766a7, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.169046
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 428628, guid: 4ce16cb00cbe5c444ab9214ba05766a7, type: 3}
       propertyPath: m_LocalPosition.z
@@ -30254,11 +30305,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 429100, guid: 4ce16cb00cbe5c444ab9214ba05766a7, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 1.2289301
+      value: 0.9103102
       objectReference: {fileID: 0}
     - target: {fileID: 429100, guid: 4ce16cb00cbe5c444ab9214ba05766a7, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.169046
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 429100, guid: 4ce16cb00cbe5c444ab9214ba05766a7, type: 3}
       propertyPath: m_LocalPosition.z
@@ -30274,11 +30325,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 438648, guid: 4ce16cb00cbe5c444ab9214ba05766a7, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 1.1208711
+      value: 0.9103102
       objectReference: {fileID: 0}
     - target: {fileID: 438648, guid: 4ce16cb00cbe5c444ab9214ba05766a7, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.169046
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 438648, guid: 4ce16cb00cbe5c444ab9214ba05766a7, type: 3}
       propertyPath: m_LocalPosition.z
@@ -30342,11 +30393,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 446106, guid: 4ce16cb00cbe5c444ab9214ba05766a7, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 1.0693352
+      value: 0.9103102
       objectReference: {fileID: 0}
     - target: {fileID: 446106, guid: 4ce16cb00cbe5c444ab9214ba05766a7, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.169046
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 446106, guid: 4ce16cb00cbe5c444ab9214ba05766a7, type: 3}
       propertyPath: m_LocalPosition.z
@@ -30362,11 +30413,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 460528, guid: 4ce16cb00cbe5c444ab9214ba05766a7, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 1.0053596
+      value: 0.9103102
       objectReference: {fileID: 0}
     - target: {fileID: 460528, guid: 4ce16cb00cbe5c444ab9214ba05766a7, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.169046
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 460528, guid: 4ce16cb00cbe5c444ab9214ba05766a7, type: 3}
       propertyPath: m_LocalPosition.z
@@ -30394,11 +30445,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 470062, guid: 4ce16cb00cbe5c444ab9214ba05766a7, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 1.0391679
+      value: 0.9103102
       objectReference: {fileID: 0}
     - target: {fileID: 470062, guid: 4ce16cb00cbe5c444ab9214ba05766a7, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.169046
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 470062, guid: 4ce16cb00cbe5c444ab9214ba05766a7, type: 3}
       propertyPath: m_LocalPosition.z
@@ -30478,11 +30529,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 483802, guid: 4ce16cb00cbe5c444ab9214ba05766a7, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 1.0964197
+      value: 0.9103102
       objectReference: {fileID: 0}
     - target: {fileID: 483802, guid: 4ce16cb00cbe5c444ab9214ba05766a7, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.169046
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 483802, guid: 4ce16cb00cbe5c444ab9214ba05766a7, type: 3}
       propertyPath: m_LocalPosition.z
@@ -30498,11 +30549,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 487998, guid: 4ce16cb00cbe5c444ab9214ba05766a7, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 1.2423675
+      value: 0.9103102
       objectReference: {fileID: 0}
     - target: {fileID: 487998, guid: 4ce16cb00cbe5c444ab9214ba05766a7, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.169046
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 487998, guid: 4ce16cb00cbe5c444ab9214ba05766a7, type: 3}
       propertyPath: m_LocalPosition.z
@@ -30510,11 +30561,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 488482, guid: 4ce16cb00cbe5c444ab9214ba05766a7, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 1.1430554
+      value: 0.9103102
       objectReference: {fileID: 0}
     - target: {fileID: 488482, guid: 4ce16cb00cbe5c444ab9214ba05766a7, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.169046
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 488482, guid: 4ce16cb00cbe5c444ab9214ba05766a7, type: 3}
       propertyPath: m_LocalPosition.z
@@ -31863,6 +31914,7 @@ MonoBehaviour:
   OnPlatformExit:
     m_PersistentCalls:
       m_Calls: []
+  PlatTrigSource: {fileID: 0}
   PlatformEnterSound: {fileID: 0}
   PlatformLoopSound: {fileID: 0}
   PlatformExitSound: {fileID: 0}
@@ -31971,7 +32023,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Hud: {fileID: 80402877}
-  Level: {fileID: 0}
 --- !u!4 &1213803415
 Transform:
   m_ObjectHideFlags: 0
@@ -35608,6 +35659,7 @@ MonoBehaviour:
   Animator: {fileID: 0}
   ActivatedTrigger: 
   ActivatedBool: 
+  ObjSource: {fileID: 0}
   ActivateSound: {fileID: 0}
   LoopSound: {fileID: 0}
   DeactivateSound: {fileID: 0}
@@ -35744,6 +35796,7 @@ MonoBehaviour:
   OnPlatformExit:
     m_PersistentCalls:
       m_Calls: []
+  PlatTrigSource: {fileID: 0}
   PlatformEnterSound: {fileID: 0}
   PlatformLoopSound: {fileID: 0}
   PlatformExitSound: {fileID: 0}
@@ -35999,6 +36052,7 @@ MonoBehaviour:
   OnPlatformExit:
     m_PersistentCalls:
       m_Calls: []
+  PlatTrigSource: {fileID: 0}
   PlatformEnterSound: {fileID: 0}
   PlatformLoopSound: {fileID: 0}
   PlatformExitSound: {fileID: 0}
@@ -36177,6 +36231,7 @@ MonoBehaviour:
   Animator: {fileID: 0}
   ActivatedTrigger: 
   ActivatedBool: 
+  ObjSource: {fileID: 0}
   ActivateSound: {fileID: 0}
   LoopSound: {fileID: 0}
   DeactivateSound: {fileID: 0}
@@ -36312,6 +36367,7 @@ MonoBehaviour:
   OnPlatformExit:
     m_PersistentCalls:
       m_Calls: []
+  PlatTrigSource: {fileID: 0}
   PlatformEnterSound: {fileID: 0}
   PlatformLoopSound: {fileID: 0}
   PlatformExitSound: {fileID: 0}
@@ -36953,6 +37009,7 @@ MonoBehaviour:
   OnPlatformExit:
     m_PersistentCalls:
       m_Calls: []
+  PlatTrigSource: {fileID: 0}
   PlatformEnterSound: {fileID: 0}
   PlatformLoopSound: {fileID: 0}
   PlatformExitSound: {fileID: 0}
@@ -37397,6 +37454,7 @@ MonoBehaviour:
   OnPlatformExit:
     m_PersistentCalls:
       m_Calls: []
+  PlatTrigSource: {fileID: 0}
   PlatformEnterSound: {fileID: 0}
   PlatformLoopSound: {fileID: 0}
   PlatformExitSound: {fileID: 0}
@@ -38265,6 +38323,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   TriggerFromChildren: 1
+  AreaSource: {fileID: 0}
   AllowMultiple: 0
   OnAreaEnter:
     m_PersistentCalls:
@@ -38335,6 +38394,7 @@ MonoBehaviour:
   Animator: {fileID: 0}
   ActivatedTrigger: 
   ActivatedBool: 
+  ObjSource: {fileID: 0}
   ActivateSound: {fileID: 0}
   LoopSound: {fileID: 0}
   DeactivateSound: {fileID: 0}
@@ -38946,7 +39006,8 @@ PrefabInstance:
       propertyPath: CurrentCamera
       value: 
       objectReference: {fileID: 886425697}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 1973582915790088189, guid: 2aff3ac6d5908694ba7efc1f03c3ae5e, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 2aff3ac6d5908694ba7efc1f03c3ae5e, type: 3}
 --- !u!1001 &1578984991
 PrefabInstance:
@@ -40311,6 +40372,7 @@ MonoBehaviour:
   OnPlatformExit:
     m_PersistentCalls:
       m_Calls: []
+  PlatTrigSource: {fileID: 0}
   PlatformEnterSound: {fileID: 0}
   PlatformLoopSound: {fileID: 0}
   PlatformExitSound: {fileID: 0}
@@ -40444,6 +40506,7 @@ MonoBehaviour:
   Animator: {fileID: 0}
   ActivatedTrigger: 
   ActivatedBool: 
+  ObjSource: {fileID: 0}
   ActivateSound: {fileID: 0}
   LoopSound: {fileID: 0}
   DeactivateSound: {fileID: 0}
@@ -40785,6 +40848,7 @@ MonoBehaviour:
   OnPlatformExit:
     m_PersistentCalls:
       m_Calls: []
+  PlatTrigSource: {fileID: 0}
   PlatformEnterSound: {fileID: 0}
   PlatformLoopSound: {fileID: 0}
   PlatformExitSound: {fileID: 0}
@@ -42100,6 +42164,7 @@ MonoBehaviour:
   OnPlatformExit:
     m_PersistentCalls:
       m_Calls: []
+  PlatTrigSource: {fileID: 0}
   PlatformEnterSound: {fileID: 0}
   PlatformLoopSound: {fileID: 0}
   PlatformExitSound: {fileID: 0}
@@ -43095,6 +43160,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   TriggerFromChildren: 1
+  AreaSource: {fileID: 0}
   AllowMultiple: 0
   OnAreaEnter:
     m_PersistentCalls:
@@ -43159,6 +43225,7 @@ MonoBehaviour:
   Animator: {fileID: 0}
   ActivatedTrigger: 
   ActivatedBool: 
+  ObjSource: {fileID: 0}
   ActivateSound: {fileID: 0}
   LoopSound: {fileID: 0}
   DeactivateSound: {fileID: 0}
@@ -44322,6 +44389,7 @@ MonoBehaviour:
   OnPlatformExit:
     m_PersistentCalls:
       m_Calls: []
+  PlatTrigSource: {fileID: 0}
   PlatformEnterSound: {fileID: 0}
   PlatformLoopSound: {fileID: 0}
   PlatformExitSound: {fileID: 0}
@@ -44525,6 +44593,7 @@ MonoBehaviour:
   Animator: {fileID: 0}
   ActivatedTrigger: 
   ActivatedBool: 
+  ObjSource: {fileID: 0}
   ActivateSound: {fileID: 0}
   LoopSound: {fileID: 0}
   DeactivateSound: {fileID: 0}
@@ -44660,6 +44729,7 @@ MonoBehaviour:
   OnPlatformExit:
     m_PersistentCalls:
       m_Calls: []
+  PlatTrigSource: {fileID: 0}
   PlatformEnterSound: {fileID: 0}
   PlatformLoopSound: {fileID: 0}
   PlatformExitSound: {fileID: 0}
@@ -45033,6 +45103,7 @@ MonoBehaviour:
   OnPlatformExit:
     m_PersistentCalls:
       m_Calls: []
+  PlatTrigSource: {fileID: 0}
   PlatformEnterSound: {fileID: 0}
   PlatformLoopSound: {fileID: 0}
   PlatformExitSound: {fileID: 0}
@@ -45629,6 +45700,7 @@ MonoBehaviour:
   OnPlatformExit:
     m_PersistentCalls:
       m_Calls: []
+  PlatTrigSource: {fileID: 0}
   PlatformEnterSound: {fileID: 0}
   PlatformLoopSound: {fileID: 0}
   PlatformExitSound: {fileID: 0}
@@ -45762,6 +45834,7 @@ MonoBehaviour:
   Animator: {fileID: 0}
   ActivatedTrigger: 
   ActivatedBool: 
+  ObjSource: {fileID: 0}
   ActivateSound: {fileID: 0}
   LoopSound: {fileID: 0}
   DeactivateSound: {fileID: 0}
@@ -47002,6 +47075,7 @@ MonoBehaviour:
   Animator: {fileID: 0}
   ActivatedTrigger: 
   ActivatedBool: 
+  ObjSource: {fileID: 0}
   ActivateSound: {fileID: 0}
   LoopSound: {fileID: 0}
   DeactivateSound: {fileID: 0}
@@ -47060,6 +47134,7 @@ MonoBehaviour:
   OnPlatformExit:
     m_PersistentCalls:
       m_Calls: []
+  PlatTrigSource: {fileID: 0}
   PlatformEnterSound: {fileID: 0}
   PlatformLoopSound: {fileID: 0}
   PlatformExitSound: {fileID: 0}
@@ -48217,6 +48292,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   TriggerFromChildren: 1
+  AreaSource: {fileID: 0}
   AllowMultiple: 0
   OnAreaEnter:
     m_PersistentCalls:
@@ -48287,6 +48363,7 @@ MonoBehaviour:
   Animator: {fileID: 0}
   ActivatedTrigger: 
   ActivatedBool: 
+  ObjSource: {fileID: 0}
   ActivateSound: {fileID: 0}
   LoopSound: {fileID: 0}
   DeactivateSound: {fileID: 0}
@@ -48621,6 +48698,7 @@ MonoBehaviour:
   OnPlatformExit:
     m_PersistentCalls:
       m_Calls: []
+  PlatTrigSource: {fileID: 0}
   PlatformEnterSound: {fileID: 0}
   PlatformLoopSound: {fileID: 0}
   PlatformExitSound: {fileID: 0}
@@ -48835,6 +48913,7 @@ MonoBehaviour:
   Animator: {fileID: 0}
   ActivatedTrigger: 
   ActivatedBool: 
+  ObjSource: {fileID: 0}
   ActivateSound: {fileID: 0}
   LoopSound: {fileID: 0}
   DeactivateSound: {fileID: 0}
@@ -48971,6 +49050,7 @@ MonoBehaviour:
   OnPlatformExit:
     m_PersistentCalls:
       m_Calls: []
+  PlatTrigSource: {fileID: 0}
   PlatformEnterSound: {fileID: 0}
   PlatformLoopSound: {fileID: 0}
   PlatformExitSound: {fileID: 0}
@@ -51096,6 +51176,7 @@ MonoBehaviour:
   OnPlatformExit:
     m_PersistentCalls:
       m_Calls: []
+  PlatTrigSource: {fileID: 0}
   PlatformEnterSound: {fileID: 0}
   PlatformLoopSound: {fileID: 0}
   PlatformExitSound: {fileID: 0}

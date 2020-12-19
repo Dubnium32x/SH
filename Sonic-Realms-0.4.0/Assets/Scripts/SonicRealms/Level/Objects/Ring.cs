@@ -10,6 +10,8 @@ namespace SonicRealms.Level.Objects
 
     public class Ring : ReactiveArea
     {
+
+        public GameObject RingAudioSourcePrefab;
         /// <summary>
         /// How many rings to give when collected.
         /// </summary>
@@ -75,8 +77,9 @@ namespace SonicRealms.Level.Objects
 
                 if (CollectedSound != null)
                 {
-                    var source = SoundManager.Instance.PlayClipAtPoint(CollectedSound, transform.position);
-                    source.panStereo = (PanRight = !PanRight) ? 1f : -1f;
+                    RingAudioSourcePrefab.GetComponent<AudioSource>().Play();
+                    RingAudioSourcePrefab.GetComponent<AudioSource>().clip = CollectedSound;
+                    RingAudioSourcePrefab.GetComponent<AudioSource>().panStereo = (PanRight = !PanRight) ? 1f : -1f;
                 }
 
                 TriggerObject(controller);

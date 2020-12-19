@@ -260,15 +260,11 @@ namespace SonicRealms.Core.Moves
 
             if (prevState == State.Active)
             {
-                if(!Muted && EndSound != null)
-                    SoundManager.Instance.PlayClipAtPoint(EndSound, transform.position);
                 OnActiveExit();
                 OnEnd.Invoke();
             }
             else if (CurrentState == State.Active)
             {
-                if(!Muted && PerformSound != null)
-                    SoundManager.Instance.PlayClipAtPoint(PerformSound, transform.position);
                 OnActiveEnter();
                 OnActiveEnter(prevState);
                 OnActive.Invoke();

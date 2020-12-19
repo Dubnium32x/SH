@@ -44,6 +44,9 @@ namespace SonicRealms.Core.Actors
         [Foldout("Sound")]
         [Tooltip("The sound to play once drowned.")]
         public AudioClip DrownSound;
+
+        [Foldout("Sound")]
+        public AudioSource DrownSource;
         #endregion
 
         private float _previousAir;
@@ -61,32 +64,20 @@ namespace SonicRealms.Core.Actors
             if (CanBreathe)
             {
                 if (DrowningBGM != null)
-                    SoundManager.Instance.StopSecondaryBGM(DrowningBGM);
-
-                SoundManager.Instance.BGMSource.volume = 1f;
-                SoundManager.Instance.PowerupSource.volume = 1f;
-                SoundManager.Instance.JingleSource.volume = 1f;
-                SoundManager.Instance.BGMSource.reverbZoneMix = 0f;
-            }
-            if(!CanBreathe)
-            {
-                SoundManager.Instance.BGMSource.volume = 0.1f;
-                SoundManager.Instance.BGMSource.reverbZoneMix = 100f;
-                SoundManager.Instance.PowerupSource.volume = 0.1f;
-                SoundManager.Instance.JingleSource.volume = 0.1f;
+                {
+                    DrownSource.clip = null;
+                    DrownSource.Stop();
+                }
             }
 
             if (_previousAir > DrowningPoint && RemainingAir < DrowningPoint)
             {
                 if (DrowningBGM)
                 {
-                    if (SoundManager.Instance.PowerupSource.clip != DrowningBGM ||
-                        !SoundManager.Instance.PowerupSource.isPlaying)
+                    if (DrownSource.clip != DrowningBGM)
                     {
-                        SoundManager.Instance.PlaySecondaryBGM(DrowningBGM);
-
-                        // Don't let the drowning music loop - reproduce the moment of silence before drowning
-                        SoundManager.Instance.PowerupSource.loop = false;
+                        DrownSource.Play();
+                        DrownSource.clip = DrowningBGM;
                     }
                 }
             }
@@ -97,7 +88,7 @@ namespace SonicRealms.Core.Actors
                 {
                     // See if we passed a warning point and play the sound
                     if (_previousAir > warningPoint && RemainingAir < warningPoint)
-                        SoundManager.Instance.PlayClipAtPoint(WarningSound, transform.position);
+                        DrownSource.PlayOneShot(WarningSound);
                 }
             }
 
@@ -117,8 +108,6 @@ namespace SonicRealms.Core.Actors
 
             base.Drown();
 
-            if (DrowningBGM)
-                SoundManager.Instance.PowerupSource.loop = true;
         }
     }
 }

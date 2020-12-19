@@ -17,6 +17,8 @@ TagManager:
   - Menu
   - CameraCanvas
   - CUS
+  - RingSoundManager
+  - Saver
   layers:
   - Default
   - TransparentFX

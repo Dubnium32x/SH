@@ -52,6 +52,9 @@ namespace SonicRealms.Core.Triggers
         public PlatformCollisionEvent OnPlatformExit;
         #endregion
         #region Sounds
+
+        [Foldout("Sound")]
+        public AudioSource PlatTrigSource;
         /// <summary>
         /// An audio clip to play when a controller starts colliding with the platform.
         /// </summary>
@@ -266,7 +269,7 @@ namespace SonicRealms.Core.Triggers
                 if (_notifiedCollisions[i].Controller == hit.Controller) return false;
             }
 
-            if(PlatformExitSound != null) SoundManager.Instance.PlayClipAtPoint(PlatformExitSound, transform.position);
+            if(PlatformExitSound != null) PlatTrigSource.PlayOneShot(PlatformExitSound);
             OnPlatformExit.Invoke(hit);
             return true;
         }
@@ -279,7 +282,7 @@ namespace SonicRealms.Core.Triggers
                     return false;
             }
 
-            if(SurfaceExitSound != null) SoundManager.Instance.PlayClipAtPoint(SurfaceExitSound, transform.position);
+            if(SurfaceExitSound != null) PlatTrigSource.PlayOneShot(SurfaceExitSound);
             OnSurfaceExit.Invoke(hit);
             return true;
         }
@@ -316,7 +319,7 @@ namespace SonicRealms.Core.Triggers
             }
 
             if(PlatformEnterSound != null)
-                SoundManager.Instance.PlayClipAtPoint(PlatformEnterSound, transform.position);
+                PlatTrigSource.PlayOneShot(PlatformEnterSound);
 
             Collisions.Add(hit);
             _notifiedCollisions.Add(hit);
@@ -363,7 +366,7 @@ namespace SonicRealms.Core.Triggers
                 goto bubble;
             }
 
-            if(SurfaceEnterSound != null) SoundManager.Instance.PlayClipAtPoint(SurfaceEnterSound, transform.position);
+            if(SurfaceEnterSound != null) PlatTrigSource.PlayOneShot(SurfaceEnterSound);
             SurfaceCollisions.Add(hit);
             _notifiedSurfaceCollisions.Add(hit);
             OnSurfaceEnter.Invoke(hit);

@@ -95,6 +95,8 @@ namespace SonicRealms.Core.Triggers
         #endregion
 
         #region Sound
+        [Foldout("Sound")]
+        public AudioSource ObjSource;
         /// <summary>
         /// An audio clip to play when the object trigger is activated.
         /// </summary>
@@ -217,7 +219,7 @@ namespace SonicRealms.Core.Triggers
             Activated = true;
 
             if (ActivateSound != null)
-                SoundManager.Instance.PlayClipAtPoint(ActivateSound, transform.position);
+                ObjSource.PlayOneShot(ActivateSound);
 
             OnActivate.Invoke(controller);
             BubbleEvent(controller);
@@ -244,7 +246,7 @@ namespace SonicRealms.Core.Triggers
             if(!any) Activated = false;
 
             if (DeactivateSound != null)
-                SoundManager.Instance.PlayClipAtPoint(DeactivateSound, transform.position);
+                ObjSource.PlayOneShot(DeactivateSound);
 
             OnDeactivate.Invoke(controller);
             BubbleEvent(controller, true);

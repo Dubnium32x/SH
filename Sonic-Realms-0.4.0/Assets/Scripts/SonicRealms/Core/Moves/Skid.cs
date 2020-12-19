@@ -17,10 +17,17 @@ namespace SonicRealms.Core.Moves
         public float MinimumSpeed;
 
         /// <summary>
-        /// Sound that gets repeated while Sonic is skidding.
+        /// The Sound's audioSource. Since .PlayOneShot has drinking issues
         /// </summary>
         [SoundFoldout]
-        [Tooltip("Sound that gets repeated while Sonic is skidding.")]
+        [Tooltip("The Sound's audioSource. Since .PlayOneShot has drinking issues")]
+        public AudioSource SkidSoundSource;
+
+        /// <summary>
+        /// Sound that gets played after Sonic is skid.
+        /// </summary>
+        [SoundFoldout]
+        [Tooltip("Sound that gets played during a skid.")]
         public AudioClip SkidSound;
 
         /// <summary>
@@ -30,7 +37,6 @@ namespace SonicRealms.Core.Moves
         [Tooltip("Point at which the skid sound loops, in seconds.")]
         public float SkidSoundRepeatTime;
 
-        protected AudioSource SkidSoundSource;
         protected GroundControl GroundControl;
 
         public override MoveLayer Layer
@@ -58,7 +64,6 @@ namespace SonicRealms.Core.Moves
             base.Reset();
 
             MinimumSpeed = 2.7f;
-
             SkidSound = null;
             SkidSoundRepeatTime = 0.0667f;
         }
@@ -67,25 +72,12 @@ namespace SonicRealms.Core.Moves
         {
             base.Start();
             GroundControl = Manager.Get<GroundControl>();
-
-            if (SkidSound != null)
-            {
-                SkidSoundSource = SoundManager.Instance.CreateAudioSource();
-                SkidSoundSource.clip = SkidSound;
-                SkidSoundSource.name = "Skid Sound";
-                SkidSoundSource.transform.SetParent(gameObject.transform);
-            }
+            SkidSoundSource.clip = SkidSound;
         }
-
-        public override void OnActiveEnter()
-        {
-            if(SkidSoundSource != null) SkidSoundSource.Play();
-        }
-
         public override void OnActiveUpdate()
         {
-            if (SkidSoundSource == null) return;
-            if (SkidSoundSource.time > SkidSoundRepeatTime) SkidSoundSource.time = 0f;
+            base.OnActiveUpdate();
+            if (SkidSoundSource.time > SkidSoundRepeatTime) { SkidSoundSource.Play(); }
         }
     }
 }

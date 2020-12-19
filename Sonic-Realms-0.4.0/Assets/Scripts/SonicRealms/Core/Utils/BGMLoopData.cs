@@ -1,7 +1,5 @@
 ﻿using UnityEngine;
 
-namespace SonicRealms.Core.Utils
-{
     /// <summary>
     /// Contains data that can be sent to SoundManager.PlayBGM(). Allows looping audio from
     /// Animation Events and SendMessage calls.
@@ -31,5 +29,14 @@ namespace SonicRealms.Core.Utils
         /// </summary>
         [Tooltip("The time at which to loop, in seconds.")]
         public float LoopEnd;
-    }
+
+        void Update()
+        {
+        if(GetComponent<AudioSource>().time > LoopEnd)
+        {
+            GetComponent<AudioSource>().time = LoopStart;
+        }
+        GetComponent<AudioSource>().volume = Volume;
+        }
 }
+

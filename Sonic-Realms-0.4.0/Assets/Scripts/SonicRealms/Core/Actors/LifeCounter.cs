@@ -8,6 +8,7 @@ namespace SonicRealms.Core.Actors
     /// </summary>
     public class LifeCounter : MonoBehaviour
     {
+        public int CurrentFile;
         [SerializeField]
         private int _lives;
         public int Lives
@@ -24,9 +25,9 @@ namespace SonicRealms.Core.Actors
         }
         
         public UnityEvent OnValueChange;
-
         public void Awake()
         {
+            Lives = SDR.SDVint(CurrentFile.ToString() + "Lives: ");
             OnValueChange = OnValueChange ?? new UnityEvent();
         }
     }

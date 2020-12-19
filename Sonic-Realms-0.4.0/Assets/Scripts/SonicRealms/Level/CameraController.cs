@@ -17,8 +17,7 @@ namespace SonicRealms.Level
     [RequireComponent(typeof(Camera))]
     public class CameraController : MonoBehaviour
     {
-        [SerializeField]
-        private Transform _target;
+        Transform _target;
         public Transform Target
         {
             get { return _target; }
@@ -125,7 +124,7 @@ namespace SonicRealms.Level
             PanOffset = Vector2.zero;
             FollowTarget = true;
             WaitTimer = 0f;
-
+            _target = GameObject.FindWithTag("Player").transform;
             OnChangeTarget = OnChangeTarget ?? new ChangeTargetEvent();
             Camera = GetComponent<Camera>();
         }

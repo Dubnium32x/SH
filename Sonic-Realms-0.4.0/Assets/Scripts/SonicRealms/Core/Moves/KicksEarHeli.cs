@@ -28,13 +28,20 @@ namespace SonicRealms.Core.Moves
         [Tooltip("An audio clip to play when the EarHeli is active.")]
         public AudioClip Helicompter;
 
+        /// <summary>
+        /// An audio clip to play when the spindash is charged.
+        /// </summary>
+        [SoundFoldout]
+        [Tooltip("An audio clip to play when the EarHeli is active.")]
+        public AudioSource HelicompterSource;
 
 
 
 
-        protected AudioSource ChargeAudioSource;
-
-
+        public override MoveLayer Layer
+        {
+            get { return MoveLayer.Action; }
+        }
         public override void Reset()
         {
             base.Reset();
@@ -57,9 +64,7 @@ namespace SonicRealms.Core.Moves
 
             if (Helicompter == null) return;
 
-            ChargeAudioSource = new GameObject { name = "Charge Audio Source" }.AddComponent<AudioSource>();
-            ChargeAudioSource.clip = Helicompter;
-            ChargeAudioSource.transform.SetParent(transform);
+            HelicompterSource.clip = Helicompter;
         }
         bool A;
         public override void OnActiveEnter()
@@ -70,12 +75,14 @@ namespace SonicRealms.Core.Moves
 
         public override bool Available
         {
-            get { return Input.GetButtonDown(HeliButton); }
+            get { 
+                return Input.GetButtonDown(HeliButton);
+            }
         }
 
         public override bool ShouldPerform
         {
-            get { return !Controller.Grounded; }
+            get { return Controller.Grounded; }
         }
         public override void OnActiveUpdate()
         {
@@ -85,9 +92,9 @@ namespace SonicRealms.Core.Moves
                 Controller.RelativeVelocity = new Vector2(Controller.RelativeVelocity.x, floatingAmount);
                 Controller.Animator.SetBool("Helicomptering", true);
 
-                if (ChargeAudioSource.clip != Helicompter && !ChargeAudioSource.isPlaying) return;
+                if (HelicompterSource.clip != Helicompter && !HelicompterSource.isPlaying) return;
                 {
-                    ChargeAudioSource.Play();
+                    HelicompterSource.Play();
                 }
             }
             
@@ -97,7 +104,7 @@ namespace SonicRealms.Core.Moves
                 Controller.Animator.SetBool("Helicomptering", false);
 
                 End();
-                ChargeAudioSource.Stop();
+                HelicompterSource.Stop();
             }
         }
     }

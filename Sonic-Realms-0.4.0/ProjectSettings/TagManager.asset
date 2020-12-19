@@ -14,6 +14,9 @@ TagManager:
   - Buzz Bomber Turn Right
   - Buzz Bomber Shoot
   - Spikes
+  - Menu
+  - CameraCanvas
+  - CUS
   layers:
   - Default
   - TransparentFX

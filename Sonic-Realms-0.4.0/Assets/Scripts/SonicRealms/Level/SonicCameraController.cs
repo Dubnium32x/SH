@@ -224,6 +224,7 @@ namespace SonicRealms.Level
             _looking = false;
             _forwardShifting = false;
             _fastFollowing = false;
+            if (GameObject.FindWithTag("Player") != null) { Player = GameObject.FindWithTag("Player").GetComponent<HedgehogController>(); }
         }
 
         public virtual void Start()
@@ -456,7 +457,6 @@ namespace SonicRealms.Level
             Camera.Wait(999f);
         }
     }
-
     public static class SonicCameraControllerExtensions
     {
         public static SonicCameraController GetCamera(this HedgehogController player)

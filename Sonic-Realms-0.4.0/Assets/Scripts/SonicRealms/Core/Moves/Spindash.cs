@@ -62,6 +62,20 @@ namespace SonicRealms.Core.Moves
         public AudioClip ChargeSound;
 
         /// <summary>
+        /// An audio clip to play when the spindash is charged.
+        /// </summary>
+        [SoundFoldout]
+        [Tooltip("An audio clip to play when the spindash is charged.")]
+        public AudioClip ChargeSoundEnd;
+
+        /// <summary>
+        /// Since fuckers can't do anything for fucks sake
+        /// </summary>
+        [SoundFoldout]
+        [Tooltip("Since fuckers can't do anything for fucks sake")]
+        public AudioSource ChargeSoundSource;
+
+        /// <summary>
         /// How many charges it takes to go from minimum pitch to maximum pitch.
         /// </summary>
         [SoundFoldout]
@@ -84,7 +98,6 @@ namespace SonicRealms.Core.Moves
 
         protected GroundControl GroundControl;
         protected Duck Duck;
-        protected AudioSource ChargeAudioSource;
 
         public override MoveLayer Layer
         {
@@ -121,9 +134,7 @@ namespace SonicRealms.Core.Moves
 
             if (ChargeSound == null) return;
 
-            ChargeAudioSource = new GameObject {name = "Charge Audio Source"}.AddComponent<AudioSource>();
-            ChargeAudioSource.clip = ChargeSound;
-            ChargeAudioSource.transform.SetParent(transform);
+            ChargeSoundSource.clip = ChargeSound;
         }
 
         public override bool Available
@@ -143,9 +154,9 @@ namespace SonicRealms.Core.Moves
             if (GroundControl != null)
                 GroundControl.DisableControl = true;
 
-            if (ChargeAudioSource == null) return;
-            ChargeAudioSource.pitch = ChargePitchMin;
-            ChargeAudioSource.Play();
+            if (ChargeSoundSource == null) return;
+            ChargeSoundSource.pitch = ChargePitchMin;
+            ChargeSoundSource.Play();
         }
 
         public override void OnActiveUpdate()
@@ -165,23 +176,23 @@ namespace SonicRealms.Core.Moves
         {
             if (GroundControl != null)
                 GroundControl.DisableControl = false;
-
-            if (ChargeAudioSource != null)
-                ChargeAudioSource.Stop();
+            
+            if (ChargeSoundSource != null)
+                ChargeSoundSource.clip = ChargeSoundEnd;
         }
 
         public void Charge()
         {
             CurrentChargePower += ChargePower;
 
-            if (ChargeAudioSource == null) return;
+            if (ChargeSoundSource == null) return;
 
-            ChargeAudioSource.pitch += (ChargePitchMax - ChargePitchMin) / ChargePitchSteps;
+            ChargeSoundSource.pitch += (ChargePitchMax - ChargePitchMin) / ChargePitchSteps;
 
-            if (ChargeAudioSource.pitch > ChargePitchMax)
-                ChargeAudioSource.pitch = ChargePitchMax;
+            if (ChargeSoundSource.pitch > ChargePitchMax)
+                ChargeSoundSource.pitch = ChargePitchMax;
 
-            ChargeAudioSource.Play();
+            ChargeSoundSource.Play();
         }
 
         public void Finish()

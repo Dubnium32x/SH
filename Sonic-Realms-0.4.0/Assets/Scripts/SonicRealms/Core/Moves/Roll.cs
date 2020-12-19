@@ -95,6 +95,11 @@ namespace SonicRealms.Core.Moves
         public string UphillBool;
         protected int UphillBoolHash;
         #endregion
+
+        [SoundFoldout]
+        public AudioClip RollSound;
+        [SoundFoldout]
+        public AudioSource RollSoundSource;
         private bool _rightDirection;
 
         private float _originalSlopeGravity;
@@ -141,6 +146,8 @@ namespace SonicRealms.Core.Moves
 
         public override void Start()
         {
+            RollSoundSource.Play();
+            RollSoundSource.clip = RollSound;
             base.Start();
             Controller.OnAttach.AddListener(OnAttach);
             Score = Controller.GetComponent<ScoreCounter>();

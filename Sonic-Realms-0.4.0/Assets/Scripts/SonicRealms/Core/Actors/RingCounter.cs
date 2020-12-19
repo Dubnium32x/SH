@@ -12,6 +12,7 @@ namespace SonicRealms.Core.Actors
     /// </summary>
     public class RingCounter : MonoBehaviour
     {
+        public int CurrentFile;
         public HedgehogController Controller;
         public int Rings
         {
@@ -98,9 +99,9 @@ namespace SonicRealms.Core.Actors
             RingsPerCircle = 16;
             CircleSpeeds = new[] { 4.0f, 2.0f };
         }
-
         public void Awake()
         {
+           Rings = SDR.SDVint(CurrentFile.ToString() + "Rings: ");
             Animator = Controller.Animator;
             CanCollectTimer = 0.0f;
 

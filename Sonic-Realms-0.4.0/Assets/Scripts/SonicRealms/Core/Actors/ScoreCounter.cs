@@ -9,6 +9,7 @@ namespace SonicRealms.Core.Actors
     /// </summary>
     public class ScoreCounter : MonoBehaviour
     {
+        public int CurrentFile;
         /// <summary>
         /// Current score.
         /// </summary>
@@ -79,9 +80,9 @@ namespace SonicRealms.Core.Actors
 
             OnValueChange = new UnityEvent();
         }
-
         public void Awake()
         {
+            Score = SDR.SDVint(CurrentFile.ToString() + "Score: ");
             OnValueChange = OnValueChange ?? new UnityEvent();
         }
         public void Update()

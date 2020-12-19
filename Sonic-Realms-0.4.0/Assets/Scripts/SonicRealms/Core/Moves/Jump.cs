@@ -40,7 +40,12 @@ namespace SonicRealms.Core.Moves
         /// </summary>
         [Tooltip("Whether a jump happened. If false, the controller didn't leave the ground by jumping.")]
         public bool Used;
-
+        [SoundFoldout]
+        [Tooltip("Some things just suck ass so I fix them")]
+        public AudioSource JumpSoundSource;
+        [SoundFoldout]
+        [Tooltip("Some things just suck ass so I fix them")]
+        public AudioClip JumpSound;
         private Transform ClearanceSensorLeft;
         private Transform ClearanceSensorRight;
 
@@ -92,10 +97,16 @@ namespace SonicRealms.Core.Moves
             base.Awake();
             Used = false;
         }
-
+        bool KeepTheBozosAway;
         public override void Start()
         {
             base.Start();
+            if (!KeepTheBozosAway)
+            {
+                JumpSoundSource.clip = JumpSound;
+                JumpSoundSource.Play();
+                KeepTheBozosAway = true;
+            }
             CreateClearanceSensors();
             Controller.OnAttach.AddListener(OnAttach);
         }
@@ -136,7 +147,7 @@ namespace SonicRealms.Core.Moves
         public override void OnActiveEnter(State previousState)
         {
             Used = true;
-
+            KeepTheBozosAway = false;
             Controller.Detach();
             Controller.Velocity += DMath.AngleToVector((Controller.SurfaceAngle + 90.0f)*Mathf.Deg2Rad)*ActivateSpeed;
 

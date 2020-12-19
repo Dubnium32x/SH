@@ -7,9 +7,10 @@ public class IfButtonPressed : MonoBehaviour{
     {
         if (Input.anyKeyDown)
         {
-            if (!Input.GetButtonDown("Vertical") && !Input.GetButtonDown("Horizontal"))
+            if (!Input.GetButtonDown("Submit")  && !Input.GetButtonDown("Jump") && !Input.GetButtonDown("Horizontal"))
             { gameObject.GetComponent<AudioSource>().PlayOneShot(WrongButton); }
-            else if(Input.GetButtonDown("Vertical")) { gameObject.GetComponent<AudioSource>().PlayOneShot(MoveSound); }
+            else if(Input.GetButtonDown("Submit")) { gameObject.GetComponent<AudioSource>().PlayOneShot(MoveSound); }
+            else if(Input.GetButtonDown("Jump")) { gameObject.GetComponent<AudioSource>().PlayOneShot(MoveSound); }
             else if(Input.GetButtonDown("Horizontal")) { gameObject.GetComponent<AudioSource>().PlayOneShot(PlayerSound); }
         }
     }

@@ -1047,6 +1047,7 @@ MonoBehaviour:
   RingsLost: 9001
   HurtInvinciblilityTime: 2
   HurtInvincibleBool: Hurt Invincible
+  HHSource: {fileID: 0}
   RingLossSound: {fileID: 8300000, guid: f7cb67bbc35a2e24381a1e57047811c7, type: 3}
   ReboundSound: {fileID: 8300000, guid: f7fd5938b971ebc41ae8b81409a8fecb, type: 3}
   DeathSound: {fileID: 8300000, guid: f7fd5938b971ebc41ae8b81409a8fecb, type: 3}
@@ -1119,7 +1120,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f082220a59aec99408152ea6e63aca59, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Controller: {fileID: 0}
+  Controller: {fileID: 11405618}
   MoveManager: {fileID: 11461214}
   OnAdd:
     m_PersistentCalls:
@@ -1185,6 +1186,7 @@ MonoBehaviour:
   DrowningPoint: 12
   DrowningBGM: {fileID: 8300000, guid: 9b3fd3d55801bdc42ace7dfb5c1acbf7, type: 3}
   DrownSound: {fileID: 8300000, guid: b1a3c9af84e14ff49a695738a57cca66, type: 3}
+  DrownSource: {fileID: 0}
 --- !u!114 &11417206
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1244,7 +1246,7 @@ MonoBehaviour:
   _score: 0
   CurrentCombo: 0
   ComboValues: 64000000c8000000f4010000e8030000e8030000e8030000e8030000e8030000e8030000e8030000e8030000e8030000e8030000e8030000e803000010270000
-  FloatingScoreView: {fileID: 11453926, guid: 05a82bf2ab4662341adb116c82ae4972, type: 3}
+  FloatingScoreView: {fileID: 0}
   OnValueChange:
     m_PersistentCalls:
       m_Calls: []

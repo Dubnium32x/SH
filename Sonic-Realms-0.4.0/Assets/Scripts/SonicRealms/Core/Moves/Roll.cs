@@ -146,8 +146,7 @@ namespace SonicRealms.Core.Moves
 
         public override void Start()
         {
-            RollSoundSource.Play();
-            RollSoundSource.clip = RollSound;
+            
             base.Start();
             Controller.OnAttach.AddListener(OnAttach);
             Score = Controller.GetComponent<ScoreCounter>();
@@ -191,12 +190,26 @@ namespace SonicRealms.Core.Moves
             if (!string.IsNullOrEmpty(UphillBool))
                 Controller.Animator.SetBool(UphillBool, Uphill);
         }
-
+        bool no;
         public override void OnActiveEnter(State previousState)
         {
             IsRolling = true;
             // Store original physics values to restore after leaving the roll
             _rightDirection = Controller.GroundVelocity > 0.0f;
+
+            if(Manager[MoveLayer.Action] is Spindash)
+            {
+                no = false;
+            }
+            else
+            {
+                no = true;
+            }
+            if (Controller.Grounded && no)
+            {
+                RollSoundSource.Play();
+                RollSoundSource.clip = RollSound;
+            }
 
             _originalSlopeGravity = Controller.SlopeGravity;
             _originalFriction = Controller.GroundFriction;

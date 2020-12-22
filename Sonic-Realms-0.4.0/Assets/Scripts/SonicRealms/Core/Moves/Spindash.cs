@@ -116,6 +116,7 @@ namespace SonicRealms.Core.Moves
             BasePower = 4.8f;
             ChargePowerDecay = 1.875f;
 
+            ChargeSoundSource.clip = ChargeSound;
             ChargeSound = null;
         }
 
@@ -123,6 +124,7 @@ namespace SonicRealms.Core.Moves
         {
             base.Awake();
             CurrentChargePower = 0.0f;
+            ChargeSoundSource.clip = ChargeSound;
         }
 
         public override void Start()
@@ -157,6 +159,7 @@ namespace SonicRealms.Core.Moves
             if (ChargeSoundSource == null) return;
             ChargeSoundSource.pitch = ChargePitchMin;
             ChargeSoundSource.Play();
+            ChargeSoundSource.clip = ChargeSound;
         }
 
         public override void OnActiveUpdate()
@@ -179,6 +182,7 @@ namespace SonicRealms.Core.Moves
             
             if (ChargeSoundSource != null)
                 ChargeSoundSource.clip = ChargeSoundEnd;
+                ChargeSoundSource.Play();
         }
 
         public void Charge()

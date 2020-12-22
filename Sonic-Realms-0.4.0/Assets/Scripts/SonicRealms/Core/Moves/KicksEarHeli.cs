@@ -1,7 +1,5 @@
 ﻿using UnityEngine;
-using System.Collections;
-using System.Collections.Generic;
-
+using SonicRealms.Core.Actors;
 namespace SonicRealms.Core.Moves
 {
     public class KicksEarHeli : Move
@@ -24,39 +22,25 @@ namespace SonicRealms.Core.Moves
         /// <summary>
         /// An audio clip to play when the spindash is charged.
         /// </summary>
-        [SoundFoldout]
+        [ControlFoldout]
         [Tooltip("An audio clip to play when the EarHeli is active.")]
         public AudioClip Helicompter;
 
         /// <summary>
         /// An audio clip to play when the spindash is charged.
         /// </summary>
-        [SoundFoldout]
+        [ControlFoldout]
         [Tooltip("An audio clip to play when the EarHeli is active.")]
         public AudioSource HelicompterSource;
 
 
 
-
-        public override MoveLayer Layer
-        {
-            get { return MoveLayer.Action; }
-        }
         public override void Reset()
         {
             base.Reset();
             A = true;
-
-
-            Helicompter = null;
         }
 
-        public override void Awake()
-        {
-            base.Awake();
-            
-        }
-        int i;
         public override void Start()
         {
             base.Start();
@@ -73,39 +57,43 @@ namespace SonicRealms.Core.Moves
             A = true;
         }
 
+
         public override bool Available
         {
-            get { 
-                return Input.GetButtonDown(HeliButton);
-            }
+            get { return base.Available; }
         }
 
         public override bool ShouldPerform
         {
-            get { return Controller.Grounded; }
+            get { return Input.GetButton(HeliButton); }
         }
-        public override void OnActiveUpdate()
+        public override void Update()
         {
-            base.OnActiveUpdate();
-            if (Input.GetButton(HeliButton) && A == true && Controller.RelativeVelocity.y < 0 && !Controller.Grounded)
+            if (Input.GetButton(HeliButton) && A == true && GameObject.FindGameObjectWithTag("Player").GetComponent<HedgehogController>().RelativeVelocity.y < 0 && !GameObject.FindGameObjectWithTag("Player").GetComponent<HedgehogController>().Grounded)
             {
-                Controller.RelativeVelocity = new Vector2(Controller.RelativeVelocity.x, floatingAmount);
+                Controller.RelativeVelocity = new Vector2(GameObject.FindGameObjectWithTag("Player").GetComponent<HedgehogController>().RelativeVelocity.x, floatingAmount);
                 Controller.Animator.SetBool("Helicomptering", true);
 
                 if (HelicompterSource.clip != Helicompter && !HelicompterSource.isPlaying) return;
                 {
                     HelicompterSource.Play();
+                    HelicompterSource.clip = Helicompter;
                 }
             }
             
             if (Input.GetButtonUp(HeliButton) || Controller.Grounded)
             {
                 A = false;
-                Controller.Animator.SetBool("Helicomptering", false);
+                GameObject.FindGameObjectWithTag("Player").GetComponent<HedgehogController>().Animator.SetBool("Helicomptering", false);
 
-                End();
                 HelicompterSource.Stop();
+                End();
             }
+        }
+        public override void OnActiveExit()
+        {
+            base.OnActiveExit();
+            A = false;
         }
     }
 }

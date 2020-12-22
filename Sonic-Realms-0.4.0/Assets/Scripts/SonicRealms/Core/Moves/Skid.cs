@@ -64,20 +64,22 @@ namespace SonicRealms.Core.Moves
             base.Reset();
 
             MinimumSpeed = 2.7f;
-            SkidSound = null;
             SkidSoundRepeatTime = 0.0667f;
         }
-
+        public override void OnActiveEnter()
+        {
+            base.OnActiveEnter();
+            SkidSoundSource.Play();
+        }
         public override void Start()
         {
             base.Start();
             GroundControl = Manager.Get<GroundControl>();
-            SkidSoundSource.clip = SkidSound;
         }
         public override void OnActiveUpdate()
         {
             base.OnActiveUpdate();
-            if (SkidSoundSource.time > SkidSoundRepeatTime) { SkidSoundSource.Play(); }
+            if (SkidSoundSource.time > SkidSoundRepeatTime) { SkidSoundSource.Play(); SkidSoundSource.clip = SkidSound; }
         }
     }
 }

@@ -101,12 +101,7 @@ namespace SonicRealms.Core.Moves
         public override void Start()
         {
             base.Start();
-            if (!KeepTheBozosAway)
-            {
-                JumpSoundSource.clip = JumpSound;
-                JumpSoundSource.Play();
-                KeepTheBozosAway = true;
-            }
+            
             CreateClearanceSensors();
             Controller.OnAttach.AddListener(OnAttach);
         }
@@ -141,6 +136,7 @@ namespace SonicRealms.Core.Moves
         public void OnAttach()
         {
             Used = false;
+            KeepTheBozosAway = false;
             End();
         }
 
@@ -150,7 +146,9 @@ namespace SonicRealms.Core.Moves
             KeepTheBozosAway = false;
             Controller.Detach();
             Controller.Velocity += DMath.AngleToVector((Controller.SurfaceAngle + 90.0f)*Mathf.Deg2Rad)*ActivateSpeed;
-
+            
+                JumpSoundSource.clip = JumpSound;
+                JumpSoundSource.Play();
             var roll = Manager.Get<Roll>();
             if (roll == null) return;
 

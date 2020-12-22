@@ -829,7 +829,7 @@ namespace SonicRealms.Core.Actors
                 }
                 else if (Vy >= 0)
                 {
-                    Vy -= 20 * Time.deltaTime;
+                    Vy = Mathf.Lerp(Vy, -Mathf.Abs(Vy), 0.032f);
                 }
                 if (Input.GetKey(KeyCode.DownArrow))
                 {
@@ -838,8 +838,19 @@ namespace SonicRealms.Core.Actors
                 }
                 else if (Vy <= 0)
                 {
-                    Vy += 20 * Time.deltaTime;
+                    Vy = Mathf.Lerp(Vy, Mathf.Abs(Vy), 0.032f);
                 }
+                if(Input.GetKey(KeyCode.UpArrow) && Input.GetKey(KeyCode.RightArrow) || Input.GetKey(KeyCode.UpArrow) && Input.GetKey(KeyCode.LeftArrow))
+                {
+                    Vy -= Vy / 64;
+                    Vx -= Vx / 64;
+                }
+                if (Input.GetKey(KeyCode.DownArrow) && Input.GetKey(KeyCode.RightArrow) || Input.GetKey(KeyCode.DownArrow) && Input.GetKey(KeyCode.LeftArrow))
+                {
+                    Vy -= Vy / 64;
+                    Vx -= Vx / 64;
+                }
+                
 
                 if (Input.GetKey(KeyCode.RightArrow))
                 {
@@ -848,17 +859,15 @@ namespace SonicRealms.Core.Actors
                 }
                 else if (Vx >= 0)
                 {
-                    Vx -= 20 * Time.deltaTime;
+                    Vx = Mathf.Lerp(Vx, -Mathf.Abs(Vx), 0.032f);
                 }
                 if (Input.GetKey(KeyCode.LeftArrow))
                 {
                     Vx -= 20 * Time.deltaTime;
-
-
                 }
                 else if (Vx <= 0)
                 {
-                    Vx += 20 * Time.deltaTime;
+                    Vx = Mathf.Lerp(Vx, Mathf.Abs(Vx), 0.032f);
                 }
 
 

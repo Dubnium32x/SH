@@ -19,6 +19,9 @@ TagManager:
   - CUS
   - RingSoundManager
   - Saver
+  - RingHUD
+  - ScoreHUD
+  - TimeHUD
   layers:
   - Default
   - TransparentFX

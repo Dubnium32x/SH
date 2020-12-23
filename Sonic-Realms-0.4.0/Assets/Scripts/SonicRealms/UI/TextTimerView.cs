@@ -30,6 +30,8 @@ namespace SonicRealms.UI
                  "ff for milliseconds.")]
         public string Format;
 
+        public TimeSpan Time;
+
         /// <summary>
         /// The timer will be updated only once a second if the format doesn't contain milliseconds.
         /// </summary>
@@ -66,8 +68,6 @@ namespace SonicRealms.UI
         
         public void Start()
         {
-            Animator = Animator ? Animator : GetComponent<Animator>();
-            SecondsFloatHash = Animator == null ? 0 : Animator.StringToHash(SecondsFloat);
         }
 
         public override void Show(TimeSpan time)
@@ -91,7 +91,7 @@ namespace SonicRealms.UI
                 Animator.SetFloat(SecondsFloatHash, (float)time.TotalSeconds);
 
             if (!_alwaysUpdate && (int)time.TotalSeconds == (int)_lastValue) return;
-
+            Time = time;
             _lastValue = (int)time.TotalSeconds;
             Text.text = new DateTime().Add(time).ToString(format);
         }

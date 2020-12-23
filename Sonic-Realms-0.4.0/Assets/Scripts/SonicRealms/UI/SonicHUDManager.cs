@@ -60,8 +60,8 @@ namespace SonicRealms.UI
 
         public void UpdateTimer()
         {
-            //if(Hud != null && Hud.Timer != null)
-                //Hud.Timer.Show(Level.Time);
+            if(Hud != null && Hud.Timer != null)
+                Hud.Timer.Show(GameObject.FindGameObjectWithTag("TimeHUD").GetComponent<TextTimerView>().Time);
         }
 
         public void UpdateLives()

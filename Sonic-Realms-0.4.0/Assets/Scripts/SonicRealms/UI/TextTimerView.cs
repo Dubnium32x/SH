@@ -68,6 +68,7 @@ namespace SonicRealms.UI
         
         public void Start()
         {
+
         }
 
         public override void Show(TimeSpan time)
@@ -91,9 +92,9 @@ namespace SonicRealms.UI
                 Animator.SetFloat(SecondsFloatHash, (float)time.TotalSeconds);
 
             if (!_alwaysUpdate && (int)time.TotalSeconds == (int)_lastValue) return;
-            Time = time;
             _lastValue = (int)time.TotalSeconds;
             Text.text = new DateTime().Add(time).ToString(format);
+            Time = time;
         }
     }
 }

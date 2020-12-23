@@ -30,10 +30,21 @@ namespace SonicRealms.UI
 
             UpdateAll();
         }
-
+        int yes;
+        System.TimeSpan yesyes;
         public void Update()
         {
             UpdateTimer();
+            float ohno = (Time.time % 10)/100;
+            
+            if(ohno == 9)
+            {
+                yes = 1;
+            }
+            else
+            {
+                yes = 0;
+            }
         }
 
         public void UpdateAll()
@@ -61,7 +72,8 @@ namespace SonicRealms.UI
         public void UpdateTimer()
         {
             if(Hud != null && Hud.Timer != null)
-                Hud.Timer.Show(GameObject.FindGameObjectWithTag("TimeHUD").GetComponent<TextTimerView>().Time);
+                Hud.Timer.Show(new System.TimeSpan(0,0,(int)Time.timeSinceLevelLoad));
+           
         }
 
         public void UpdateLives()

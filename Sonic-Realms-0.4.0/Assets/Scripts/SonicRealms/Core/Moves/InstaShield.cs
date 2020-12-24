@@ -49,6 +49,16 @@ namespace SonicRealms.Core.Moves
         [HideInInspector]
         public bool HasShield;
 
+        [SoundFoldout]
+        public AudioSource CloudBurstSoundSource;
+
+
+        [SoundFoldout]
+        public AudioClip CloudBurstSound;
+
+
+        [SoundFoldout]
+        public AudioClip CloudBurstSoundEnd;
         public override void Reset()
         {
             base.Reset();
@@ -104,7 +114,8 @@ namespace SonicRealms.Core.Moves
             Health.Invincible = true;
 
             dashTimer = 0.0f;
-
+            CloudBurstSoundSource.clip = CloudBurstSound;
+            CloudBurstSoundSource.Play();
             
         }
 
@@ -112,6 +123,9 @@ namespace SonicRealms.Core.Moves
 
         public override void OnActiveUpdate()
         {
+            if (Input.GetButton(CloudBurstButton))
+            CloudBurstSoundSource.pitch = dashTimer / 3.2f;
+            
             base.OnActiveUpdate();
 
             if ((InvincibilityTimer -= Time.deltaTime) < 0.0f)
@@ -130,10 +144,15 @@ namespace SonicRealms.Core.Moves
 
             if (Input.GetButtonUp(CloudBurstButton) && active == true)
             {
+                CloudBurstSoundSource.pitch = 1;
+                CloudBurstSoundSource.clip = CloudBurstSoundEnd;
+                CloudBurstSoundSource.Play();
+                
                 if (Controller.FacingForward)
                 {
                     Controller.RelativeVelocity = new Vector2(DashVelocity.x, DashHeight);
                     active = false;
+
                 }
                     
                 else
@@ -157,6 +176,13 @@ namespace SonicRealms.Core.Moves
 
             if(!Controller.HasPowerup<Invincibility>())
                 Health.Invincible = false;
+        }
+        public override void Update()
+        {
+            base.Update();
+            
+                if (Controller.Grounded && CloudBurstSoundSource.clip != CloudBurstSoundEnd) { CloudBurstSoundSource.pitch -= Time.deltaTime; }
+            if(CloudBurstSoundSource.pitch < 0) { CloudBurstSoundSource.Stop(); }
         }
     }
 }

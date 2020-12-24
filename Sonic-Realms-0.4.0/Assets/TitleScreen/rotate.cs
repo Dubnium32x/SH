@@ -4,8 +4,9 @@ using UnityEngine;
 
 public class rotate : MonoBehaviour
 {
+    public Vector3 RotationDirection;
     void Update()
     {
-        transform.Rotate(0,5,0,Space.Self);
+        transform.Rotate(RotationDirection.x, RotationDirection.y, RotationDirection.z, Space.Self);
     }
 }

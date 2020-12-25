@@ -21,6 +21,6 @@ EditorBuildSettings:
     path: Assets/Scenes/Test Zone - Copy.unity
     guid: 045ecae5ba7013e4f81816fc4df40259
   - enabled: 1
-    path: Assets/Scenes/BirbsPersonalTestingGrounds.unity
+    path: Assets/Scenes/Museum.unity
     guid: 339ab6e46a0736c43a852825c7cd2631
   m_configObjects: {}

@@ -869,17 +869,31 @@ namespace SonicRealms.Core.Actors
                 {
                     Vx = Mathf.Lerp(Vx, Mathf.Abs(Vx), 0.032f);
                 }
-                if (Input.GetKey(KeyCode.Alpha0))
+               
+                if (Input.GetKey(KeyCode.J))
                 {
-                    transform.position -= transform.forward * 20 * Time.deltaTime;
-                    GameObject.FindGameObjectWithTag("MainCamera").transform.position -= transform.forward * 20 * Time.deltaTime;
+                    GameObject.FindGameObjectWithTag("MainCamera").transform.position -= transform.right * 20 * Time.deltaTime;
                 }
-                if (Input.GetKey(KeyCode.Alpha9))
+                if (Input.GetKey(KeyCode.L))
                 {
-                    transform.position += transform.forward * 20 * Time.deltaTime;
+                    GameObject.FindGameObjectWithTag("MainCamera").transform.position += transform.right * 20 * Time.deltaTime;
+                }
+                if (Input.GetKey(KeyCode.I))
+                {
                     GameObject.FindGameObjectWithTag("MainCamera").transform.position += transform.forward * 20 * Time.deltaTime;
                 }
-
+                if (Input.GetKey(KeyCode.K))
+                {
+                    GameObject.FindGameObjectWithTag("MainCamera").transform.position -= transform.forward * 20 * Time.deltaTime;
+                }
+                if (Input.GetKey(KeyCode.M))
+                {
+                    GameObject.FindGameObjectWithTag("MainCamera").transform.Rotate(-transform.up * 20 * Time.deltaTime, Space.Self);
+                }
+                if (Input.GetKey(KeyCode.Comma))
+                {
+                    GameObject.FindGameObjectWithTag("MainCamera").transform.Rotate(transform.up * 20 * Time.deltaTime, Space.Self);
+                }
             }
 
             #region The real shit

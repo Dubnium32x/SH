@@ -744,7 +744,7 @@ namespace SonicRealms.Core.Actors
                 HandleInterrupt();
                 return;
             }
-            if (Input.GetKeyDown(KeyCode.Keypad0))
+            if (Input.GetKeyDown(KeyCode.Keypad0) && SDR.DDVER("just beat it"))
             {
                 DebugOn = true;
             }
@@ -869,7 +869,16 @@ namespace SonicRealms.Core.Actors
                 {
                     Vx = Mathf.Lerp(Vx, Mathf.Abs(Vx), 0.032f);
                 }
-
+                if (Input.GetKey(KeyCode.Alpha0))
+                {
+                    transform.position -= transform.forward * 20 * Time.deltaTime;
+                    GameObject.FindGameObjectWithTag("MainCamera").transform.position -= transform.forward * 20 * Time.deltaTime;
+                }
+                if (Input.GetKey(KeyCode.Alpha9))
+                {
+                    transform.position += transform.forward * 20 * Time.deltaTime;
+                    GameObject.FindGameObjectWithTag("MainCamera").transform.position += transform.forward * 20 * Time.deltaTime;
+                }
 
             }
 

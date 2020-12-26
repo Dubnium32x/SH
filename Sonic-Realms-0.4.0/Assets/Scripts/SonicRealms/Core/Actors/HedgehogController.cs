@@ -1114,18 +1114,14 @@ namespace SonicRealms.Core.Actors
                 {
                     if(!Roll.IsRolling && Mathf.Sign(Vy) == -1)
                     {
-                        if (Mathf.Sign(GroundVelocity) == 1)
+                        if (GroundVelocity > 0)
                         {
                             GroundVelocity -= (SlopeGravity + GroundVelocity) * Mathf.Sin(RelativeSurfaceAngle * Mathf.Deg2Rad) * timestep;
                         }
-                        if (Mathf.Sign(GroundVelocity) == -1)
+                        if (GroundVelocity < 0)
                         {
-                            GroundVelocity -= (SlopeGravity - GroundVelocity) * Mathf.Sin(RelativeSurfaceAngle * Mathf.Deg2Rad) * timestep;
+                            GroundVelocity -= ( GroundVelocity - SlopeGravity) * -Mathf.Sin(RelativeSurfaceAngle * Mathf.Deg2Rad) * timestep;
                         }
-                    }
-                    else
-                    {
-                        GroundVelocity -= SlopeGravity * Mathf.Sin(RelativeSurfaceAngle * Mathf.Deg2Rad) * timestep;
                     }
                 }
 

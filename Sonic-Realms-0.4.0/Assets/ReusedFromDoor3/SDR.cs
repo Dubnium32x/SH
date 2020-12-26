@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using System.IO;
 using System.Linq;
-
+//made by Birb64, modified from door3 for use of sonic harmony.
 public static class SDR
 {
     //Save data reader

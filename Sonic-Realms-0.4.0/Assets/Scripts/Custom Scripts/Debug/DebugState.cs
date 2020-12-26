@@ -7,7 +7,7 @@ using SonicRealms.Core.Moves;
 using UnityEngine;
 using UnityEngine.UI;
 
-
+//made by Birb64, the use is for debug testing.
 namespace SonicRealms.Core.Actors
 {
     public class DebugState : MonoBehaviour

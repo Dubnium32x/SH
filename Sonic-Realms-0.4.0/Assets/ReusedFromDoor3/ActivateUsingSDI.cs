@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using System.IO;
 using System.Linq;
-
+//made by Birb64, modified from door 3, for use of sonic harmony.
 public class ActivateUsingSDI : MonoBehaviour
 {
     string otherThing;

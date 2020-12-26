@@ -790,6 +790,7 @@ namespace SonicRealms.Core.Actors
         }
 
         #endregion
+        //made by Birb64, known as: SDDS
         #region DebugMode
 
         bool DebugFlyOn;

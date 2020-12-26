@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using System.IO;
 using System.Linq;
-
+//Made by Birb64, modified from door 3, for use of sonic harmony.
 /// <summary>
 /// SDFS(Simple dimple file setup) is used to setup files that haven't been created yet
 /// </summary>

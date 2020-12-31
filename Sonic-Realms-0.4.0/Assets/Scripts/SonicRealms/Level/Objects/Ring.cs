@@ -11,7 +11,7 @@ namespace SonicRealms.Level.Objects
     public class Ring : ReactiveArea
     {
 
-        public GameObject RingAudioSourcePrefab;
+   GameObject RingAudioSourcePrefab;
         /// <summary>
         /// How many rings to give when collected.
         /// </summary>
@@ -37,11 +37,15 @@ namespace SonicRealms.Level.Objects
         [Tooltip("An audio clip to play when the ring is collected.")]
         public AudioClip CollectedSound;
 
+        public GameObject RingCollectSoundTruePrefab;
         /// <summary>
         /// Next ring sound will pan right if true, pan left otherwise.
         /// </summary>
         protected static bool PanRight;
-
+        public void Update()
+        {
+            
+        }
         public override void Reset()
         {
             base.Reset();
@@ -50,9 +54,10 @@ namespace SonicRealms.Level.Objects
             CollectedSound = null;
             
         }
-
+        string buddyWeHaveALotToDiscuss;
         public override void Awake()
         {
+            
             base.Awake();
             Collected = false;
             
@@ -64,12 +69,12 @@ namespace SonicRealms.Level.Objects
         { if (!Death.IsDead) {
                 var controller = hitbox.Controller;
                 if (Collected) return;
-
                 var collector = controller.GetComponent<RingCounter>();
                 if (collector == null || !collector.CanCollect) return;
 
                 collector.Rings += Value;
-
+                GameObject ShortTerm = Instantiate(RingCollectSoundTruePrefab, transform);
+                
                 if (Animator != null && CollectedTriggerHash != 0)
                     Animator.SetTrigger(CollectedTriggerHash);
 
@@ -77,9 +82,9 @@ namespace SonicRealms.Level.Objects
 
                 if (CollectedSound != null)
                 {
-                    RingAudioSourcePrefab.GetComponent<AudioSource>().Play();
-                    RingAudioSourcePrefab.GetComponent<AudioSource>().clip = CollectedSound;
-                    RingAudioSourcePrefab.GetComponent<AudioSource>().panStereo = (PanRight = !PanRight) ? 1f : -1f;
+                    ShortTerm.GetComponent<AudioSource>().Play();
+                    ShortTerm.GetComponent<AudioSource>().clip = CollectedSound;
+                    ShortTerm.GetComponent<AudioSource>().panStereo = (PanRight = !PanRight) ? 1f : -1f;
                 }
 
                 TriggerObject(controller);

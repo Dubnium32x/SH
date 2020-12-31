@@ -120,7 +120,6 @@ namespace SonicRealms.Core.Moves
         }
 
         public bool active;
-
         public override void OnActiveUpdate()
         {
             if (Input.GetButton(CloudBurstButton))
@@ -133,15 +132,19 @@ namespace SonicRealms.Core.Moves
                 InvincibilityTimer = 0.0f;
                 End();
             }
+            if (Controller.Grounded) { End(); active = false; }
+                
+            
+                if (dashTimer > 5)
+                {
+                    dashTimer = 5;
+                }
 
-            if(dashTimer > 5)
-            {
-                dashTimer = 5;
-            }
 
-            dashTimer += Time.deltaTime * dashSpeed;
-            DashHeight = dashTimer;
-
+                dashTimer += Time.deltaTime * dashSpeed;
+                DashHeight = dashTimer;
+            
+            
             if (Input.GetButtonUp(CloudBurstButton) && active == true)
             {
                 CloudBurstSoundSource.pitch = 1;
@@ -160,7 +163,6 @@ namespace SonicRealms.Core.Moves
                     Controller.RelativeVelocity = new Vector2(-DashVelocity.x, DashHeight);
                     active = false;
                 }
-                    
             }
             
         }
@@ -174,7 +176,8 @@ namespace SonicRealms.Core.Moves
             InvincibilityTimer = 0.0f;
             Target.enabled = false;
 
-            if(!Controller.HasPowerup<Invincibility>())
+
+            if (!Controller.HasPowerup<Invincibility>())
                 Health.Invincible = false;
         }
         public override void Update()

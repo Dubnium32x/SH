@@ -835,7 +835,7 @@ MonoBehaviour:
   AirDrag: 0.099
   AirDragRequiredSpeed: {x: 0.075, y: 2.4}
   AirGravity: 7.46
-  SlopeGravity: 3
+  SlopeGravity: 0.0016
   GravityDirection: 270
   MaxSpeed: 9001
   LedgeClimbHeight: 0.16

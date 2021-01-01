@@ -71,7 +71,8 @@ namespace SonicRealms.Core.Moves
         {
             IsDead = true;
             if (!Restarting) return;
-
+            Controller.transform.position += Vector3.back * -0.08f; ;
+            Controller.transform.Rotate(0,0,32f,Space.Self);
             RestartTimer -= Time.deltaTime;
             if (RestartTimer < 0.0f)
             {

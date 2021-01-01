@@ -221,18 +221,24 @@ namespace SonicRealms.Core.Moves
 
         public override void OnActiveEnter(State previousState)
         {
+
+            IsActive = true;
             Manager.End<AirControl>();
             Controller.OnSteepDetach.AddListener(OnSteepDetach);
-
-            _axis = InvertAxis ? -Input.GetAxis(MovementAxis) : Input.GetAxis(MovementAxis);
+                _axis = InvertAxis ? -Input.GetAxis(MovementAxis) : Input.GetAxis(MovementAxis);
+            
+            AccelerationLocked = Mathf.Abs(Input.GetAxis(MovementAxis)) == 0;
         }
-
+        bool IsActive;
         public override void OnActiveUpdate()
         {
             if (ControlLockTimerOn || DisableControl) return;
-            _axis = InvertAxis ? -Input.GetAxis(MovementAxis) : Input.GetAxis(MovementAxis);
-        }
+                _axis = InvertAxis ? -Input.GetAxis(MovementAxis) : Input.GetAxis(MovementAxis);
 
+            AccelerationLocked = Mathf.Abs(Input.GetAxis(MovementAxis)) == 0;
+            
+            Debug.Log((Mathf.Abs(Input.GetAxis(MovementAxis)) > 0.3f).ToString());
+        }
         public override void OnActiveFixedUpdate()
         {
             UpdateControlLockTimer();
@@ -268,8 +274,10 @@ namespace SonicRealms.Core.Moves
 
             if (!string.IsNullOrEmpty(BrakingBool))
                 Animator.SetBool(BrakingBool, false);
-        }
 
+            IsActive = false;
+        }
+        
         public override void SetAnimatorParameters()
         {
             if(InputAxisFloatHash != 0)
@@ -379,20 +387,20 @@ namespace SonicRealms.Core.Moves
                 }
                 else if (!AccelerationLocked && Controller.GroundVelocity > -TopSpeed)
                 {
-                    Controller.GroundVelocity += Acceleration*magnitude*timestep;
+                    Controller.GroundVelocity += Acceleration*magnitude *  timestep;
                     return true;
                 }
             }
-            else if (magnitude > 0.0f)
+            else if (magnitude > 0.0f )
             {
                 if (!DecelerationLocked && Controller.GroundVelocity < 0.0f)
                 {
-                    Controller.GroundVelocity += Deceleration*magnitude*timestep;
+                    Controller.GroundVelocity += Deceleration*magnitude* timestep;
                     return true;
                 }
                 else if (!AccelerationLocked && Controller.GroundVelocity < TopSpeed)
                 {
-                    Controller.GroundVelocity += Acceleration*magnitude*timestep;
+                    Controller.GroundVelocity += Acceleration*magnitude* timestep;
                     return true;
                 }
             }

@@ -1113,42 +1113,16 @@ namespace SonicRealms.Core.Actors
                 if (ApplySlopeGravity &&
                     !DMath.AngleInRange_d(RelativeSurfaceAngle, -SlopeGravityBeginAngle, SlopeGravityBeginAngle))
                 {
-                    if(Mathf.Sign(Vy) == -1)
-                    {
-                        if(!Roll.IsRolling)
-                        {
-
-                            if (GroundVelocity > 0 && Mathf.Abs(GroundVelocity) < MaxSpeed)
-                            {
-                                    GroundVelocity -= (GroundVelocity + SlopeGravity) * Mathf.Sin(SurfaceAngle * Mathf.Deg2Rad) * timestep;
-                                
-                            }
-                            if (GroundVelocity < 0 && Mathf.Abs(GroundVelocity) < MaxSpeed)
-                            {
-                                    GroundVelocity -= (GroundVelocity + SlopeGravity) * Mathf.Sin(SurfaceAngle * Mathf.Deg2Rad) * timestep;
-                                
-                            }
-                        }
-                        else
-                        {
-                            if (GroundVelocity > 0)
-                            {
-                                GroundVelocity -= (GroundVelocity + SlopeGravity) * Mathf.Sin(SurfaceAngle * Mathf.Deg2Rad) * timestep;
-
-                            }
-                            if (GroundVelocity < 0)
-                            {
-                                GroundVelocity -= (GroundVelocity + SlopeGravity) * Mathf.Sin(SurfaceAngle * Mathf.Deg2Rad) * timestep;
-
-                            }
-                        }
-                    }
+                    
+                    
                 }
 
-               if(Mathf.Abs(GroundVelocity) < 1 && SurfaceAngle < 90 || Mathf.Abs(GroundVelocity) < 1 && SurfaceAngle > 270)
+               if(SurfaceAngle < 90 || SurfaceAngle > 270)
                 {
                     GroundVelocity -= SlopeGravity * Mathf.Sin(SurfaceAngle * Mathf.Deg2Rad) * timestep;
                 }
+               if(Mathf.Abs(GroundVelocity) > MaxSpeed && GroundVelocity > 0) { GroundVelocity -= (SlopeGravity + GroundVelocity) * Mathf.Sin(SurfaceAngle * Mathf.Deg2Rad) * timestep; }
+                if (Mathf.Abs(GroundVelocity) > MaxSpeed && GroundVelocity < 0) { GroundVelocity -= (SlopeGravity - GroundVelocity) * Mathf.Sin(SurfaceAngle * Mathf.Deg2Rad) * timestep; }
 
                 // Ground friction
                 if (ApplyGroundFriction)

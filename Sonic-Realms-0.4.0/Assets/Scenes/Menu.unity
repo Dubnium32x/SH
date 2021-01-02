@@ -1614,7 +1614,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   SaveManaging: {fileID: 1602822387}
   WhichFile: 1
-  Level: 5
+  Level: 3
   Lives: 5
   CharacterText: {fileID: 527822658}
   AreYouSure: {fileID: 0}

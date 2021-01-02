@@ -41,10 +41,10 @@ namespace SonicRealms.Level.Objects
         /// <summary>
         /// Next ring sound will pan right if true, pan left otherwise.
         /// </summary>
-        protected static bool PanRight;
+        static bool PanRight;
         public void Update()
         {
-            
+            PanRight = GameObject.FindGameObjectWithTag("Player").GetComponent<RingCounter>().Rings % 2 == 1;
         }
         public override void Reset()
         {
@@ -73,7 +73,6 @@ namespace SonicRealms.Level.Objects
                 if (collector == null || !collector.CanCollect) return;
 
                 collector.Rings += Value;
-                GameObject ShortTerm = Instantiate(RingCollectSoundTruePrefab, transform);
                 
                 if (Animator != null && CollectedTriggerHash != 0)
                     Animator.SetTrigger(CollectedTriggerHash);
@@ -82,9 +81,8 @@ namespace SonicRealms.Level.Objects
 
                 if (CollectedSound != null)
                 {
-                    ShortTerm.GetComponent<AudioSource>().Play();
-                    ShortTerm.GetComponent<AudioSource>().clip = CollectedSound;
-                    ShortTerm.GetComponent<AudioSource>().panStereo = (PanRight = !PanRight) ? 1f : -1f;
+                    if (PanRight) { GameObject.FindGameObjectWithTag("RingSoundR").GetComponent<AudioSource>().Play(); }
+                    if (!PanRight) { GameObject.FindGameObjectWithTag("RingSoundL").GetComponent<AudioSource>().Play(); }
                 }
 
                 TriggerObject(controller);

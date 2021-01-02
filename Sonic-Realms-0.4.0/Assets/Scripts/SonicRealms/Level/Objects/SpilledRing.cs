@@ -151,7 +151,7 @@ namespace SonicRealms.Level.Objects
                 if (result && result.fraction > 0f)
                 {
 
-                    RingDingSource.PlayOneShot(BounceClip);
+                    GameObject.FindGameObjectWithTag("SpilledRingSound").GetComponent<AudioSource>().PlayOneShot(BounceClip);
                     // Store positive angle in degrees
                     var angle = DMath.PositiveAngle_d(DMath.Angle(result.normal) * Mathf.Rad2Deg);
                     if (AccurateBounce)

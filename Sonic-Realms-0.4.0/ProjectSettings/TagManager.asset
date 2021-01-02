@@ -22,6 +22,10 @@ TagManager:
   - RingHUD
   - ScoreHUD
   - TimeHUD
+  - RingSoundR
+  - RingSoundL
+  - SpilledRingSound
+  - BoostSound
   layers:
   - Default
   - TransparentFX

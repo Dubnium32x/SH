@@ -1121,8 +1121,23 @@ namespace SonicRealms.Core.Actors
                 {
                     GroundVelocity -= SlopeGravity * Mathf.Sin(SurfaceAngle * Mathf.Deg2Rad) * timestep;
                 }
-               if(Mathf.Abs(GroundVelocity) > MaxSpeed && GroundVelocity > 0) { GroundVelocity -= (SlopeGravity + GroundVelocity) * Mathf.Sin(SurfaceAngle * Mathf.Deg2Rad) * timestep; }
-                if (Mathf.Abs(GroundVelocity) > MaxSpeed && GroundVelocity < 0) { GroundVelocity -= (SlopeGravity - GroundVelocity) * Mathf.Sin(SurfaceAngle * Mathf.Deg2Rad) * timestep; }
+               
+               if(Mathf.Abs(GroundVelocity) > MaxSpeed && GroundVelocity > 0) 
+                { 
+                    GroundVelocity -= (SlopeGravity + GroundVelocity) * Mathf.Sin(SurfaceAngle * Mathf.Deg2Rad) * timestep;
+                    if (SurfaceAngle < 45)
+                    {
+                        GroundVelocity -= ((SlopeGravity + GroundVelocity) / 2) * Mathf.Sin(SurfaceAngle * Mathf.Deg2Rad) * timestep;
+                    }
+                }
+                if (Mathf.Abs(GroundVelocity) > MaxSpeed && GroundVelocity < 0) 
+                {
+                    GroundVelocity -= (SlopeGravity - GroundVelocity) * Mathf.Sin(SurfaceAngle * Mathf.Deg2Rad) * timestep;
+                    if (SurfaceAngle < 315)
+                    {
+                        GroundVelocity -= ((SlopeGravity - GroundVelocity) / 2) * Mathf.Sin(SurfaceAngle * Mathf.Deg2Rad) * timestep;
+                    }
+                }
 
                 // Ground friction
                 if (ApplyGroundFriction)
@@ -1759,7 +1774,6 @@ namespace SonicRealms.Core.Actors
         {
             IgnoringThisCollision = true;
         }
-
         /// <summary>
         /// If grounded, sets ground velocity to the scalar projection of the specified
         /// velocity against the angle of the surface the controller is standing on.

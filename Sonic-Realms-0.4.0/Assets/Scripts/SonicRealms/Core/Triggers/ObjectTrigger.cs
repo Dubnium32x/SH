@@ -94,30 +94,7 @@ namespace SonicRealms.Core.Triggers
         protected int ActivatedBoolHash;
         #endregion
 
-        #region Sound
-        [Foldout("Sound")]
-        public AudioSource ObjSource;
-        /// <summary>
-        /// An audio clip to play when the object trigger is activated.
-        /// </summary>
-        [Foldout("Sound")]
-        [Tooltip("An audio clip to play when the object trigger is activated.")]
-        public AudioClip ActivateSound;
-
-        /// <summary>
-        /// An audio clip to loop while the object trigger is activated.
-        /// </summary>
-        [Foldout("Sound")]
-        [Tooltip("An audio clip to loop while the object trigger is activated.")]
-        public AudioClip LoopSound;
-
-        /// <summary>
-        /// An audio clip to play when the object trigger is deactivated.
-        /// </summary>
-        [Foldout("Sound")]
-        [Tooltip("An audio clip to play when the object trigger is deactivated.")]
-        public AudioClip DeactivateSound;
-        #endregion
+        
 
         /// <summary>
         /// A list of things activating the object.
@@ -151,7 +128,6 @@ namespace SonicRealms.Core.Triggers
             ActivatedTrigger = "";
             ActivatedBool = "";
 
-            ActivateSound = LoopSound = DeactivateSound = null;
         }
 
         public override void Awake()
@@ -218,8 +194,6 @@ namespace SonicRealms.Core.Triggers
             
             Activated = true;
 
-            if (ActivateSound != null)
-                ObjSource.PlayOneShot(ActivateSound);
 
             OnActivate.Invoke(controller);
             BubbleEvent(controller);
@@ -245,8 +219,6 @@ namespace SonicRealms.Core.Triggers
 
             if(!any) Activated = false;
 
-            if (DeactivateSound != null)
-                ObjSource.PlayOneShot(DeactivateSound);
 
             OnDeactivate.Invoke(controller);
             BubbleEvent(controller, true);

@@ -12,18 +12,21 @@ public class MoveCursor : MonoBehaviour
     public Transform Icons;
     bool IsActive;
     public GameObject FileSelect;
+    bool PlacementMoving;
     // Update is called once per frame
     void Update()
     {
-        if(Input.GetButtonDown("Horizontal") && Input.GetAxis("Horizontal") > 0.2 && !IsActive && Placement < 4)
+        if(Input.GetAxisRaw("Horizontal") > 0 && !IsActive && Placement < 4 && PlacementMoving)
         {
             Placement += 1;
         }
-        if (Input.GetButtonDown("Horizontal") && Input.GetAxis("Horizontal") < -0.2 && !IsActive)
+        if (Input.GetAxisRaw("Horizontal") < 0 && !IsActive && PlacementMoving)
         {
             Placement -= 1;
         }
-        if(Placement > 3 && !IsActive) { Placement = 4; }
+        PlacementMoving = Input.GetAxisRaw("Horizontal") != 0 ? false : true;
+
+        if (Placement > 3 && !IsActive) { Placement = 4; }
         if(Placement < 0) { Placement = 0; }
         if (!IsActive)
         {

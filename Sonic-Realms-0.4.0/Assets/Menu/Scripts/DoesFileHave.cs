@@ -21,6 +21,8 @@ public class DoesFileHave : MonoBehaviour
     public bool AllowCreateFile;
     public bool CreateFileSettingUp;
     int shouldActivate = 0;
+
+    bool PlacementMoving;
     // Update is called once per frame
     void Update()
     {
@@ -67,16 +69,18 @@ public class DoesFileHave : MonoBehaviour
 
                 if (Character == 1) { CharacterText.GetComponent<Text>().text = "CHR: KICKS"; }
 
-                if (Input.GetButtonDown("Horizontal") && Input.GetAxis("Horizontal") > 0.2)
-                {
-                    Character += 1;
-                }
-                if (Input.GetButtonDown("Horizontal") && Input.GetAxis("Horizontal") < -0.2)
+                if (Input.GetAxisRaw("Horizontal") > 0 && PlacementMoving)
                 {
                     Character -= 1;
                 }
+
+                if (Input.GetAxisRaw("Horizontal") < 0 && PlacementMoving)
+                {
+                    Character -= 1;
+                }
+                PlacementMoving = Input.GetAxisRaw("Horizontal") != 0 ? false : true;
             }
-            if (Input.GetButtonDown("Submit") || Input.GetButtonDown("Jump"))
+            if (Input.GetButtonDown("Submit")|| Input.GetButtonDown("Jump"))
             {
                 CreateFileSettingUp = true;
                 

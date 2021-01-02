@@ -86,7 +86,6 @@ namespace SonicRealms.Core.Moves
             Controller.OnAttach.RemoveListener(OnAttach);
             if (!Controller.Grounded && !Manager.IsActive<Death>())
                 Manager.Perform<AirControl>();
-
             AirControl.OnActive.RemoveListener(OnPerformAirControl);
         }
     }

@@ -22,6 +22,8 @@ namespace SonicRealms.Level.Objects
         [SerializeField, Tooltip("Whether to go faster regardless of which way the controller is facing.")]
         public bool BoostBothWays;
 
+        [SerializeField]
+        public AudioClip BoostSoundClip;
         public override void Reset()
         {
             base.Reset();
@@ -34,11 +36,12 @@ namespace SonicRealms.Level.Objects
             var controller = hitbox.Controller;
             return controller.Grounded;
         }
-
+        
         public override void OnAreaEnter(Hitbox hitbox)
         {
             var controller = hitbox.Controller;
-
+            GameObject.FindGameObjectWithTag("BoostSound").GetComponent<AudioSource>().clip = BoostSoundClip;
+            GameObject.FindGameObjectWithTag("BoostSound").GetComponent<AudioSource>().Play();
             controller.GroundVelocity = Velocity * (BoostBothWays
                 ? Mathf.Sign(controller.GroundVelocity)
                 : 1.0f);

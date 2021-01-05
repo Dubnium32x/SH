@@ -6475,6 +6475,7 @@ MonoBehaviour:
   HurtDamageFloat: 
   DeathTrigger: Death
   IsDead: 0
+  AmountOfHealth: 8
   AddsToCombo: 1
 --- !u!95 &279591387
 Animator:

@@ -8,7 +8,7 @@ namespace SonicRealms.Core.Actors
     public class BadnikHealth : HealthSystem
     {
         private bool _dying;
-
+        public float AmountOfHealth;
         /// <summary>
         /// Whether to add to the killer's combo on death.
         /// </summary>
@@ -35,7 +35,7 @@ namespace SonicRealms.Core.Actors
 
         public override void TakeDamage(float damage, Transform source)
         {
-            if (damage > 0f) Kill(source);
+            if (damage > AmountOfHealth) Kill(source);
         }
 
         public override void Kill(Transform source)

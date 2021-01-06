@@ -1142,6 +1142,7 @@ namespace SonicRealms.Core.Actors
                     }
                 }
                 if (Roll.IsRolling) GroundVelocity += 2.4f * -Mathf.Sign(GroundVelocity) * timestep;
+                
                 // Ground friction
                 if (ApplyGroundFriction)
                     GroundVelocity -= Mathf.Min(Mathf.Abs(GroundVelocity), GroundFriction * timestep) * Mathf.Sign(GroundVelocity);

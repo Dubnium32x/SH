@@ -1,12 +1,21 @@
+File1 
+1Character: 0 
+1Rings:  
+1Score:  
+1Lives: 5 
+1Level: 3 
+1CheckpointX:  
+1CheckpointY:  
+1CheckpointZ:  
 
-File1
-1Character: 0
-1Rings: 
-1Score: 
-1Lives: 5
-1Level: 5
-1CheckpointX: 
-1CheckpointY: 
-1CheckpointZ: 
 CurrentFileLoaded: 1
-just beat it
+1Character: 0 
+1Rings:  
+1Score:  
+1Lives: 5 
+1Level: 3 
+1CheckpointX:  
+1CheckpointY:  
+1CheckpointZ:  
+
+CurrentFileLoaded: 1

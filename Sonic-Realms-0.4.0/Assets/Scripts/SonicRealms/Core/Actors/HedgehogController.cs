@@ -1109,58 +1109,61 @@ namespace SonicRealms.Core.Actors
         {
             if (Grounded)
             {
-                // Slope gravity
-                if (ApplySlopeGravity &&
-                    !DMath.AngleInRange_d(RelativeSurfaceAngle, -SlopeGravityBeginAngle, SlopeGravityBeginAngle))
-                {
-                    
-                    
-                }
-
-               if(SurfaceAngle < 90 || SurfaceAngle > 270)
-                {
-                    GroundVelocity -= SlopeGravity * Mathf.Sin(SurfaceAngle * Mathf.Deg2Rad) * timestep;
-                }
-               
-               if(GroundVelocity > 0) 
-                { if(Mathf.Abs(GroundVelocity) > MaxSpeed)
-                    GroundVelocity -= (SlopeGravity + GroundVelocity) * Input.GetAxisRaw("Horizontal") * Mathf.Sin(SurfaceAngle * Mathf.Deg2Rad) * timestep;
-
-                    if (SurfaceAngle <= 45 && SurfaceAngle >= 315)
+                    // Slope gravity
+                    if (ApplySlopeGravity &&
+                        !DMath.AngleInRange_d(RelativeSurfaceAngle, -SlopeGravityBeginAngle, SlopeGravityBeginAngle))
                     {
-                        GroundVelocity -= ((SlopeGravity + GroundVelocity) / 2) * Mathf.Sin(SurfaceAngle * Mathf.Deg2Rad) * timestep;
-                    }
-                }
-                if (GroundVelocity < 0) 
-                {
-                    if(Mathf.Abs(GroundVelocity) > MaxSpeed)
-                    GroundVelocity -= (SlopeGravity - GroundVelocity) * Input.GetAxisRaw("Horizontal") * Mathf.Sin(SurfaceAngle * Mathf.Deg2Rad) * timestep;
 
-                    if (SurfaceAngle <= 315 && SurfaceAngle >= 45)
+
+                    }
+
+                    if (SurfaceAngle < 90 || SurfaceAngle > 270)
                     {
-                        GroundVelocity -= ((SlopeGravity - GroundVelocity) / 2) * Mathf.Sin(SurfaceAngle * Mathf.Deg2Rad) * timestep;
+                        GroundVelocity -= SlopeGravity * Mathf.Sin(SurfaceAngle * Mathf.Deg2Rad) * timestep;
                     }
-                }
-                if (Roll.IsRolling) GroundVelocity += 2.4f * -Mathf.Sign(GroundVelocity) * timestep;
-                
-                // Ground friction
-                if (ApplyGroundFriction)
-                    GroundVelocity -= Mathf.Min(Mathf.Abs(GroundVelocity), GroundFriction * timestep) * Mathf.Sign(GroundVelocity);
-                
-                // Speed limit
-                if (GroundVelocity > MaxSpeed)
-                    GroundVelocity = MaxSpeed;
-                else if (GroundVelocity < -MaxSpeed)
-                    GroundVelocity = -MaxSpeed;
-
-                // Detachment from walls if speed is too low
-                if (DetachWhenSlow &&
-                    Mathf.Abs(GroundVelocity) < DetachSpeed &&
-                    DMath.AngleInRange_d(RelativeSurfaceAngle, 85.0f, 275.0f))
+                if (!Roll.IsRolling)
                 {
-                    if (!DisableEvents && Detach())
-                        OnSteepDetach.Invoke();
+                    if (GroundVelocity > 0)
+                    {
+                        if (Mathf.Abs(GroundVelocity) > MaxSpeed)
+                            GroundVelocity -= (SlopeGravity + GroundVelocity) * Input.GetAxisRaw("Horizontal") * Mathf.Sin(SurfaceAngle * Mathf.Deg2Rad) * timestep;
+
+                        if (SurfaceAngle <= 45 && SurfaceAngle > 315)
+                        {
+                            GroundVelocity -= ((SlopeGravity + GroundVelocity) / 2) * Mathf.Sin(SurfaceAngle * Mathf.Deg2Rad) * timestep;
+                        }
+                    }
+                    if (GroundVelocity < 0)
+                    {
+                        if (Mathf.Abs(GroundVelocity) > MaxSpeed)
+                            GroundVelocity -= (SlopeGravity - GroundVelocity) * Input.GetAxisRaw("Horizontal") * Mathf.Sin(SurfaceAngle * Mathf.Deg2Rad) * timestep;
+
+                        if (SurfaceAngle <= 315 && SurfaceAngle > 45)
+                        {
+                            GroundVelocity -= ((SlopeGravity - GroundVelocity) / 2) * Mathf.Sin(SurfaceAngle * Mathf.Deg2Rad) * timestep;
+                        }
+                    }
+
+                    // Ground friction
+                    if (ApplyGroundFriction)
+                        GroundVelocity -= Mathf.Min(Mathf.Abs(GroundVelocity), GroundFriction * timestep) * Mathf.Sign(GroundVelocity);
                 }
+                    // Speed limit
+                    if (GroundVelocity > MaxSpeed)
+                        GroundVelocity = MaxSpeed;
+                    else if (GroundVelocity < -MaxSpeed)
+                        GroundVelocity = -MaxSpeed;
+
+                    // Detachment from walls if speed is too low
+                    if (DetachWhenSlow &&
+                        Mathf.Abs(GroundVelocity) < DetachSpeed &&
+                        DMath.AngleInRange_d(RelativeSurfaceAngle, 85.0f, 275.0f))
+                    {
+                        if (!DisableEvents && Detach())
+                            OnSteepDetach.Invoke();
+                    }
+                
+
             }
             else
             {

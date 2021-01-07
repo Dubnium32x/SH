@@ -42,6 +42,7 @@ namespace SonicRealms.Core.Moves
         [Tooltip("This hitbox becomes harmful while rolling, allowing the player to kill while rolling.")]
         public SonicHitbox Hitbox;
 
+        
         /// <summary>
         /// Change in width (usually negative) while rolling, in units.
         /// </summary>
@@ -197,13 +198,13 @@ namespace SonicRealms.Core.Moves
             // Store original physics values to restore after leaving the roll
             _rightDirection = Controller.GroundVelocity > 0.0f;
 
-            if(Manager[MoveLayer.Action] is Spindash)
+            if(Manager[MoveLayer.Action] is Roll)
             {
-                no = false;
+                no = true;
             }
             else
             {
-                no = true;
+                no = false;
             }
             if (Controller.Grounded && no)
             {
@@ -217,7 +218,7 @@ namespace SonicRealms.Core.Moves
 
             Controller.GroundFriction = Friction;
             GroundControl.AccelerationLocked = true;
-            GroundControl.Deceleration = Deceleration;
+            GroundControl.Deceleration += Deceleration;
 
             Controller.Sensors.TopOffset += HeightChange/2.0f;
             Controller.Sensors.BottomOffset -= HeightChange/2.0f;

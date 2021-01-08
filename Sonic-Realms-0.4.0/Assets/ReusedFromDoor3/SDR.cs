@@ -92,11 +92,9 @@ public static class SDR
             return "";
         }
     }
-    public static string All
+    public static string All()
     {
-        get { string path = Application.dataPath + "/SDI.H"; return File.ReadAllText(path);}
-        set { string path = Application.dataPath + "/SDI.H";}
-        
+            string path = Application.dataPath + "/SDI.H";
+        return File.ReadAllText(path);
     }
-
 }

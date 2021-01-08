@@ -9,19 +9,22 @@ public class ModifySDIScreen : MonoBehaviour
     public Text IsModifying;
     void Start()
     {
-        GetComponent<InputField>().text = SDR.All;
+        
     }
 
     // Update is called once per frame
     void Update()
     {
-         text = GetComponent<InputField>().text;
+        if(GetComponent<InputField>().text != SDR.All() && IsModifying.text != "NOT SAVED")
+        GetComponent<InputField>().text = SDR.All();
+
+        text = GetComponent<InputField>().text;
         if (Input.GetButtonDown("Submit"))
         {
             SDDM.ModifyAll(text);
             IsModifying.text = "SAVED";
         }
-        else if (Input.anyKeyDown)
+        else if (Input.anyKeyDown && !Input.GetMouseButtonDown(0) || Input.anyKeyDown && !Input.GetMouseButtonDown(1) || Input.anyKeyDown && !Input.GetMouseButtonDown(2))
         {
             IsModifying.text = "NOT SAVED";
         }

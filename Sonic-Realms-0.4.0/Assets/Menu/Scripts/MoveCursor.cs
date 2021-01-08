@@ -1,6 +1,6 @@
-﻿using System.Collections;
-using System.Collections.Generic;
+﻿
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class MoveCursor : MonoBehaviour
 {
@@ -45,6 +45,8 @@ public class MoveCursor : MonoBehaviour
             {
                 Application.Quit();
             }
+                
+            
         }
         if (Input.GetButtonDown("Cancel"))
         {
@@ -59,7 +61,23 @@ public class MoveCursor : MonoBehaviour
             transform.position = Vector3.Lerp(transform.position, MenuPlaces[5], 0.032f);
             Icons.position = Vector3.Lerp(Icons.position, IconRetirementHome, 0.032f);
         }
-        
+        if (Input.GetKey(KeyCode.B))
+        {
+            if (Input.GetKey(KeyCode.I))
+            {
+                if (Input.GetKey(KeyCode.R))
+                {
+                    if (Input.GetKey(KeyCode.D))
+                    {
+                        if (Input.GetKey(KeyCode.E)) 
+                        {
+                                SceneManager.LoadScene("SDModify");
+                            
+                        }
+                    }
+                }
+            }
+        }
         
     }
 }

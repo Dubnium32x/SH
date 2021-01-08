@@ -50,13 +50,15 @@ public class DoesFileHave : MonoBehaviour
                 }
             }
         }
-        if (!SDR.DDVER(WhichFile.ToString() + "File"))
+        if (!SDR.DDVER("File" + WhichFile.ToString()))
         {
             if (Input.GetButtonDown("Submit") && shouldActivate == 2 || Input.GetButtonDown("Jump") && shouldActivate == 2)
             {
                 SDFS.CreateFile(WhichFile, Character, Level, Lives);
                 SaveManaging.GetComponent<SaveManagement>().CurrentFile = WhichFile;
-                SDDM.Modify(WhichFile.ToString() + "ChaosEmeralds: ", "\n" + "CurrentFileLoaded: " + WhichFile.ToString());
+                
+                SDDM.Make(WhichFile.ToString() + "ChaosEmeralds: ", "\n" + "CurrentFileLoaded: " + WhichFile.ToString());
+
                 SceneManager.LoadScene(Level);
             }
             
@@ -87,6 +89,10 @@ public class DoesFileHave : MonoBehaviour
                 shouldActivate += 1;
             }
             
+        }
+        else
+        {
+            SceneManager.LoadScene(SDR.SDVint(WhichFile.ToString() + "Level: "));
         }
     }
 }

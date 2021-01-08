@@ -1760,6 +1760,11 @@ MonoBehaviour:
   MoveSound: {fileID: 8300000, guid: 00c6ce2b15b841c449bd0f6f14a2f9fc, type: 3}
   WrongButton: {fileID: 8300000, guid: c735f300cd5e05d44bbf6b9a7143d6b8, type: 3}
   PlayerSound: {fileID: 8300000, guid: 2b30d8a29d4825943b2a19a8d564ce7a, type: 3}
+  Meg1: {fileID: 8300000, guid: 05c839d8e416d6545be6005aabb0fb25, type: 3}
+  Meg2: {fileID: 8300000, guid: 95852073708c83542aadaf75623d9a8e, type: 3}
+  Meg3: {fileID: 8300000, guid: 4a9be302f3a20a74599f481249dd2e00, type: 3}
+  Meg4: {fileID: 8300000, guid: a17c4a7393069e0419e953d89c4858f4, type: 3}
+  Meg5: {fileID: 8300000, guid: 4db9c88059fb2d04d8d716019d1e5691, type: 3}
 --- !u!4 &1125649711
 Transform:
   m_ObjectHideFlags: 0

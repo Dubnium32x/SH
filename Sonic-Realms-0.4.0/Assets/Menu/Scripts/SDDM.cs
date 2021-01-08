@@ -35,7 +35,7 @@ public static class SDDM //Simple dimple data maker modifies the save data when 
         {
             foreach (string thing in File.ReadAllLines(path).Where(line => line.StartsWith(Placement)))
             {
-                File.AppendText(CreatedValue); 
+                File.AppendAllText(path, CreatedValue);
             }
         }
     }

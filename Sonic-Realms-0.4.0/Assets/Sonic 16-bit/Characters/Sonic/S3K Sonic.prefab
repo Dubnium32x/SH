@@ -1693,7 +1693,7 @@ MonoBehaviour:
   Deceleration: 4.5
   DecelerationLocked: 0
   TopSpeed: 10
-  MinSlopeGravitySpeed: 0.18
+  MinSlopeGravitySpeed: 0.24
   DisableControl: 0
   ControlLockTimerOn: 0
   ControlLockTimer: 0
@@ -1797,7 +1797,7 @@ MonoBehaviour:
   HeightChange: -0.032
   UphillGravity: 0.32
   DownhillGravity: 11.25
-  Deceleration: 4.5
+  Deceleration: 200
   Friction: 0.8451
   UphillBool: 
   RollSound: {fileID: 8300000, guid: 31a5a8c0e52992a4fb9c0ab448e43103, type: 3}

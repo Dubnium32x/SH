@@ -194,30 +194,18 @@ namespace SonicRealms.Core.Moves
         bool no;
         public override void OnActiveEnter(State previousState)
         {
+            base.OnActiveEnter();
             IsRolling = true;
+            no = true;
             // Store original physics values to restore after leaving the roll
             _rightDirection = Controller.GroundVelocity > 0.0f;
-
-            if(Manager[MoveLayer.Action] is Roll)
-            {
-                no = true;
-            }
-            else
-            {
-                no = false;
-            }
-            if (Controller.Grounded && no)
-            {
-                RollSoundSource.Play();
-                RollSoundSource.clip = RollSound;
-            }
 
             _originalSlopeGravity = Controller.SlopeGravity;
             _originalFriction = Controller.GroundFriction;
             _originalDeceleration = GroundControl.Deceleration;
 
             Controller.GroundFriction = Friction;
-            GroundControl.AccelerationLocked = true;
+            
             GroundControl.Deceleration += Deceleration;
 
             Controller.Sensors.TopOffset += HeightChange/2.0f;
@@ -228,12 +216,27 @@ namespace SonicRealms.Core.Moves
             Controller.Sensors.TopWidth += WidthChange;
 
             Hitbox.Harmful = true;
-        }
 
+
+        }
+        public override void Update()
+        {
+            base.Update();
+            if (Controller.Grounded && no)
+            {
+                RollSoundSource.Play();
+                RollSoundSource.clip = RollSound;
+                RollSoundSource.pitch = 1;
+                no = false;
+            }
+            
+        }
         public override void OnActiveFixedUpdate()
         {
+            
+            Debug.Log("IsRoll");
+            base.OnActiveFixedUpdate();
             var previousUphill = Uphill;
-
             if (Controller.GroundVelocity > 0.0f)
             {
                 Uphill = DMath.AngleInRange_d(Controller.RelativeSurfaceAngle, 0.0f, 180.0f);
@@ -250,6 +253,8 @@ namespace SonicRealms.Core.Moves
 
         public override void OnActiveExit()
         {
+            base.OnActiveExit();
+            Debug.Log("Stopped");
             IsRolling = false;
             Controller.SlopeGravity = _originalSlopeGravity;
             Controller.GroundFriction = _originalFriction;

@@ -1791,7 +1791,7 @@ MonoBehaviour:
   EndSound: {fileID: 0}
   ActivateAxis: Vertical
   RequireNegative: 1
-  MinActivateSpeed: 0.16
+  MinActivateSpeed: 0.32
   Hitbox: {fileID: 11475340}
   WidthChange: -0.032
   HeightChange: -0.032
@@ -1801,7 +1801,7 @@ MonoBehaviour:
   Friction: 0.8451
   UphillBool: 
   RollSound: {fileID: 8300000, guid: 31a5a8c0e52992a4fb9c0ab448e43103, type: 3}
-  RollSoundSource: {fileID: 4917638328302338733}
+  RollSoundSource: {fileID: 1058523900519184744}
   Uphill: 0
 --- !u!114 &11472608
 MonoBehaviour:

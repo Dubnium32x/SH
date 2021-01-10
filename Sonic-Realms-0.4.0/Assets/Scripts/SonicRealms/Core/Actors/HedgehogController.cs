@@ -6,6 +6,7 @@ using UnityEngine;
 using UnityEngine.Events;
 using SonicRealms.Level;
 using SonicRealms.Core.Moves;
+using SonicRealms.Core.Actors;
 
 namespace SonicRealms.Core.Actors
 {
@@ -1100,7 +1101,6 @@ namespace SonicRealms.Core.Actors
         {
             HandleForces(Time.fixedDeltaTime);
         }
-
         /// <summary>
         /// Applies forces on the player and also handles speed-based conditions, such as detaching the player if it is too slow on
         /// an incline.
@@ -1109,45 +1109,46 @@ namespace SonicRealms.Core.Actors
         {
             if (Grounded)
             {
-                    // Slope gravity
-                    if (ApplySlopeGravity &&
+                
+                // Slope gravity
+                if (ApplySlopeGravity &&
                         !DMath.AngleInRange_d(RelativeSurfaceAngle, -SlopeGravityBeginAngle, SlopeGravityBeginAngle))
                     {
 
 
                     }
-
+                float IsRoll = Roll.IsRolling ? 0 : 32 ;
                     if (SurfaceAngle < 90 || SurfaceAngle > 270)
                     {
                         GroundVelocity -= SlopeGravity * Mathf.Sin(SurfaceAngle * Mathf.Deg2Rad) * timestep;
                     }
-                if (!Roll.IsRolling)
-                {
                     if (GroundVelocity > 0)
                     {
                         if (Mathf.Abs(GroundVelocity) > MaxSpeed)
-                            GroundVelocity -= (SlopeGravity + GroundVelocity) * Input.GetAxisRaw("Horizontal") * Mathf.Sin(SurfaceAngle * Mathf.Deg2Rad) * timestep;
+                            GroundVelocity -= (SlopeGravity + GroundVelocity - IsRoll) * Input.GetAxisRaw("Horizontal") * Mathf.Sin(SurfaceAngle * Mathf.Deg2Rad) * timestep;
 
                         if (SurfaceAngle <= 45 && SurfaceAngle > 315)
                         {
-                            GroundVelocity -= ((SlopeGravity + GroundVelocity) / 2) * Mathf.Sin(SurfaceAngle * Mathf.Deg2Rad) * timestep;
+                            GroundVelocity -= ((SlopeGravity + GroundVelocity - IsRoll) / 2) * Mathf.Sin(SurfaceAngle * Mathf.Deg2Rad) * timestep;
                         }
                     }
                     if (GroundVelocity < 0)
                     {
                         if (Mathf.Abs(GroundVelocity) > MaxSpeed)
-                            GroundVelocity -= (SlopeGravity - GroundVelocity) * Input.GetAxisRaw("Horizontal") * Mathf.Sin(SurfaceAngle * Mathf.Deg2Rad) * timestep;
+                            GroundVelocity -= (SlopeGravity - GroundVelocity + IsRoll) * Input.GetAxisRaw("Horizontal") * Mathf.Sin(SurfaceAngle * Mathf.Deg2Rad) * timestep;
 
                         if (SurfaceAngle <= 315 && SurfaceAngle > 45)
                         {
-                            GroundVelocity -= ((SlopeGravity - GroundVelocity) / 2) * Mathf.Sin(SurfaceAngle * Mathf.Deg2Rad) * timestep;
+                            GroundVelocity -= ((SlopeGravity - GroundVelocity + IsRoll) / 2) * Mathf.Sin(SurfaceAngle * Mathf.Deg2Rad) * timestep;
                         }
                     }
 
                     // Ground friction
                     if (ApplyGroundFriction)
                         GroundVelocity -= Mathf.Min(Mathf.Abs(GroundVelocity), GroundFriction * timestep) * Mathf.Sign(GroundVelocity);
-                }
+                
+
+
                     // Speed limit
                     if (GroundVelocity > MaxSpeed)
                         GroundVelocity = MaxSpeed;

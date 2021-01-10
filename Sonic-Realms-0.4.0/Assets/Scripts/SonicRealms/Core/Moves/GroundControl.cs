@@ -232,6 +232,7 @@ namespace SonicRealms.Core.Moves
         bool IsActive;
         public override void OnActiveUpdate()
         {
+            
             if (ControlLockTimerOn || DisableControl) return;
                 _axis = InvertAxis ? -Input.GetAxis(MovementAxis) : Input.GetAxis(MovementAxis);
 
@@ -377,7 +378,6 @@ namespace SonicRealms.Core.Moves
         {
             magnitude = Mathf.Clamp(magnitude, -1.0f, 1.0f);
             if (DMath.Equalsf(magnitude)) return false;
-
             if (magnitude < 0.0f)
             {
                 if (!DecelerationLocked && Controller.GroundVelocity > 0.0f)
@@ -385,7 +385,7 @@ namespace SonicRealms.Core.Moves
                     Controller.GroundVelocity += Deceleration*magnitude*timestep;
                     return true;
                 }
-                else if (!AccelerationLocked && Controller.GroundVelocity > -TopSpeed)
+                else if (!AccelerationLocked && Controller.GroundVelocity > -TopSpeed && !Roll.IsRolling)
                 {
                     Controller.GroundVelocity += Acceleration*magnitude *  timestep;
                     return true;
@@ -398,7 +398,7 @@ namespace SonicRealms.Core.Moves
                     Controller.GroundVelocity += Deceleration*magnitude* timestep;
                     return true;
                 }
-                else if (!AccelerationLocked && Controller.GroundVelocity < TopSpeed)
+                else if (!AccelerationLocked && Controller.GroundVelocity < TopSpeed && !Roll.IsRolling)
                 {
                     Controller.GroundVelocity += Acceleration*magnitude* timestep;
                     return true;

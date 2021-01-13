@@ -222,7 +222,8 @@ namespace SonicRealms.Core.Moves
         public override void Update()
         {
             base.Update();
-            if (Controller.Grounded && no)
+            no = Input.GetAxisRaw("Vertical") < 0f && Controller.Grounded;
+            if (no)
             {
                 RollSoundSource.Play();
                 RollSoundSource.clip = RollSound;

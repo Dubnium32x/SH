@@ -3,6 +3,7 @@ using System.Linq;
 using SonicRealms.Core.Triggers;
 using SonicRealms.Core.Utils;
 using UnityEngine;
+using UnityEngine.UI;
 using UnityEngine.Events;
 using SonicRealms.Level;
 using SonicRealms.Core.Moves;
@@ -759,14 +760,25 @@ namespace SonicRealms.Core.Actors
             if (DebugOn)
             {
                 UpdateDebugMovementControls();
+                
             }
+            
             if (!DebugOn)
             {
                 IgnoreCollision = Death.IsDead;
                 
                 ApplyAirGravity = true;
-
+                
             }
+
+            #region Text Fuck
+            string IOFTName = DebugState.IOFTS[ObjectId].ToString();
+
+            GameObject.FindGameObjectWithTag("DebugName").GetComponent<Text>().text = !DebugOn ? "" : "sdds harmonica edition 7.3";
+            GameObject.FindGameObjectWithTag("DebugInstructions").GetComponent<Text>().text = !DebugOn ? "" : "Controls: \n \nKeypad 0 = activate \n \nKeypad period = deactivate \n \nKeypad 1 / 3 = scale up / down \nKeypad 2 = reset scale \n \nKeypad 7 / 9 = rotate right / left \nKeypad 8 = reset rotation \n \nKeypad 4 / 6 = left / right through object select \nKeypad 5 = place \nKeypad + = multiplace";
+
+            GameObject.FindGameObjectWithTag("DebugValues").GetComponent<Text>().text = !DebugOn ? "" : "Selected Object: " + ObjectId.ToString() + "\nObject ID: " + IOFTName.Replace("(UnityEngine.GameObject)", "") + "\nCurrent Rotation: " + ObjectRotation.ToString() + "\nCurrent Scale: " + ObjectScale.ToString();
+            #endregion
         }
 
         public void FixedUpdate()
@@ -897,7 +909,7 @@ namespace SonicRealms.Core.Actors
                     GameObject.FindGameObjectWithTag("MainCamera").transform.Rotate(transform.up * 20 * Time.deltaTime, Space.Self);
                 }
             }
-
+            
             #region The real shit
             if (Input.GetKeyDown(KeyCode.Keypad6))
             {

@@ -37,6 +37,7 @@ namespace SonicRealms.Core.Moves
         [Tooltip("Point at which the skid sound loops, in seconds.")]
         public float SkidSoundRepeatTime;
 
+        public static bool IsSkid;
         protected GroundControl GroundControl;
 
         public override MoveLayer Layer
@@ -75,11 +76,18 @@ namespace SonicRealms.Core.Moves
         {
             base.Start();
             GroundControl = Manager.Get<GroundControl>();
+            
         }
         public override void OnActiveUpdate()
         {
             base.OnActiveUpdate();
             if (SkidSoundSource.time > SkidSoundRepeatTime) { SkidSoundSource.Play(); SkidSoundSource.clip = SkidSound; }
+            IsSkid = true;
+        }
+        public override void OnActiveExit()
+        {
+            base.OnActiveExit();
+            IsSkid = false;
         }
     }
 }

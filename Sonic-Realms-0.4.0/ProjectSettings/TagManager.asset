@@ -26,6 +26,10 @@ TagManager:
   - RingSoundL
   - SpilledRingSound
   - BoostSound
+  - DebugValues
+  - DebugText
+  - DebugName
+  - DebugInstructions
   layers:
   - Default
   - TransparentFX

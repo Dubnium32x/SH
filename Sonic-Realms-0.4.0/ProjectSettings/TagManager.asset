@@ -30,6 +30,7 @@ TagManager:
   - DebugText
   - DebugName
   - DebugInstructions
+  - SonicSprite
   layers:
   - Default
   - TransparentFX

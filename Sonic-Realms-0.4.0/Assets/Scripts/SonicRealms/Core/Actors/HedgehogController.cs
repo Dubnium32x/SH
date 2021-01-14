@@ -647,7 +647,9 @@ namespace SonicRealms.Core.Actors
         public string SurfaceAngleFloat;
         protected int SurfaceAngleFloatHash;
         #endregion
-
+        [Foldout("When life gives you lemons")]
+        [Tooltip("Alright, you know how it is, you stay up til 1:20 am \nand you are looking for a fast way to end an issue \n I know, genius...")]
+        public Sprite StandingSprite;
         #region Lifecycle Functions
         public virtual void Reset()
         {
@@ -779,8 +781,15 @@ namespace SonicRealms.Core.Actors
 
             GameObject.FindGameObjectWithTag("DebugValues").GetComponent<Text>().text = !DebugOn ? "" : "Selected Object: " + ObjectId.ToString() + "\nObject ID: " + IOFTName.Replace("(UnityEngine.GameObject)", "") + "\nCurrent Rotation: " + ObjectRotation.ToString() + "\nCurrent Scale: " + ObjectScale.ToString();
             #endregion
-        }
+            if (GameObject.FindGameObjectWithTag("SonicSprite").GetComponent<SpriteRenderer>().sprite == StandingSprite)
+                IsStandedOrSloped = true;
 
+            else if (SurfaceAngle != 0)
+                IsStandedOrSloped = true;
+
+            else IsStandedOrSloped = false;
+        }
+        bool IsStandedOrSloped;
         public void FixedUpdate()
         {
             LeftWall = RightWall = LeftCeiling = RightCeiling = null;
@@ -1130,36 +1139,39 @@ namespace SonicRealms.Core.Actors
 
                     }
                 float IsRoll = Roll.IsRolling ? 0 : 32 ;
-                    if (SurfaceAngle < 90 || SurfaceAngle > 270)
+
+                    if (SurfaceAngle > 90 || SurfaceAngle < 270)
                     {
-                        GroundVelocity -= SlopeGravity * Mathf.Sin(SurfaceAngle * Mathf.Deg2Rad) * timestep;
+                            GroundVelocity -= SlopeGravity * Mathf.Sin(SurfaceAngle * Mathf.Deg2Rad) * timestep;
                     }
-                    if (GroundVelocity > 0)
+                
+                if (GroundVelocity > 0)
                     {
                         if (Mathf.Abs(GroundVelocity) > MaxSpeed)
                             GroundVelocity -= (SlopeGravity + GroundVelocity - IsRoll) * Input.GetAxisRaw("Horizontal") * Mathf.Sin(SurfaceAngle * Mathf.Deg2Rad) * timestep;
 
-                        if (SurfaceAngle <= 45 && SurfaceAngle > 315)
+                        if (SurfaceAngle <= 45 && SurfaceAngle >= 315 && SurfaceAngle >= 22.5f && SurfaceAngle <= 157.5f)
                         {
                             GroundVelocity -= ((SlopeGravity + GroundVelocity - IsRoll) / 2) * Mathf.Sin(SurfaceAngle * Mathf.Deg2Rad) * timestep;
                         }
-                    }
+                    
+                }
                     if (GroundVelocity < 0)
                     {
                         if (Mathf.Abs(GroundVelocity) > MaxSpeed)
-                            GroundVelocity -= (SlopeGravity - GroundVelocity + IsRoll) * Input.GetAxisRaw("Horizontal") * Mathf.Sin(SurfaceAngle * Mathf.Deg2Rad) * timestep;
+                            GroundVelocity -= (SlopeGravity + GroundVelocity - IsRoll) * Input.GetAxisRaw("Horizontal") * -Mathf.Sin(SurfaceAngle * Mathf.Deg2Rad) * timestep;
 
-                        if (SurfaceAngle <= 315 && SurfaceAngle > 45)
+                        if (SurfaceAngle <= 45 && SurfaceAngle >= 315 && SurfaceAngle >= 22.5f && SurfaceAngle <= 157.5f)
                         {
-                            GroundVelocity -= ((SlopeGravity - GroundVelocity + IsRoll) / 2) * Mathf.Sin(SurfaceAngle * Mathf.Deg2Rad) * timestep;
-                        }
+                        GroundVelocity -= ((SlopeGravity + GroundVelocity - IsRoll) / 2) * -Mathf.Sin(SurfaceAngle * Mathf.Deg2Rad) * timestep;
                     }
+                }
 
                     // Ground friction
                     if (ApplyGroundFriction)
                         GroundVelocity -= Mathf.Min(Mathf.Abs(GroundVelocity), GroundFriction * timestep) * Mathf.Sign(GroundVelocity);
-                
 
+                Debug.Log(GroundVelocity.ToString());
 
                     // Speed limit
                     if (GroundVelocity > MaxSpeed)

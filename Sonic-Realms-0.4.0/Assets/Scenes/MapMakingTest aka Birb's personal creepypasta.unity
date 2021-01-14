@@ -2746,7 +2746,7 @@ AudioSource:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2016082077}
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: f2456f84d7e49464bb04d8b167fd718e, type: 3}
@@ -2870,6 +2870,16 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2258990665714685728, guid: 00e56b86450692f41ac7a001c0df3409,
+        type: 3}
+      propertyPath: Pan2D
+      value: 0.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 2258990665714685728, guid: 00e56b86450692f41ac7a001c0df3409,
+        type: 3}
+      propertyPath: spreadCustomCurve.m_Curve.Array.data[0].value
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 7397344480729822399, guid: 00e56b86450692f41ac7a001c0df3409,
         type: 3}
       propertyPath: m_Name

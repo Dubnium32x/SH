@@ -219,18 +219,18 @@ namespace SonicRealms.Core.Moves
 
 
         }
+        bool blop;
         public override void Update()
         {
             base.Update();
-            no = Input.GetAxisRaw("Vertical") < 0f && Controller.Grounded;
-            if (no)
+            if (IsRolling && !blop && Controller.Grounded)
             {
                 RollSoundSource.Play();
                 RollSoundSource.clip = RollSound;
                 RollSoundSource.pitch = 1;
-                no = false;
+                blop = true;
             }
-            
+            if(!IsRolling) blop = false;
         }
         public override void OnActiveFixedUpdate()
         {

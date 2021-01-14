@@ -65,7 +65,7 @@ namespace SonicRealms.Core.Actors
             
             RegularMusicS = RegularMusic;
             AmountOfObjectsInIOFTS = AmountOfObjectsInIOFT;
-            if (Input.GetButton("DebugMode") /* && CheatCodeActivated == true */)
+            if (Input.GetButton("DebugKey") /* && CheatCodeActivated == true */)
             {
                 DebugOn = true;
 
@@ -76,7 +76,7 @@ namespace SonicRealms.Core.Actors
             PlayerObjectS = PlayerObject;
 
             //Turns off debug mode entirely
-            if (!Input.GetButton("DebugMode") && DebugOn == true)
+            if (!Input.GetButton("DebugKey") && DebugOn == true)
             {
                 //whenever you have the time, add an activated WalkingModeState here
                 DebugOn = false;

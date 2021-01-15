@@ -42,7 +42,15 @@ namespace SonicRealms.Core.Moves
             RestartTimer = 0.0f;
             Restarting = false;
         }
-
+        public override void Update()
+        {
+            base.Update();
+            if (IsDead)
+            {
+                Controller.transform.position += Vector3.back * 0.08f;
+                Controller.transform.rotation = new Quaternion(0, 0, Controller.transform.rotation.z + 32 * Time.deltaTime, Controller.transform.rotation.w + 32 * Time.deltaTime);
+            }
+        }
         public override void OnActiveEnter(State previousState)
         {
             // Bounce up and ignore collisions
@@ -71,8 +79,7 @@ namespace SonicRealms.Core.Moves
         {
             IsDead = true;
             if (!Restarting) return;
-            Controller.transform.position += Vector3.back * -0.08f; ;
-            Controller.transform.Rotate(0,0,32f,Space.Self);
+            
             RestartTimer -= Time.deltaTime;
             if (RestartTimer < 0.0f)
             {

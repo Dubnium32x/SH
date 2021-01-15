@@ -748,11 +748,11 @@ namespace SonicRealms.Core.Actors
                 HandleInterrupt();
                 return;
             }
-            if (Input.GetKeyDown(KeyCode.Keypad0) && SDR.DDVER("just beat it"))
+            if (Input.GetButtonDown("DebugKey") && Input.GetAxisRaw("DebugKey") > 0 && SDR.DDVER("just beat it"))
             {
                 DebugOn = true;
             }
-            if (Input.GetKeyDown(KeyCode.KeypadPeriod))
+            if (Input.GetButtonDown("DebugKey") && Input.GetAxisRaw("DebugKey") < 0)
             {
                 DebugOn = false;
             }
@@ -762,7 +762,6 @@ namespace SonicRealms.Core.Actors
             if (DebugOn)
             {
                 UpdateDebugMovementControls();
-                
             }
             
             if (!DebugOn)
@@ -777,19 +776,13 @@ namespace SonicRealms.Core.Actors
             string IOFTName = DebugState.IOFTS[ObjectId].ToString();
 
             GameObject.FindGameObjectWithTag("DebugName").GetComponent<Text>().text = !DebugOn ? "" : "sdds harmonica edition 7.3";
-            GameObject.FindGameObjectWithTag("DebugInstructions").GetComponent<Text>().text = !DebugOn ? "" : "Controls: \n \nKeypad 0 = activate \n \nKeypad period = deactivate \n \nKeypad 1 / 3 = scale up / down \nKeypad 2 = reset scale \n \nKeypad 7 / 9 = rotate right / left \nKeypad 8 = reset rotation \n \nKeypad 4 / 6 = left / right through object select \nKeypad 5 = place \nKeypad + = multiplace";
+            GameObject.FindGameObjectWithTag("DebugInstructions").GetComponent<Text>().text = !DebugOn ? "" : "Controls: \n \nKeypad 0 = activate \n \nKeypad period = deactivate \n \nKeypad 1 / 3 = scale up / down \nKeypad 2 = reset scale \n \nKeypad 7 / 9 = rotate right / left \nKeypad 8 = reset rotation \n \nKeypad 4 / 6 = left / right through object select \nJumpKey = place \nKeypad + = multiplace";
 
             GameObject.FindGameObjectWithTag("DebugValues").GetComponent<Text>().text = !DebugOn ? "" : "Selected Object: " + ObjectId.ToString() + "\nObject ID: " + IOFTName.Replace("(UnityEngine.GameObject)", "") + "\nCurrent Rotation: " + ObjectRotation.ToString() + "\nCurrent Scale: " + ObjectScale.ToString();
             #endregion
-            if (GameObject.FindGameObjectWithTag("SonicSprite").GetComponent<SpriteRenderer>().sprite == StandingSprite)
-                IsStandedOrSloped = true;
+            
 
-            else if (SurfaceAngle != 0)
-                IsStandedOrSloped = true;
-
-            else IsStandedOrSloped = false;
         }
-        bool IsStandedOrSloped;
         public void FixedUpdate()
         {
             LeftWall = RightWall = LeftCeiling = RightCeiling = null;
@@ -840,53 +833,55 @@ namespace SonicRealms.Core.Actors
             }
             if (DebugOn == true)
             {
-
+                
+                GetComponent<MoveManager>().Perform<Roll>(true, true);
                 IgnoreCollision = true;
                 ApplyAirDrag = true;
 
                 ApplyAirGravity = false;
-                if (Input.GetKey(KeyCode.UpArrow))
+                if (Input.GetAxis("Vertical") > 0)
                 {
-                    Vy += 20 * Time.deltaTime;
+                    Vy += 32 * Input.GetAxisRaw("Vertical") * Time.deltaTime;
 
                 }
                 else if (Vy >= 0)
                 {
                     Vy = Mathf.Lerp(Vy, -Mathf.Abs(Vy), 0.032f);
                 }
-                if (Input.GetKey(KeyCode.DownArrow))
+                if (Input.GetAxis("Vertical") < 0)
                 {
-                    Vy -= 20 * Time.deltaTime;
+                    Vy += 32 * Input.GetAxisRaw("Vertical") * Time.deltaTime;
 
                 }
                 else if (Vy <= 0)
                 {
                     Vy = Mathf.Lerp(Vy, Mathf.Abs(Vy), 0.032f);
                 }
-                if(Input.GetKey(KeyCode.UpArrow) && Input.GetKey(KeyCode.RightArrow) || Input.GetKey(KeyCode.UpArrow) && Input.GetKey(KeyCode.LeftArrow))
+                if(Input.GetAxis("Vertical") > 0 && Input.GetAxis("Horizontal") > 0 || Input.GetAxis("Vertical") > 0 && Input.GetAxis("Horizontal") < 0)
                 {
                     Vy -= Vy / 64;
                     Vx -= Vx / 64;
                 }
-                if (Input.GetKey(KeyCode.DownArrow) && Input.GetKey(KeyCode.RightArrow) || Input.GetKey(KeyCode.DownArrow) && Input.GetKey(KeyCode.LeftArrow))
+                if (Input.GetAxis("Vertical") < 0 && Input.GetAxis("Horizontal") > 0 || Input.GetAxis("Vertical") < 0 && Input.GetAxis("Horizontal") < 0)
                 {
                     Vy -= Vy / 64;
                     Vx -= Vx / 64;
                 }
                 
 
-                if (Input.GetKey(KeyCode.RightArrow))
+
+                if (Input.GetAxis("Horizontal") > 0)
                 {
-                    Vx += 20 * Time.deltaTime;
+                    Vx += 32 * Input.GetAxisRaw("Horizontal") * Time.deltaTime;
 
                 }
                 else if (Vx >= 0)
                 {
                     Vx = Mathf.Lerp(Vx, -Mathf.Abs(Vx), 0.032f);
                 }
-                if (Input.GetKey(KeyCode.LeftArrow))
+                if (Input.GetAxis("Horizontal") < 0)
                 {
-                    Vx -= 20 * Time.deltaTime;
+                    Vx += 32 * Input.GetAxisRaw("Horizontal") * Time.deltaTime;
                 }
                 else if (Vx <= 0)
                 {
@@ -918,61 +913,54 @@ namespace SonicRealms.Core.Actors
                     GameObject.FindGameObjectWithTag("MainCamera").transform.Rotate(transform.up * 20 * Time.deltaTime, Space.Self);
                 }
             }
-            
+
             #region The real shit
-            if (Input.GetKeyDown(KeyCode.Keypad6))
-            {
-                ObjectId = ObjectId + 1;
-            }
-            if (Input.GetKeyDown(KeyCode.Keypad4))
-            {
-                ObjectId = Mathf.Abs(ObjectId - 1);
-            }
-            if (Input.GetKey(KeyCode.Keypad1))
-            {
-                ObjectScale -= 0.02f;
-            }
-            if (Input.GetKey(KeyCode.Keypad3))
-            {
-                ObjectScale += 0.02f;
-            }
-            if (Input.GetKey(KeyCode.Keypad2))
-            {
-                ObjectScale = 1;
-            }
 
-            if (Input.GetKey(KeyCode.Keypad7))
-            {
-                ObjectRotation -= 1f;
-            }
-            if (Input.GetKey(KeyCode.Keypad9))
-            {
-                ObjectRotation += 1f;
-            }
-            if (Input.GetKey(KeyCode.Keypad8))
-            {
-                ObjectRotation = 0;
-            }
-            if(Input.GetKey(KeyCode.F1))
-            {
-                Time.timeScale -= 0.01f;
-            }
-            if(Input.GetKey(KeyCode.F2))
-            {
-                Time.timeScale += 0.01f;
-            }
-            if(Input.GetKey(KeyCode.F3))
-            {
-                Time.timeScale = 1;
-            }
+                if (Input.GetButtonDown("ObjectSelect") && Input.GetAxisRaw("ObjectSelect") < 0)
+                {
+                    ObjectId = ObjectId + 1;
+                }
+                if (Input.GetButtonDown("ObjectSelect") && Input.GetAxisRaw("ObjectSelect") > 0)
+                {
+                    ObjectId = Mathf.Abs(ObjectId - 1);
+                }
+                if(Input.GetAxisRaw("ScaleAxis") != 0 || Input.GetAxisRaw("Scale") !=0)
+                ObjectScale += (Input.GetAxisRaw("ScaleAxis") + Input.GetAxisRaw("Scale")) * 0.32f;
 
+                if (Input.GetButton("ResetScale"))
+                {
+                    ObjectScale = 1;
+                }
 
-            if (Input.GetKeyDown(KeyCode.Keypad5) || Input.GetKey(KeyCode.KeypadPlus))
+            if (Input.GetAxisRaw("RotateAxis") != 0 || Input.GetAxisRaw("Rotate") !=0)
+                ObjectRotation += (Input.GetAxisRaw("RotateAxis") + Input.GetAxisRaw("Rotate")) * 0.32f;
+
+                if (Input.GetButton("ResetAngle"))
+                {
+                    ObjectRotation = 0;
+                }
+                if (Input.GetKey(KeyCode.F1))
+                {
+                    Time.timeScale -= 0.01f;
+                }
+                if (Input.GetKey(KeyCode.F2))
+                {
+                    Time.timeScale += 0.01f;
+                }
+                if (Input.GetKey(KeyCode.F3))
+                {
+                    Time.timeScale = 1;
+                }
+
+            if (!Input.GetButton("ResetAngle") && Input.GetAxisRaw("Scale") == 0 && !Input.GetButton("ResetScale") && Input.GetAxisRaw("Scale") == 0 && Input.GetAxisRaw("Rotate") == 0 && !Input.GetButton("ObjectSelect"))
             {
-                Quaternion StandIn = DebugState.IOFTS[ObjectId].transform.rotation;
-                LeObject = Instantiate(DebugState.IOFTS[ObjectId], DebugState.PlayerObjectS.transform.position, Quaternion.Euler(StandIn.x, StandIn.y, ObjectRotation));
-                LeObject.transform.localScale = new Vector3(ObjectScale, ObjectScale, ObjectScale);
+                if (Input.GetButtonDown("Jump") || Input.GetButton("MultiPlace"))
+                {
+                    Quaternion StandIn = DebugState.IOFTS[ObjectId].transform.rotation;
+                    LeObject = Instantiate(DebugState.IOFTS[ObjectId], DebugState.PlayerObjectS.transform.position, Quaternion.Euler(StandIn.x, StandIn.y, ObjectRotation));
+                    LeObject.transform.localScale = new Vector3(ObjectScale, ObjectScale, ObjectScale);
 
+                }
             }
             #endregion
 
@@ -1148,22 +1136,22 @@ namespace SonicRealms.Core.Actors
                 if (GroundVelocity > 0)
                     {
                         if (Mathf.Abs(GroundVelocity) > MaxSpeed)
-                            GroundVelocity -= (SlopeGravity + GroundVelocity - IsRoll) * Input.GetAxisRaw("Horizontal") * Mathf.Sin(SurfaceAngle * Mathf.Deg2Rad) * timestep;
+                            GroundVelocity -= (SurfaceAngle * SlopeGravity + GroundVelocity - IsRoll) * Input.GetAxisRaw("Horizontal") * Mathf.Sin(SurfaceAngle * Mathf.Deg2Rad) * timestep;
 
-                        if (SurfaceAngle <= 45 && SurfaceAngle >= 315 && SurfaceAngle >= 22.5f && SurfaceAngle <= 157.5f)
+                        if (SurfaceAngle <= 45 && SurfaceAngle >= 315)
                         {
-                            GroundVelocity -= ((SlopeGravity + GroundVelocity - IsRoll) / 2) * Mathf.Sin(SurfaceAngle * Mathf.Deg2Rad) * timestep;
+                            GroundVelocity -= ((SurfaceAngle * SlopeGravity + GroundVelocity - IsRoll) / 2) * Mathf.Sin(SurfaceAngle * Mathf.Deg2Rad) * timestep;
                         }
                     
                 }
                     if (GroundVelocity < 0)
                     {
                         if (Mathf.Abs(GroundVelocity) > MaxSpeed)
-                            GroundVelocity -= (SlopeGravity + GroundVelocity - IsRoll) * Input.GetAxisRaw("Horizontal") * -Mathf.Sin(SurfaceAngle * Mathf.Deg2Rad) * timestep;
+                            GroundVelocity -= (SurfaceAngle * SlopeGravity + GroundVelocity - IsRoll) * Input.GetAxisRaw("Horizontal") * -Mathf.Sin(SurfaceAngle * Mathf.Deg2Rad) * timestep;
 
-                        if (SurfaceAngle <= 45 && SurfaceAngle >= 315 && SurfaceAngle >= 22.5f && SurfaceAngle <= 157.5f)
+                        if (SurfaceAngle <= 45 && SurfaceAngle >= 315)
                         {
-                        GroundVelocity -= ((SlopeGravity + GroundVelocity - IsRoll) / 2) * -Mathf.Sin(SurfaceAngle * Mathf.Deg2Rad) * timestep;
+                        GroundVelocity -= ((SurfaceAngle * SlopeGravity + GroundVelocity - IsRoll) / 2) * -Mathf.Sin(SurfaceAngle * Mathf.Deg2Rad) * timestep;
                     }
                 }
 
@@ -1171,7 +1159,6 @@ namespace SonicRealms.Core.Actors
                     if (ApplyGroundFriction)
                         GroundVelocity -= Mathf.Min(Mathf.Abs(GroundVelocity), GroundFriction * timestep) * Mathf.Sign(GroundVelocity);
 
-                Debug.Log(GroundVelocity.ToString());
 
                     // Speed limit
                     if (GroundVelocity > MaxSpeed)

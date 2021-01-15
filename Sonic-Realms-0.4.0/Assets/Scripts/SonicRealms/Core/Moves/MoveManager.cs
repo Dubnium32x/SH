@@ -11,6 +11,7 @@ namespace SonicRealms.Core.Moves
     /// </summary>
     public class MoveManager : MonoBehaviour
     {
+        public static MoveManager Instance;
         /// <summary>
         /// The controller that has the moves.
         /// </summary>

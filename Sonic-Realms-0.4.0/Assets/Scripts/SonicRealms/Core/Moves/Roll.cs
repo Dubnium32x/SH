@@ -223,7 +223,7 @@ namespace SonicRealms.Core.Moves
         public override void Update()
         {
             base.Update();
-            if (IsRolling && !blop && Controller.Grounded)
+            if (Input.GetAxisRaw(ActivateAxis) == (RequireNegative ? -1f : 1f) && !blop && Controller.Grounded && Mathf.Abs(Controller.GroundVelocity) > MinActivateSpeed && !Input.GetButtonDown("Jump"))
             {
                 RollSoundSource.Play();
                 RollSoundSource.clip = RollSound;

@@ -1,6 +1,7 @@
 ﻿using System;
 using SonicRealms.Core.Utils;
 using SonicRealms.Level.Effects;
+using SonicRealms.Core.Moves;
 using UnityEngine;
 using UnityEngine.Events;
 
@@ -140,8 +141,11 @@ namespace SonicRealms.Level
 
         public void FixedUpdate()
         {
-            HandleState();
-            HandlePosition();
+            if (!Death.IsDead)
+            {
+                HandleState();
+                HandlePosition();
+            }
         }
 
         /// <summary>

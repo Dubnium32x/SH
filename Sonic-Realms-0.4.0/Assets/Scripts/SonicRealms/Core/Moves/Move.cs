@@ -9,6 +9,7 @@ namespace SonicRealms.Core.Moves
 {
     public class Move : MonoBehaviour
     {
+        public static Move Instance;
         /// <summary>
         /// Reference to the attached controller.
         /// </summary>
@@ -138,30 +139,7 @@ namespace SonicRealms.Core.Moves
         public string AvailableBool;
         protected int AvailableBoolHash;
         #endregion
-        #region Sound
-        /// <summary>
-        /// Whether to mute audio clips the move plays.
-        /// </summary>
-        [SoundFoldout]
-        [Tooltip("Whether to mute audio clips the move plays.")]
-        public bool Muted;
-
-        /// <summary>
-        /// An audio clip to play when the move is performed.
-        /// </summary>
-        [SoundFoldout]
-        [FormerlySerializedAs("ActiveEnterSound")]
-        [Tooltip("An audio clip to play when the move is performed.")]
-        public AudioClip PerformSound;
-
-        /// <summary>
-        /// An audio clip to play when the move is ended.
-        /// </summary>
-        [SoundFoldout]
-        [FormerlySerializedAs("ActiveExitSound")]
-        [Tooltip("An audio clip to play when the move is ended.")]
-        public AudioClip EndSound;
-        #endregion
+        
 
         public virtual void Reset()
         {
@@ -175,7 +153,6 @@ namespace SonicRealms.Core.Moves
             OnAdd = new UnityEvent();
             OnRemove = new UnityEvent();
 
-            PerformSound = EndSound = null;
         }
 
         public virtual void Awake()
@@ -251,8 +228,6 @@ namespace SonicRealms.Core.Moves
         {
             if (nextState == CurrentState) return false;
 
-            var muted = Muted;
-            Muted = mute;
 
             var prevState = CurrentState;
             CurrentState = nextState;
@@ -271,7 +246,6 @@ namespace SonicRealms.Core.Moves
 
                 if (Animator == null)
                 {
-                    Muted = muted;
                     return true;
                 }
 
@@ -287,7 +261,6 @@ namespace SonicRealms.Core.Moves
                 OnUnavailable.Invoke();
             }
 
-            Muted = muted;
             return true;
         }
 

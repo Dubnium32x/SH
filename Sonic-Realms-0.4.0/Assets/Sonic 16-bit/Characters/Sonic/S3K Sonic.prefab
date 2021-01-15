@@ -842,7 +842,7 @@ MonoBehaviour:
   LedgeDropHeight: 0.16
   AntiTunnelingSpeed: 3.15
   SlopeGravityBeginAngle: 180
-  DetachSpeed: 0.1632
+  DetachSpeed: 0.3264
   MaxClimbAngle: 45
   DisableNotifyPlatforms: 0
   DisableEvents: 0
@@ -923,6 +923,7 @@ MonoBehaviour:
   AbsGroundSpeedFloat: Absolute Ground Speed
   GroundSpeedBool: Moving On Ground
   SurfaceAngleFloat: 
+  StandingSprite: {fileID: 0}
   Rainbow:
     m_Name: 
     m_Normal:
@@ -1678,9 +1679,6 @@ MonoBehaviour:
   ActiveTrigger: 
   ActiveBool: 
   AvailableBool: 
-  Muted: 0
-  PerformSound: {fileID: 0}
-  EndSound: {fileID: 0}
   InputAxisFloat: 
   InputBool: 
   AcceleratingBool: Accelerating
@@ -1737,9 +1735,6 @@ MonoBehaviour:
   ActiveTrigger: 
   ActiveBool: 
   AvailableBool: 
-  Muted: 0
-  PerformSound: {fileID: 0}
-  EndSound: {fileID: 0}
   MovementAxis: Horizontal
   InvertAxis: 0
   Acceleration: 3.375
@@ -1786,9 +1781,6 @@ MonoBehaviour:
   ActiveTrigger: 
   ActiveBool: Rolling
   AvailableBool: 
-  Muted: 0
-  PerformSound: {fileID: 0}
-  EndSound: {fileID: 0}
   ActivateAxis: Vertical
   RequireNegative: 1
   MinActivateSpeed: 0.32
@@ -1843,9 +1835,6 @@ MonoBehaviour:
   ActiveTrigger: 
   ActiveBool: Jumping
   AvailableBool: 
-  Muted: 0
-  PerformSound: {fileID: 0}
-  EndSound: {fileID: 0}
   ActivateButton: Jump
   ClearanceHeight: 0.25
   ActivateSpeed: 3.9
@@ -1893,9 +1882,6 @@ MonoBehaviour:
   ActiveTrigger: 
   ActiveBool: Ducking
   AvailableBool: 
-  Muted: 0
-  PerformSound: {fileID: 0}
-  EndSound: {fileID: 0}
   ActivateAxis: Vertical
   RequireNegative: 1
   MaxActivateSpeed: 0.002
@@ -2011,9 +1997,6 @@ MonoBehaviour:
   ActiveTrigger: 
   ActiveBool: Peelout
   AvailableBool: 
-  Muted: 0
-  PerformSound: {fileID: 0}
-  EndSound: {fileID: 8300000, guid: 865233711471eee478f7352569dd6f6d, type: 3}
   ChargeButton: Jump
   ReleaseAxis: Vertical
   FastsPerUnit: 16
@@ -2085,9 +2068,6 @@ MonoBehaviour:
   ActiveTrigger: 
   ActiveBool: Spindashing
   AvailableBool: 
-  Muted: 0
-  PerformSound: {fileID: 0}
-  EndSound: {fileID: 0}
   ChargeButton: Jump
   ReleaseAxis: Vertical
   BasePower: 4.8
@@ -2141,9 +2121,6 @@ MonoBehaviour:
   ActiveTrigger: 
   ActiveBool: Looking Up
   AvailableBool: 
-  Muted: 0
-  PerformSound: {fileID: 0}
-  EndSound: {fileID: 0}
   ActivateAxis: Vertical
 --- !u!114 &11436076
 MonoBehaviour:
@@ -2185,9 +2162,6 @@ MonoBehaviour:
   ActiveTrigger: 
   ActiveBool: Edge Balancing
   AvailableBool: 
-  Muted: 0
-  PerformSound: {fileID: 0}
-  EndSound: {fileID: 0}
   MaxDistance: 0.1
   AllowDuck: 1
   AllowLookUp: 0
@@ -2233,9 +2207,6 @@ MonoBehaviour:
   ActiveTrigger: 
   ActiveBool: Pushing
   AvailableBool: 
-  Muted: 0
-  PerformSound: {fileID: 0}
-  EndSound: {fileID: 0}
   ActivateAxis: 
   UseControlInput: 1
 --- !u!114 &11461730
@@ -2278,9 +2249,6 @@ MonoBehaviour:
   ActiveTrigger: 
   ActiveBool: Hurt
   AvailableBool: 
-  Muted: 0
-  PerformSound: {fileID: 0}
-  EndSound: {fileID: 0}
   ReboundSpeed: {x: 1.2, y: 2.4}
   UnderwaterReboundSpeed: {x: 1.2, y: 0.8}
 --- !u!114 &11439158
@@ -2323,9 +2291,6 @@ MonoBehaviour:
   ActiveTrigger: Death
   ActiveBool: 
   AvailableBool: 
-  Muted: 0
-  PerformSound: {fileID: 0}
-  EndSound: {fileID: 0}
   Velocity: 4.2
   RestartDelay: 2.333333
   RestartTimer: 0
@@ -2370,9 +2335,6 @@ MonoBehaviour:
   ActiveTrigger: Insta-Shield
   ActiveBool: 
   AvailableBool: 
-  Muted: 0
-  PerformSound: {fileID: 8300000, guid: 2a7c0206f62ba1042b6d72b9d97d269e, type: 3}
-  EndSound: {fileID: 0}
   Used: 0
   Health: {fileID: 11479486}
   CloudBurstButton: Jump
@@ -2454,9 +2416,6 @@ MonoBehaviour:
   ActiveTrigger: 
   ActiveBool: Skidding
   AvailableBool: 
-  Muted: 0
-  PerformSound: {fileID: 0}
-  EndSound: {fileID: 0}
   MinimumSpeed: 2.4
   SkidSoundSource: {fileID: 6458350364646533437}
   SkidSound: {fileID: 8300000, guid: c735f300cd5e05d44bbf6b9a7143d6b8, type: 3}

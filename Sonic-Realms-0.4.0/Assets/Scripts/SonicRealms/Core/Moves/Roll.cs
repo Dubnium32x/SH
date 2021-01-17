@@ -173,7 +173,7 @@ namespace SonicRealms.Core.Moves
         {
             get
             {
-                if (!Controller.Grounded) return false;
+                if (!Controller.Grounded && Controller.SurfaceAngle == 0) return false;
                 return (_rightDirection && Controller.GroundVelocity <= 0.0f && Controller.GroundVelocity > -MinActivateSpeed) ||
                        (!_rightDirection && Controller.GroundVelocity >= 0.0f && Controller.GroundVelocity < MinActivateSpeed);
             }
@@ -248,7 +248,6 @@ namespace SonicRealms.Core.Moves
 
             Controller.SlopeGravity = Uphill ? UphillGravity : DownhillGravity;
         }
-
         public override void OnActiveExit()
         {
             base.OnActiveExit();

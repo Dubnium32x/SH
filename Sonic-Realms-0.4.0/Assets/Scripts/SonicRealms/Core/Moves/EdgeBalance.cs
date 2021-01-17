@@ -38,6 +38,8 @@ namespace SonicRealms.Core.Moves
                  "of the platform, or 0 if inactive.")]
         public string DistanceFloat;
         protected int DistanceFloatHash;
+        [AnimationFoldout]
+        public string DirectionBool;
         #endregion
 
         /// <summary>
@@ -122,6 +124,18 @@ namespace SonicRealms.Core.Moves
             TerrainCastHit hit;
             float distance = EdgeDistance = float.MaxValue;
 
+            if (Controller.Footing == Footing.Right)
+            {
+                hit = Controller.TerrainCast(EdgeSensorLeft.position, EdgeSensorRight.position, ControllerSide.Bottom);
+                if (hit == null)
+                {
+                    if (Animator != null && DistanceFloatHash != 0)
+                        Animator.SetFloat(DistanceFloatHash, EdgeDistance);
+                    return distance;
+                }
+
+                distance = Vector2.Distance(hit.Hit.point, EdgeSensorLeft.position);
+            }
             if (Controller.Footing == Footing.Left)
             {
                 hit = Controller.TerrainCast(EdgeSensorRight.position, EdgeSensorLeft.position, ControllerSide.Bottom);
@@ -134,18 +148,7 @@ namespace SonicRealms.Core.Moves
 
                 distance = Vector2.Distance(hit.Hit.point, EdgeSensorRight.position);
             }
-            else if (Controller.Footing == Footing.Right)
-            {
-                hit = Controller.TerrainCast(EdgeSensorLeft.position, EdgeSensorRight.position, ControllerSide.Bottom);
-                if (hit == null)
-                {
-                    if (Animator != null && DistanceFloatHash != 0)
-                        Animator.SetFloat(DistanceFloatHash, EdgeDistance);
-                    return distance;
-                }
-
-                distance = Vector2.Distance(hit.Hit.point, EdgeSensorLeft.position);
-            }
+            
 
             distance = Vector2.Distance(EdgeSensorLeft.position, EdgeSensorRight.position) - distance;
             EdgeDistance = distance;
@@ -180,11 +183,22 @@ namespace SonicRealms.Core.Moves
                     lookUp.AllowShouldPerform = false;
             }
         }
-
+        bool WhatDirec;
+        public override void Update()
+        {
+            base.Update();
+            if (Input.GetAxisRaw("Horizontal") > 0)
+                WhatDirec = Controller.Footing == Footing.Left ? true : false;
+            if (Input.GetAxisRaw("Horizontal") < 0)
+                WhatDirec = Controller.Footing == Footing.Left ? false : true;
+        }
         public override void OnActiveUpdate()
         {
-            if(DMath.Equalsf(Controller.GroundVelocity))
+            
+            if (DMath.Equalsf(Controller.GroundVelocity))
                 Controller.FacingForward = Controller.Footing == Footing.Left;
+
+            Controller.Animator.SetBool(DirectionBool, WhatDirec);
         }
 
         public override void OnActiveExit()

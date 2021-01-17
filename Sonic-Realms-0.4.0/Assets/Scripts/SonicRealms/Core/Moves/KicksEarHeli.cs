@@ -65,7 +65,7 @@ namespace SonicRealms.Core.Moves
 
         public override bool ShouldPerform
         {
-            get { return Input.GetButton(HeliButton); }
+            get { return Input.GetButton(HeliButton) && !HedgehogController.DebugOnS; }
         }
         public override void Update()
         {

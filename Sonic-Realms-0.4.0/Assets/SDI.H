@@ -1,5 +1,5 @@
 File1
-1Character: 1
+1Character: 0
 1Rings: 99
 1Score: 720
 1Lives: 5

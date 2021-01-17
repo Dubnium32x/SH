@@ -132,7 +132,7 @@ namespace SonicRealms.Core.Moves
                 InvincibilityTimer = 0.0f;
                 End();
             }
-            if (Controller.Grounded) { End(); active = false; }
+            if (Controller.Grounded) { End(); active = HedgehogController.DebugOnS; }
                 
             
                 if (dashTimer > 5)

@@ -181,7 +181,7 @@ namespace SonicRealms.Core.Moves
 
         public override bool ShouldPerform
         {
-            get { return Input.GetAxisRaw(ActivateAxis) == (RequireNegative ? -1f : 1f); }
+            get { return RequireNegative ? Input.GetAxisRaw(ActivateAxis) < 0 : Input.GetAxisRaw(ActivateAxis) > 0;  }
         }
 
         public override void SetAnimatorParameters()
@@ -195,6 +195,12 @@ namespace SonicRealms.Core.Moves
         public override void OnActiveEnter(State previousState)
         {
             base.OnActiveEnter();
+            if (!Input.GetButtonDown("Jump"))
+            {
+                RollSoundSource.Play();
+                RollSoundSource.clip = RollSound;
+                RollSoundSource.pitch = 1;
+            }
             IsRolling = true;
             no = true;
             // Store original physics values to restore after leaving the roll
@@ -219,19 +225,10 @@ namespace SonicRealms.Core.Moves
 
 
         }
-        bool blop;
-        public override void Update()
-        {
-            base.Update();
-            if (Input.GetAxisRaw(ActivateAxis) == (RequireNegative ? -1f : 1f) && !blop && Controller.Grounded && Mathf.Abs(Controller.GroundVelocity) > MinActivateSpeed && !Input.GetButtonDown("Jump"))
-            {
-                RollSoundSource.Play();
-                RollSoundSource.clip = RollSound;
-                RollSoundSource.pitch = 1;
-                blop = true;
-            }
-            if(!IsRolling) blop = false;
-        }
+        
+                
+                
+        
         public override void OnActiveFixedUpdate()
         {
             

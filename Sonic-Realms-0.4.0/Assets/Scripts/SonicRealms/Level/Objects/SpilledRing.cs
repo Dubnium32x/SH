@@ -117,6 +117,7 @@ namespace SonicRealms.Level.Objects
 
         public void Update()
         {
+            GetComponent<AudioSource>().volume = CurrentLife;
             // Update life timer
             CurrentLife -= Time.deltaTime;
             if (CurrentLife < 0.0f)
@@ -151,7 +152,7 @@ namespace SonicRealms.Level.Objects
                 if (result && result.fraction > 0f)
                 {
 
-                    GetComponent<AudioSource>().PlayOneShot(BounceClip);
+                    GetComponent<AudioSource>().Play();
                     // Store positive angle in degrees
                     var angle = DMath.PositiveAngle_d(DMath.Angle(result.normal) * Mathf.Rad2Deg);
                     if (AccurateBounce)

@@ -153,6 +153,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   TriggerFromChildren: 1
+  AreaSource: {fileID: 0}
   AllowMultiple: 0
   OnAreaEnter:
     m_PersistentCalls:
@@ -207,6 +208,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c369568ddbb4fa14c806b5ed9b6cca1f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  RingDingSource: {fileID: 0}
   Life: 4.266667
   BounceClip: {fileID: 8300000, guid: b92f0f59deddcfe4ba54573bcdde7061, type: 3}
   LifePercentFloat: Life
@@ -238,6 +240,7 @@ MonoBehaviour:
   CollectedTrigger: Get
   Collected: 0
   CollectedSound: {fileID: 8300000, guid: 519b363f266ffc7479a5c683e02c958b, type: 3}
+  RingCollectSoundTruePrefab: {fileID: 0}
 --- !u!50 &5018966
 Rigidbody2D:
   serializedVersion: 4
@@ -269,8 +272,8 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 0}
-  m_PlayOnAwake: 1
+  m_audioClip: {fileID: 8300000, guid: b92f0f59deddcfe4ba54573bcdde7061, type: 3}
+  m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
   Loop: 0

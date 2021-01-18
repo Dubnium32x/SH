@@ -143,6 +143,7 @@ namespace SonicRealms.Core.Moves
             Uphill = false;
 
             UphillBoolHash = string.IsNullOrEmpty(UphillBool) ? 0 : Animator.StringToHash(UphillBool);
+            RollSoundSource.volume = 1;
         }
 
         public override void Start()
@@ -151,7 +152,8 @@ namespace SonicRealms.Core.Moves
             base.Start();
             Controller.OnAttach.AddListener(OnAttach);
             Score = Controller.GetComponent<ScoreCounter>();
-            
+            RollSoundSource.volume = 1;
+
         }
 
         public override void OnManagerAdd()
@@ -200,6 +202,7 @@ namespace SonicRealms.Core.Moves
                 RollSoundSource.Play();
                 RollSoundSource.clip = RollSound;
                 RollSoundSource.pitch = 1;
+                RollSoundSource.volume = 1;
             }
             IsRolling = true;
             no = true;

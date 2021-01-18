@@ -54,7 +54,7 @@ namespace SonicRealms.Core.Moves
         public override void Reset()
         {
             base.Reset();
-            MaxDistance = 0.1f; // s3k third animation is 0.04
+             // s3k third animation is 0.04
             AllowDuck = true;
             AllowLookUp = false;
         }
@@ -102,8 +102,7 @@ namespace SonicRealms.Core.Moves
         {
             get
             {
-                return Controller.Grounded &&
-                       Controller.SecondarySurface == null;
+                return Controller.Grounded;
             }
         }
 
@@ -194,11 +193,13 @@ namespace SonicRealms.Core.Moves
         }
         public override void OnActiveUpdate()
         {
-            
+
             if (DMath.Equalsf(Controller.GroundVelocity))
+            {
                 Controller.FacingForward = Controller.Footing == Footing.Left;
 
-            Controller.Animator.SetBool(DirectionBool, WhatDirec);
+                Controller.Animator.SetBool(DirectionBool, WhatDirec);
+            }
         }
 
         public override void OnActiveExit()
@@ -215,6 +216,10 @@ namespace SonicRealms.Core.Moves
                 var lookUp = Manager.Get<LookUp>();
                 if (lookUp != null)
                     lookUp.AllowShouldPerform = true;
+            }
+            if(Input.GetButton("Jump") && Manager.Get<Roll>() == null)
+            {
+                Manager.Perform<Roll>();
             }
         }
     }

@@ -134,9 +134,8 @@ namespace SonicRealms.Core.Moves
             Duck = Manager.Get<Duck>();
             GroundControl = Manager.Get<GroundControl>();
 
-            if (ChargeSound == null) return;
 
-            ChargeSoundSource.clip = ChargeSound;
+            
         }
 
         public override bool Available
@@ -205,7 +204,6 @@ namespace SonicRealms.Core.Moves
                 Controller.GroundVelocity += BasePower + CurrentChargePower;
             else
                 Controller.GroundVelocity -= BasePower + CurrentChargePower;
-
             Manager.Perform<Roll>(true, true);
             End();
         }

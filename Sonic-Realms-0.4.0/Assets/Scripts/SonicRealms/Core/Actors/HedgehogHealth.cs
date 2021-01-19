@@ -165,7 +165,7 @@ namespace SonicRealms.Core.Actors
             HurtReboundMove = HurtReboundMove ?? Controller.GetComponent<MoveManager>().Get<HurtRebound>();
             RingCounter = RingCounter ?? GetComponentInChildren<RingCounter>();
 
-            HurtInvincibilityTimer = 0.0f;
+            HurtInvincibilityTimer = 5f;
 
             HurtInvincibleBoolHash = Animator.StringToHash(HurtInvincibleBool);
         }
@@ -248,7 +248,7 @@ namespace SonicRealms.Core.Actors
 
         public void OnHurtReboundEnd()
         {
-            HurtInvincible = Invincible = false;
+            HurtInvincible = Invincible;
             HurtReboundMove.OnEnd.RemoveListener(OnHurtReboundEnd);
         }
 

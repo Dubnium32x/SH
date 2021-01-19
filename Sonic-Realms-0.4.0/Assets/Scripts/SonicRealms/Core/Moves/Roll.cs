@@ -168,7 +168,7 @@ namespace SonicRealms.Core.Moves
 
         public override bool Available
         {
-            get { return Controller.Grounded && Mathf.Abs(Controller.GroundVelocity) > MinActivateSpeed; }
+            get { return Controller.Grounded; }
         }
 
         public override bool ShouldEnd
@@ -176,14 +176,14 @@ namespace SonicRealms.Core.Moves
             get
             {
                 if (!Controller.Grounded && Controller.SurfaceAngle == 0) return false;
-                return (_rightDirection && Controller.GroundVelocity <= 0.0f && Controller.GroundVelocity > -MinActivateSpeed) ||
-                       (!_rightDirection && Controller.GroundVelocity >= 0.0f && Controller.GroundVelocity < MinActivateSpeed);
+                return (_rightDirection && Controller.GroundVelocity <= 0.1f && Controller.GroundVelocity > -MinActivateSpeed) ||
+                       (!_rightDirection && Controller.GroundVelocity >= 0.1f && Controller.GroundVelocity < MinActivateSpeed);
             }
         }
 
         public override bool ShouldPerform
         {
-            get { return RequireNegative ? Input.GetAxisRaw(ActivateAxis) < 0 : Input.GetAxisRaw(ActivateAxis) > 0;  }
+            get { return (RequireNegative ? Input.GetAxisRaw(ActivateAxis) < 0 : Input.GetAxisRaw(ActivateAxis) > 0) && Mathf.Abs(Controller.GroundVelocity) >= MinActivateSpeed || !Controller.Grounded && Manager.Get<Jump>();  }
         }
 
         public override void SetAnimatorParameters()
@@ -193,19 +193,24 @@ namespace SonicRealms.Core.Moves
             if (!string.IsNullOrEmpty(UphillBool))
                 Controller.Animator.SetBool(UphillBool, Uphill);
         }
-        bool no;
-        public override void OnActiveEnter(State previousState)
+        public override void Update()
         {
-            base.OnActiveEnter();
-            if (!Input.GetButtonDown("Jump"))
+            base.Update();
+            if (Controller.Grounded && Input.GetAxisRaw(ActivateAxis) > 0 && !SecondTime && Mathf.Abs(Controller.GroundVelocity) < 0.1f)
             {
-                RollSoundSource.Play();
                 RollSoundSource.clip = RollSound;
                 RollSoundSource.pitch = 1;
                 RollSoundSource.volume = 1;
+                RollSoundSource.Play();
+                SecondTime = true;
             }
+        }
+        public override void OnActiveEnter(State previousState)
+        {
+            
+            base.OnActiveEnter();
+            
             IsRolling = true;
-            no = true;
             // Store original physics values to restore after leaving the roll
             _rightDirection = Controller.GroundVelocity > 0.0f;
 
@@ -229,15 +234,16 @@ namespace SonicRealms.Core.Moves
 
         }
         
-                
-                
-        
+        bool SecondTime;
+        bool hush;
         public override void OnActiveFixedUpdate()
         {
             
-            Debug.Log("IsRoll");
+            
             base.OnActiveFixedUpdate();
             var previousUphill = Uphill;
+            Animator.SetFloat("RollSpeed", Animator.GetFloat("Absolute Ground Speed") + (Animator.GetFloat("Absolute Ground Speed") < 0.2f && !Controller.Grounded ? 4.8f : 0));
+
             if (Controller.GroundVelocity > 0.0f)
             {
                 Uphill = DMath.AngleInRange_d(Controller.RelativeSurfaceAngle, 0.0f, 180.0f);
@@ -250,11 +256,13 @@ namespace SonicRealms.Core.Moves
                 _originalSlopeGravity = Controller.SlopeGravity;
 
             Controller.SlopeGravity = Uphill ? UphillGravity : DownhillGravity;
+            if(Controller.Grounded && Controller.GroundVelocity == 0) { End();}
         }
         public override void OnActiveExit()
         {
             base.OnActiveExit();
             Debug.Log("Stopped");
+            SecondTime = false;
             IsRolling = false;
             Controller.SlopeGravity = _originalSlopeGravity;
             Controller.GroundFriction = _originalFriction;

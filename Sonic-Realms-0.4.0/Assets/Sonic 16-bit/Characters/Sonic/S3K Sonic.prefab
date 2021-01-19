@@ -479,7 +479,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.24, y: 0.24}
+  m_Size: {x: 0.24, y: 0.38}
   m_EdgeRadius: 0
 --- !u!114 &11475340
 MonoBehaviour:
@@ -1686,11 +1686,11 @@ MonoBehaviour:
   TopSpeedPercentFloat: Top Speed %
   MovementAxis: Horizontal
   InvertAxis: 0
-  Acceleration: 1.6875
+  Acceleration: 2.56
   AccelerationLocked: 0
   Deceleration: 4.5
   DecelerationLocked: 0
-  TopSpeed: 10
+  TopSpeed: 16
   MinSlopeGravitySpeed: 0.24
   DisableControl: 0
   ControlLockTimerOn: 0
@@ -1783,7 +1783,7 @@ MonoBehaviour:
   AvailableBool: 
   ActivateAxis: Vertical
   RequireNegative: 1
-  MinActivateSpeed: 0.32
+  MinActivateSpeed: 0.64
   Hitbox: {fileID: 11475340}
   WidthChange: -0.016
   HeightChange: -0.064
@@ -1884,7 +1884,7 @@ MonoBehaviour:
   AvailableBool: 
   ActivateAxis: Vertical
   RequireNegative: 1
-  MaxActivateSpeed: 0.002
+  MaxActivateSpeed: 0.32
 --- !u!114 &6330260166707495911
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2162,9 +2162,9 @@ MonoBehaviour:
   ActiveTrigger: 
   ActiveBool: Edge Balancing
   AvailableBool: 
-  MaxDistance: 0.1
+  MaxDistance: 0.16
   AllowDuck: 1
-  AllowLookUp: 0
+  AllowLookUp: 1
   DistanceFloat: Edge Distance
   DirectionBool: Edgey
   EdgeDistance: 0
@@ -13382,7 +13382,7 @@ AudioSource:
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 0}
-  m_PlayOnAwake: 1
+  m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
   Loop: 0

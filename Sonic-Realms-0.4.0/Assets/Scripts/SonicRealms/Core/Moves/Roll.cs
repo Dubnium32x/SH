@@ -101,6 +101,8 @@ namespace SonicRealms.Core.Moves
         public AudioClip RollSound;
         [SoundFoldout]
         public AudioSource RollSoundSource;
+        [SoundFoldout]
+        public AudioSource SpindashSoundSource;
         private bool _rightDirection;
 
         private float _originalSlopeGravity;
@@ -196,7 +198,14 @@ namespace SonicRealms.Core.Moves
         public override void Update()
         {
             base.Update();
-            if (Controller.Grounded && Input.GetAxisRaw(ActivateAxis) > 0 && !SecondTime && Mathf.Abs(Controller.GroundVelocity) < 0.1f)
+            
+            Debug.Log(SpindashSoundSource.isPlaying.ToString());
+        }
+        public override void OnActiveEnter(State previousState)
+        {
+            
+            base.OnActiveEnter();
+            if(!SpindashSoundSource.isPlaying && Controller.Grounded)
             {
                 RollSoundSource.clip = RollSound;
                 RollSoundSource.pitch = 1;
@@ -204,12 +213,6 @@ namespace SonicRealms.Core.Moves
                 RollSoundSource.Play();
                 SecondTime = true;
             }
-        }
-        public override void OnActiveEnter(State previousState)
-        {
-            
-            base.OnActiveEnter();
-            
             IsRolling = true;
             // Store original physics values to restore after leaving the roll
             _rightDirection = Controller.GroundVelocity > 0.0f;

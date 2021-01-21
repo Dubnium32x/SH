@@ -62,6 +62,10 @@ namespace SonicRealms.Core.Moves
 
             foreach (var hitbox in Hitboxes)
                 hitbox.Harmful = true;
+            if(!GameObject.FindGameObjectWithTag("MusicPlayer2").GetComponent<AudioSource>().isPlaying && GameObject.FindGameObjectWithTag("MusicPlayer2").GetComponent<AudioSource>().clip == DifferentSecondaryMusics.Invin)
+            GameObject.FindGameObjectWithTag("MusicPlayer2").GetComponent<AudioSource>().Play();
+            if (!GameObject.FindGameObjectWithTag("MusicPlayer2").GetComponent<AudioSource>().isPlaying)
+                GameObject.FindGameObjectWithTag("MusicPlayer2").GetComponent<AudioSource>().clip = DifferentSecondaryMusics.Invin;
         }
 
         public override void OnManagerRemove()
@@ -72,7 +76,8 @@ namespace SonicRealms.Core.Moves
                 Health.Invincible = false;
                 Health = null;
             }
-
+            if(GameObject.FindGameObjectWithTag("MusicPlayer2").GetComponent<AudioSource>().clip == DifferentSecondaryMusics.Invin)
+            GameObject.FindGameObjectWithTag("MusicPlayer2").GetComponent<AudioSource>().Stop();
             // If we disabled shields before, reenable them
             if (DisableShields)
             {

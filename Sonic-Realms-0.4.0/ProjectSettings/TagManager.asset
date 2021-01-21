@@ -31,6 +31,8 @@ TagManager:
   - DebugName
   - DebugInstructions
   - SonicSprite
+  - MusicPlayer
+  - MusicPlayer2
   layers:
   - Default
   - TransparentFX

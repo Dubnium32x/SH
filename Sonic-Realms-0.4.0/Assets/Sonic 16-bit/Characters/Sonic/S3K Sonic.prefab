@@ -1793,7 +1793,8 @@ MonoBehaviour:
   Friction: 0.8451
   UphillBool: 
   RollSound: {fileID: 8300000, guid: 31a5a8c0e52992a4fb9c0ab448e43103, type: 3}
-  RollSoundSource: {fileID: 1058523900519184744}
+  RollSoundSource: {fileID: 4917638328302338733}
+  SpindashSoundSource: {fileID: 1058523900519184744}
   Uphill: 1
 --- !u!114 &11472608
 MonoBehaviour:

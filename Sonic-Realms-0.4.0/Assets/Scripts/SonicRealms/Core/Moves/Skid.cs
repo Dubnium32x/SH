@@ -70,6 +70,7 @@ namespace SonicRealms.Core.Moves
         public override void OnActiveEnter()
         {
             base.OnActiveEnter();
+            SkidSoundSource.clip = SkidSound;
             SkidSoundSource.Play();
         }
         public override void Start()
@@ -81,7 +82,7 @@ namespace SonicRealms.Core.Moves
         public override void OnActiveUpdate()
         {
             base.OnActiveUpdate();
-            if (SkidSoundSource.time > SkidSoundRepeatTime) { SkidSoundSource.Play(); SkidSoundSource.clip = SkidSound; }
+            if (SkidSoundSource.time > SkidSoundRepeatTime) { SkidSoundSource.Play();  }
             IsSkid = true;
         }
         public override void OnActiveExit()

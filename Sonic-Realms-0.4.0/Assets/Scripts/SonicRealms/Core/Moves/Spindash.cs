@@ -180,8 +180,8 @@ namespace SonicRealms.Core.Moves
                 GroundControl.DisableControl = false;
             
             if (ChargeSoundSource != null)
-                ChargeSoundSource.clip = ChargeSoundEnd;
-                ChargeSoundSource.Play();
+                ChargeSoundSource.PlayOneShot(ChargeSoundEnd);
+               
         }
 
         public void Charge()
@@ -205,6 +205,7 @@ namespace SonicRealms.Core.Moves
             else
                 Controller.GroundVelocity -= BasePower + CurrentChargePower;
             Manager.Perform<Roll>(true, true);
+            ChargeSoundSource.Stop();
             End();
         }
     }

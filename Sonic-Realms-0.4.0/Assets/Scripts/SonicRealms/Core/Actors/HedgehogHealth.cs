@@ -249,6 +249,7 @@ namespace SonicRealms.Core.Actors
         public void OnHurtReboundEnd()
         {
             HurtInvincible = Invincible;
+            if(HurtInvincibilityTimer < 0.0f)
             HurtReboundMove.OnEnd.RemoveListener(OnHurtReboundEnd);
         }
 

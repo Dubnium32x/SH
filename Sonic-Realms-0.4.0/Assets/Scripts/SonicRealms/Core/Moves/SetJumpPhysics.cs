@@ -15,6 +15,7 @@ namespace SonicRealms.Core.Moves
 
         [Space]
         public float ActivateSpeed;
+        public float ChargingSpeed;
         public float ReleaseSpeed;
 
         public void Reset()
@@ -30,6 +31,7 @@ namespace SonicRealms.Core.Moves
             Jump = Jump ?? animator.GetComponentInChildren<Jump>();
             if (Jump == null) return;
 
+            if (ActivateSpeed != UnchangedValue) Jump.ChargingSpeed = ChargingSpeed;
             if (ActivateSpeed != UnchangedValue) Jump.ActivateSpeed = ActivateSpeed;
             if (ReleaseSpeed != UnchangedValue) Jump.ReleaseSpeed = ReleaseSpeed;
         }

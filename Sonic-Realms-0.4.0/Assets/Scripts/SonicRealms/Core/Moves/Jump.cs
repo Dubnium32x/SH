@@ -33,6 +33,10 @@ namespace SonicRealms.Core.Moves
         [PhysicsFoldout]
         [Tooltip("Jump speed after moment of release, in units per second.")]
         public float ReleaseSpeed;
+
+        [PhysicsFoldout]
+        [Tooltip("The amount of charge given to the jump.")]
+        public float ChargingSpeed;
         #endregion
 
         /// <summary>
@@ -139,15 +143,21 @@ namespace SonicRealms.Core.Moves
             KeepTheBozosAway = false;
             End();
         }
-
+        float ChargedJumpSpd;
+        public override void OnActiveUpdate()
+        {
+            ChargedJumpSpd += ChargingSpeed * Time.deltaTime;
+            if(ChargedJumpSpd <= ReleaseSpeed)
+            Controller.Velocity += DMath.AngleToVector((Controller.SurfaceAngle + 90.0f) * Mathf.Deg2Rad) * ChargedJumpSpd;
+        }
         public override void OnActiveEnter(State previousState)
         {
+            ChargedJumpSpd = ActivateSpeed;
             Used = true;
             KeepTheBozosAway = false;
             Controller.Detach();
-            Controller.Velocity += DMath.AngleToVector((Controller.SurfaceAngle + 90.0f)*Mathf.Deg2Rad)*ActivateSpeed;
-            
-                JumpSoundSource.clip = JumpSound;
+            Controller.Velocity += DMath.AngleToVector((Controller.SurfaceAngle + 90.0f) * Mathf.Deg2Rad) * ChargedJumpSpd;
+            JumpSoundSource.clip = JumpSound;
                 JumpSoundSource.Play();
             var roll = Manager.Get<Roll>();
             if (roll == null) return;
@@ -168,14 +178,14 @@ namespace SonicRealms.Core.Moves
             if (Controller.Grounded) return;
 
             // Set vertical speed to release speed if it's greater
-            if (Controller.RelativeVelocity.y > ActivateSpeed)
+            if (Controller.RelativeVelocity.y > ChargedJumpSpd)
             {
                 Controller.RelativeVelocity = new Vector2(Controller.RelativeVelocity.x,
-                    Controller.RelativeVelocity.y - (ActivateSpeed - ReleaseSpeed));
+                    Controller.RelativeVelocity.y - (ChargedJumpSpd - ReleaseSpeed));
             }
             else if(Controller.RelativeVelocity.y > ReleaseSpeed)
             {
-                Controller.RelativeVelocity = new Vector2(Controller.RelativeVelocity.x, ReleaseSpeed);
+                Controller.RelativeVelocity = new Vector2(Controller.RelativeVelocity.x, ReleaseSpeed - ChargedJumpSpd);
             }
         }
     }

@@ -55361,6 +55361,21 @@ PrefabInstance:
       propertyPath: m_Name
       value: The helping crewe
       objectReference: {fileID: 0}
+    - target: {fileID: 8092542832097446415, guid: 00e56b86450692f41ac7a001c0df3409,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8122730014425465267, guid: 00e56b86450692f41ac7a001c0df3409,
+        type: 3}
+      propertyPath: field of view
+      value: 17.1125
+      objectReference: {fileID: 0}
+    - target: {fileID: 8122730014425465267, guid: 00e56b86450692f41ac7a001c0df3409,
+        type: 3}
+      propertyPath: m_TargetTexture
+      value: 
+      objectReference: {fileID: 8400000, guid: 6148bab55622aae49a9c0b6405d3abeb, type: 2}
     - target: {fileID: 9163742740455556240, guid: 00e56b86450692f41ac7a001c0df3409,
         type: 3}
       propertyPath: m_LocalPosition.x

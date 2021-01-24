@@ -203,6 +203,7 @@ namespace SonicRealms.Core.Actors
             var spikes = source.CompareTag(SpikeTag);
 
             HurtReboundMove.ThreatPosition = source ? (Vector2)source.position : default(Vector2);
+            if(HurtInvincibilityTimer<0.0f)
             HurtReboundMove.OnEnd.AddListener(OnHurtReboundEnd);
             HurtReboundMove.Perform();
 
@@ -249,7 +250,6 @@ namespace SonicRealms.Core.Actors
         public void OnHurtReboundEnd()
         {
             HurtInvincible = Invincible;
-            if(HurtInvincibilityTimer < 0.0f)
             HurtReboundMove.OnEnd.RemoveListener(OnHurtReboundEnd);
         }
 

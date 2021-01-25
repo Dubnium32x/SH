@@ -146,9 +146,9 @@ namespace SonicRealms.Core.Moves
         float ChargedJumpSpd;
         public override void OnActiveUpdate()
         {
-            ChargedJumpSpd += ChargingSpeed * Time.deltaTime;
-            if(ChargedJumpSpd <= ReleaseSpeed)
-            Controller.Velocity += DMath.AngleToVector((Controller.SurfaceAngle + 90.0f) * Mathf.Deg2Rad) * ChargedJumpSpd;
+            if (ChargedJumpSpd <= ReleaseSpeed)
+                ChargedJumpSpd += ChargingSpeed;
+            Controller.Velocity += DMath.AngleToVector((Controller.SurfaceAngle + 90.0f) * Mathf.Deg2Rad) * (ChargedJumpSpd >= ReleaseSpeed ? 0 : ChargedJumpSpd);
         }
         public override void OnActiveEnter(State previousState)
         {
@@ -156,7 +156,7 @@ namespace SonicRealms.Core.Moves
             Used = true;
             KeepTheBozosAway = false;
             Controller.Detach();
-            Controller.Velocity += DMath.AngleToVector((Controller.SurfaceAngle + 90.0f) * Mathf.Deg2Rad) * ChargedJumpSpd;
+                Controller.Velocity += DMath.AngleToVector((Controller.SurfaceAngle + 90.0f) * Mathf.Deg2Rad) * ChargedJumpSpd;
             JumpSoundSource.clip = JumpSound;
                 JumpSoundSource.Play();
             var roll = Manager.Get<Roll>();
@@ -181,11 +181,7 @@ namespace SonicRealms.Core.Moves
             if (Controller.RelativeVelocity.y > ChargedJumpSpd)
             {
                 Controller.RelativeVelocity = new Vector2(Controller.RelativeVelocity.x,
-                    Controller.RelativeVelocity.y - (ChargedJumpSpd - ReleaseSpeed));
-            }
-            else if(Controller.RelativeVelocity.y > ReleaseSpeed)
-            {
-                Controller.RelativeVelocity = new Vector2(Controller.RelativeVelocity.x, ReleaseSpeed - ChargedJumpSpd);
+                    Controller.RelativeVelocity.y - (ReleaseSpeed));
             }
         }
     }

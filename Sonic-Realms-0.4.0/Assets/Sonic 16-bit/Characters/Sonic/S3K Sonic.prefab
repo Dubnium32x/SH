@@ -1033,7 +1033,7 @@ MonoBehaviour:
   OnDeath:
     m_PersistentCalls:
       m_Calls: []
-  Animator: {fileID: 0}
+  Animator: {fileID: 9582648}
   HurtTrigger: 
   HurtDamageFloat: 
   DeathTrigger: 
@@ -1046,6 +1046,7 @@ MonoBehaviour:
   RingCounter: {fileID: 11417206}
   RingsLost: 9001
   HurtInvinciblilityTime: 2
+  HurtSpikesTrigger: Spike
   HurtInvincibleBool: Hurt Invincible
   HHSource: {fileID: 8722044284489311821}
   RingLossSound: {fileID: 8300000, guid: f7cb67bbc35a2e24381a1e57047811c7, type: 3}
@@ -1840,7 +1841,7 @@ MonoBehaviour:
   ClearanceHeight: 64
   ActivateSpeed: 64
   ReleaseSpeed: 128
-  ChargingSpeed: 0.16
+  ChargingSpeed: 0.32
   Used: 1
   JumpSoundSource: {fileID: 1606153254882365037}
   JumpSound: {fileID: 8300000, guid: 5ec8d582b9f69ac48be05083cc00aa32, type: 3}

@@ -67,6 +67,9 @@ namespace SonicRealms.Core.Actors
         public float HurtInvinciblilityTime;
         #endregion
         #region Animation
+
+        [Foldout("Animation")]
+        public string HurtSpikesTrigger;
         /// <summary>
         /// Animator bool set to whether invicibility after getting hurt is on
         /// </summary>
@@ -230,6 +233,7 @@ namespace SonicRealms.Core.Actors
                 {
                     if (SpikeSound != null)
                         HHSource.PlayOneShot(SpikeSound);
+                    Controller.Animator.SetBool(HurtSpikesTrigger, true);
                 }
                 else
                 {

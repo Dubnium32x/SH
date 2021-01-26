@@ -36358,8 +36358,8 @@ TextMesh:
     TODAY WE DISCUSS...
 
 
-    WHY HE NO PICK
-    RING WHEN HURT'
+    WHAT THE FUCK IS
+    A SONIC'
   m_OffsetZ: 0
   m_CharacterSize: 1
   m_LineSpacing: 1
@@ -36372,7 +36372,7 @@ TextMesh:
   m_Font: {fileID: 12800000, guid: d7389b520cd3f6a4fbd3ca4d885a8f41, type: 2}
   m_Color:
     serializedVersion: 2
-    rgba: 4294967295
+    rgba: 4290020878
 --- !u!23 &1334306638
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -55366,6 +55366,11 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.x
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8092542832097446415, guid: 00e56b86450692f41ac7a001c0df3409,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8122730014425465267, guid: 00e56b86450692f41ac7a001c0df3409,
         type: 3}
       propertyPath: field of view
@@ -55376,6 +55381,11 @@ PrefabInstance:
       propertyPath: m_TargetTexture
       value: 
       objectReference: {fileID: 8400000, guid: 6148bab55622aae49a9c0b6405d3abeb, type: 2}
+    - target: {fileID: 8311184009500113793, guid: 00e56b86450692f41ac7a001c0df3409,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 9163742740455556240, guid: 00e56b86450692f41ac7a001c0df3409,
         type: 3}
       propertyPath: m_LocalPosition.x

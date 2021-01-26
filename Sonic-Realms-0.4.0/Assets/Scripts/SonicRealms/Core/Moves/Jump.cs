@@ -178,10 +178,10 @@ namespace SonicRealms.Core.Moves
             if (Controller.Grounded) return;
 
             // Set vertical speed to release speed if it's greater
-            if (Controller.RelativeVelocity.y > ChargedJumpSpd)
+            if (Controller.RelativeVelocity.y > ChargedJumpSpd && Controller.RelativeVelocity.y > 0.5f)
             {
                 Controller.RelativeVelocity = new Vector2(Controller.RelativeVelocity.x,
-                    Controller.RelativeVelocity.y - (ReleaseSpeed));
+                    Controller.RelativeVelocity.y - ReleaseSpeed);
             }
         }
     }

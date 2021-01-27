@@ -26961,15 +26961,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 479910, guid: bfc729fad5e17234292ca9c41268782d, type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 479910, guid: bfc729fad5e17234292ca9c41268782d, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 479910, guid: bfc729fad5e17234292ca9c41268782d, type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 479910, guid: bfc729fad5e17234292ca9c41268782d, type: 3}
       propertyPath: m_LocalRotation.w
@@ -36358,8 +36358,7 @@ TextMesh:
     TODAY WE DISCUSS...
 
 
-    WHAT THE FUCK IS
-    A SONIC'
+    .......................................'
   m_OffsetZ: 0
   m_CharacterSize: 1
   m_LineSpacing: 1
@@ -55361,6 +55360,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: The helping crewe
       objectReference: {fileID: 0}
+    - target: {fileID: 7808752380134897262, guid: 00e56b86450692f41ac7a001c0df3409,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 39.620117
+      objectReference: {fileID: 0}
     - target: {fileID: 8092542832097446415, guid: 00e56b86450692f41ac7a001c0df3409,
         type: 3}
       propertyPath: m_AnchoredPosition.x
@@ -55384,7 +55388,7 @@ PrefabInstance:
     - target: {fileID: 8311184009500113793, guid: 00e56b86450692f41ac7a001c0df3409,
         type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 9163742740455556240, guid: 00e56b86450692f41ac7a001c0df3409,
         type: 3}

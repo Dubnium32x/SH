@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 11475252}
   - component: {fileID: 11482208}
   - component: {fileID: 466137675975890031}
+  - component: {fileID: -201824094421999039}
   m_Layer: 31
   m_Name: Harmony Spikes
   m_TagString: Spikes
@@ -70,6 +71,7 @@ MonoBehaviour:
   OnPlatformExit:
     m_PersistentCalls:
       m_Calls: []
+  PlatTrigSource: {fileID: -201824094421999039}
   PlatformEnterSound: {fileID: 0}
   PlatformLoopSound: {fileID: 0}
   PlatformExitSound: {fileID: 0}
@@ -112,9 +114,6 @@ MonoBehaviour:
   Animator: {fileID: 0}
   ActivatedTrigger: 
   ActivatedBool: 
-  ActivateSound: {fileID: 0}
-  LoopSound: {fileID: 0}
-  DeactivateSound: {fileID: 0}
   Activators: []
 --- !u!114 &11475252
 MonoBehaviour:
@@ -154,7 +153,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ObjectTrigger: {fileID: 11487910}
-  Animator: {fileID: 0}
+  Animator: {fileID: 466137675975890031}
 --- !u!95 &466137675975890031
 Animator:
   serializedVersion: 3
@@ -174,6 +173,102 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!82 &-201824094421999039
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 170048}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: 06d1151957f107d41b51814990104c6d, type: 3}
+  m_PlayOnAwake: 0
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
 --- !u!1 &173866
 GameObject:
   m_ObjectHideFlags: 0
@@ -186,7 +281,7 @@ GameObject:
   - component: {fileID: 6144724}
   m_Layer: 31
   m_Name: Collider
-  m_TagString: Untagged
+  m_TagString: Spikes
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

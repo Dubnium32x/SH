@@ -21,7 +21,10 @@ namespace SonicRealms.Level.Objects
         [SerializeField]
         [Tooltip("Name of an Animator trigger set when the item box is broken.")]
         public string BrokenTrigger;
-
+        [Foldout("Audio")]
+        public AudioClip hitBox;
+        [Foldout("Audio")]
+        public AudioClip boxGain;
         /// <summary>
         /// Stores the controller that broke the item box.
         /// </summary>
@@ -112,6 +115,8 @@ namespace SonicRealms.Level.Objects
             if (Animator == null || BrokenTrigger.Length <= 0)
                 return;
             Animator.SetTrigger(BrokenTrigger);
+
+            GetComponent<AudioSource>().PlayOneShot(hitBox);
         }
     }
 }

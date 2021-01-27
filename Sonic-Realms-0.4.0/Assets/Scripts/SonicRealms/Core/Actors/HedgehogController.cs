@@ -1116,6 +1116,7 @@ namespace SonicRealms.Core.Actors
         /// an incline.
         /// </summary>
         float Timer;
+        float TimeSince;
         private void HandleForces(float timestep)
         {
             if (Grounded)
@@ -1130,7 +1131,14 @@ namespace SonicRealms.Core.Actors
                     }
                 float IsRoll = Roll.IsRolling ? 0 : 32 ;
 
-
+                if(SurfaceAngle > 90)
+                    GroundVelocity += (SlopeGravity + TimeSince) * Mathf.Sin(SurfaceAngle * Mathf.Deg2Rad) * timestep;
+                if (Mathf.Abs(SurfaceAngle) == 90 && Mathf.Abs(GroundVelocity) <= MaxSpeed)
+                {
+                    TimeSince += Time.deltaTime;
+                    GroundVelocity -= (SlopeGravity + TimeSince) * Mathf.Sin(SurfaceAngle * Mathf.Deg2Rad) * timestep;
+                }
+                else TimeSince = 0;
                 if (Mathf.Abs(SurfaceAngle) <= 90)
                 {
                     GroundVelocity -= SlopeGravity * Mathf.Sin(SurfaceAngle * Mathf.Deg2Rad) * timestep;

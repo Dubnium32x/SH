@@ -1,6 +1,7 @@
 ﻿using SonicRealms.Core.Actors;
 using SonicRealms.Core.Triggers;
 using UnityEngine;
+using SonicRealms.Level.Objects;
 
 namespace SonicRealms.Level.Effects
 {
@@ -46,6 +47,8 @@ namespace SonicRealms.Level.Effects
 
             if (GivenTriggerHash != 0)
                 Animator.SetTrigger(GivenTriggerHash);
+
+            GetComponent<ItemBox>().GetComponent<AudioSource>().PlayOneShot(GetComponent<ItemBox>().boxGain);
         }
 
         public override void OnActivateStay(HedgehogController controller)

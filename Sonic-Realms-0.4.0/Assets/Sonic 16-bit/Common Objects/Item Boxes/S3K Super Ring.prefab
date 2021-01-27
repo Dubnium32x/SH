@@ -135,6 +135,7 @@ GameObject:
   - component: {fileID: 21244414}
   - component: {fileID: 11466702}
   - component: {fileID: 11462942}
+  - component: {fileID: 9138413312019296757}
   m_Layer: 31
   m_Name: S3K Super Ring
   m_TagString: Untagged
@@ -214,6 +215,7 @@ MonoBehaviour:
   OnPlatformExit:
     m_PersistentCalls:
       m_Calls: []
+  PlatTrigSource: {fileID: 0}
   PlatformEnterSound: {fileID: 0}
   PlatformLoopSound: {fileID: 0}
   PlatformExitSound: {fileID: 0}
@@ -241,6 +243,8 @@ MonoBehaviour:
   SurfaceBool: 
   ActivateDelay: 0.5333333
   BrokenTrigger: Broken
+  hitBox: {fileID: 8300000, guid: 9e994ed6886925d42babddbd7ae40e66, type: 3}
+  boxGain: {fileID: 8300000, guid: 41679cb1d295066438f79b2f2588e06c, type: 3}
 --- !u!114 &11415762
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -277,9 +281,6 @@ MonoBehaviour:
   Animator: {fileID: 9512034}
   ActivatedTrigger: 
   ActivatedBool: 
-  ActivateSound: {fileID: 8300000, guid: be6e80618227838408fc30693ee0acd3, type: 3}
-  LoopSound: {fileID: 0}
-  DeactivateSound: {fileID: 0}
   Activators: []
 --- !u!114 &11400260
 MonoBehaviour:
@@ -294,6 +295,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   TriggerFromChildren: 1
+  AreaSource: {fileID: 0}
   AllowMultiple: 0
   OnAreaEnter:
     m_PersistentCalls:
@@ -438,6 +440,102 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 607595e8911787345b75f6304c57e1c1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!82 &9138413312019296757
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 140868}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 0}
+  m_PlayOnAwake: 0
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
 --- !u!1 &140970
 GameObject:
   m_ObjectHideFlags: 0

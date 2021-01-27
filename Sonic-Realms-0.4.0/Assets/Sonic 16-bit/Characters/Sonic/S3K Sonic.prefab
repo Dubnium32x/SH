@@ -2056,7 +2056,7 @@ MonoBehaviour:
   AvailableBool: 
   ChargeButton: Jump
   ReleaseAxis: Vertical
-  FastsPerUnit: 16
+  FastsPerUnit: 48
   FastsCap: 8
   ChargeSound: {fileID: 8300000, guid: 34c8fd532f4bdfe4c9688041b8a4c641, type: 3}
   PeeloutCharge: PeeloutCharge

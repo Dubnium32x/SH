@@ -1131,8 +1131,8 @@ namespace SonicRealms.Core.Actors
                     }
                 float IsRoll = Roll.IsRolling ? 0 : 32 ;
 
-                if(SurfaceAngle > 90)
-                    GroundVelocity += (SlopeGravity + TimeSince) * Mathf.Sin(SurfaceAngle * Mathf.Deg2Rad) * timestep;
+                
+                    
                 if (Mathf.Abs(SurfaceAngle) == 90 && Mathf.Abs(GroundVelocity) <= MaxSpeed)
                 {
                     TimeSince += Time.deltaTime;
@@ -1923,8 +1923,9 @@ namespace SonicRealms.Core.Actors
             SensorsRotation = SurfaceAngle;
             Grounded = true;
 
-            // If we already were on the ground, that's all we needed to do
-            if (wasGrounded) return true;
+            
+                // If we already were on the ground, that's all we needed to do
+                if (wasGrounded) return true;
 
             // Otherwise - quick check to make sure we belong on the surface
             GroundSurfaceCheck();
@@ -1966,6 +1967,7 @@ namespace SonicRealms.Core.Actors
             //if char is onground or at low y vel
             if (RelativeVelocity.y <= 0.0f)
             {
+                
                 if (fixedAngled < 22.5f || fixedAngled > 337.5f)
                 {
                     result = RelativeVelocity.x;
@@ -2002,15 +2004,15 @@ namespace SonicRealms.Core.Actors
             //if char is moving possibly in air
             else
             {
-                if (fixedAngled > 90.0f && fixedAngled < 135.0f)
+                if (fixedAngled > 90.0f && fixedAngled < 100.0f)
                 {
                     result = RelativeVelocity.y;
                 }
-                else if (fixedAngled > 225.0f && fixedAngled < 270.0f)
+                else if (fixedAngled > 260.0f && fixedAngled < 270.0f)
                 {
                     result = -RelativeVelocity.y;
                 }
-                else if (fixedAngled > 135.0f && fixedAngled < 225.0f)
+                else if (fixedAngled > 100.0f && fixedAngled < 260.0f)
                 {
                     RelativeVelocity = new Vector2(RelativeVelocity.x, 0.0f);
                 }

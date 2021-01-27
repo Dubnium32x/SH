@@ -229,7 +229,7 @@ namespace SonicRealms.Core.Actors
             }
             else
             {
-                if (spikes || Physics2D.Raycast(this.gameObject.transform.position, Vector2.down).collider.gameObject.tag == SpikeTag)
+                if (spikes || Physics2D.Raycast(gameObject.transform.position, Vector2.down).collider.gameObject.tag == SpikeTag)
                 {
                     if (SpikeSound != null)
                         HHSource.PlayOneShot(SpikeSound);

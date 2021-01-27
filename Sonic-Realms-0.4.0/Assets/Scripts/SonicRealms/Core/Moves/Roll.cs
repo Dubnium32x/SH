@@ -185,7 +185,7 @@ namespace SonicRealms.Core.Moves
 
         public override bool ShouldPerform
         {
-            get { return (RequireNegative ? Input.GetAxisRaw(ActivateAxis) < 0 : Input.GetAxisRaw(ActivateAxis) > 0) && Mathf.Abs(Controller.GroundVelocity) >= MinActivateSpeed || !Controller.Grounded && Manager.Get<Jump>();  }
+            get { return (RequireNegative ? Input.GetAxisRaw(ActivateAxis) < 0 : Input.GetAxisRaw(ActivateAxis) > 0) && Mathf.Abs(Controller.GroundVelocity) >= MinActivateSpeed || Physics2D.Raycast(Controller.transform.position, -Controller.transform.up, 1f).collider.gameObject.layer == 31 && Manager.Get<Jump>();  }
         }
 
         public override void SetAnimatorParameters()

@@ -244,7 +244,7 @@ MonoBehaviour:
   ActivateDelay: 0.5333333
   BrokenTrigger: Broken
   hitBox: {fileID: 8300000, guid: 9e994ed6886925d42babddbd7ae40e66, type: 3}
-  boxGain: {fileID: 8300000, guid: 41679cb1d295066438f79b2f2588e06c, type: 3}
+  boxGain: {fileID: 8300000, guid: 0fb69465c600cdb48ac39f8206fcf6bc, type: 3}
 --- !u!114 &11415762
 MonoBehaviour:
   m_ObjectHideFlags: 0

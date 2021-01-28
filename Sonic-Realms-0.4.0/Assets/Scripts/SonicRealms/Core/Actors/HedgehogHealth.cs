@@ -181,7 +181,6 @@ namespace SonicRealms.Core.Actors
 
         public override void Update()
         {
-            base.Update();
             if (HurtInvincible)
             {
                 HurtInvincibilityTimer -= Time.deltaTime;
@@ -223,13 +222,18 @@ namespace SonicRealms.Core.Actors
                 }
 
                 RingCounter.Spill(RingsLost);
-
-                if (RingLossSound != null)
+                if (spikes)
+                {
+                    if (SpikeSound != null)
+                        HHSource.PlayOneShot(SpikeSound);
+                    Controller.Animator.SetBool(HurtSpikesTrigger, true);
+                }
+                else if (RingLossSound != null)
                     HHSource.PlayOneShot(RingLossSound);
             }
             else
             {
-                if (spikes || Physics2D.Raycast(gameObject.transform.position, Vector2.down).collider.gameObject.tag == SpikeTag)
+                if (spikes)
                 {
                     if (SpikeSound != null)
                         HHSource.PlayOneShot(SpikeSound);
@@ -263,7 +267,7 @@ namespace SonicRealms.Core.Actors
             OnDeathComplete.Invoke();
             DeathMove.OnEnd.RemoveListener(OnDeathEnd);
         }
-
+        
         public override void Kill(Transform source)
         {
             if (IsDead || DeathMove.Active) return;

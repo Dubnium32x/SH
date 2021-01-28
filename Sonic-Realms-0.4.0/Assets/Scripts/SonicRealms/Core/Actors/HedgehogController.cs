@@ -740,6 +740,18 @@ namespace SonicRealms.Core.Actors
         public static bool DebugOnS;
         public void Update()
         {
+            #region SINCE THE RINGS CAN'T DO SHIT
+            //If can't collect, update the timer and check for completion
+            GetComponent<RingCounter>().CanCollectTimer -= Time.deltaTime;
+                if (GetComponent<RingCounter>().CanCollectTimer < 0.0f)
+                {
+                GetComponent<RingCounter>().CanCollect = true;
+                GetComponent<RingCounter>().CanCollectTimer = 0.0f;
+
+                }
+                if(Grounded)
+                Animator.SetBool(GetComponent<HedgehogHealth>().HurtSpikesTrigger, false);
+            #endregion I DID IT FOR 'EM
             Debug.Log(SurfaceAngle.ToString());
             if (Animator != null)
                 SetAnimatorParameters();

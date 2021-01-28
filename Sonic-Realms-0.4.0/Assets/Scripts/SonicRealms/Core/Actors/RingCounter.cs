@@ -103,53 +103,20 @@ namespace SonicRealms.Core.Actors
         {
            Rings = SDR.SDVint(CurrentFile.ToString() + "Rings: ");
             Animator = Controller.Animator;
-            CanCollectTimer = 0.0f;
 
             if (Animator == null) return;
             AmountIntHash = string.IsNullOrEmpty(AmountInt) ? 0 : Animator.StringToHash(AmountInt);
         }
-
-        public void Update()
-        {
-            // If can't collect, update the timer and check for completion
-            if (!CanCollect)
-            {
-                CanCollectTimer -= Time.deltaTime;
-                if (CanCollectTimer < 0.0f)
-                {
-                    CanCollect = true;
-                    CanCollectTimer = 0.0f;
-                }
-            }
-            else
-            {
-                CanCollectTimer = 0.0f;
-            }
-            int PastRings = 0;
-            if (HedgehogController.DebugOnS)
-            {if (PastRings != HedgehogController.ObjectIdS)
-                {
-                    PastRings = Rings;
-                }
-                ObjectIdToRings();
-                TextRingsView.NameTextS.text = DebugState.IOFTS[HedgehogController.ObjectIdS].ToString() ;
-            }
-            else
-            {
-                TextRingsView.NameTextS.text = "RINGS";
-            }
-        }
-        public void ObjectIdToRings()
-        {
-            Rings = HedgehogController.ObjectIdS;
-        }
+        
         /// <summary>
         /// Disables ring collection for the value specified by SpillCollectDisableTime.
         /// </summary>
         public void DisableCollection()
         {
             DisableCollection(SpillCollectDisableTime);
+
         }
+
 
         /// <summary>
         /// Disables ring collection for the specified duration.

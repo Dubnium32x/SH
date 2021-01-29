@@ -14,7 +14,7 @@ public class SaveManagement : MonoBehaviour
     GameObject StandInCharac;
     GameObject StandInCharac2;
     public GameObject CurrentObject;
-    public void Awake()
+    public void Start()
     {
         CurrentFile = SDR.SDVint("CurrentFileLoaded: ");
         if (GameObject.FindGameObjectWithTag("CameraCanvas") != null)

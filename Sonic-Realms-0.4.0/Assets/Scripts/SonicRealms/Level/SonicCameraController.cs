@@ -224,7 +224,7 @@ namespace SonicRealms.Level
             _looking = false;
             _forwardShifting = false;
             _fastFollowing = false;
-            if (GameObject.FindWithTag("Player") != null) { Player = GameObject.FindWithTag("Player").GetComponent<HedgehogController>(); }
+            
         }
 
         public virtual void Start()
@@ -323,6 +323,7 @@ namespace SonicRealms.Level
 
         public virtual void FixedUpdate()
         {
+            if (GameObject.FindWithTag("Player") != null) { Player = GameObject.FindWithTag("Player").GetComponent<HedgehogController>(); }
             if (_finished || Player == null) return;
 
             if (RotateToGravity)

@@ -10,9 +10,14 @@ using System.Linq;
 public static class SDFS //What? did you think that I wouldn't find a way to bring door into this? Door is good game, with good code, yes yes.
 {
     public static string contents; //A string we will use to make things a bit more simple when making this script
+#if UNITY_EDITOR
     public static string path = Application.dataPath + "/SDI.H"; //the place where we'll make this script
-   public static void CreateFile(int fileID, int Character, int Level, int Lives) //this is where the file is created
+#endif
+    //public static string path = "C:/Sonic Harmony/SDI.H"; //the place where we'll make this script
+
+    public static void CreateFile(int fileID, int Character, int Level, int Lives) //this is where the file is created
     {
+
          //Application.dataPath just means the place where the assets folder of unity is, and it's a string, not only that, but the "/SDI.H" just makes sure that the path you are sending the "contents" to is in a txt file known as SDI.txt
         contents = "File" + fileID.ToString() + "\n" + fileID.ToString() + "Character: " + Character + "\n" + fileID.ToString() + "Rings: " + "\n" + fileID.ToString() + "Score: " + "\n" + fileID.ToString() + "Lives: " + Lives + "\n" + fileID.ToString() + "Level: " + Level + "\n" + fileID.ToString() + "CheckpointX: " + "\n" + fileID.ToString() + "CheckpointY: " + "\n" + fileID.ToString() + "CheckpointZ: " + "\n" + fileID.ToString() + "ChaosEmeralds: ";
       if (!File.Exists(path)) //if the file exists, duh

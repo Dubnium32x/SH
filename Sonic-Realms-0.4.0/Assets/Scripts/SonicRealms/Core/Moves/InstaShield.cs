@@ -128,8 +128,8 @@ namespace SonicRealms.Core.Moves
         public bool active;
         public override void OnActiveUpdate()
         {
-            if (Input.GetButton(CloudBurstButton))
-            CloudBurstSoundSource.pitch = dashTimer / 3.2f;
+            /*if (Input.GetButton(CloudBurstButton))
+            CloudBurstSoundSource.pitch = dashTimer / 3.2f;*/
             
             base.OnActiveUpdate();
 
@@ -191,8 +191,8 @@ namespace SonicRealms.Core.Moves
         {
             base.Update();
             if(Controller.Grounded) Controller.Animator.SetBool(CloudBurstBool, false);
-            if (Controller.Grounded && CloudBurstSoundSource.clip != CloudBurstSoundEnd) { CloudBurstSoundSource.pitch -= Time.deltaTime; }
-            if(CloudBurstSoundSource.pitch < 0) { CloudBurstSoundSource.Stop(); }
+            /*if (Controller.Grounded && CloudBurstSoundSource.clip != CloudBurstSoundEnd) { CloudBurstSoundSource.pitch -= Time.deltaTime; }
+            if(CloudBurstSoundSource.pitch < 0) { CloudBurstSoundSource.Stop(); }*/
         }
     }
 }

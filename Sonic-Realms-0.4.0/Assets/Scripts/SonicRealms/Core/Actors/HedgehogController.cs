@@ -752,7 +752,6 @@ namespace SonicRealms.Core.Actors
                 if(Grounded)
                 Animator.SetBool(GetComponent<HedgehogHealth>().HurtSpikesTrigger, false);
             #endregion I DID IT FOR 'EM
-            Debug.Log(SurfaceAngle.ToString());
             if (Animator != null)
                 SetAnimatorParameters();
 
@@ -782,7 +781,7 @@ namespace SonicRealms.Core.Actors
                 IgnoreCollision = Death.IsDead;
                 
                 ApplyAirGravity = true;
-                
+                if (GameObject.FindWithTag("MusicPlayer2").GetComponent<AudioSource>().clip = DebugState.RegularMusic) GameObject.FindWithTag("MusicPlayer2").GetComponent<AudioSource>().Stop();
             }
 
             #region Text Fuck
@@ -846,7 +845,9 @@ namespace SonicRealms.Core.Actors
             }
             if (DebugOn == true)
             {
-                
+                if (!GameObject.FindWithTag("MusicPlayer2").GetComponent<AudioSource>().isPlaying)
+                    GameObject.FindWithTag("MusicPlayer2").GetComponent<AudioSource>().Play();
+                GameObject.FindWithTag("MusicPlayer2").GetComponent<AudioSource>().clip = DebugState.RegularMusic;
                 GetComponent<MoveManager>().Perform<Roll>(true, true);
                 IgnoreCollision = true;
                 ApplyAirDrag = true;
@@ -1145,7 +1146,7 @@ namespace SonicRealms.Core.Actors
 
                 
                     
-                if (Mathf.Abs(SurfaceAngle) == 90 && Mathf.Abs(GroundVelocity) <= MaxSpeed)
+                if (Mathf.Abs(SurfaceAngle) == 90 && TimeSince <= MaxSpeed)
                 {
                     TimeSince += Time.deltaTime;
                     GroundVelocity -= (SlopeGravity + TimeSince) * Mathf.Sin(SurfaceAngle * Mathf.Deg2Rad) * timestep;
@@ -1157,7 +1158,7 @@ namespace SonicRealms.Core.Actors
                     if (Mathf.Abs(GroundVelocity) >= MaxSpeed)
                     {
                         Timer += Time.deltaTime;
-                        if (Mathf.Abs(SurfaceAngle) < 45 && Timer > 5)
+                        if (Mathf.Abs(SurfaceAngle) < 45 && Timer > MaxSpeed)
                         {
                             GroundVelocity -= SlopeGravity * Mathf.Sin(SurfaceAngle * Mathf.Deg2Rad) * timestep;
                         }

@@ -7,7 +7,7 @@ public class StartGame : MonoBehaviour
     public AudioSource TitleTheme; 
     bool IsActive; 
     bool HasActivatedSound; 
-    void Update()
+    void FixedUpdate()
     {
         if (Input.GetAxisRaw("Jump") > 0 || Input.GetAxisRaw("Submit") > 0 && !IsActive)
         { 
@@ -21,7 +21,7 @@ public class StartGame : MonoBehaviour
         } if (LeBlack.color == Color.black) { SceneManager.LoadScene("Menu"); }
         if (IsActive) 
         { 
-            TitleTheme.volume -= 0.002f; LeBlack.color += new Color(0, 0, 0, 0.002f);
+            TitleTheme.volume -= 0.2f; LeBlack.color += new Color(0, 0, 0, 0.2f);
         }
     }
 }

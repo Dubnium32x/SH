@@ -178,14 +178,14 @@ namespace SonicRealms.Core.Moves
             get
             {
                 if (!Controller.Grounded && Controller.SurfaceAngle == 0) return false;
-                return (_rightDirection && Controller.GroundVelocity <= 0.1f && Controller.GroundVelocity > -MinActivateSpeed) ||
-                       (!_rightDirection && Controller.GroundVelocity >= 0.1f && Controller.GroundVelocity < MinActivateSpeed);
+                return (_rightDirection && Controller.GroundVelocity < 0f && Controller.GroundVelocity > -MinActivateSpeed) ||
+                       (!_rightDirection && Controller.GroundVelocity > 0f && Controller.GroundVelocity < MinActivateSpeed);
             }
         }
 
         public override bool ShouldPerform
         {
-            get { return (RequireNegative ? Input.GetAxisRaw(ActivateAxis) < 0 : Input.GetAxisRaw(ActivateAxis) > 0) && Mathf.Abs(Controller.GroundVelocity) >= MinActivateSpeed || Physics2D.Raycast(Controller.transform.position, -Controller.transform.up, 1f).collider.gameObject.layer == 31 && Manager.Get<Jump>();  }
+            get { return (RequireNegative ? Input.GetAxisRaw(ActivateAxis) < 0 : Input.GetAxisRaw(ActivateAxis) > 0) && Mathf.Abs(Controller.GroundVelocity) >= MinActivateSpeed || Physics2D.Raycast(Controller.transform.position, -Controller.transform.up).collider.gameObject.layer == 31 && Manager.Get<Jump>();  }
         }
 
         public override void SetAnimatorParameters()
@@ -199,7 +199,6 @@ namespace SonicRealms.Core.Moves
         {
             base.Update();
             
-            Debug.Log(SpindashSoundSource.isPlaying.ToString());
         }
         public override void OnActiveEnter(State previousState)
         {
@@ -264,7 +263,6 @@ namespace SonicRealms.Core.Moves
         public override void OnActiveExit()
         {
             base.OnActiveExit();
-            Debug.Log("Stopped");
             SecondTime = false;
             IsRolling = false;
             Controller.SlopeGravity = _originalSlopeGravity;

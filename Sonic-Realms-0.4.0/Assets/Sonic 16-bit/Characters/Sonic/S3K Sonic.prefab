@@ -1839,7 +1839,7 @@ MonoBehaviour:
   AvailableBool: 
   ActivateAxis: Vertical
   RequireNegative: 1
-  MinActivateSpeed: 0.64
+  MinActivateSpeed: 0.32
   Hitbox: {fileID: 11475340}
   WidthChange: -0.016
   HeightChange: -0.064
@@ -2403,7 +2403,7 @@ MonoBehaviour:
   InvincibilityTimer: 0
   HasShield: 0
   CloudBurstSoundSource: {fileID: 6336216732524268164}
-  CloudBurstSound: {fileID: 8300000, guid: 41679cb1d295066438f79b2f2588e06c, type: 3}
+  CloudBurstSound: {fileID: 8300000, guid: 6101bf8e88e98b44d8beaa5cc28f080c, type: 3}
   CloudBurstSoundEnd: {fileID: 8300000, guid: cd3ee22123ccf8a45934ff16f681f49b, type: 3}
   CloudBurstBool: CloudBurst
   ChargedBurst: CloudBurstCha
@@ -2477,7 +2477,7 @@ MonoBehaviour:
   ActiveTrigger: 
   ActiveBool: Skidding
   AvailableBool: 
-  MinimumSpeed: 2.4
+  MinimumSpeed: 1.6
   SkidSoundSource: {fileID: 6458350364646533437}
   SkidSound: {fileID: 8300000, guid: c735f300cd5e05d44bbf6b9a7143d6b8, type: 3}
   SkidSoundRepeatTime: 0.0667
@@ -13219,7 +13219,7 @@ MonoBehaviour:
     m_StretchWidth: 1
     m_StretchHeight: 0
   RegularMusic: {fileID: 8300000, guid: 625f6e98d19685b4fb42370006c23fe0, type: 3}
-  RegularMusicS: {fileID: 0}
+  RegularMusicS: {fileID: 8300000, guid: 4132b42a6ee046d42b6464911ea63e57, type: 3}
   ScoreModifier: {fileID: 0}
   RingsModifier: {fileID: 0}
   LivesModifier: {fileID: 0}

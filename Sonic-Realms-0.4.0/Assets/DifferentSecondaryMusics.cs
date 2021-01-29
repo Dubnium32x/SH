@@ -2,8 +2,15 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public static class DifferentSecondaryMusics
+public class DifferentSecondaryMusics : MonoBehaviour
 {
-    public static AudioClip Invin = Resources.Load<AudioClip>("Invin");
-    public static AudioClip Speed = Resources.Load<AudioClip>("Speed");
+    public AudioClip Invinceble;
+    public AudioClip Speedy;
+    public static AudioClip Invin;
+    public static AudioClip Speed;
+    public void Update()
+    {
+        Speed = Speedy;
+            Invin = Invinceble;
+    }
 }

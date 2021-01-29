@@ -178,6 +178,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   TriggerFromChildren: 1
+  AreaSource: {fileID: 0}
   AllowMultiple: 0
   OnAreaEnter:
     m_PersistentCalls:
@@ -240,9 +241,6 @@ MonoBehaviour:
   Animator: {fileID: 9589834}
   ActivatedTrigger: Triggered
   ActivatedBool: 
-  ActivateSound: {fileID: 8300000, guid: 1e380e7ac594b2d408e6ae9124d3b60a, type: 3}
-  LoopSound: {fileID: 0}
-  DeactivateSound: {fileID: 0}
   Activators: []
 --- !u!114 &11429822
 MonoBehaviour:

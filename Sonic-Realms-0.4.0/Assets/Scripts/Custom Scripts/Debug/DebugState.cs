@@ -23,7 +23,7 @@ namespace SonicRealms.Core.Actors
         
         bool DebugFlyOn;
         public GUIStyle Rainbow;
-        public AudioClip RegularMusic;
+        public static AudioClip RegularMusic;
         public AudioClip RegularMusicS;
         
 
@@ -60,10 +60,9 @@ namespace SonicRealms.Core.Actors
         // Update is called once per frame
         void Update()
         {
+            RegularMusic = RegularMusicS;
             
             
-            
-            RegularMusicS = RegularMusic;
             AmountOfObjectsInIOFTS = AmountOfObjectsInIOFT;
             if (Input.GetButton("DebugKey") /* && CheatCodeActivated == true */)
             {

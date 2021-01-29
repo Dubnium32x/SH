@@ -1048,6 +1048,7 @@ MonoBehaviour:
   RingCounter: {fileID: 11417206}
   RingsLost: 9001
   HurtInvinciblilityTime: 2
+  HurtSpikesTrigger: 
   HurtInvincibleBool: Hurt Invincible
   HHSource: {fileID: 0}
   RingLossSound: {fileID: 8300000, guid: f7cb67bbc35a2e24381a1e57047811c7, type: 3}
@@ -1961,6 +1962,7 @@ MonoBehaviour:
   UphillBool: 
   RollSound: {fileID: 8300000, guid: bb2cba8fd62577148972c89bd49ef141, type: 3}
   RollSoundSource: {fileID: 6275704175108320576}
+  SpindashSoundSource: {fileID: 0}
   Uphill: 0
 --- !u!114 &11472608
 MonoBehaviour:
@@ -2006,6 +2008,7 @@ MonoBehaviour:
   ClearanceHeight: 0.25
   ActivateSpeed: 3.9
   ReleaseSpeed: 2.4
+  ChargingSpeed: 0
   Used: 0
   JumpSoundSource: {fileID: 2643511557337983720}
   JumpSound: {fileID: 8300000, guid: 95c249a0beb8eec40a8c41518ab3a3fc, type: 3}
@@ -13150,7 +13153,7 @@ MonoBehaviour:
     m_StretchWidth: 1
     m_StretchHeight: 0
   RegularMusic: {fileID: 8300000, guid: 625f6e98d19685b4fb42370006c23fe0, type: 3}
-  RegularMusicS: {fileID: 0}
+  RegularMusicS: {fileID: 8300000, guid: 4132b42a6ee046d42b6464911ea63e57, type: 3}
   ScoreModifier: {fileID: 0}
   RingsModifier: {fileID: 0}
   LivesModifier: {fileID: 0}

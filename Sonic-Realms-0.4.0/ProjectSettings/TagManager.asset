@@ -33,6 +33,7 @@ TagManager:
   - SonicSprite
   - MusicPlayer
   - MusicPlayer2
+  - RingUISprite
   layers:
   - Default
   - TransparentFX

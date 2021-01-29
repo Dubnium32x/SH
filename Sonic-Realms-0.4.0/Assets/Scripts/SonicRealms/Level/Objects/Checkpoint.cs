@@ -23,13 +23,14 @@ namespace SonicRealms.Level.Objects
             ActivateImmediateTriggerHash = Animator.StringToHash(ActivateImmediateTrigger);
         }
 
-        public override void OnActivate(HedgehogController controller)
+        public override void OnActivate(HedgehogController controller = null)
         {
             SDDM.Modify(SDR.SDVint("CurrentFileLoaded").ToString() + "CheckpointX: ", controller.transform.position.x.ToString());
 
             SDDM.Modify(SDR.SDVint("CurrentFileLoaded").ToString() + "CheckpointY: ", controller.transform.position.y.ToString());
 
             SDDM.Modify(SDR.SDVint("CurrentFileLoaded").ToString() + "CheckpointZ: ", controller.transform.position.z.ToString());
+            Debug.Log("Can Can Can Can Can Can Can Can Can Can Can Can");
 
             ObjectTrigger.enabled = false;
         }

@@ -62,7 +62,7 @@ public class MoveCursor : MonoBehaviour
         }
         if(IsActive)
         {
-            transform.position = Vector3.Lerp(transform.position, MenuPlaces[5], 0.032f);
+            transform.position = Vector3.Lerp(transform.position, MenuPlaces[5] , 0.032f);
             Icons.position = Vector3.Lerp(Icons.position, IconRetirementHome, 0.032f);
         }
         

@@ -9,3 +9,4 @@ File1
 1CheckpointZ: 
 1ChaosEmeralds: 
 CurrentFileLoaded: 1
+just beat it

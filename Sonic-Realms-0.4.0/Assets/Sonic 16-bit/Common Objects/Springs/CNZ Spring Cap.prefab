@@ -67,9 +67,6 @@ MonoBehaviour:
   Animator: {fileID: 9567768}
   ActivatedTrigger: Pipe Exit
   ActivatedBool: 
-  ActivateSound: {fileID: 0}
-  LoopSound: {fileID: 0}
-  DeactivateSound: {fileID: 0}
   Activators: []
 --- !u!1 &166524
 GameObject:
@@ -165,6 +162,7 @@ MonoBehaviour:
   OnPlatformExit:
     m_PersistentCalls:
       m_Calls: []
+  PlatTrigSource: {fileID: 0}
   PlatformEnterSound: {fileID: 0}
   PlatformLoopSound: {fileID: 0}
   PlatformExitSound: {fileID: 0}
@@ -252,9 +250,6 @@ MonoBehaviour:
   Animator: {fileID: 9567768}
   ActivatedTrigger: Triggered
   ActivatedBool: 
-  ActivateSound: {fileID: 8300000, guid: 1426442b20d3b6943a55c22a1909d8f3, type: 3}
-  LoopSound: {fileID: 0}
-  DeactivateSound: {fileID: 0}
   Activators: []
 --- !u!1 &176186
 GameObject:
@@ -324,8 +319,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: -2015754921
+  m_SortingLayer: 6
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 1d1f796cb0367474798cc4b9a31ba4bb, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}

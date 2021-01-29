@@ -46,6 +46,7 @@ SpriteRenderer:
   m_LightProbeUsage: 0
   m_ReflectionProbeUsage: 0
   m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -67,8 +68,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: -2015754921
+  m_SortingLayer: 6
   m_SortingOrder: -2
   m_Sprite: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 0.7529412}
@@ -93,7 +94,6 @@ GameObject:
   - component: {fileID: 9562620}
   - component: {fileID: 11477564}
   - component: {fileID: 11418352}
-  - component: {fileID: 11400004}
   m_Layer: 0
   m_Name: S3K Flame Shield
   m_TagString: Untagged
@@ -157,7 +157,8 @@ MonoBehaviour:
   OnAdd:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 11400004}
+      - m_Target: {fileID: 0}
+        m_TargetAssemblyTypeName: 
         m_MethodName: PlayAudioClip
         m_Mode: 2
         m_Arguments:
@@ -206,18 +207,6 @@ MonoBehaviour:
   TimeRemaining: 0
   Container: {fileID: 190688}
   Moves: []
---- !u!114 &11400004
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 148158}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ced533b0f3b383345976ac9e5f7e6eb8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &157112
 GameObject:
   m_ObjectHideFlags: 0
@@ -264,6 +253,7 @@ SpriteRenderer:
   m_LightProbeUsage: 0
   m_ReflectionProbeUsage: 0
   m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -285,9 +275,9 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingLayerID: -2015754921
+  m_SortingLayer: 6
+  m_SortingOrder: 4
   m_Sprite: {fileID: 21300016, guid: 5582af61ee3147e4b91ea92f88f46226, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -370,8 +360,5 @@ MonoBehaviour:
   ActiveTrigger: Activated
   ActiveBool: 
   AvailableBool: 
-  Muted: 0
-  PerformSound: {fileID: 8300000, guid: 435ffdce8e3cf0c4298579305da113e4, type: 3}
-  EndSound: {fileID: 0}
   Used: 0
   DashVelocity: {x: 4.8, y: 0}

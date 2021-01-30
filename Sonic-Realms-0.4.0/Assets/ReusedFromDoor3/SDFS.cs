@@ -11,10 +11,10 @@ using System.Linq;
 public static class SDFS //What? did you think that I wouldn't find a way to bring door into this? Door is good game, with good code, yes yes.
 {
     public static string contents; //A string we will use to make things a bit more simple when making this script
-#if UNITY_EDITOR
-    //public static string path = Application.dataPath + "/SDI.H"; //the place where we'll make this script
-#endif
-    public static string path = "Internal storage/Android/data/SDI.H"; //the place where we'll make this script
+
+public static string path = Application.dataPath + "/SDI.H"; //the place where we'll make this script
+
+    //public static string path = "Internal storage/Android/data/SDI.H"; //the place where we'll make this script
 
     public static void CreateFile(int fileID, int Character, int Level, int Lives) //this is where the file is created
     {

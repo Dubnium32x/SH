@@ -59631,12 +59631,12 @@ PrefabInstance:
     - target: {fileID: 5139018658819768767, guid: 066392fa55916bd47b094d0e47eea445,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -0.5069752
+      value: -2.5075114
       objectReference: {fileID: 0}
     - target: {fileID: 5139018658819768767, guid: 066392fa55916bd47b094d0e47eea445,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.57393014
+      value: 0.8493779
       objectReference: {fileID: 0}
     - target: {fileID: 5139018658819782033, guid: 066392fa55916bd47b094d0e47eea445,
         type: 3}
@@ -59933,27 +59933,47 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8122730014425465267, guid: 00e56b86450692f41ac7a001c0df3409,
         type: 3}
-      propertyPath: m_OcclusionCulling
+      propertyPath: m_ClearFlags
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 8122730014425465267, guid: 00e56b86450692f41ac7a001c0df3409,
+    - target: {fileID: 8122730014430637675, guid: 00e56b86450692f41ac7a001c0df3409,
         type: 3}
-      propertyPath: m_HDR
-      value: 0
+      propertyPath: PanTime
+      value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 8122730014425465267, guid: 00e56b86450692f41ac7a001c0df3409,
+    - target: {fileID: 8122730014430637675, guid: 00e56b86450692f41ac7a001c0df3409,
         type: 3}
-      propertyPath: m_AllowDynamicResolution
-      value: 0
+      propertyPath: FocusSpeed.x
+      value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 8122730014425465267, guid: 00e56b86450692f41ac7a001c0df3409,
+    - target: {fileID: 8122730014430637675, guid: 00e56b86450692f41ac7a001c0df3409,
         type: 3}
-      propertyPath: m_RenderingPath
-      value: -1
+      propertyPath: FocusSpeed.y
+      value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 8122730014425465267, guid: 00e56b86450692f41ac7a001c0df3409,
+    - target: {fileID: 8122730014430637675, guid: 00e56b86450692f41ac7a001c0df3409,
         type: 3}
-      propertyPath: m_ClearFlags
+      propertyPath: FollowSpeed.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8122730014430637675, guid: 00e56b86450692f41ac7a001c0df3409,
+        type: 3}
+      propertyPath: FollowSpeed.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8122730014430637675, guid: 00e56b86450692f41ac7a001c0df3409,
+        type: 3}
+      propertyPath: PanStart.x
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8122730014430637675, guid: 00e56b86450692f41ac7a001c0df3409,
+        type: 3}
+      propertyPath: PanEnd.x
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8122730014430637675, guid: 00e56b86450692f41ac7a001c0df3409,
+        type: 3}
+      propertyPath: FollowTarget
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8270397923523986695, guid: 00e56b86450692f41ac7a001c0df3409,

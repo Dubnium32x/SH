@@ -125,13 +125,13 @@ namespace SonicRealms.Level
             PanOffset = Vector2.zero;
             FollowTarget = true;
             WaitTimer = 0f;
-            _target = GameObject.FindWithTag("Player").transform;
             OnChangeTarget = OnChangeTarget ?? new ChangeTargetEvent();
             Camera = GetComponent<Camera>();
         }
 
         public void Start()
         {
+            _target = GameObject.FindGameObjectWithTag("Player").transform;
             if (Target)
             {
                 OnChangeTarget.Invoke(null);

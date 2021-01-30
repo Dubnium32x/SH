@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using System.IO;
 using System.Linq;
+
 //Made by Birb64, modified from door 3, for use of sonic harmony.
 /// <summary>
 /// SDFS(Simple dimple file setup) is used to setup files that haven't been created yet
@@ -11,9 +12,9 @@ public static class SDFS //What? did you think that I wouldn't find a way to bri
 {
     public static string contents; //A string we will use to make things a bit more simple when making this script
 #if UNITY_EDITOR
-    public static string path = Application.dataPath + "/SDI.H"; //the place where we'll make this script
+    //public static string path = Application.dataPath + "/SDI.H"; //the place where we'll make this script
 #endif
-    //public static string path = "C:/Sonic Harmony/SDI.H"; //the place where we'll make this script
+    public static string path = "Internal storage/Android/data/SDI.H"; //the place where we'll make this script
 
     public static void CreateFile(int fileID, int Character, int Level, int Lives) //this is where the file is created
     {

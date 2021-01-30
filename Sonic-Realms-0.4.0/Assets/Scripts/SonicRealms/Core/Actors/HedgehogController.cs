@@ -1130,6 +1130,7 @@ namespace SonicRealms.Core.Actors
         /// </summary>
         float Timer;
         float TimeSince;
+        float TheClocko;
         private void HandleForces(float timestep)
         {
             if (Grounded)
@@ -1148,23 +1149,35 @@ namespace SonicRealms.Core.Actors
                     
                 if (Mathf.Abs(SurfaceAngle) == 90 && TimeSince <= MaxSpeed)
                 {
-                    TimeSince += Time.deltaTime;
+                    TimeSince += Time.deltaTime*10f;
                     GroundVelocity -= (SlopeGravity + TimeSince) * Mathf.Sin(SurfaceAngle * Mathf.Deg2Rad) * timestep;
                 }
                 else TimeSince = 0;
                 if (Mathf.Abs(SurfaceAngle) <= 90)
                 {
-                    GroundVelocity -= SlopeGravity * Mathf.Sin(SurfaceAngle * Mathf.Deg2Rad) * timestep;
+                    if (Mathf.Abs(SurfaceAngle) > 45)
+                    {
+                        GroundVelocity -= SlopeGravity * Mathf.Sin(SurfaceAngle * Mathf.Deg2Rad) * timestep;
+                        TheClocko = 0;
+                    }
+                    if(Mathf.Abs(SurfaceAngle) <= 45)
+                    {
+
+                        TheClocko += Time.deltaTime * 3.2f;
+                        GroundVelocity -= (SlopeGravity + TheClocko) * Mathf.Sin(SurfaceAngle * Mathf.Deg2Rad) * timestep; 
+                    }
+                    else { TheClocko = 0; }
                     if (Mathf.Abs(GroundVelocity) >= MaxSpeed)
                     {
                         Timer += Time.deltaTime;
-                        if (Mathf.Abs(SurfaceAngle) < 45 && Timer > MaxSpeed)
+                        if (Mathf.Abs(SurfaceAngle) < 45)
                         {
-                            GroundVelocity -= SlopeGravity * Mathf.Sin(SurfaceAngle * Mathf.Deg2Rad) * timestep;
+                            GroundVelocity -= (SlopeGravity + Timer) * Mathf.Sin(SurfaceAngle * Mathf.Deg2Rad) * timestep;
                         }
                     }
                     else Timer = 0;
                 }
+                
                 
                 if (GroundVelocity > 0)
                     {

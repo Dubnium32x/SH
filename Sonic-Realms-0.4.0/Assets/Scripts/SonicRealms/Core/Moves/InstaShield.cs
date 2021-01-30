@@ -126,11 +126,11 @@ namespace SonicRealms.Core.Moves
         }
 
         public bool active;
+        float TimeSpentInBurst;
         public override void OnActiveUpdate()
         {
             /*if (Input.GetButton(CloudBurstButton))
             CloudBurstSoundSource.pitch = dashTimer / 3.2f;*/
-            
             base.OnActiveUpdate();
 
             if ((InvincibilityTimer -= Time.deltaTime) < 0.0f)
@@ -145,7 +145,7 @@ namespace SonicRealms.Core.Moves
                     dashTimer = 5;
                 }
 
-
+            TimeSpentInBurst += Time.deltaTime * dashSpeed;
                 dashTimer += Time.deltaTime * dashSpeed;
                 DashHeight = dashTimer;
             
@@ -162,7 +162,7 @@ namespace SonicRealms.Core.Moves
                     active = false;
 
                     Controller.Animator.SetBool(CloudBurstBool, true);
-                    Animator.SetFloat(ChargedBurst, DashVelocity.x);
+                    
                 }
                     
                 else
@@ -170,7 +170,6 @@ namespace SonicRealms.Core.Moves
                     Controller.RelativeVelocity = new Vector2(-DashVelocity.x, DashHeight);
                     active = false;
                     Controller.Animator.SetBool(CloudBurstBool, true);
-                    Animator.SetFloat(ChargedBurst, DashVelocity.x);
                 }
             }
             
@@ -187,10 +186,10 @@ namespace SonicRealms.Core.Moves
             if (!Controller.HasPowerup<Invincibility>())
                 Health.Invincible = false;
         }
-        public override void Update()
+        public override void FixedUpdate()
         {
-            base.Update();
-            if(Controller.Grounded) Controller.Animator.SetBool(CloudBurstBool, false);
+            Animator.SetFloat(ChargedBurst, TimeSpentInBurst);
+            if (Controller.Grounded) Controller.Animator.SetBool(CloudBurstBool, false);
             /*if (Controller.Grounded && CloudBurstSoundSource.clip != CloudBurstSoundEnd) { CloudBurstSoundSource.pitch -= Time.deltaTime; }
             if(CloudBurstSoundSource.pitch < 0) { CloudBurstSoundSource.Stop(); }*/
         }

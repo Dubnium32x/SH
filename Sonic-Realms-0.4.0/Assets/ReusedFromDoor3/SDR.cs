@@ -8,12 +8,14 @@ public static class SDR
 {
     //Save data reader
     // Start is called before the first frame update
-    public static string Path = Application.dataPath + "/SDI.H";
+    //public static string Path = Application.dataPath + "/SDI.H";
+    public static string Path = "Internal storage/Android/data/SDI.H";
 
     //save data value int
     public static int SDVint(string Placement)
     {
         string path = Application.dataPath + "/SDI.H";
+        //string path = "Internal storage/Android/data/SDI.H";
         int value = 0;
         if (File.Exists(path))
         {
@@ -34,6 +36,7 @@ public static class SDR
     public static float SDVfloat(string Placement)
     {
         string path = Application.dataPath + "/SDI.H";
+        //string path = "Internal storage/Android/data/SDI.H";
         float value = 0;
         if (File.Exists(path))
         {
@@ -53,6 +56,7 @@ public static class SDR
     public static bool DDVER(string Placement)
     {
         string path = Application.dataPath + "/SDI.H";
+        //string path = "Internal storage/Android/data/SDI.H";
         bool Exists = false;
         if (File.Exists(path))
         {
@@ -79,6 +83,7 @@ public static class SDR
     public static string ASV(string Placement)
     {
         string path = Application.dataPath + "/SDI.H"; //I wanted this void to be transportable, so I made this one for scripts without the path
+        //string path = "Internal storage/Android/data/SDI.H"; //I wanted this void to be transportable, so I made this one for scripts without the path
         if (File.Exists(path))
         {
             foreach (string thing in File.ReadAllLines(path).Where(line => line.StartsWith(Placement))) //finds the column
@@ -95,6 +100,7 @@ public static class SDR
     public static string All()
     {
             string path = Application.dataPath + "/SDI.H";
+            //string path = "Internal storage/Android/data/SDI.H";
         return File.ReadAllText(path);
     }
 }

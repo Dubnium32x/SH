@@ -24,7 +24,7 @@ public class DoesFileHave : MonoBehaviour
 
     bool PlacementMoving;
     // Update is called once per frame
-    void FixedUpdate()
+    void Update()
     {
         DontDestroyOnLoad(SaveManaging);
         

@@ -48,7 +48,7 @@ BoxCollider2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 101966}
-  m_Enabled: 0
+  m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
   m_IsTrigger: 0
@@ -98,6 +98,7 @@ MonoBehaviour:
   OnPlatformExit:
     m_PersistentCalls:
       m_Calls: []
+  PlatTrigSource: {fileID: 0}
   PlatformEnterSound: {fileID: 0}
   PlatformLoopSound: {fileID: 0}
   PlatformExitSound: {fileID: 0}
@@ -125,6 +126,8 @@ MonoBehaviour:
   SurfaceBool: 
   ActivateDelay: 0.5333333
   BrokenTrigger: Broken
+  hitBox: {fileID: 0}
+  boxGain: {fileID: 0}
 --- !u!114 &11406708
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -161,9 +164,6 @@ MonoBehaviour:
   Animator: {fileID: 9590922}
   ActivatedTrigger: 
   ActivatedBool: 
-  ActivateSound: {fileID: 0}
-  LoopSound: {fileID: 0}
-  DeactivateSound: {fileID: 0}
   Activators: []
 --- !u!114 &11479540
 MonoBehaviour:
@@ -178,6 +178,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   TriggerFromChildren: 1
+  AreaSource: {fileID: 0}
   AllowMultiple: 0
   OnAreaEnter:
     m_PersistentCalls:

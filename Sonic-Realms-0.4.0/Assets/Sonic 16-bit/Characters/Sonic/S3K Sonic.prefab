@@ -886,7 +886,7 @@ MonoBehaviour:
     m_Bits: 3221225488
   Reactives: []
   Sensors: {fileID: 11487382}
-  GroundFriction: 1.65
+  GroundFriction: 1.48
   AirDrag: 0.099
   AirDragRequiredSpeed: {x: 0.075, y: 2.4}
   AirGravity: 7.46
@@ -2477,7 +2477,7 @@ MonoBehaviour:
   ActiveTrigger: 
   ActiveBool: Skidding
   AvailableBool: 
-  MinimumSpeed: 1.6
+  MinimumSpeed: 0.8
   SkidSoundSource: {fileID: 6458350364646533437}
   SkidSound: {fileID: 8300000, guid: c735f300cd5e05d44bbf6b9a7143d6b8, type: 3}
   SkidSoundRepeatTime: 0.0667
@@ -14422,7 +14422,7 @@ ParticleSystem:
       serializedVersion: 2
       minMaxState: 0
       minColor: {r: 1, g: 1, b: 1, a: 1}
-      maxColor: {r: 1, g: 0, b: 0, a: 0.64705884}
+      maxColor: {r: 1, g: 0.56078434, b: 1, a: 0.64705884}
       maxGradient:
         serializedVersion: 2
         key0: {r: 1, g: 1, b: 1, a: 1}

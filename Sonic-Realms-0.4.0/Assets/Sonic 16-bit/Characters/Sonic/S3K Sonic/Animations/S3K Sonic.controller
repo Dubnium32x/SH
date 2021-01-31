@@ -1248,7 +1248,7 @@ AnimatorStateTransition:
   m_Conditions:
   - m_ConditionMode: 4
     m_ConditionEvent: Absolute Ground Speed
-    m_EventTreshold: 7.2
+    m_EventTreshold: 5
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: 110242734}
   m_Solo: 0
@@ -2226,8 +2226,8 @@ MonoBehaviour:
   GroundControl: {fileID: 0}
   UnchangedValue: 0
   Acceleration: 3.375
-  Deceleration: 18
-  TopSpeed: 6.4
+  Deceleration: 9
+  TopSpeed: 3.6
   MinSlopeGravitySpeed: 0
 --- !u!114 &11438284
 MonoBehaviour:
@@ -2404,9 +2404,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   AirControl: {fileID: 0}
   UnchangedValue: 0
-  Acceleration: 6.75
-  Deceleration: 6.75
-  TopSpeed: 7.2
+  Acceleration: 3.375
+  Deceleration: 3.375
+  TopSpeed: 3.6
 --- !u!114 &11468146
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2546,9 +2546,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   AirControl: {fileID: 0}
   UnchangedValue: 0
-  Acceleration: 1.6875
-  Deceleration: 1.6875
-  TopSpeed: 1.8
+  Acceleration: 0.84375
+  Deceleration: 0.84375
+  TopSpeed: 0.9
 --- !u!114 &11488478
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2641,7 +2641,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   GroundControl: {fileID: 0}
   UnchangedValue: 0
-  Acceleration: 3.75
+  Acceleration: 1.6875
   Deceleration: 9
   TopSpeed: 3.2
   MinSlopeGravitySpeed: 0
@@ -2952,7 +2952,7 @@ AnimatorStateTransition:
   m_Conditions:
   - m_ConditionMode: 3
     m_ConditionEvent: Absolute Ground Speed
-    m_EventTreshold: 5
+    m_EventTreshold: 3.5
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: 110242734}
   m_Solo: 0
@@ -3446,7 +3446,7 @@ AnimatorStateTransition:
   m_Conditions:
   - m_ConditionMode: 4
     m_ConditionEvent: Absolute Ground Speed
-    m_EventTreshold: 5
+    m_EventTreshold: 3.5
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: 110242076}
   m_Solo: 0
@@ -7176,7 +7176,7 @@ AnimatorStateTransition:
   m_Conditions:
   - m_ConditionMode: 3
     m_ConditionEvent: Absolute Ground Speed
-    m_EventTreshold: 7.2
+    m_EventTreshold: 5
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: -2875580192174257498}
   m_Solo: 0

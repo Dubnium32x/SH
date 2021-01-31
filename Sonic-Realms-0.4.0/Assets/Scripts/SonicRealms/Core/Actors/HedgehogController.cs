@@ -1149,48 +1149,29 @@ namespace SonicRealms.Core.Actors
                     
                 if (Mathf.Abs(SurfaceAngle) == 90 && TimeSince <= MaxSpeed)
                 {
-                    TimeSince += Time.deltaTime*10f;
+                    TimeSince += Time.deltaTime;
                     GroundVelocity -= (SlopeGravity + TimeSince) * Mathf.Sin(SurfaceAngle * Mathf.Deg2Rad) * timestep;
                 }
                 else TimeSince = 0;
                 if (Mathf.Abs(SurfaceAngle) <= 90)
                 {
-                    if (Mathf.Abs(SurfaceAngle) > 45)
-                    {
-                        GroundVelocity -= SlopeGravity * Mathf.Sin(SurfaceAngle * Mathf.Deg2Rad) * timestep;
-                        TheClocko = 0;
-                    }
-                    if(Mathf.Abs(SurfaceAngle) <= 45)
-                    {
-
-                        TheClocko += Time.deltaTime * 3.2f;
-                        GroundVelocity -= (SlopeGravity + TheClocko) * Mathf.Sin(SurfaceAngle * Mathf.Deg2Rad) * timestep; 
-                    }
-                    else { TheClocko = 0; }
-                    if (Mathf.Abs(GroundVelocity) >= MaxSpeed)
-                    {
-                        Timer += Time.deltaTime;
-                        if (Mathf.Abs(SurfaceAngle) < 45)
-                        {
-                            GroundVelocity -= (SlopeGravity + Timer) * Mathf.Sin(SurfaceAngle * Mathf.Deg2Rad) * timestep;
-                        }
-                    }
-                    else Timer = 0;
+                    GroundVelocity -= (SlopeGravity + Mathf.Abs(SurfaceAngle / 32)) * Mathf.Sin(SurfaceAngle * Mathf.Deg2Rad) * timestep;
                 }
-                
-                
+                else { TheClocko = 0; }
+
+
                 if (GroundVelocity > 0)
                     {
-                        if (Mathf.Abs(GroundVelocity) > MaxSpeed)
-                            GroundVelocity -= (SurfaceAngle * SlopeGravity + GroundVelocity - IsRoll) * Input.GetAxisRaw("Horizontal") * Mathf.Sin(SurfaceAngle * Mathf.Deg2Rad) * timestep;
+                        if (Mathf.Abs(GroundVelocity) > MaxSpeed + 32)
+                            GroundVelocity -= (SlopeGravity + GroundVelocity - IsRoll) * Input.GetAxisRaw("Horizontal") * Mathf.Sin(SurfaceAngle * Mathf.Deg2Rad) * timestep;
 
                         
                     
                 }
                     if (GroundVelocity < 0)
                     {
-                        if (Mathf.Abs(GroundVelocity) > MaxSpeed)
-                            GroundVelocity -= (SurfaceAngle * SlopeGravity + GroundVelocity - IsRoll) * Input.GetAxisRaw("Horizontal") * -Mathf.Sin(SurfaceAngle * Mathf.Deg2Rad) * timestep;
+                        if (Mathf.Abs(GroundVelocity) > MaxSpeed + 32)
+                            GroundVelocity -= (SlopeGravity + GroundVelocity - IsRoll) * Input.GetAxisRaw("Horizontal") * -Mathf.Sin(SurfaceAngle * Mathf.Deg2Rad) * timestep;
 
                         
                 }
@@ -1201,10 +1182,10 @@ namespace SonicRealms.Core.Actors
 
 
                     // Speed limit
-                    if (GroundVelocity > MaxSpeed)
+                    /*if (GroundVelocity > MaxSpeed)
                         GroundVelocity = MaxSpeed;
                     else if (GroundVelocity < -MaxSpeed)
-                        GroundVelocity = -MaxSpeed;
+                        GroundVelocity = -MaxSpeed;*/
 
                     // Detachment from walls if speed is too low
                     if (DetachWhenSlow &&

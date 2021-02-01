@@ -275,6 +275,8 @@ MonoBehaviour:
   Animator: {fileID: 9589834}
   ActivateImmediateTrigger: Triggered
   ActivatedImmediately: 0
+  BoxSize: {x: 0.16, y: 0.12, z: 0}
+  CheckpointID: 1
 --- !u!1 &177274
 GameObject:
   m_ObjectHideFlags: 0

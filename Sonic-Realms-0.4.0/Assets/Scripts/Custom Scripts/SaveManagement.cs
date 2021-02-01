@@ -27,8 +27,11 @@ public class SaveManagement : MonoBehaviour
                 CurrentObject = Sonic;
                 if (GameObject.Find("Sonic") == null)
                 {
-
-                    StandInCharac = Instantiate(Sonic, new Vector3(SDR.SDVfloat("CheckpointX: "), SDR.SDVfloat("CheckpointY: "), SDR.SDVfloat("CheckpointZ: ")), Quaternion.identity);
+                    StandInCharac = Instantiate(Sonic, new Vector3(
+                          SDR.SDVfloat(SDR.SDVint("CurrentFileLoaded: ").ToString() + "CheckpointX: ")
+                        , SDR.SDVfloat(SDR.SDVint("CurrentFileLoaded: ").ToString() + "CheckpointY: ")
+                        , SDR.SDVfloat(SDR.SDVint("CurrentFileLoaded: ").ToString() + "CheckpointZ: "))
+                        , Quaternion.identity);
 
                 }
                 /*if (GameObject.FindGameObjectWithTag("MainCamera") == null && GameObject.Find("Sonic") != null)
@@ -51,7 +54,6 @@ public class SaveManagement : MonoBehaviour
                 if (GameObject.Find("Kicks") == null)
                 {
                     StandInCharac = Instantiate(Kicks, new Vector3(SDR.SDVfloat("CheckpointX: "), SDR.SDVfloat("CheckpointY: "), SDR.SDVfloat("CheckpointZ: ")), Quaternion.identity);
-
                 }
                 /*if (GameObject.FindGameObjectWithTag("MainCamera") == null && GameObject.Find("Kicks") != null)
                 {
@@ -76,7 +78,6 @@ public class SaveManagement : MonoBehaviour
                     StandInCharac = Instantiate(Sonic, new Vector3(SDR.SDVfloat("CheckpointX: "), SDR.SDVfloat("CheckpointY: "), SDR.SDVfloat("CheckpointZ: ")), Quaternion.identity);
 
                     StandInCharac2 = Instantiate(Kicks, new Vector3(SDR.SDVfloat("CheckpointX: "), SDR.SDVfloat("CheckpointY: "), SDR.SDVfloat("CheckpointZ: ")), Quaternion.identity);
-
                 }
                 /*if (GameObject.FindGameObjectWithTag("MainCamera") == null && GameObject.Find("Sonic") != null)
                 {

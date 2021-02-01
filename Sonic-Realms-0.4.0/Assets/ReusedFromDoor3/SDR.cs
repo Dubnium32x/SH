@@ -12,7 +12,7 @@ public static class SDR
     public static string Path = "Internal storage/Android/data/SDI.H";
 
     //save data value int
-    public static int SDVint(string Placement)
+    public static int SDVint(string Placement, string Remove)
     {
         string path = Application.dataPath + "/SDI.H";
         //string path = "Internal storage/Android/data/SDI.H";
@@ -21,7 +21,7 @@ public static class SDR
         {
             foreach (string thing in File.ReadAllLines(path).Where(line => line.StartsWith(Placement)))
             {
-                value = int.Parse(thing.Replace(Placement, ""));
+                value = int.Parse(thing.Replace(Placement, Remove));
                 return value;
             }
             return value = 0;
@@ -31,18 +31,26 @@ public static class SDR
             return value = 0;
         }
     }
-
+    public static int SDVint(string Placement)
+    {
+        return SDVint(Placement, "");
+    }
+    
     //save data value float
     public static float SDVfloat(string Placement)
     {
+        return SDVfloat(Placement, "");
+    }
+    public static float SDVfloat(string Placement, string Remove)
+    {
         string path = Application.dataPath + "/SDI.H";
         //string path = "Internal storage/Android/data/SDI.H";
-        float value = 0;
+        float value;
         if (File.Exists(path))
         {
             foreach (string thing in File.ReadAllLines(path).Where(line => line.StartsWith(Placement)))
             {
-                value = int.Parse(thing.Replace(Placement, ""));
+                value = float.Parse(thing.Replace(Placement, Remove));
                 return value;
             }
             return value = 0;

@@ -1,5 +1,6 @@
 ﻿using SonicRealms.Core.Actors;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 namespace SonicRealms.Core.Moves
 {
@@ -47,8 +48,8 @@ namespace SonicRealms.Core.Moves
             base.Update();
             if (IsDead)
             {
-                Controller.transform.position += Vector3.back * 0.08f;
-                Controller.transform.rotation = new Quaternion(0, 0, Controller.transform.rotation.z + 32 * Time.deltaTime, Controller.transform.rotation.w + 32 * Time.deltaTime);
+                Controller.transform.position += Vector3.back * 0.05f;
+                Controller.transform.rotation = new Quaternion(0, 0, Controller.transform.rotation.z + 24 * Time.deltaTime, Controller.transform.rotation.w + 24 * Time.deltaTime);
             }
         }
         public override void OnActiveEnter(State previousState)
@@ -73,6 +74,7 @@ namespace SonicRealms.Core.Moves
             // Start the death timer
             RestartTimer = RestartDelay;
             Restarting = true;
+            IsDead = true;
         }
 
         public override void OnActiveUpdate()
@@ -84,8 +86,7 @@ namespace SonicRealms.Core.Moves
             if (RestartTimer < 0.0f)
             {
                 RestartTimer = 0.0f;
-                Restarting = false;
-                End();
+                SceneManager.LoadScene(SDR.SDVint(SDR.SDVint("CurrentFileLoaded: ").ToString() + "Level: "));
             }
         }
     }

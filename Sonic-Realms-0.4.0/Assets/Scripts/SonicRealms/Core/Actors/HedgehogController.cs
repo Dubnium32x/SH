@@ -740,6 +740,7 @@ namespace SonicRealms.Core.Actors
         public static bool DebugOnS;
         public void Update()
         {
+
             #region SINCE THE RINGS CAN'T DO SHIT
             //If can't collect, update the timer and check for completion
             GetComponent<RingCounter>().CanCollectTimer -= Time.deltaTime;
@@ -790,7 +791,7 @@ namespace SonicRealms.Core.Actors
             GameObject.FindGameObjectWithTag("DebugName").GetComponent<Text>().text = !DebugOn ? "" : "sdds harmonica edition 7.3";
             GameObject.FindGameObjectWithTag("DebugInstructions").GetComponent<Text>().text = !DebugOn ? "" : "Controls: \n \nKeypad 0 = activate \n \nKeypad period = deactivate \n \nKeypad 1 / 3 = scale up / down \nKeypad 2 = reset scale \n \nKeypad 7 / 9 = rotate right / left \nKeypad 8 = reset rotation \n \nKeypad 4 / 6 = left / right through object select \nJumpKey = place \nKeypad + = multiplace";
 
-            GameObject.FindGameObjectWithTag("DebugValues").GetComponent<Text>().text = !DebugOn ? "" : "Selected Object: " + ObjectId.ToString() + "\nObject ID: " + IOFTName.Replace("(UnityEngine.GameObject)", "") + "\nCurrent Rotation: " + ObjectRotation.ToString() + "\nCurrent Scale: " + ObjectScale.ToString();
+            GameObject.FindGameObjectWithTag("DebugValues").GetComponent<Text>().text = !DebugOn ? "" : "Selected Object: " + ObjectId.ToString() + "\nObject ID: " + IOFTName.Replace("(UnityEngine.GameObject)", "") + "\nCurrent Rotation: " + ObjectRotation.ToString() + "\nCurrent Scale: " + ObjectScale.ToString() + "\nPlayerPosition: " + transform.position.ToString() + "\nPlayerRotation: " + SurfaceAngle.ToString();
             #endregion
             
 

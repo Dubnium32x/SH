@@ -130,8 +130,8 @@ namespace SonicRealms.Level
         }
 
         public void Start()
-        {
-            _target = GameObject.FindGameObjectWithTag("Player").transform;
+        {_target = GameObject.FindGameObjectWithTag("Player").transform;
+            
             if (Target)
             {
                 OnChangeTarget.Invoke(null);
@@ -141,6 +141,7 @@ namespace SonicRealms.Level
 
         public void FixedUpdate()
         {
+            _target = GameObject.FindGameObjectWithTag("Player").transform;
             if (!Death.IsDead)
             {
                 HandleState();

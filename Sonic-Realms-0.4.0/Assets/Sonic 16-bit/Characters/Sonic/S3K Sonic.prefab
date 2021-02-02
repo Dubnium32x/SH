@@ -13218,7 +13218,7 @@ MonoBehaviour:
     m_FixedHeight: 0
     m_StretchWidth: 1
     m_StretchHeight: 0
-  RegularMusicS: {fileID: 8300000, guid: 4132b42a6ee046d42b6464911ea63e57, type: 3}
+  RegularMusicS: {fileID: 8300000, guid: 0eec854405e0b3e4a9393fbb4ccbed45, type: 3}
   ScoreModifier: {fileID: 0}
   RingsModifier: {fileID: 0}
   LivesModifier: {fileID: 0}

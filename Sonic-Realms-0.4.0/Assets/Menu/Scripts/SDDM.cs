@@ -6,6 +6,7 @@ using System.Linq;
 
 public static class SDDM //Simple dimple data maker modifies the save data when needed
 {
+    
     public static void Modify(string Placement, string ModifiedValue)
     {
         string path = Application.dataPath + "/SDI.H";

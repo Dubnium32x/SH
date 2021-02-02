@@ -3,13 +3,30 @@ using System.Collections.Generic;
 using UnityEngine;
 using System.IO;
 using System.Linq;
+using static SDR;
 //made by Birb64, modified from door3 for use of sonic harmony.
 public static class SDR
 {
+
+    public static string CurrentFileLoaded = "CurrentFileLoaded: ";
+    public static string CheckpointsActivated = SDVint(CurrentFileLoaded).ToString() + "CheckpointsActive: ";
+    /// <summary>
+    /// 0 is for X axis. 1 is for Y axis. 2 is for Z axis
+    /// </summary>
+    public static string[] CheckpointPosition = new string[3]
+    {
+      SDVint(CurrentFileLoaded).ToString() + "CheckpointX: ", SDVint(CurrentFileLoaded).ToString() + "CheckpointY: ", SDVint(CurrentFileLoaded).ToString() + "CheckpointZ: "
+    };
+    public static string Rings = SDVint(CurrentFileLoaded).ToString() + "Rings: ";
+    public static string Lives = SDVint(CurrentFileLoaded).ToString() + "Lives: ";
+    public static string Score = SDVint(CurrentFileLoaded).ToString() + "Score: ";
+    public static string ChaosEmeralds = SDVint(CurrentFileLoaded).ToString() + "ChaosEmeralds: ";
+    public static string Character = SDVint(CurrentFileLoaded).ToString() + "Character: ";
+    public static string Level = SDVint(CurrentFileLoaded).ToString() + "Level: ";
     //Save data reader
     // Start is called before the first frame update
-    //public static string Path = Application.dataPath + "/SDI.H";
-    public static string Path = "Internal storage/Android/data/SDI.H";
+    public static string Path = Application.dataPath + "/SDI.H";
+    public static string AndroidPath = "Internal storage/Android/data/SDI.H";
 
     //save data value int
     public static int SDVint(string Placement, string Remove)

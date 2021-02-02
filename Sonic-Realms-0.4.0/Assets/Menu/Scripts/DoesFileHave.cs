@@ -46,7 +46,6 @@ public class DoesFileHave : MonoBehaviour
                 if(shouldActivate == 2)
                 {
                     SceneManager.LoadScene(SDR.SDVint("Level: "));
-                    SaveManaging.GetComponent<SaveManagement>().CurrentFile = SDR.SDVint("Level: ");
                 }
             }
         }
@@ -55,7 +54,7 @@ public class DoesFileHave : MonoBehaviour
             if (Input.GetButtonDown("Submit") && shouldActivate == 2 || Input.GetButtonDown("Jump") && shouldActivate == 2)
             {
                 SDFS.CreateFile(WhichFile, Character, Level, Lives);
-                SaveManaging.GetComponent<SaveManagement>().CurrentFile = WhichFile;
+                SDDM.Modify( SDR.CurrentFileLoaded, SDR.CurrentFileLoaded + WhichFile);
                 
                 SDDM.Make(WhichFile.ToString() + "ChaosEmeralds: ", "\n" + "CurrentFileLoaded: " + WhichFile.ToString());
 

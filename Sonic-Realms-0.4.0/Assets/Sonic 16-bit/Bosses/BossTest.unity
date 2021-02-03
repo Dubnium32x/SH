@@ -299,6 +299,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: The helping crewe
       objectReference: {fileID: 0}
+    - target: {fileID: 8311184009500113793, guid: 00e56b86450692f41ac7a001c0df3409,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 9163742740455556240, guid: 00e56b86450692f41ac7a001c0df3409,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -837,6 +842,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 991611291}
+  - component: {fileID: 991611292}
   m_Layer: 0
   m_Name: Chest
   m_TagString: Untagged
@@ -862,6 +868,25 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!95 &991611292
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 991611290}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 4eba6460e8b63d34da05911cef0fde90, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &1034821764
 GameObject:
   m_ObjectHideFlags: 0

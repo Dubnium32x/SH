@@ -93,7 +93,7 @@ namespace SonicRealms.Core.Moves
             ClearanceHeight = 0.25f;
 
             ActivateSpeed = 3.9f;
-            ReleaseSpeed = 2.4f;
+            ReleaseSpeed = 4.8F;
         }
 
         public override void Awake()

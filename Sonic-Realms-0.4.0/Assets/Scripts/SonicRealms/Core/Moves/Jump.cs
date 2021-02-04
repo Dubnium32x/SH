@@ -144,11 +144,13 @@ namespace SonicRealms.Core.Moves
             End();
         }
         float ChargedJumpSpd;
-        public override void OnActiveUpdate()
+        public override void OnActiveFixedUpdate()
         {
             if (ChargedJumpSpd <= ReleaseSpeed)
+            {
                 ChargedJumpSpd += ChargingSpeed;
-            Controller.Velocity += DMath.AngleToVector((Controller.SurfaceAngle + 90.0f) * Mathf.Deg2Rad) * (ChargedJumpSpd >= ReleaseSpeed ? 0 : ChargedJumpSpd);
+                Controller.Velocity += DMath.AngleToVector((Controller.SurfaceAngle + 90.0f) * Mathf.Deg2Rad) * (ChargedJumpSpd);
+            }
         }
         public override void OnActiveEnter(State previousState)
         {

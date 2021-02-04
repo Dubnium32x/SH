@@ -244,7 +244,7 @@ namespace SonicRealms.Core.Moves
             
             base.OnActiveFixedUpdate();
             var previousUphill = Uphill;
-            Animator.SetFloat("RollSpeed", Animator.GetFloat("Absolute Ground Speed") + (Animator.GetFloat("Absolute Ground Speed") < 0.2f && !Controller.Grounded ? 4.8f : 0));
+            Animator.SetFloat("RollSpeed", Animator.GetFloat("Absolute Ground Speed") + (Animator.GetFloat("Absolute Ground Speed") < 0.2f && !Controller.Grounded ? 1.6f : 0));
 
             if (Controller.GroundVelocity > 0.0f)
             {

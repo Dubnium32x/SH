@@ -780,18 +780,18 @@ namespace SonicRealms.Core.Actors
             if (!DebugOn)
             {
                 IgnoreCollision = Death.IsDead;
-                
+                GameObject.FindGameObjectWithTag("MusicPlayer2").GetComponent<AudioSource>().pitch = 1;
                 ApplyAirGravity = true;
-                if (GameObject.FindWithTag("MusicPlayer2").GetComponent<AudioSource>().clip = DebugState.RegularMusic) GameObject.FindWithTag("MusicPlayer2").GetComponent<AudioSource>().Stop();
+                if (GameObject.FindGameObjectWithTag("MusicPlayer2").GetComponent<AudioSource>().clip = DebugState.RegularMusic) GameObject.FindWithTag("MusicPlayer2").GetComponent<AudioSource>().Stop();
             }
 
             #region Text Fuck
             string IOFTName = DebugState.IOFTS[ObjectId].ToString();
 
-            GameObject.FindGameObjectWithTag("DebugName").GetComponent<Text>().text = !DebugOn ? "" : "sdds harmonica edition 7.3";
+            GameObject.FindGameObjectWithTag("DebugName").GetComponent<Text>().text = !DebugOn ? "" : "sdds harmonica edition 7.4";
             GameObject.FindGameObjectWithTag("DebugInstructions").GetComponent<Text>().text = !DebugOn ? "" : "Controls: \n \nKeypad 0 = activate \n \nKeypad period = deactivate \n \nKeypad 1 / 3 = scale up / down \nKeypad 2 = reset scale \n \nKeypad 7 / 9 = rotate right / left \nKeypad 8 = reset rotation \n \nKeypad 4 / 6 = left / right through object select \nJumpKey = place \nKeypad + = multiplace";
 
-            GameObject.FindGameObjectWithTag("DebugValues").GetComponent<Text>().text = !DebugOn ? "" : "Selected Object: " + ObjectId.ToString() + "\nObject ID: " + IOFTName.Replace("(UnityEngine.GameObject)", "") + "\nCurrent Rotation: " + ObjectRotation.ToString() + "\nCurrent Scale: " + ObjectScale.ToString() + "\nPlayerPosition: " + transform.position.ToString() + "\nPlayerRotation: " + SurfaceAngle.ToString();
+            GameObject.FindGameObjectWithTag("DebugValues").GetComponent<Text>().text = !DebugOn ? "" : "Selected Object: " + ObjectId.ToString() + "\nObject ID: " + IOFTName.Replace("(UnityEngine.GameObject)", "") + "\nCurrent Rotation: " + ObjectRotation.ToString() + "\nCurrent Scale: " + ObjectScale.ToString() + "\nPlayer Position: " + transform.position.ToString() + "\nPlayer Rotation: " + SurfaceAngle.ToString();
             #endregion
             
 
@@ -846,9 +846,12 @@ namespace SonicRealms.Core.Actors
             }
             if (DebugOn == true)
             {
-                if (!GameObject.FindWithTag("MusicPlayer2").GetComponent<AudioSource>().isPlaying)
-                    GameObject.FindWithTag("MusicPlayer2").GetComponent<AudioSource>().Play();
-                GameObject.FindWithTag("MusicPlayer2").GetComponent<AudioSource>().clip = DebugState.RegularMusic;
+
+                
+                if (!GameObject.FindGameObjectWithTag("MusicPlayer2").GetComponent<AudioSource>().isPlaying)
+                    GameObject.FindGameObjectWithTag("MusicPlayer2").GetComponent<AudioSource>().Play();
+                
+                GameObject.FindGameObjectWithTag("MusicPlayer2").GetComponent<AudioSource>().clip = DebugState.RegularMusic;
                 GetComponent<MoveManager>().Perform<Roll>(true, true);
                 IgnoreCollision = true;
                 ApplyAirDrag = true;

@@ -2058,7 +2058,7 @@ MonoBehaviour:
   ChargeButton: Jump
   ReleaseAxis: Vertical
   FastsPerUnit: 48
-  FastsCap: 16
+  FastsCap: 8
   ChargeSound: {fileID: 8300000, guid: 34c8fd532f4bdfe4c9688041b8a4c641, type: 3}
   PeeloutCharge: PeeloutCharge
   PeeloutFasts: PeeloutAnimationSpeed
@@ -2407,9 +2407,9 @@ MonoBehaviour:
   CloudBurstSoundEnd: {fileID: 8300000, guid: cd3ee22123ccf8a45934ff16f681f49b, type: 3}
   CloudBurstBool: CloudBurst
   ChargedBurst: CloudBurstCha
-  DashVelocity: {x: 8, y: 1}
-  DashHeight: 8
-  dashSpeed: 16
+  DashVelocity: {x: 3, y: 0}
+  DashHeight: 4
+  dashSpeed: 8
   dashTimer: 0
   dashTimerStartTime: 0
   active: 0
@@ -13218,7 +13218,7 @@ MonoBehaviour:
     m_FixedHeight: 0
     m_StretchWidth: 1
     m_StretchHeight: 0
-  RegularMusicS: {fileID: 8300000, guid: 0eec854405e0b3e4a9393fbb4ccbed45, type: 3}
+  RegularMusicS: {fileID: 8300000, guid: 545ed80209803e448ad964ab629ecf78, type: 3}
   ScoreModifier: {fileID: 0}
   RingsModifier: {fileID: 0}
   LivesModifier: {fileID: 0}

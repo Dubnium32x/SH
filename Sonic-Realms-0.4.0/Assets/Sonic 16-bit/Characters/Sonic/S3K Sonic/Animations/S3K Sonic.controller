@@ -2278,8 +2278,8 @@ MonoBehaviour:
   Jump: {fileID: 0}
   UnchangedValue: 0
   ActivateSpeed: 0.08
-  ChargingSpeed: 0.16
-  ReleaseSpeed: 1.27
+  ChargingSpeed: 5
+  ReleaseSpeed: 2.5
 --- !u!114 &11452802
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2333,8 +2333,8 @@ MonoBehaviour:
   Jump: {fileID: 0}
   UnchangedValue: 0
   ActivateSpeed: 0.08
-  ChargingSpeed: 0.08
-  ReleaseSpeed: 0.56
+  ChargingSpeed: 2.5
+  ReleaseSpeed: 1.25
 --- !u!114 &11459954
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -5843,7 +5843,7 @@ AnimatorStateMachine:
   m_ChildStates:
   - serializedVersion: 1
     m_State: {fileID: 110204286}
-    m_Position: {x: -228, y: -48, z: 0}
+    m_Position: {x: -230, y: -50, z: 0}
   - serializedVersion: 1
     m_State: {fileID: 110218768}
     m_Position: {x: -228, y: 24, z: 0}

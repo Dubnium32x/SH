@@ -64067,12 +64067,12 @@ PrefabInstance:
     - target: {fileID: 5139018658819768767, guid: 066392fa55916bd47b094d0e47eea445,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0.6934299
+      value: 60.380375
       objectReference: {fileID: 0}
     - target: {fileID: 5139018658819768767, guid: 066392fa55916bd47b094d0e47eea445,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.10446298
+      value: -3.022781
       objectReference: {fileID: 0}
     - target: {fileID: 5139018658819782033, guid: 066392fa55916bd47b094d0e47eea445,
         type: 3}
@@ -64306,7 +64306,7 @@ PrefabInstance:
         type: 3}
       propertyPath: m_audioClip
       value: 
-      objectReference: {fileID: 8300000, guid: 7a97ffc1eb1727d4e9589a9c1ddf572b, type: 3}
+      objectReference: {fileID: 8300000, guid: dc9bf8a08f45dc2439e7e059ac04f9af, type: 3}
     - target: {fileID: 7036588375057841957, guid: 00e56b86450692f41ac7a001c0df3409,
         type: 3}
       propertyPath: m_IsActive
@@ -64360,56 +64360,6 @@ PrefabInstance:
     - target: {fileID: 8122730014425465267, guid: 00e56b86450692f41ac7a001c0df3409,
         type: 3}
       propertyPath: m_Enabled
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 8122730014425465267, guid: 00e56b86450692f41ac7a001c0df3409,
-        type: 3}
-      propertyPath: m_CullingMask.m_Bits
-      value: 4294967295
-      objectReference: {fileID: 0}
-    - target: {fileID: 8122730014425465267, guid: 00e56b86450692f41ac7a001c0df3409,
-        type: 3}
-      propertyPath: m_ClearFlags
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 8122730014430637675, guid: 00e56b86450692f41ac7a001c0df3409,
-        type: 3}
-      propertyPath: PanTime
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 8122730014430637675, guid: 00e56b86450692f41ac7a001c0df3409,
-        type: 3}
-      propertyPath: FocusSpeed.x
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 8122730014430637675, guid: 00e56b86450692f41ac7a001c0df3409,
-        type: 3}
-      propertyPath: FocusSpeed.y
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 8122730014430637675, guid: 00e56b86450692f41ac7a001c0df3409,
-        type: 3}
-      propertyPath: FollowSpeed.y
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 8122730014430637675, guid: 00e56b86450692f41ac7a001c0df3409,
-        type: 3}
-      propertyPath: FollowSpeed.x
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 8122730014430637675, guid: 00e56b86450692f41ac7a001c0df3409,
-        type: 3}
-      propertyPath: PanStart.x
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 8122730014430637675, guid: 00e56b86450692f41ac7a001c0df3409,
-        type: 3}
-      propertyPath: PanEnd.x
-      value: 5
-      objectReference: {fileID: 0}
-    - target: {fileID: 8122730014430637675, guid: 00e56b86450692f41ac7a001c0df3409,
-        type: 3}
-      propertyPath: FollowTarget
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8270397923523986695, guid: 00e56b86450692f41ac7a001c0df3409,

@@ -2277,7 +2277,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Jump: {fileID: 0}
   UnchangedValue: 0
-  ActivateSpeed: 0.08
+  ActivateSpeed: 0.25
   ChargingSpeed: 5
   ReleaseSpeed: 2.5
 --- !u!114 &11452802
@@ -2332,7 +2332,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Jump: {fileID: 0}
   UnchangedValue: 0
-  ActivateSpeed: 0.08
+  ActivateSpeed: 0.125
   ChargingSpeed: 2.5
   ReleaseSpeed: 1.25
 --- !u!114 &11459954

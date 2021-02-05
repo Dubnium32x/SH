@@ -101,7 +101,7 @@ namespace SonicRealms.Core.Actors
         }
         public void Awake()
         {
-           Rings = SDR.SDVint(CurrentFile.ToString() + "Rings: ");
+           Rings = SDR.SDVint(SDR.Rings);
             Animator = Controller.Animator;
 
             if (Animator == null) return;
@@ -116,7 +116,6 @@ namespace SonicRealms.Core.Actors
             DisableCollection(SpillCollectDisableTime);
 
         }
-
 
         /// <summary>
         /// Disables ring collection for the specified duration.
@@ -178,7 +177,7 @@ namespace SonicRealms.Core.Actors
         /// <param name="ringCounter">The ring collector to cast.</param>
         public static implicit operator int (RingCounter ringCounter)
         {
-            return ringCounter ? ringCounter.Rings : 0;
+            return ringCounter.Rings;
         }
     }
 }

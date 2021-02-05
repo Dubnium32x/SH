@@ -43,6 +43,13 @@ namespace SonicRealms.Core.Moves
             RestartTimer = 0.0f;
             Restarting = false;
         }
+        public override void Start()
+        {
+            base.Start();
+
+            IsDead = false;
+            Controller.IgnoreCollision = false;
+        }
         public override void Update()
         {
             base.Update();
@@ -68,26 +75,28 @@ namespace SonicRealms.Core.Moves
             health.Invincible = true;
 
             // Bring the sprite to the front
-            var sprite = Controller.GetComponentInChildren<SpriteRenderer>();
-            sprite.sortingOrder = 10;
-
+            GameObject.FindGameObjectWithTag("SonicSprite").GetComponent<SpriteRenderer>().sortingLayerName = "GUI_HUD_A";
             // Start the death timer
             RestartTimer = RestartDelay;
             Restarting = true;
-            IsDead = true;
         }
 
         public override void OnActiveUpdate()
         {
-            IsDead = true;
             if (!Restarting) return;
+
             
             RestartTimer -= Time.deltaTime;
             if (RestartTimer < 0.0f)
             {
                 RestartTimer = 0.0f;
-                SceneManager.LoadScene(SDR.SDVint(SDR.SDVint("CurrentFileLoaded: ").ToString() + "Level: "));
+                GameObject.FindGameObjectWithTag("SonicSprite").GetComponent<SpriteRenderer>().sortingLayerName = "Level_Mid_A";
+                
+                SceneManager.LoadScene(SDR.SDVint(SDR.Level));
             }
+            if (RestartTimer > 0.0f)
+                IsDead = true;
+            else IsDead = false;
         }
     }
 }

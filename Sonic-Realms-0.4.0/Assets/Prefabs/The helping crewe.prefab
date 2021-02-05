@@ -2309,6 +2309,34 @@ PrefabInstance:
       propertyPath: field of view
       value: 17.1125
       objectReference: {fileID: 0}
+    - target: {fileID: 11461490, guid: e92d905c6df3d9241905d032a490a555, type: 3}
+      propertyPath: FollowSpeed.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 11461490, guid: e92d905c6df3d9241905d032a490a555, type: 3}
+      propertyPath: FollowSpeed.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 11461490, guid: e92d905c6df3d9241905d032a490a555, type: 3}
+      propertyPath: FocusSpeed.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 11461490, guid: e92d905c6df3d9241905d032a490a555, type: 3}
+      propertyPath: FocusSpeed.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 11461490, guid: e92d905c6df3d9241905d032a490a555, type: 3}
+      propertyPath: PanStart.x
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 11461490, guid: e92d905c6df3d9241905d032a490a555, type: 3}
+      propertyPath: PanEnd.x
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 11461490, guid: e92d905c6df3d9241905d032a490a555, type: 3}
+      propertyPath: PanTime
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e92d905c6df3d9241905d032a490a555, type: 3}
 --- !u!1 &8122730014424122643 stripped

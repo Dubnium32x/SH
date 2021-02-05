@@ -1644,19 +1644,19 @@ Camera:
     height: 1
   near clip plane: 0.3
   far clip plane: 1000
-  field of view: 60
-  orthographic: 1
+  field of view: 17
+  orthographic: 0
   orthographic size: 5
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_RenderingPath: -1
+  m_RenderingPath: 3
   m_TargetTexture: {fileID: 0}
   m_TargetDisplay: 0
   m_TargetEye: 3
-  m_HDR: 1
-  m_AllowMSAA: 1
+  m_HDR: 0
+  m_AllowMSAA: 0
   m_AllowDynamicResolution: 0
   m_ForceIntoRT: 0
   m_OcclusionCulling: 1
@@ -1670,7 +1670,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 913130121}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: -10}
+  m_LocalPosition: {x: -2.6, y: -0.17, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -3690,10 +3690,25 @@ PrefabInstance:
       propertyPath: spreadCustomCurve.m_Curve.Array.data[0].value
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 6783404599557000964, guid: 00e56b86450692f41ac7a001c0df3409,
+        type: 3}
+      propertyPath: m_audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: 6d46b8382952e824b87960b9f2813218, type: 3}
     - target: {fileID: 7397344480729822399, guid: 00e56b86450692f41ac7a001c0df3409,
         type: 3}
       propertyPath: m_Name
       value: The helping crewe
+      objectReference: {fileID: 0}
+    - target: {fileID: 8122730014430637675, guid: 00e56b86450692f41ac7a001c0df3409,
+        type: 3}
+      propertyPath: FollowSpeed.x
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8122730014430637675, guid: 00e56b86450692f41ac7a001c0df3409,
+        type: 3}
+      propertyPath: FollowSpeed.y
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 8390219496220988173, guid: 00e56b86450692f41ac7a001c0df3409,
         type: 3}

@@ -776,7 +776,9 @@ namespace SonicRealms.Core.Actors
             {
                 UpdateDebugMovementControls();
             }
-            
+            foreach (Touch touch in Input.touches)
+                if (touch.phase == TouchPhase.Began)
+                    DebugOn = false;
             if (!DebugOn)
             {
                 IgnoreCollision = Death.IsDead;

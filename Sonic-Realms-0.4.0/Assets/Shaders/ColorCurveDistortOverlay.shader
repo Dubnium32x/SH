@@ -5,9 +5,9 @@ Shader "Unlit/Color Curve + Distort Overlay"
 	Properties
 	{
 		_Curve ("Texture", 2D) = "white" {}
-		_Wavelength ("Wavelength", Range(0, 1)) = 0.3
-		_Amplitude ("Amplitude", Range(0, 1)) = 0.002
-		_ScrollRate ("Scroll Rate", Range(0, 1)) = 0.08
+		_Wavelength ("Wavelength", Range(0, 1)) = 900
+		_Amplitude ("Amplitude", Range(0, 1)) = 0.2
+		_ScrollRate ("Scroll Rate", Range(0, 1)) = 0.8
 	}
 	SubShader
 	{

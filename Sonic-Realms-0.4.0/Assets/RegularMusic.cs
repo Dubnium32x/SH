@@ -7,9 +7,6 @@ public class RegularMusic : MonoBehaviour
 {
     public AudioSource SecondaryMusic;
     bool StopGo;
-    public void Start()
-    {
-    }
     void Update()
     {
         

@@ -10,7 +10,7 @@ public static class SDDM //Simple dimple data maker modifies the save data when 
     public static void Modify(string Placement, string ModifiedValue)
     {
         string path = Application.dataPath + "/SDI.H";
-        //string path = "Internal storage/Android/data/SDI.H";
+        //string path = Application.persistentDataPath + "/SDI.H";
         string text = File.ReadAllText(path);
         if (File.Exists(path))
         {
@@ -24,7 +24,7 @@ public static class SDDM //Simple dimple data maker modifies the save data when 
     public static void ModifyAll(string ModifiedValue)
     {
         string path = Application.dataPath + "/SDI.H";
-        //string path = "Internal storage/Android/data/SDI.H";
+        //string path = Application.persistentDataPath + "/SDI.H";
         string text = File.ReadAllText(path);
         if (File.Exists(path))
         {
@@ -34,7 +34,7 @@ public static class SDDM //Simple dimple data maker modifies the save data when 
     public static void Make(string Placement, string CreatedValue)
     {
         string path = Application.dataPath + "/SDI.H";
-        //string path = "Internal storage/Android/data/SDI.H";
+        //string path = Application.persistentDataPath + "/SDI.H";
         if (File.Exists(path))
         {
             foreach (string thing in File.ReadAllLines(path).Where(line => line.StartsWith(Placement)))

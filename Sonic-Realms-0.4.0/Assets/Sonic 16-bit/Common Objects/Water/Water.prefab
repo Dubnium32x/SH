@@ -165,7 +165,7 @@ SpriteRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: d89ce982c0c97ee449b6c6270c8ad88d, type: 2}
+  - {fileID: 2100000, guid: 5307654d42f65c74bb51fc8a5203ef72, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -187,7 +187,7 @@ SpriteRenderer:
   m_SortingLayer: 8
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 7aca43c8f78381445a9f90a2b70083e1, type: 3}
-  m_Color: {r: 1, g: 0, b: 0.8896551, a: 0.484}
+  m_Color: {r: 0.10588236, g: 0.35686275, b: 0.49411768, a: 0.484}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -273,6 +273,7 @@ MonoBehaviour:
   OnPlatformExit:
     m_PersistentCalls:
       m_Calls: []
+  PlatTrigSource: {fileID: 0}
   PlatformEnterSound: {fileID: 0}
   PlatformLoopSound: {fileID: 0}
   PlatformExitSound: {fileID: 0}
@@ -292,6 +293,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   TriggerFromChildren: 1
+  AreaSource: {fileID: 0}
   AllowMultiple: 0
   OnAreaEnter:
     m_PersistentCalls:

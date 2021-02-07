@@ -2407,8 +2407,8 @@ MonoBehaviour:
   CloudBurstSoundEnd: {fileID: 8300000, guid: cd3ee22123ccf8a45934ff16f681f49b, type: 3}
   CloudBurstBool: CloudBurst
   ChargedBurst: CloudBurstCha
-  DashVelocity: {x: 3, y: 0}
-  DashHeight: 4
+  DashVelocity: {x: 1, y: 3.21}
+  DashHeight: 6.4
   dashSpeed: 8
   dashTimer: 0
   dashTimerStartTime: 0
@@ -13150,74 +13150,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 043d9f65674e05b4cb8c38bd17185642, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  textureToDisplay: {fileID: 2800000, guid: ebccdba636c887d4cbd835ab0b20aa6e, type: 3}
-  Rainbow:
-    m_Name: 
-    m_Normal:
-      m_Background: {fileID: 0}
-      m_ScaledBackgrounds: []
-      m_TextColor: {r: 0, g: 0, b: 0, a: 1}
-    m_Hover:
-      m_Background: {fileID: 0}
-      m_ScaledBackgrounds: []
-      m_TextColor: {r: 0, g: 0, b: 0, a: 1}
-    m_Active:
-      m_Background: {fileID: 0}
-      m_ScaledBackgrounds: []
-      m_TextColor: {r: 0, g: 0, b: 0, a: 1}
-    m_Focused:
-      m_Background: {fileID: 0}
-      m_ScaledBackgrounds: []
-      m_TextColor: {r: 0, g: 0, b: 0, a: 1}
-    m_OnNormal:
-      m_Background: {fileID: 0}
-      m_ScaledBackgrounds: []
-      m_TextColor: {r: 0, g: 0, b: 0, a: 1}
-    m_OnHover:
-      m_Background: {fileID: 0}
-      m_ScaledBackgrounds: []
-      m_TextColor: {r: 0, g: 0, b: 0, a: 1}
-    m_OnActive:
-      m_Background: {fileID: 0}
-      m_ScaledBackgrounds: []
-      m_TextColor: {r: 0, g: 0, b: 0, a: 1}
-    m_OnFocused:
-      m_Background: {fileID: 0}
-      m_ScaledBackgrounds: []
-      m_TextColor: {r: 0, g: 0, b: 0, a: 1}
-    m_Border:
-      m_Left: 0
-      m_Right: 0
-      m_Top: 0
-      m_Bottom: 0
-    m_Margin:
-      m_Left: 0
-      m_Right: 0
-      m_Top: 0
-      m_Bottom: 0
-    m_Padding:
-      m_Left: 0
-      m_Right: 0
-      m_Top: 0
-      m_Bottom: 0
-    m_Overflow:
-      m_Left: 0
-      m_Right: 0
-      m_Top: 0
-      m_Bottom: 0
-    m_Font: {fileID: 12800000, guid: dd266a4496d91084392034ad00b0a2c8, type: 2}
-    m_FontSize: 0
-    m_FontStyle: 0
-    m_Alignment: 0
-    m_WordWrap: 0
-    m_RichText: 1
-    m_TextClipping: 0
-    m_ImagePosition: 0
-    m_ContentOffset: {x: 0, y: 0}
-    m_FixedWidth: 0
-    m_FixedHeight: 0
-    m_StretchWidth: 1
-    m_StretchHeight: 0
   RegularMusicS: {fileID: 8300000, guid: 545ed80209803e448ad964ab629ecf78, type: 3}
   ScoreModifier: {fileID: 0}
   RingsModifier: {fileID: 0}
@@ -13260,12 +13192,7 @@ MonoBehaviour:
   - {fileID: 151248, guid: a51c0da6f49c48a49b276b00048a01ee, type: 3}
   - {fileID: 171974, guid: b71076ebdf4a9524c8f7eb60afa54294, type: 3}
   - {fileID: 151248, guid: cb03faf7528e09b429822665ed1e409f, type: 3}
-  AmountOfObjectsInIOFT: 35
-  ObjectId: 0
   PlayerObject: {fileID: 2762339701498152149}
-  SonicBOI: {fileID: 151248}
-  ObjectScale: 1
-  ObjectRotation: 0
 --- !u!82 &199495244083920187
 AudioSource:
   m_ObjectHideFlags: 0

@@ -776,9 +776,7 @@ namespace SonicRealms.Core.Actors
             {
                 UpdateDebugMovementControls();
             }
-            foreach (Touch touch in Input.touches)
-                if (touch.phase == TouchPhase.Began)
-                    DebugOn = false;
+            //foreach (Touch touch in Input.touches) if (touch.phase == TouchPhase.Began) DebugOn = false;
             if (!DebugOn)
             {
                 IgnoreCollision = Death.IsDead;
@@ -1151,17 +1149,18 @@ namespace SonicRealms.Core.Actors
                     }
                 float IsRoll = Roll.IsRolling ? 0 : 32 ;
 
-                
-                    
+                float CommonCalculation = Mathf.Sin(SurfaceAngle * Mathf.Deg2Rad) * timestep;
+
+
                 if (Mathf.Abs(SurfaceAngle) == 90 && TimeSince <= MaxSpeed)
                 {
                     TimeSince += Time.deltaTime;
-                    GroundVelocity -= (SlopeGravity + TimeSince) * Mathf.Sin(SurfaceAngle * Mathf.Deg2Rad) * timestep;
+                    GroundVelocity -= (SlopeGravity + TimeSince) * CommonCalculation;
                 }
                 else TimeSince = 0;
                 if (Mathf.Abs(SurfaceAngle) <= 90)
                 {
-                    GroundVelocity -= (SlopeGravity + Mathf.Abs(SurfaceAngle / 32)) * Mathf.Sin(SurfaceAngle * Mathf.Deg2Rad) * timestep;
+                    GroundVelocity -= (SlopeGravity + Mathf.Abs(SurfaceAngle / 32)) * CommonCalculation;
                 }
                 else { TheClocko = 0; }
 
@@ -1169,7 +1168,7 @@ namespace SonicRealms.Core.Actors
                 if (GroundVelocity > 0)
                     {
                         if (Mathf.Abs(GroundVelocity) > MaxSpeed + 32)
-                            GroundVelocity -= (SlopeGravity + GroundVelocity - IsRoll) * Input.GetAxisRaw("Horizontal") * Mathf.Sin(SurfaceAngle * Mathf.Deg2Rad) * timestep;
+                            GroundVelocity -= (SlopeGravity + GroundVelocity - IsRoll) * Input.GetAxisRaw("Horizontal") * CommonCalculation * timestep;
 
                         
                     
@@ -1177,7 +1176,7 @@ namespace SonicRealms.Core.Actors
                     if (GroundVelocity < 0)
                     {
                         if (Mathf.Abs(GroundVelocity) > MaxSpeed + 32)
-                            GroundVelocity -= (SlopeGravity + GroundVelocity - IsRoll) * Input.GetAxisRaw("Horizontal") * -Mathf.Sin(SurfaceAngle * Mathf.Deg2Rad) * timestep;
+                            GroundVelocity -= (SlopeGravity + GroundVelocity - IsRoll) * Input.GetAxisRaw("Horizontal") * -CommonCalculation;
 
                         
                 }

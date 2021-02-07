@@ -2357,7 +2357,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Jump: {fileID: 0}
   UnchangedValue: 0
-  ActivateSpeed: 0.25
+  ActivateSpeed: 0.24
   ChargingSpeed: 5
   ReleaseSpeed: 2.5
 --- !u!114 &11452802
@@ -2484,9 +2484,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   AirControl: {fileID: 0}
   UnchangedValue: 0
-  Acceleration: 3.375
-  Deceleration: 3.375
-  TopSpeed: 3.6
+  Acceleration: 6.75
+  Deceleration: 6.75
+  TopSpeed: 4.8
 --- !u!114 &11468146
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2626,9 +2626,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   AirControl: {fileID: 0}
   UnchangedValue: 0
-  Acceleration: 0.84375
-  Deceleration: 0.84375
-  TopSpeed: 0.9
+  Acceleration: 3.375
+  Deceleration: 3.375
+  TopSpeed: 3.6
 --- !u!114 &11488478
 MonoBehaviour:
   m_ObjectHideFlags: 1

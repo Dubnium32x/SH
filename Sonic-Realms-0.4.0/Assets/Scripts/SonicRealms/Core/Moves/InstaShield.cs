@@ -158,7 +158,7 @@ namespace SonicRealms.Core.Moves
                 
                 if (Controller.FacingForward)
                 {
-                    Controller.RelativeVelocity = new Vector2(DashVelocity.x, DashHeight);
+                    Controller.RelativeVelocity = new Vector2(Controller.RelativeVelocity.x + DashVelocity.x, DashHeight);
                     active = false;
 
                     Controller.Animator.SetBool(CloudBurstBool, true);
@@ -167,7 +167,7 @@ namespace SonicRealms.Core.Moves
                     
                 else
                 {
-                    Controller.RelativeVelocity = new Vector2(-DashVelocity.x, DashHeight);
+                    Controller.RelativeVelocity = new Vector2(Controller.RelativeVelocity.x - DashVelocity.x, DashHeight);
                     active = false;
                     Controller.Animator.SetBool(CloudBurstBool, true);
                 }

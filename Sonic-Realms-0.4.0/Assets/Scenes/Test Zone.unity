@@ -55235,7 +55235,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &1837434979
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -55257,7 +55257,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1837434978}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 45e653bab7fb20e499bda25e1b646fea, type: 3}
   m_Name: 
@@ -55271,7 +55271,7 @@ MonoBehaviour:
   m_LookAt: {fileID: 0}
   m_Follow: {fileID: 0}
   m_Lens:
-    FieldOfView: 7
+    FieldOfView: 8.5
     OrthographicSize: 1.12
     NearClipPlane: 0.01
     FarClipPlane: 1000
@@ -64081,7 +64081,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   PixelsPerUnit: 100
   parallaxFactor: 0.8
-  cam: {fileID: 1462208492}
+  cam: {fileID: 1837434978}
 --- !u!114 &5139018659323833932
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -64096,7 +64096,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   PixelsPerUnit: 100
   parallaxFactor: 0.6
-  cam: {fileID: 1462208492}
+  cam: {fileID: 1837434978}
 --- !u!114 &5139018659323833933
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -64111,7 +64111,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   PixelsPerUnit: 100
   parallaxFactor: 0.7
-  cam: {fileID: 1462208492}
+  cam: {fileID: 1837434978}
 --- !u!114 &5139018659323833934
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -64126,7 +64126,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   PixelsPerUnit: 100
   parallaxFactor: 0.8
-  cam: {fileID: 1462208492}
+  cam: {fileID: 1837434978}
 --- !u!114 &5139018659323833935
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -64141,7 +64141,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   PixelsPerUnit: 100
   parallaxFactor: 0.9
-  cam: {fileID: 1462208492}
+  cam: {fileID: 1837434978}
 --- !u!4 &6653202678178947485
 Transform:
   m_ObjectHideFlags: 0
@@ -64287,6 +64287,11 @@ PrefabInstance:
         type: 3}
       propertyPath: field of view
       value: 8.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8122730014425465267, guid: 00e56b86450692f41ac7a001c0df3409,
+        type: 3}
+      propertyPath: m_CullingMask.m_Bits
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 8270397923523986695, guid: 00e56b86450692f41ac7a001c0df3409,
         type: 3}

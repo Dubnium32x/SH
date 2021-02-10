@@ -91,12 +91,9 @@ namespace SonicRealms.Core.Moves
             {
                 RestartTimer = 0.0f;
                 GameObject.FindGameObjectWithTag("SonicSprite").GetComponent<SpriteRenderer>().sortingLayerName = "Level_Mid_A";
-                
+                IsDead = false;
                 SceneManager.LoadScene(SDR.SDVint(SDR.Level));
             }
-            if (RestartTimer > 0.0f)
-                IsDead = true;
-            else IsDead = false;
         }
     }
 }

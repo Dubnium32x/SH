@@ -45122,12 +45122,6 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
---- !u!1 &1462208492 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 8122730014424122643, guid: 00e56b86450692f41ac7a001c0df3409,
-    type: 3}
-  m_PrefabInstance: {fileID: 8122730013100985079}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1465220152
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -55248,8 +55242,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 64b3d0a1d157be44f8b00e75e040f3d5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  target: {fileID: 1462208492}
-  PixelsPerUnit: 100
 --- !u!114 &1837434980
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -64163,6 +64155,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1697272915928683023, guid: 00e56b86450692f41ac7a001c0df3409,
+        type: 3}
+      propertyPath: m_Camera
+      value: 
+      objectReference: {fileID: 0}
     - target: {fileID: 2560088490600944539, guid: 00e56b86450692f41ac7a001c0df3409,
         type: 3}
       propertyPath: m_AnchoredPosition.y

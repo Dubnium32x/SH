@@ -87,10 +87,10 @@ namespace SonicRealms.Core.Actors
         }
         public void Update()
         {
-            /*if(HedgehogController.DebugOnS)
+            if(HedgehogController.DebugOnS)
             {
                 Score = (int)HedgehogController.ObjectRotationS;
-            }*/
+            }
         }
         /// <summary>
         /// Adds to the current score combo using the given source.

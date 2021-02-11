@@ -978,76 +978,6 @@ MonoBehaviour:
   GroundSpeedBool: Moving On Ground
   SurfaceAngleFloat: 
   StandingSprite: {fileID: 0}
-  Rainbow:
-    m_Name: 
-    m_Normal:
-      m_Background: {fileID: 0}
-      m_ScaledBackgrounds: []
-      m_TextColor: {r: 0, g: 0, b: 0, a: 1}
-    m_Hover:
-      m_Background: {fileID: 0}
-      m_ScaledBackgrounds: []
-      m_TextColor: {r: 0, g: 0, b: 0, a: 1}
-    m_Active:
-      m_Background: {fileID: 0}
-      m_ScaledBackgrounds: []
-      m_TextColor: {r: 0, g: 0, b: 0, a: 1}
-    m_Focused:
-      m_Background: {fileID: 0}
-      m_ScaledBackgrounds: []
-      m_TextColor: {r: 0, g: 0, b: 0, a: 1}
-    m_OnNormal:
-      m_Background: {fileID: 0}
-      m_ScaledBackgrounds: []
-      m_TextColor: {r: 0, g: 0, b: 0, a: 1}
-    m_OnHover:
-      m_Background: {fileID: 0}
-      m_ScaledBackgrounds: []
-      m_TextColor: {r: 0, g: 0, b: 0, a: 1}
-    m_OnActive:
-      m_Background: {fileID: 0}
-      m_ScaledBackgrounds: []
-      m_TextColor: {r: 0, g: 0, b: 0, a: 1}
-    m_OnFocused:
-      m_Background: {fileID: 0}
-      m_ScaledBackgrounds: []
-      m_TextColor: {r: 0, g: 0, b: 0, a: 1}
-    m_Border:
-      m_Left: 0
-      m_Right: 0
-      m_Top: 0
-      m_Bottom: 0
-    m_Margin:
-      m_Left: 0
-      m_Right: 0
-      m_Top: 0
-      m_Bottom: 0
-    m_Padding:
-      m_Left: 0
-      m_Right: 0
-      m_Top: 0
-      m_Bottom: 0
-    m_Overflow:
-      m_Left: 0
-      m_Right: 0
-      m_Top: 0
-      m_Bottom: 0
-    m_Font: {fileID: 0}
-    m_FontSize: 0
-    m_FontStyle: 0
-    m_Alignment: 0
-    m_WordWrap: 0
-    m_RichText: 1
-    m_TextClipping: 0
-    m_ImagePosition: 0
-    m_ContentOffset: {x: 0, y: 0}
-    m_FixedWidth: 0
-    m_FixedHeight: 0
-    m_StretchWidth: 1
-    m_StretchHeight: 0
-  ObjectId: 0
-  ObjectScale: 0
-  ObjectRotation: 0
 --- !u!114 &11426680
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1241,7 +1171,7 @@ MonoBehaviour:
   DrowningPoint: 12
   DrowningBGM: {fileID: 8300000, guid: 9b3fd3d55801bdc42ace7dfb5c1acbf7, type: 3}
   DrownSound: {fileID: 8300000, guid: b1a3c9af84e14ff49a695738a57cca66, type: 3}
-  DrownSource: {fileID: 0}
+  DrownSource: {fileID: 8722044284489311821}
 --- !u!114 &11417206
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1254,7 +1184,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 31397037b659ac042ae61a3f350afa47, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CurrentFile: 0
+  CurrentFile: 1
   Controller: {fileID: 11405618}
   OnValueChange:
     m_PersistentCalls:
@@ -1280,7 +1210,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 39d4a75e3087b62419a83af58a3dc5f7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CurrentFile: 0
+  CurrentFile: 1
   _lives: 3
   OnValueChange:
     m_PersistentCalls:
@@ -1297,7 +1227,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d8e49375b42704243a9df0634e0d5096, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CurrentFile: 0
+  CurrentFile: 1
   _score: 0
   CurrentCombo: 0
   ComboValues: 64000000c8000000f4010000e8030000e8030000e8030000e8030000e8030000e8030000e8030000e8030000e8030000e8030000e8030000e803000010270000

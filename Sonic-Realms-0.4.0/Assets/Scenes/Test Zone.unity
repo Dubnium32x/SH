@@ -8100,76 +8100,6 @@ MonoBehaviour:
   GroundSpeedBool: 
   SurfaceAngleFloat: 
   StandingSprite: {fileID: 0}
-  Rainbow:
-    m_Name: 
-    m_Normal:
-      m_Background: {fileID: 0}
-      m_ScaledBackgrounds: []
-      m_TextColor: {r: 0, g: 0, b: 0, a: 1}
-    m_Hover:
-      m_Background: {fileID: 0}
-      m_ScaledBackgrounds: []
-      m_TextColor: {r: 0, g: 0, b: 0, a: 1}
-    m_Active:
-      m_Background: {fileID: 0}
-      m_ScaledBackgrounds: []
-      m_TextColor: {r: 0, g: 0, b: 0, a: 1}
-    m_Focused:
-      m_Background: {fileID: 0}
-      m_ScaledBackgrounds: []
-      m_TextColor: {r: 0, g: 0, b: 0, a: 1}
-    m_OnNormal:
-      m_Background: {fileID: 0}
-      m_ScaledBackgrounds: []
-      m_TextColor: {r: 0, g: 0, b: 0, a: 1}
-    m_OnHover:
-      m_Background: {fileID: 0}
-      m_ScaledBackgrounds: []
-      m_TextColor: {r: 0, g: 0, b: 0, a: 1}
-    m_OnActive:
-      m_Background: {fileID: 0}
-      m_ScaledBackgrounds: []
-      m_TextColor: {r: 0, g: 0, b: 0, a: 1}
-    m_OnFocused:
-      m_Background: {fileID: 0}
-      m_ScaledBackgrounds: []
-      m_TextColor: {r: 0, g: 0, b: 0, a: 1}
-    m_Border:
-      m_Left: 0
-      m_Right: 0
-      m_Top: 0
-      m_Bottom: 0
-    m_Margin:
-      m_Left: 0
-      m_Right: 0
-      m_Top: 0
-      m_Bottom: 0
-    m_Padding:
-      m_Left: 0
-      m_Right: 0
-      m_Top: 0
-      m_Bottom: 0
-    m_Overflow:
-      m_Left: 0
-      m_Right: 0
-      m_Top: 0
-      m_Bottom: 0
-    m_Font: {fileID: 0}
-    m_FontSize: 0
-    m_FontStyle: 0
-    m_Alignment: 0
-    m_WordWrap: 0
-    m_RichText: 1
-    m_TextClipping: 0
-    m_ImagePosition: 0
-    m_ContentOffset: {x: 0, y: 0}
-    m_FixedWidth: 0
-    m_FixedHeight: 0
-    m_StretchWidth: 1
-    m_StretchHeight: 0
-  ObjectId: 0
-  ObjectScale: 0
-  ObjectRotation: 0
 --- !u!114 &279591390
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10965,6 +10895,12 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 482686, guid: ec6b9b142bff7224c9fc8a67c5ffc578,
     type: 3}
   m_PrefabInstance: {fileID: 360560347}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &360828740 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8122730014424122643, guid: 00e56b86450692f41ac7a001c0df3409,
+    type: 3}
+  m_PrefabInstance: {fileID: 8122730013100985079}
   m_PrefabAsset: {fileID: 0}
 --- !u!4 &363374653 stripped
 Transform:
@@ -55242,6 +55178,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 64b3d0a1d157be44f8b00e75e040f3d5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  target: {fileID: 360828740}
+  PixelsPerUnit: 100
 --- !u!114 &1837434980
 MonoBehaviour:
   m_ObjectHideFlags: 0

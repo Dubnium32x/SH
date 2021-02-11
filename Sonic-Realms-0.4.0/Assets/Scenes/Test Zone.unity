@@ -60834,6 +60834,27 @@ PrefabInstance:
       propertyPath: Buoyancy
       value: 0.2
       objectReference: {fileID: 0}
+    - target: {fileID: 21293860, guid: 8dd6e2be69e161741bba5a8577be12fd, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 7aca43c8f78381445a9f90a2b70083e1,
+        type: 3}
+    - target: {fileID: 21293860, guid: 8dd6e2be69e161741bba5a8577be12fd, type: 3}
+      propertyPath: m_Color.r
+      value: 0.29803923
+      objectReference: {fileID: 0}
+    - target: {fileID: 21293860, guid: 8dd6e2be69e161741bba5a8577be12fd, type: 3}
+      propertyPath: m_Color.g
+      value: 0.29803923
+      objectReference: {fileID: 0}
+    - target: {fileID: 21293860, guid: 8dd6e2be69e161741bba5a8577be12fd, type: 3}
+      propertyPath: m_Color.b
+      value: 0.29803923
+      objectReference: {fileID: 0}
+    - target: {fileID: 21293860, guid: 8dd6e2be69e161741bba5a8577be12fd, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8dd6e2be69e161741bba5a8577be12fd, type: 3}
 --- !u!4 &2037463856 stripped

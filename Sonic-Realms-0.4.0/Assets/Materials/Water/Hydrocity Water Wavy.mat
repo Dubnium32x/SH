@@ -73,7 +73,7 @@ Material:
     - _ScrollRate: 0.08
     - _SrcBlend: 1
     - _UVSec: 0
-    - _Wavelength: 0.1
+    - _Wavelength: 0.11
     - _ZWrite: 1
     m_Colors:
     - _Color: {r: 1, g: 1, b: 1, a: 1}

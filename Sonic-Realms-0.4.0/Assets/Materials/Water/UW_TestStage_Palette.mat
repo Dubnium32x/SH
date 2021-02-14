@@ -7,7 +7,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: UW_ChemicalPlant_Palette
+  m_Name: UW_TestStage_Palette
   m_Shader: {fileID: 4800000, guid: 50cc9ec33da5f4d43b008e84a3045c2b, type: 3}
   m_ShaderKeywords: ETC1_EXTERNAL_ALPHA
   m_LightmapFlags: 4
@@ -56,7 +56,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - colorMap:
-        m_Texture: {fileID: 2800000, guid: 78a1331a2898b1b4abb8fff4992a47bc, type: 3}
+        m_Texture: {fileID: 2800000, guid: 064d7ea9203c17440a1867017bab2b58, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats:

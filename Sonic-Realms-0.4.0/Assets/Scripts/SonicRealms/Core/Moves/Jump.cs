@@ -19,6 +19,7 @@ namespace SonicRealms.Core.Moves
         [Tooltip("Height above the controller's center that must be clear to allow jumping, in units.")]
         public float ClearanceHeight;
         #endregion
+
         #region Physics
         /// <summary>
         /// Jump speed at the moment of activation.
@@ -34,9 +35,13 @@ namespace SonicRealms.Core.Moves
         [Tooltip("Jump speed after moment of release, in units per second.")]
         public float ReleaseSpeed;
 
+        /// <summary>
+        /// Jump speed at the moment of charging.
+        /// </summary>
         [PhysicsFoldout]
-        [Tooltip("The amount of charge given to the jump.")]
+        [Tooltip("Jump speed at the moment of charging.")]
         public float ChargingSpeed;
+
         #endregion
 
         /// <summary>
@@ -92,8 +97,8 @@ namespace SonicRealms.Core.Moves
             ActivateButton = "Jump";
             ClearanceHeight = 0.25f;
 
-            ActivateSpeed = 3.9f;
-            ReleaseSpeed = 4.8F;
+            ActivateSpeed = 1.0f;
+            ReleaseSpeed = 1.5f;
         }
 
         public override void Awake()
@@ -149,7 +154,7 @@ namespace SonicRealms.Core.Moves
             if (ChargedJumpSpd <= ReleaseSpeed)
             {
                 ChargedJumpSpd += ChargingSpeed;
-                Controller.Velocity += DMath.AngleToVector((Controller.SurfaceAngle + 90.0f) * Mathf.Deg2Rad) * (ChargedJumpSpd);
+                Controller.Velocity += DMath.AngleToVector((Controller.SurfaceAngle + 90.0f) * Mathf.Deg2Rad) * (ChargedJumpSpd-0.60f);
             }
         }
         public override void OnActiveEnter(State previousState)

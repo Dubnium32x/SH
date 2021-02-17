@@ -24,6 +24,7 @@ namespace SonicRealms.Core.Moves
 
             ActivateSpeed =
             ReleaseSpeed = 0.0f;
+            
         }
 
         public override void OnStateEnter(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
@@ -34,6 +35,10 @@ namespace SonicRealms.Core.Moves
             if (ActivateSpeed != UnchangedValue) Jump.ChargingSpeed = ChargingSpeed;
             if (ActivateSpeed != UnchangedValue) Jump.ActivateSpeed = ActivateSpeed;
             if (ReleaseSpeed != UnchangedValue) Jump.ReleaseSpeed = ReleaseSpeed;
+
+            //Jump.ChargingSpeed = ChargingSpeed;
+            //Jump.ActivateSpeed = ActivateSpeed;
+            //Jump.ReleaseSpeed = ReleaseSpeed;
         }
     }
 }

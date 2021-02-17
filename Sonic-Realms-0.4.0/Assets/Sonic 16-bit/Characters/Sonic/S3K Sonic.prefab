@@ -1822,10 +1822,10 @@ MonoBehaviour:
   ActiveBool: Jumping
   AvailableBool: 
   ActivateButton: Jump
-  ClearanceHeight: 64
-  ActivateSpeed: 64
-  ReleaseSpeed: 128
-  ChargingSpeed: 0.32
+  ClearanceHeight: 0.25
+  ActivateSpeed: 1
+  ReleaseSpeed: 1.5
+  ChargingSpeed: 0.08
   Used: 1
   JumpSoundSource: {fileID: 1606153254882365037}
   JumpSound: {fileID: 8300000, guid: 5ec8d582b9f69ac48be05083cc00aa32, type: 3}

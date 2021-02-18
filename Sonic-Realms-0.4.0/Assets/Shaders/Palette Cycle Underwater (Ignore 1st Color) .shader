@@ -63,7 +63,7 @@
                 float _Threshold;
 
                 fixed4 frag(v2f i) : SV_Target {
-                    uint maxPaletteLength = 128;
+                    uint maxPaletteLength = 256;
 
                     fixed4 bgcolor = tex2Dproj(_GrabTexture, i.grabPos);
                     uint colorMapWidth = colorMap_TexelSize.z; // In pixels

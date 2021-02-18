@@ -1636,7 +1636,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cdb2f0e4529104042a3b39f3ae84b062, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Controller: {fileID: 0}
+  Controller: {fileID: 11405618}
   Manager: {fileID: 0}
   PowerupManager: {fileID: 0}
   Animator: {fileID: 9582648}
@@ -1666,17 +1666,17 @@ MonoBehaviour:
   AvailableBool: 
   InputAxisFloat: 
   InputBool: 
-  AcceleratingBool: Accelerating
-  BrakingBool: Braking
-  TopSpeedPercentFloat: Top Speed %
+  AcceleratingBool: 
+  BrakingBool: 
+  TopSpeedPercentFloat: 
   MovementAxis: Horizontal
   InvertAxis: 0
-  Acceleration: 2.56
+  Acceleration: 1.6875
   AccelerationLocked: 0
-  Deceleration: 4.5
+  Deceleration: 18
   DecelerationLocked: 0
-  TopSpeed: 16
-  MinSlopeGravitySpeed: 0.24
+  TopSpeed: 3.6
+  MinSlopeGravitySpeed: 0.1
   DisableControl: 0
   ControlLockTimerOn: 0
   ControlLockTimer: 0

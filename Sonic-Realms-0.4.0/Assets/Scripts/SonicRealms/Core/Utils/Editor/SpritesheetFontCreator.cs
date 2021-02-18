@@ -31,16 +31,16 @@ namespace SonicRealms.Core.Utils.Editor
             {
                 SourcePath = AssetDatabase.GetAssetPath(SourceSprite);
 
-                GUI.enabled = false;
+                //GUI.enabled = false;
                 EditorGUILayout.TextField("Path", SourcePath);
-                GUI.enabled = true;
+                //GUI.enabled = true;
             }
             else
             {
                 SourcePath = EditorGUILayout.TextField("Path", SourcePath);
                 if (string.IsNullOrEmpty(SourcePath))
                 {
-                    GUI.enabled = false;
+                    //GUI.enabled = false;
                     goto button;
                 }
             }
@@ -59,7 +59,7 @@ namespace SonicRealms.Core.Utils.Editor
             if (sprites.Length == 0)
             {
                 EditorGUILayout.HelpBox("No sprites found.", MessageType.Error);
-                GUI.enabled = false;
+                //GUI.enabled = false;
                 goto button;
             }
 
@@ -71,7 +71,7 @@ namespace SonicRealms.Core.Utils.Editor
                 Create(sprites);
             }
 
-            GUI.enabled = true;
+            //GUI.enabled = true;
         }
 
         public void Create(Sprite[] sprites)

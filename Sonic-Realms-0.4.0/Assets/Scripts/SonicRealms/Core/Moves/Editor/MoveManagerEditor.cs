@@ -37,8 +37,8 @@ namespace SonicRealms.Core.Moves.Editor
                     "OnPerform", "OnEnd", "OnAvailable", "OnUnavailable", "OnInterrupted");
             }
 
-            GUI.enabled = Application.isPlaying;
-            if ((ShowDebugFoldout = EditorGUILayout.Foldout(ShowDebugFoldout, "Debug")) && Application.isPlaying)
+            //GUI.enabled = Application.isPlaying;
+            if ((ShowDebugFoldout = EditorGUILayout.Foldout(ShowDebugFoldout, "Debug")) /*&& Application.isPlaying*/)
             {
                 foreach (var layer in moveManager.Layers.Keys)
                 {
@@ -74,9 +74,9 @@ namespace SonicRealms.Core.Moves.Editor
                     }
                 }
             }
-            GUI.enabled = true;
+            //GUI.enabled = true;
 
-            serializedObject.ApplyModifiedProperties();
+            //serializedObject.ApplyModifiedProperties();
         }
     }
 }

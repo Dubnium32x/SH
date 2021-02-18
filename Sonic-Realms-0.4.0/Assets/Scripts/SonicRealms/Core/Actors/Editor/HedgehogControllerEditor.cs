@@ -120,32 +120,32 @@ namespace SonicRealms.Core.Actors.Editor
                 EditorGUILayout.BeginHorizontal();
                 _fromRenderer =
                     EditorGUILayout.ObjectField("From Renderer", _fromRenderer, typeof(Renderer), true) as Renderer;
-                GUI.enabled = _fromRenderer != null && _fromRenderer.bounds != default(Bounds);
+                //GUI.enabled = _fromRenderer != null && _fromRenderer.bounds != default(Bounds);
                 if (GUILayout.Button("Create"))
                 {
                     HedgehogUtility.GenerateSensors(_instance, _fromRenderer.bounds);
                 }
-                GUI.enabled = true;
+                //GUI.enabled = true;
                 EditorGUILayout.EndHorizontal();
 
                 EditorGUILayout.BeginHorizontal();
                 _fromCollider2D =
                     EditorGUILayout.ObjectField("From Collider2D", _fromCollider2D, typeof(Collider2D), true) as Collider2D;
-                GUI.enabled = _fromCollider2D != null;
+               // GUI.enabled = _fromCollider2D != null;
                 if (GUILayout.Button("Create"))
                 {
                     HedgehogUtility.GenerateSensors(_instance, _fromCollider2D.bounds);
                 }
-                GUI.enabled = true;
+                //GUI.enabled = true;
                 EditorGUILayout.EndHorizontal();
 
                 _fromBounds = EditorGUILayout.BoundsField("From Bounds", _fromBounds);
-                GUI.enabled = _fromBounds != default(Bounds);
+                //GUI.enabled = _fromBounds != default(Bounds);
                 if (GUILayout.Button("Create from Bounds"))
                 {
                     HedgehogUtility.GenerateSensors(_instance, _fromBounds, true);
                 }
-                GUI.enabled = true;
+                //GUI.enabled = true;
 
                 EditorGUILayout.Space();
 
@@ -233,19 +233,19 @@ namespace SonicRealms.Core.Actors.Editor
                     EditorGUILayout.HelpBox("This section becomes active in Play Mode.", MessageType.Info);
                 }
 
-                GUI.enabled = Application.isPlaying;
+                //GUI.enabled = Application.isPlaying;
 
                 EditorGUILayout.LabelField("Collision", headerStyle);
 
                 HedgehogEditorGUIUtility.DrawProperties(serializedObject, 
                     "CollisionMask", "Reactives", "Grounded", "LeftWall", "LeftCeiling", "RightWall", "RightCeiling");
                 EditorGUILayout.LabelField("Surface", headerStyle);
-                GUI.enabled = Application.isPlaying && _instance.Grounded;
+                //GUI.enabled = Application.isPlaying && _instance.Grounded;
                 EditorGUILayout.FloatField("Surface Angle", _instance.SurfaceAngle);
                 EditorGUILayout.EnumPopup("Footing", _instance.Footing);
                 EditorGUILayout.PropertyField(serializedObject.FindProperty("PrimarySurface"));
                 EditorGUILayout.PropertyField(serializedObject.FindProperty("SecondarySurface"));
-                GUI.enabled = Application.isPlaying;
+                //GUI.enabled = Application.isPlaying;
 
                 EditorGUILayout.Space();
 
@@ -253,20 +253,20 @@ namespace SonicRealms.Core.Actors.Editor
             
                 _instance.Vx = EditorGUILayout.FloatField("X", _instance.Vx);
                 _instance.Vy = EditorGUILayout.FloatField("Y", _instance.Vy);
-                GUI.enabled = Application.isPlaying && _instance.Grounded;
+                //GUI.enabled = Application.isPlaying && _instance.Grounded;
                 _instance.GroundVelocity = EditorGUILayout.FloatField("Ground", _instance.GroundVelocity);
-                GUI.enabled = Application.isPlaying;
+                //GUI.enabled = Application.isPlaying;
 
-                GUI.enabled = true;
+                //GUI.enabled = true;
             }
             #endregion
 
             if (GUI.changed)
             {
-                serializedObject.ApplyModifiedProperties();
-                EditorUtility.SetDirty(_instance);
-                _serializedInstance.ApplyModifiedProperties();
-                EditorUtility.SetDirty(this);
+                //serializedObject.ApplyModifiedProperties();
+                //EditorUtility.SetDirty(_instance);
+                //_serializedInstance.ApplyModifiedProperties();
+                //EditorUtility.SetDirty(this);
             }
         }
     }

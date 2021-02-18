@@ -376,7 +376,7 @@ namespace SonicRealms.Core.Moves
         /// <returns>Whether any acceleration occurred.</returns>
         public bool Accelerate(float magnitude, float timestep)
         {
-            magnitude = Mathf.Clamp(magnitude, -1.0f, 1.0f);
+            magnitude = Mathf.Clamp(magnitude, -0.5f, 0.5f);
             if (DMath.Equalsf(magnitude)) return false;
             if (magnitude < 0.0f)
             {

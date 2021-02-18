@@ -76,13 +76,13 @@ namespace SonicRealms.Core.Moves.Editor
             DrawSoundFoldout();
             if(ShowSoundFoldout) DrawSoundProperties();
 
-            var enabled = GUI.enabled;
-            GUI.enabled = Application.isPlaying;
-            DrawDebugFoldout();
-            if (ShowDebugFoldout) DrawDebugProperties();
-            GUI.enabled = enabled;
+            //var enabled = GUI.enabled;
+            //GUI.enabled = Application.isPlaying;
+            //DrawDebugFoldout();
+            //if (ShowDebugFoldout) DrawDebugProperties();
+            //GUI.enabled = enabled;
 
-            serializedObject.ApplyModifiedProperties();
+            //serializedObject.ApplyModifiedProperties();
         }
 
         public void GetFoldoutProperties()

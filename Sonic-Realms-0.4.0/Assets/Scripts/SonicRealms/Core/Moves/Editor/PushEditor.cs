@@ -12,12 +12,12 @@ namespace SonicRealms.Core.Moves.Editor
             var useControlInput = serializedObject.FindProperty("UseControlInput");
             HedgehogEditorGUIUtility.DrawProperties(serializedObject, "UseControlInput");
 
-            serializedObject.ApplyModifiedProperties();
+            //serializedObject.ApplyModifiedProperties();
 
-            var enabled = GUI.enabled;
-            GUI.enabled = !useControlInput.boolValue;
+            //var enabled = GUI.enabled;
+            //GUI.enabled = !useControlInput.boolValue;
             HedgehogEditorGUIUtility.DrawProperties(serializedObject, "ActivateAxis");
-            GUI.enabled = enabled;
+            //GUI.enabled = enabled;
         }
     }
 }

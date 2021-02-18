@@ -21,12 +21,12 @@ namespace SonicRealms.Core.Moves
 
         public void Reset()
         {
-            UnchangedValue =
+            //UnchangedValue =
 
-            Acceleration =
-            Deceleration =
-            TopSpeed =
-            MinSlopeGravitySpeed = 0.0f;
+            //Acceleration =
+            //Deceleration =
+            //TopSpeed =
+            //MinSlopeGravitySpeed = 0.0f;
         }
 
         public override void OnStateEnter(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
@@ -34,10 +34,14 @@ namespace SonicRealms.Core.Moves
             GroundControl = GroundControl ?? animator.GetComponentInChildren<GroundControl>();
             if (GroundControl == null) return;
 
-            if (Acceleration != UnchangedValue) GroundControl.Acceleration = Acceleration;
-            if (Deceleration != UnchangedValue) GroundControl.Deceleration = Deceleration;
-            if (TopSpeed != UnchangedValue) GroundControl.TopSpeed = TopSpeed;
-            if (MinSlopeGravitySpeed != UnchangedValue) GroundControl.MinSlopeGravitySpeed = MinSlopeGravitySpeed;
+            //if (Acceleration != UnchangedValue) 
+                GroundControl.Acceleration = Acceleration;
+            //if (Deceleration != UnchangedValue) 
+                GroundControl.Deceleration = Deceleration;
+            //if (TopSpeed != UnchangedValue) 
+                GroundControl.TopSpeed = TopSpeed;
+            //if (MinSlopeGravitySpeed != UnchangedValue) 
+                GroundControl.MinSlopeGravitySpeed = MinSlopeGravitySpeed;
         }
     }
 }

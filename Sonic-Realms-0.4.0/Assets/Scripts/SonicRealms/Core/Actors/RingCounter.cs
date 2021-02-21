@@ -102,6 +102,7 @@ namespace SonicRealms.Core.Actors
         public void Awake()
         {
            Rings = SDR.SDVint(SDR.Rings);
+            if(Controller.Animator != null)
             Animator = Controller.Animator;
 
             if (Animator == null) return;

@@ -210,7 +210,6 @@ namespace SonicRealms.Core.Moves
                 RollSoundSource.pitch = 1;
                 RollSoundSource.volume = 1;
                 RollSoundSource.Play();
-                SecondTime = true;
             }
             IsRolling = true;
             // Store original physics values to restore after leaving the roll
@@ -236,7 +235,6 @@ namespace SonicRealms.Core.Moves
 
         }
         
-        bool SecondTime;
         bool hush;
         public override void OnActiveFixedUpdate()
         {
@@ -263,7 +261,6 @@ namespace SonicRealms.Core.Moves
         public override void OnActiveExit()
         {
             base.OnActiveExit();
-            SecondTime = false;
             IsRolling = false;
             Controller.SlopeGravity = _originalSlopeGravity;
             Controller.GroundFriction = _originalFriction;

@@ -106,7 +106,6 @@ namespace SonicRealms.Core.Moves
             base.Awake();
             Used = false;
         }
-        bool KeepTheBozosAway;
         public override void Start()
         {
             base.Start();
@@ -145,7 +144,6 @@ namespace SonicRealms.Core.Moves
         public void OnAttach()
         {
             Used = false;
-            KeepTheBozosAway = false;
             End();
         }
         float ChargedJumpSpd;
@@ -161,7 +159,6 @@ namespace SonicRealms.Core.Moves
         {
             ChargedJumpSpd = ActivateSpeed;
             Used = true;
-            KeepTheBozosAway = false;
             Controller.Detach();
                 Controller.Velocity += DMath.AngleToVector((Controller.SurfaceAngle + 90.0f) * Mathf.Deg2Rad) * ChargedJumpSpd;
             JumpSoundSource.clip = JumpSound;

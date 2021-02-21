@@ -30,22 +30,6 @@ namespace SonicRealms.UI
 
             UpdateAll();
         }
-        int yes;
-        System.TimeSpan yesyes;
-        public void Update()
-        {
-            UpdateTimer();
-            float ohno = (Time.time % 10)/100;
-            
-            if(ohno == 9)
-            {
-                yes = 1;
-            }
-            else
-            {
-                yes = 0;
-            }
-        }
 
         public void UpdateAll()
         {

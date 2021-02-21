@@ -115,7 +115,7 @@ namespace SonicRealms.Level.Objects
             if (Animator == null || BrokenTrigger.Length <= 0)
                 return;
             Animator.SetTrigger(BrokenTrigger);
-
+            if(hitBox != null)
             GetComponent<AudioSource>().PlayOneShot(hitBox);
         }
     }

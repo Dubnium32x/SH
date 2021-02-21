@@ -17,6 +17,12 @@ public class MoveCursor : MonoBehaviour
     bool I;
     bool R;
     bool D;
+    public void Start()
+    {
+        SDDM.Modify(SDR.CheckpointsActivated, SDR.CheckpointsActivated + "0");
+        SDDM.Modify(SDR.CheckpointPosition[0], SDR.CheckpointPosition[0] + "0");
+        SDDM.Modify(SDR.CheckpointPosition[1], SDR.CheckpointPosition[1] + "0");
+    }
     // Update is called once per frame
     void Update()
     {

@@ -222,14 +222,12 @@ namespace SonicRealms.Core.Moves
         public override void OnActiveEnter(State previousState)
         {
 
-            IsActive = true;
             Manager.End<AirControl>();
             Controller.OnSteepDetach.AddListener(OnSteepDetach);
                 _axis = InvertAxis ? -Input.GetAxis(MovementAxis) : Input.GetAxis(MovementAxis);
             
             AccelerationLocked = Mathf.Abs(Input.GetAxis(MovementAxis)) == 0;
         }
-        bool IsActive;
         public override void OnActiveUpdate()
         {
             
@@ -238,7 +236,6 @@ namespace SonicRealms.Core.Moves
 
             AccelerationLocked = Mathf.Abs(Input.GetAxis(MovementAxis)) == 0;
             
-            Debug.Log((Mathf.Abs(Input.GetAxis(MovementAxis)) > 0.3f).ToString());
         }
         public override void OnActiveFixedUpdate()
         {
@@ -276,7 +273,6 @@ namespace SonicRealms.Core.Moves
             if (!string.IsNullOrEmpty(BrakingBool))
                 Animator.SetBool(BrakingBool, false);
 
-            IsActive = false;
         }
         
         public override void SetAnimatorParameters()

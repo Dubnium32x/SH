@@ -3,11 +3,8 @@ using System.Linq;
 using SonicRealms.Core.Triggers;
 using SonicRealms.Core.Utils;
 using UnityEngine;
-using UnityEngine.UI;
 using UnityEngine.Events;
-using SonicRealms.Level;
 using SonicRealms.Core.Moves;
-using SonicRealms.Core.Actors;
 
 namespace SonicRealms.Core.Actors
 {
@@ -28,7 +25,7 @@ namespace SonicRealms.Core.Actors
         public GameObject RendererObject;
 
         /// <summary>
-        /// This is used to find out what object is using the debug script(Usually called DebugMode)
+        /// This is used to find out what object is using the debug script(Usually called DebugMode) [scrapped]
         /// </summary>
         [Tooltip("This is used to find out what object is using the debug script(Usually called DebugMode)")]
         public GameObject DebugController;
@@ -332,7 +329,6 @@ namespace SonicRealms.Core.Actors
         /// used for making dashes go in the right direction. Doing something such as flipping the sprite can be
         /// handled using FacingForwardBool with animtion.
         /// </summary>
-        [SerializeField]
         [Tooltip("Whether the controller is facing forward or backward. This doesn't actually affect graphics, but it's " +
                  "used for making dashes go in the right direction. Doing something such as flipping the sprite can be " +
                  "handled using FacingForwardBool with animtion.")]
@@ -736,22 +732,31 @@ namespace SonicRealms.Core.Actors
             AbsGroundSpeedFloatHash = string.IsNullOrEmpty(AbsGroundSpeedFloat) ? 0 : Animator.StringToHash(AbsGroundSpeedFloat);
             SurfaceAngleFloatHash = string.IsNullOrEmpty(SurfaceAngleFloat) ? 0 : Animator.StringToHash(SurfaceAngleFloat);
         }
-        bool DebugOn = false;
+        /// <summary>
+        /// deceased
+        /// </summary>
+        //bool DebugOn = false;
+        /// <summary>
+        /// "A canned feature with a lot of promise" ~Birb64
+        /// </summary>
         public static bool DebugOnS;
         public void Update()
         {
 
             #region SINCE THE RINGS CAN'T DO SHIT
             //If can't collect, update the timer and check for completion
-            GetComponent<RingCounter>().CanCollectTimer -= Time.deltaTime;
+            if (GetComponent<RingCounter>() != null)
+            {
+                GetComponent<RingCounter>().CanCollectTimer -= Time.deltaTime;
                 if (GetComponent<RingCounter>().CanCollectTimer < 0.0f)
                 {
-                GetComponent<RingCounter>().CanCollect = true;
-                GetComponent<RingCounter>().CanCollectTimer = 0.0f;
+                    GetComponent<RingCounter>().CanCollect = true;
+                    GetComponent<RingCounter>().CanCollectTimer = 0.0f;
 
                 }
-                if(Grounded)
-                Animator.SetBool(GetComponent<HedgehogHealth>().HurtSpikesTrigger, false);
+                if (Grounded)
+                    Animator.SetBool(GetComponent<HedgehogHealth>().HurtSpikesTrigger, false);
+            }
             #endregion I DID IT FOR 'EM
             if (Animator != null)
                 SetAnimatorParameters();
@@ -942,7 +947,6 @@ namespace SonicRealms.Core.Actors
         /// </summary>
         float Timer;
         float TimeSince;
-        float TheClocko;
         private void HandleForces(float timestep)
         {
             if (Grounded)
@@ -960,19 +964,19 @@ namespace SonicRealms.Core.Actors
                 float CommonCalculation = Mathf.Sin(SurfaceAngle * Mathf.Deg2Rad) * timestep;
 
 
-                if (Mathf.Abs(SurfaceAngle) == 90 && TimeSince <= MaxSpeed)
+                if (Mathf.Abs(SurfaceAngle) == 90)
                 {
-                    TimeSince += Time.deltaTime;
-                    GroundVelocity -= (SlopeGravity + TimeSince) * CommonCalculation;
+                    GroundVelocity -= (SlopeGravity + Mathf.Abs(Vy)/0x8) * CommonCalculation;
                 }
-                else TimeSince = 0;
-                if (Mathf.Abs(SurfaceAngle) <= 90)
+                
+                if (Mathf.Abs(SurfaceAngle) <= 45)
+                { 
+                    GroundVelocity -= ((SlopeGravity + Mathf.Abs(SurfaceAngle / 32)) + (Input.GetAxisRaw("Horizontal") < 0 && Vx < 0 || Input.GetAxisRaw("Horizontal") > 0 && Vx > 0 ? -Vy : 0)) * CommonCalculation;
+                }
+                else if (Mathf.Abs(SurfaceAngle) <= 90)
                 {
                     GroundVelocity -= (SlopeGravity + Mathf.Abs(SurfaceAngle / 32)) * CommonCalculation;
                 }
-                else { TheClocko = 0; }
-
-
                 if (GroundVelocity > 0)
                     {
                         if (Mathf.Abs(GroundVelocity) > MaxSpeed + 32)

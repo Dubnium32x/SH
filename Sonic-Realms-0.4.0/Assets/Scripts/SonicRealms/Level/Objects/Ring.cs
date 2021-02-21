@@ -45,7 +45,6 @@ namespace SonicRealms.Level.Objects
         public void Update()
         {
             PanRight = GameObject.FindGameObjectWithTag("Player").GetComponent<RingCounter>().Rings % 2 == 1;
-            Debug.Log(Application.dataPath);
         }
         public override void Reset()
         {

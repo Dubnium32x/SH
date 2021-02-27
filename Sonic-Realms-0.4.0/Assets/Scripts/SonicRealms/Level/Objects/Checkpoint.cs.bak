@@ -45,11 +45,11 @@ namespace SonicRealms.Level.Objects
             SDDM.Modify(SDR.CheckpointPosition[2], SDR.CheckpointPosition[2] + (transform.position.z).ToString());
 			*/
 
-            //int thing = SDR.SDVint(SDR.CheckpointsActivated) < CheckpointID ? (SDR.SDVint(SDR.CheckpointsActivated) + 1) : SDR.SDVint(SDR.CheckpointsActivated);
+            int thing = SDR.SDVint(SDR.CheckpointsActivated) < CheckpointID ? (SDR.SDVint(SDR.CheckpointsActivated) + 1) : SDR.SDVint(SDR.CheckpointsActivated);
 
-            //string stringthing = thing.ToString();
-            //SDDM.Modify(SDR.CheckpointsActivated, SDR.CheckpointsActivated + 
-              //   stringthing);
+            string stringthing = thing.ToString();
+            SDDM.Modify(SDR.CheckpointsActivated, SDR.CheckpointsActivated + 
+                 stringthing);
         }
 
         /// <summary>

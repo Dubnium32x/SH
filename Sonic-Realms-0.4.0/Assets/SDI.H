@@ -4,9 +4,10 @@ File1
 1Score: 0
 1Lives: 5
 1Level: 3
-0
-0
+1CheckpointX: 2.061513
+1CheckpointY: 6.02743
 1CheckpointZ: 0
-0
+1CheckpointsActive: 1
 1ChaosEmeralds: 0
 CurrentFileLoaded: 1
+just beat it

@@ -294,6 +294,11 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 6783404599557000964, guid: 00e56b86450692f41ac7a001c0df3409,
+        type: 3}
+      propertyPath: m_audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: dc9bf8a08f45dc2439e7e059ac04f9af, type: 3}
     - target: {fileID: 7397344480729822399, guid: 00e56b86450692f41ac7a001c0df3409,
         type: 3}
       propertyPath: m_Name
@@ -857,7 +862,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 991611290}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
@@ -865,8 +870,8 @@ Transform:
   - {fileID: 1400774476}
   - {fileID: 182105483}
   - {fileID: 811043575}
-  m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_Father: {fileID: 1914923387}
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!95 &991611292
 Animator:
@@ -1508,6 +1513,185 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &1914923386
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1914923387}
+  - component: {fileID: 1914923388}
+  - component: {fileID: 1914923390}
+  - component: {fileID: 1914923389}
+  m_Layer: 0
+  m_Name: TestBoss
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1914923387
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1914923386}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 991611291}
+  m_Father: {fileID: 0}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1914923388
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1914923386}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: be96d4a375605324c8692cada2d03e43, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1914923389
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1914923386}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 273d5567b7e8f0f4892de869d9b03b70, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  RendererObject: {fileID: 2020934534}
+  DebugController: {fileID: 0}
+  Animator: {fileID: 0}
+  CollisionMask:
+    serializedVersion: 2
+    m_Bits: 3221225472
+  Reactives: []
+  Sensors: {fileID: 0}
+  GroundFriction: 1.6785
+  AirDrag: 0.1488343
+  AirDragRequiredSpeed: {x: 0.075, y: 2.4}
+  AirGravity: 7.857
+  SlopeGravity: 4.5
+  GravityDirection: 270
+  MaxSpeed: 9001
+  LedgeClimbHeight: 0.16
+  LedgeDropHeight: 0.16
+  AntiTunnelingSpeed: 4
+  SlopeGravityBeginAngle: 10
+  DetachSpeed: 1.5
+  MaxClimbAngle: 70
+  DisableNotifyPlatforms: 0
+  DisableEvents: 0
+  DisableCeilingCheck: 0
+  DisableGroundCheck: 0
+  DisableSideCheck: 0
+  OnAttach:
+    m_PersistentCalls:
+      m_Calls: []
+  OnCollide:
+    m_PersistentCalls:
+      m_Calls: []
+  OnDetach:
+    m_PersistentCalls:
+      m_Calls: []
+  OnSteepDetach:
+    m_PersistentCalls:
+      m_Calls: []
+  OnAreaEnter:
+    m_PersistentCalls:
+      m_Calls: []
+  OnAreaExit:
+    m_PersistentCalls:
+      m_Calls: []
+  OnPlatformCollisionEnter:
+    m_PersistentCalls:
+      m_Calls: []
+  OnPlatformCollisionExit:
+    m_PersistentCalls:
+      m_Calls: []
+  OnPlatformSurfaceEnter:
+    m_PersistentCalls:
+      m_Calls: []
+  OnPlatformSurfaceExit:
+    m_PersistentCalls:
+      m_Calls: []
+  OnObjectActivate:
+    m_PersistentCalls:
+      m_Calls: []
+  OnObjectDeactivate:
+    m_PersistentCalls:
+      m_Calls: []
+  Interrupted: 0
+  InterruptTimer: 0
+  ApplyVelocity: 0
+  ApplySlopeGravity: 1
+  ApplyGroundFriction: 1
+  DetachWhenSlow: 1
+  DetachLock: 1
+  DisableAttach: 1
+  ApplyAirGravity: 1
+  ApplyAirDrag: 1
+  IgnoreCollision: 0
+  IgnoringThisCollision: 0
+  Vx: 0
+  Vy: 0
+  GroundVelocity: 0
+  Grounded: 0
+  SurfaceAngle: 0
+  ForceSurfaceAngle: 0
+  Footing: 0
+  JustDetached: 0
+  PrimarySurface: {fileID: 0}
+  SecondarySurface: {fileID: 0}
+  LeftWall: {fileID: 0}
+  RightWall: {fileID: 0}
+  LeftCeiling: {fileID: 0}
+  RightCeiling: {fileID: 0}
+  QueuedTranslation: {x: 0, y: 0, z: 0}
+  DetachTrigger: 
+  AttachTrigger: 
+  FacingForwardBool: 
+  AirSpeedXFloat: 
+  AirSpeedYFloat: 
+  GroundedBool: 
+  GroundSpeedFloat: 
+  AbsGroundSpeedFloat: 
+  GroundSpeedBool: 
+  SurfaceAngleFloat: 
+  StandingSprite: {fileID: 0}
+--- !u!50 &1914923390
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1914923386}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
 --- !u!1 &2020707227
 GameObject:
   m_ObjectHideFlags: 0

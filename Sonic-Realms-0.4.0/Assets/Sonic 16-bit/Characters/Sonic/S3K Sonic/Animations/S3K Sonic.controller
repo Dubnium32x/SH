@@ -2238,7 +2238,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   GroundControl: {fileID: 0}
   UnchangedValue: 0
-  Acceleration: 6.5
+  Acceleration: 6.75
   Deceleration: 9
   TopSpeed: 3.6
   MinSlopeGravitySpeed: 0
@@ -5717,16 +5717,16 @@ AnimatorStateMachine:
   m_StateMachineTransitions:
   - first: {fileID: 0}
     second: []
-  - first: {fileID: 110700830}
-    second:
-    - {fileID: 110961242}
-    - {fileID: 110937444}
+  - first: {fileID: 110790088}
+    second: []
   - first: {fileID: 110766718}
     second:
     - {fileID: 110969954}
     - {fileID: 110902010}
-  - first: {fileID: 110790088}
-    second: []
+  - first: {fileID: 110700830}
+    second:
+    - {fileID: 110961242}
+    - {fileID: 110937444}
   m_StateMachineBehaviours: []
   m_AnyStatePosition: {x: -168, y: 132, z: 0}
   m_EntryPosition: {x: -168, y: 72, z: 0}
@@ -6281,7 +6281,7 @@ AnimatorStateTransition:
   m_Conditions:
   - m_ConditionMode: 4
     m_ConditionEvent: Absolute Ground Speed
-    m_EventTreshold: 7.2
+    m_EventTreshold: 7
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: -397087452302814586}
   m_Solo: 0
@@ -7711,7 +7711,7 @@ AnimatorStateTransition:
   m_Conditions:
   - m_ConditionMode: 3
     m_ConditionEvent: Absolute Ground Speed
-    m_EventTreshold: 7.2
+    m_EventTreshold: 7
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: -2875580192174257498}
   m_Solo: 0

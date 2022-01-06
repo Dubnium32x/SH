@@ -23,9 +23,9 @@ public class SaveManagement : MonoBehaviour
                 if (GameObject.Find("Sonic") == null)
                 {
                     StandInCharac = Instantiate(Sonic, new Vector3(
-                          SDR.SDVint(SDR.CheckpointsActivated) != 0 ? SDR.SDVfloat(SDR.CheckpointPosition[0]) : transform.position.x
-                        , SDR.SDVint(SDR.CheckpointsActivated) != 0 ? SDR.SDVfloat(SDR.CheckpointPosition[1]) : transform.position.y
-                        , SDR.SDVint(SDR.CheckpointsActivated) != 0 ? SDR.SDVfloat(SDR.CheckpointPosition[2]) : transform.position.z)
+                          SDR.SDVfloat(SDR.CheckpointPosition[0])
+                        , SDR.SDVfloat(SDR.CheckpointPosition[1])
+                        , SDR.SDVfloat(SDR.CheckpointPosition[2]))
                         , Quaternion.identity);
 
                 }
@@ -40,9 +40,9 @@ public class SaveManagement : MonoBehaviour
                 if (GameObject.Find("Kicks") == null)
                 {
                     StandInCharac = Instantiate(Kicks, new Vector3(
-                          SDR.SDVint(SDR.CheckpointsActivated) != 0 ? SDR.SDVfloat(SDR.CheckpointPosition[0]) : transform.position.x
-                        , SDR.SDVint(SDR.CheckpointsActivated) != 0 ? SDR.SDVfloat(SDR.CheckpointPosition[1]) : transform.position.y
-                        , SDR.SDVint(SDR.CheckpointsActivated) != 0 ? SDR.SDVfloat(SDR.CheckpointPosition[2]) : transform.position.z)
+                          SDR.SDVfloat(SDR.CheckpointPosition[0])
+                        , SDR.SDVfloat(SDR.CheckpointPosition[1])
+                        , SDR.SDVfloat(SDR.CheckpointPosition[2]))
                         , Quaternion.identity);
 
                 }
@@ -58,15 +58,15 @@ public class SaveManagement : MonoBehaviour
                 if (GameObject.Find("Sonic") == null && GameObject.Find("Kicks") == null)
                 {
                     StandInCharac = Instantiate(Sonic, new Vector3(
-                          SDR.SDVint(SDR.CheckpointsActivated) != 0 ? SDR.SDVfloat(SDR.CheckpointPosition[0]) : transform.position.x
-                        , SDR.SDVint(SDR.CheckpointsActivated) != 0 ? SDR.SDVfloat(SDR.CheckpointPosition[1]) : transform.position.y
-                        , SDR.SDVint(SDR.CheckpointsActivated) != 0 ? SDR.SDVfloat(SDR.CheckpointPosition[2]) : transform.position.z)
+                          SDR.SDVfloat(SDR.CheckpointPosition[0])
+                        , SDR.SDVfloat(SDR.CheckpointPosition[1])
+                        , SDR.SDVfloat(SDR.CheckpointPosition[2]))
                         , Quaternion.identity);
 
                     StandInCharac2 = Instantiate(Kicks, new Vector3(
-                          SDR.SDVint(SDR.CheckpointsActivated) != 0 ? SDR.SDVfloat(SDR.CheckpointPosition[0]) : transform.position.x
-                        , SDR.SDVint(SDR.CheckpointsActivated) != 0 ? SDR.SDVfloat(SDR.CheckpointPosition[1]) : transform.position.y
-                        , SDR.SDVint(SDR.CheckpointsActivated) != 0 ? SDR.SDVfloat(SDR.CheckpointPosition[2]) : transform.position.z)
+                          SDR.SDVfloat(SDR.CheckpointPosition[0])
+                        , SDR.SDVfloat(SDR.CheckpointPosition[1])
+                        , SDR.SDVfloat(SDR.CheckpointPosition[2]))
                         , Quaternion.identity);
                 }
 

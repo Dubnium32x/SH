@@ -40,16 +40,16 @@ namespace SonicRealms.Level.Objects
             SDDM.Modify(SDR.SDVint("CurrentFileLoaded: ").ToString() + "CheckpointY: ", SDR.SDVint("CurrentFileLoaded: ").ToString() + "CheckpointY: " + GameObject.FindGameObjectWithTag("Player").transform.position.y.ToString());
             SDDM.Modify(SDR.SDVint("CurrentFileLoaded: ").ToString() + "CheckpointZ: ", SDR.SDVint("CurrentFileLoaded: ").ToString() + "CheckpointZ: " + GameObject.FindGameObjectWithTag("Player").transform.position.z.ToString());*/
 
-            SDDM.Modify(SDR.CheckpointPosition[0], SDR.CheckpointPosition[0] + (transform.position.x).ToString());
+            /*SDDM.Modify(SDR.CheckpointPosition[0], SDR.CheckpointPosition[0] + (transform.position.x).ToString());
             SDDM.Modify(SDR.CheckpointPosition[1], SDR.CheckpointPosition[1] + (transform.position.y).ToString());
             SDDM.Modify(SDR.CheckpointPosition[2], SDR.CheckpointPosition[2] + (transform.position.z).ToString());
-			
+			*/
 
-            int thing = SDR.SDVint(SDR.CheckpointsActivated) < CheckpointID ? (SDR.SDVint(SDR.CheckpointsActivated) + 1) : SDR.SDVint(SDR.CheckpointsActivated);
+            //int thing = SDR.SDVint(SDR.CheckpointsActivated) < CheckpointID ? (SDR.SDVint(SDR.CheckpointsActivated) + 1) : SDR.SDVint(SDR.CheckpointsActivated);
 
-            string stringthing = thing.ToString();
-            SDDM.Modify(SDR.CheckpointsActivated, SDR.CheckpointsActivated + 
-                 stringthing);
+            //string stringthing = thing.ToString();
+            //SDDM.Modify(SDR.CheckpointsActivated, SDR.CheckpointsActivated + 
+              //   stringthing);
         }
 
         /// <summary>
